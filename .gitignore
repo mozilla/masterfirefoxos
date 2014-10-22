@@ -1,6 +1,5 @@
 # Ignore the local doc build
 docs/_build
 
-*.py
 *.pyc
 .DS_Store
