@@ -1,5 +1,4 @@
-# Ignore the local doc build
-docs/_build
-
+.env
 *.pyc
 .DS_Store
+docs/_build
