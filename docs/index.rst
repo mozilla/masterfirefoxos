@@ -9,6 +9,8 @@ Welcome to masterfirefoxos's documentation!
 Contents:
 
 .. toctree::
+
+   internationalization
    :maxdepth: 2
 
 

@@ -1,13 +1,13 @@
 from django.db import models
 from django.template.loader import render_to_string
-
+from django.utils.translation import ugettext as _
 
 from feincms.module.page.models import Page
 from feincms.content.richtext.models import RichTextContent
 from feincms.content.medialibrary.models import MediaFileContent
 
-Page.register_extensions(
-)
+import fields
+
 
 Page.register_templates(
     {
@@ -29,9 +29,9 @@ Page.register_templates(
 
 
 class YouTubeParagraphEntry(models.Model):
-    title = models.CharField(max_length=255)
-    text = models.TextField()
-    youtube_id = models.CharField(max_length=100)
+    title = fields.LocalizableCharField(max_length=255)
+    text = fields.LocalizableTextField()
+    youtube_id = fields.LocalizableCharField(max_length=100)
 
     class Meta:
         abstract = True
@@ -40,16 +40,16 @@ class YouTubeParagraphEntry(models.Model):
         return render_to_string(
             'videoparagraph.html',
             {
-                'title': self.title,
-                'text': self.text,
+                'title': _(self.title),
+                'text': _(self.text),
                 'video': self.youtube_id
             }
         )
 
 
 class MediaParagraphEntry(MediaFileContent):
-    title = models.CharField(max_length=255)
-    text = models.TextField()
+    title = fields.LocalizableCharField(max_length=255)
+    text = fields.LocalizableTextField()
 
     class Meta:
         abstract = True
@@ -58,16 +58,16 @@ class MediaParagraphEntry(MediaFileContent):
         return render_to_string(
             'mediaparagraph.html',
             {
-                'title': self.title,
-                'text': self.text,
+                'title': _(self.title),
+                'text': _(self.text),
                 'mediafile': self.mediafile
             }
         )
 
 
 class FAQEntry(models.Model):
-    question = models.CharField(max_length=255)
-    answer = models.CharField(max_length=255)
+    question = fields.LocalizableCharField(max_length=255)
+    answer = fields.LocalizableTextField(max_length=255)
 
     class Meta:
         abstract = True
@@ -76,11 +76,10 @@ class FAQEntry(models.Model):
         return render_to_string(
             'faqentry.html',
             {
-                'question': self.question,
-                'answer': self.answer,
+                'question': _(self.question),
+                'answer': _(self.answer),
             }
         )
-
 
 Page.create_content_type(RichTextContent)
 Page.create_content_type(MediaParagraphEntry,
