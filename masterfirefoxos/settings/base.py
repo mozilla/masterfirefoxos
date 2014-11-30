@@ -39,6 +39,11 @@ INSTALLED_APPS = [
 
     # Third party apps
     'django_nose',
+    'mptt',
+    'feincms',
+    'feincms.module.page',
+    'feincms.module.medialibrary',
+    'foundation',
 
     # Django apps
     'django.contrib.admin',
@@ -101,18 +106,15 @@ MEDIA_URL = config('MEDIA_URL', '/media/')
 SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=True, cast=bool)
 
 TEMPLATE_LOADERS = (
-    'jingo.Loader',
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
 )
 
-JINGO_EXCLUDE_APPS = [
-    'admin',
-]
-
 # Django-CSP
 CSP_DEFAULT_SRC = (
     "'self'",
+    "https://*.youtube.com",
+    "http://*.youtube.com"
 )
 CSP_FONT_SRC = (
     "'self'",
@@ -143,3 +145,14 @@ CSP_STYLE_SRC = (
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 SESSION_COOKIE_SECURE = not DEBUG
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.core.context_processors.static',
+    'django.core.context_processors.tz',
+    'django.contrib.messages.context_processors.messages',
+    'django.core.context_processors.request',
+)

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% load feincms_tags %}
+
+{% block base_body %}
+home
+<div class="row">
+  <div class="large-12 columns">
+    <div id="content">
+     {% feincms_render_region feincms_page "main" request %}
+    </div>
+  </div>
+</div>
+{% endblock %}
