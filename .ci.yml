@@ -1,0 +1,8 @@
+image: giorgos/dotci-base-docker-image
+run_params:
+   "-e SECRET_KEY=foo -e DEBUG=False -e ALLOWED_HOSTS=localhost,127.0.0.1 -e DATABASE_URL=postgresql://postgres:passwd@postgres/postgres"
+links:
+  - image: postgres:9.3
+    run_params: "-e POSTGRES_PASSWORD=passwd"
+command:
+  ./bin/jenkins.sh
