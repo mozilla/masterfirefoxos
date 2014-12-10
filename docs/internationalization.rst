@@ -79,56 +79,29 @@ This is required step for translations to work.
 How does database localization work?
 ------------------------------------
 
-A script iterates through all FeinCMS Pages and through all Content
-Types defined in each Page. If a field in the Content Type inherits
-the `LocalizableField` class then its contents are saved in a text
-file defined in `masterfirefox.base.cron.EXPORT_TO` (currently
-`db-strings.txt`).
+The following command will iterate through all FeinCMS Pages and
+through all Content Types defined in each Page, and extract strings
+from fields named in each Content Type model's `_l10n_fields`
+attribute, and output to a template text file:
 
-This text file can be parsed with the standard `makemessages` command
+  ./manage.py db_strings
+  
+By default, the command outputs to `db-strings.txt` but accepts an
+optional `filename` argument.
+
+This text file can be parsed with `./manage.py makemessages` command
 to generate a `.po` file.
 
-The script adds comments with extra information for localizers about
-the Page(s) that contain the strings.
-
-
-Add new localizable database fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You need to implement your own `FeinCMS Content Types`_ and instead of
-using the standard Django's `TextField` and `CharField` use
-`masterfirefoxos.base.fields.LocalizableTextField` and
-`masterfirefoxos.base.fields.LocalizableCharField` respectively. For
-example to create a FAQ Content Type with a question and answer
-localizable fields create the following model::
-
-  import masterfirefoxos.base.fields
-
-
-  class FAQEntry(models.Model):
-
-    question = fields.LocalizableCharField(max_length=255)
-    answer = fields.LocalizableTextField(max_length=255)
-
-    class Meta:
-        abstract = True
-
-
-Both fields will be recognized by `extract_database_strings` script
-and will get extracted to `db-strings.txt`.
-
-You will also need a custom `render` method that calls `ugettext` on
+We use a custom `render` method that calls `ugettext` on
 each localizable field::
 
   from django.utils.translation import ugettext as _
 
-  import masterfirefoxos.base.fields
-
-  
   class FAQEntry(models.Model):
 
-    question = fields.LocalizableCharField(max_length=255)
-    answer = fields.LocalizableTextField(max_length=255)
+    question = fields.CharField(max_length=255)
+    answer = fields.TextField(max_length=255)
+    _l10n_fields = ['question', 'answer']
 
     class Meta:
         abstract = True
@@ -141,7 +114,3 @@ each localizable field::
                 'answer': _(self.answer),
             }
         )
-
-
-
-.. _FeinCMS Content Types: https://feincms-django-cms.readthedocs.org/en/latest/contenttypes.html#implementing-your-own-content-types
