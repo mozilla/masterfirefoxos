@@ -116,3 +116,7 @@ feedparser==5.1.3
 
 # sha256: CJ37xCfPCbXyVzLjbQe-Nz1rL97SbK7cG4s0Qfgc6ec
 django-stackato==1.0
+
+# sha256: 1wEkmeUt5aRBPiKu1R34lIUzaFRS3-FrQQAfKPnOWxw
+factory-boy==2.4.1
+

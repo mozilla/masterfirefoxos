@@ -1,3 +1,4 @@
+from datetime import datetime
 from itertools import chain
 
 from feincms.module.page.models import Page
@@ -39,3 +40,21 @@ def pages_l10n_template(pages=None):
     return '\n'.join(
         chain(*[page_template_generator(page) for page in
                 pages or Page.objects.all()]))
+
+
+def copy_tree(page, parent=None):
+    if parent is None:
+        now = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+        title = 'Copy of {title} on {now}'.format(title=page.title, now=now)
+        slug = 'copy-of-{slug}-on-{now}'.format(slug=page.slug, now=now)
+    else:
+        title = page.title
+        slug = page.slug
+
+    new_page = Page(title=title, slug=slug,
+                    parent=parent or page.parent, active=False)
+    new_page.save()
+    new_page.copy_content_from(page)
+    for child in page.get_children():
+        copy_tree(child, parent=new_page)
+    return new_page
