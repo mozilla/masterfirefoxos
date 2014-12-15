@@ -1,5 +1,5 @@
-FROM debian
-RUN apt-get update && apt-get install -y python python-pip python-dev libpq-dev gettext libjpeg8-dev postgresql-client
+FROM python:3.4-wheezy
+RUN apt-get update && apt-get install -y libpq-dev gettext libjpeg8-dev postgresql-client
 
 ADD . /app
 WORKDIR /app
