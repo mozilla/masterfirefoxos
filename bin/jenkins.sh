@@ -18,5 +18,5 @@ then
     exit 0;
 fi
 docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD -e $DOCKER_EMAIL
-docker tag -f dockerfile giorgos/masterfirefoxos:$DOTCI_SHA
-docker push giorgos/masterfirefoxos:$DOTCI_SHA
+docker tag -f dockerfile $DOCKER_REPOSITORY:$DOTCI_SHA
+docker push $DOCKER_REPOSITORY:$DOTCI_SHA
