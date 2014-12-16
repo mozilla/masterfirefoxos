@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'feincms.module.page',
     'feincms.module.medialibrary',
     'foundation',
+    'django_stackato',
 
     # Django apps
     'django.contrib.admin',

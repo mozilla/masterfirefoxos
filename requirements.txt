@@ -117,3 +117,5 @@ feedparser==5.1.3
 # sha256: clGEm-hrnuwAgsKujDTMJ3Y8Mfzts66KMDST95y-x-0
 django-zurb-foundation==5.4.5
 
+# sha256: CJ37xCfPCbXyVzLjbQe-Nz1rL97SbK7cG4s0Qfgc6ec
+django-stackato==1.0
