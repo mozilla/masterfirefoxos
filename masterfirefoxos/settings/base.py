@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'feincms',
     'feincms.module.page',
     'feincms.module.medialibrary',
-    'foundation',
     'django_stackato',
 
     # Django apps
@@ -107,9 +106,14 @@ MEDIA_URL = config('MEDIA_URL', '/media/')
 SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=True, cast=bool)
 
 TEMPLATE_LOADERS = (
+    'jingo.Loader',
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
 )
+
+JINGO_EXCLUDE_APPS = [
+    'admin',
+]
 
 # Django-CSP
 CSP_DEFAULT_SRC = (
