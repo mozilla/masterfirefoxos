@@ -9,6 +9,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 """
 
 import os
+from collections import OrderedDict
 
 from django.utils.translation import ugettext_lazy
 
@@ -63,6 +64,7 @@ for app in config('EXTRA_APPS', default='', cast=Csv()):
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
+    'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -169,3 +171,19 @@ LANGUAGES = (
     ('en', ugettext_lazy('English')),
     ('el', ugettext_lazy('Greek')),
 )
+
+VERSIONS_LOCALE_MAP = OrderedDict({
+    '1.3': {
+        'slug': 'version-13',
+        'locales': [
+            'en',
+            'el'
+        ]
+    },
+    '2.0': {
+        'slug': 'version-20',
+        'locales': [
+            'en',
+        ]
+    }
+})
