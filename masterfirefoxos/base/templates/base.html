@@ -1,9 +1,13 @@
-{% extends 'foundation/base.html' %}
+<html>
+  <head>
+    <title>
+      {{ feincms_page.title }}
+    </title>
+  </head>
+  <body>
 
-{% block title %}
-{{ feincms_page.title }}
-{% endblock %}
+    {% block base_body %}
+    {% endblock %}
 
-
-{% block base_body %}
-{% endblock %}
+  </body>
+</html>
