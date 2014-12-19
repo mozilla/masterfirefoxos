@@ -1,8 +1,18 @@
-import os
 from itertools import chain
 
-from django.conf import settings
 from feincms.module.page.models import Page
+
+
+page_template_template = '''
+{{% comment %}}
+Translators:
+    Page Title: {title}
+    Parent Page Title: {parent_title}
+{{% endcoment %}}
+{{% blocktrans trimmed %}}
+{string}
+{{% endblocktrans %}}
+'''
 
 
 def entry_strings(entry):
@@ -11,19 +21,18 @@ def entry_strings(entry):
 
 
 def page_template_generator(page):
-    yield '{% comment %}\n  Translators:'
-    yield '    Page Title: ' + page.title
-    if page.parent:
-        yield '    Parent Page Title: ' + page.parent.title
-    yield '{% endcomment %}'
+    yield page_template_template.format(
+        title=page.title,
+        parent_title=page.parent and page.parent.title or 'None',
+        string=page.title)
 
-    yield '{% blocktrans %}' + page.title + '{% endblocktrans %}'
     for content_type in page._feincms_content_types:
         for entry in page.content.all_of_type(content_type):
             for entry_string in entry_strings(entry):
-                yield '\n'.join(['{% blocktrans trimmed %}', entry_string,
-                                 '{% endblocktrans %}'])
-    yield '\n'
+                yield page_template_template.format(
+                    title=page.title,
+                    parent_title=page.parent and page.parent.title or 'None',
+                    string=entry_string)
 
 
 def pages_l10n_template(pages=None):

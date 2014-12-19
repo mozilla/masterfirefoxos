@@ -82,6 +82,7 @@ class FAQEntry(models.Model):
             }
         )
 
+
 class RichTextEntry(RichTextContent):
     _l10n_fields = ['text']
 

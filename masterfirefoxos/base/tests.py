@@ -70,8 +70,8 @@ class TestUtils(SimpleTestCase):
         l10n_template = utils.pages_l10n_template([page])
         self.assertTrue('Parent Page Title: Parent Page' in l10n_template)
         self.assertTrue(
-            '{% blocktrans %}Page Title{% endblocktrans %}' in l10n_template)
+            '{% blocktrans trimmed %}\nPage Title\n{% endblocktrans %}'
+            in l10n_template)
         self.assertTrue(
             '{% blocktrans trimmed %}\n<p>Rich Text</p>\n{% endblocktrans %}'
             in l10n_template)
-        

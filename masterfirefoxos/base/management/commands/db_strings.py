@@ -21,4 +21,3 @@ class Command(BaseCommand):
         else:
             with open(filename, 'w') as f:
                 f.write(template_text)
-        
