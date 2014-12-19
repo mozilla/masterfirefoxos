@@ -5,3 +5,4 @@ docs/_build
 /media/*
 /static
 /locale
+db-strings.txt
