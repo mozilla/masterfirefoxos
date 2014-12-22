@@ -56,8 +56,8 @@ nose==1.3.4
 # sha256: mq4WtWKGak3apeiXhymrrbvtVEco2I4LnJr3sx3Qcu0
 django-nose==1.2
 
-# sha256: l87FJeejaziLKl9qV6MwWLIdrHTqpEtWpYLPIv2FuRI
-newrelic==2.38.0.31
+# sha256: J7kqegDxYuebWJb-nliXGbmF6c_fRFgmzBiFYVnObB4
+newrelic==2.40.0.34
 
 # sha256: KF6L1zDAtv374jwy0pNr_7pAHyPKsTLocixovoDW8YI
 flake8==2.2.5
