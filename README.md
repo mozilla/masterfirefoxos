@@ -4,8 +4,7 @@ masterfirefoxos
 The Master Firefox OS Website https://wiki.mozilla.org/Websites/Master_Firefox_OS
 
 [![Docs Status](https://readthedocs.org/projects/masterfirefoxos/badge/?version=latest&style=)](http://masterfirefoxos.mozilla.org/)
-[![Build Status](https://travis-ci.org/mozilla/masterfirefoxos.svg?branch=master)](https://travis-ci.org/mozilla/masterfirefoxos)
-[![Coverage Status](https://coveralls.io/repos/mozilla/masterfirefoxos/badge.png?branch=master)](https://coveralls.io/r/mozilla/masterfirefoxos?branch=master)
+[![Build Status](https://ci.masterfirefoxos.com/job/mozilla_masterfirefoxos/badge/icon)](https://ci.masterfirefoxos.com/job/mozilla_masterfirefoxos/)
 [![Requirements Status](https://requires.io/github/mozilla/masterfirefoxos/requirements.svg?branch=master)](https://requires.io/github/mozilla/masterfirefoxos/requirements/?branch=master)
 
 Docs
