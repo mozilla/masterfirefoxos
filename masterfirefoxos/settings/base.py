@@ -37,9 +37,6 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 # Application definition
 
 INSTALLED_APPS = [
-    # Project specific apps
-    'masterfirefoxos.base',
-
     # Third party apps
     'django_nose',
     'mptt',
@@ -47,6 +44,9 @@ INSTALLED_APPS = [
     'feincms.module.page',
     'feincms.module.medialibrary',
     'django_stackato',
+
+    # Project specific apps
+    'masterfirefoxos.base',
 
     # Django apps
     'django.contrib.admin',
