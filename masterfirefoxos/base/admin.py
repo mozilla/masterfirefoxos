@@ -14,7 +14,7 @@ class PageAdmin(PageAdminOld):
     actions = ['copy_tree_admin_action']
 
     def copy_tree_admin_action(self, request, queryset):
-        if queryset.count() != 1:
+        if len(queryset) != 1:
             self.message_user(request, 'Select only one page to copy', level=messages.ERROR)
             return
         copy_tree(queryset[0])

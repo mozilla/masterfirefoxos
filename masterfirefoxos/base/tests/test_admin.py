@@ -6,7 +6,6 @@ from feincms.module.page.models import Page
 from nose.tools import ok_
 
 from masterfirefoxos.base.admin import PageAdmin
-from masterfirefoxos.base.tests import PageFactory
 
 
 class TestAdminActions(SimpleTestCase):
@@ -24,8 +23,6 @@ class TestAdminActions(SimpleTestCase):
     @patch('masterfirefoxos.base.admin.PageAdmin.message_user')
     def test_copy_tree_action(self, mock_message_user, mock_copy_tree):
         page_admin = PageAdmin(Page, None)
-        page = PageFactory.create()
-        queryset = Page.objects.filter(id=page.id)
-        page_admin.copy_tree_admin_action('request', queryset)
+        page_admin.copy_tree_admin_action('request', ['page'])
         ok_(not mock_message_user.called)
-        mock_copy_tree.assert_called_with(page)
+        mock_copy_tree.assert_called_with('page')
