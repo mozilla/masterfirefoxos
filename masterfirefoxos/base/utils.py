@@ -42,19 +42,23 @@ def pages_l10n_template(pages=None):
                 pages or Page.objects.all()]))
 
 
-def copy_tree(page, parent=None):
-    if parent is None:
-        now = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-        title = 'Copy of {title} on {now}'.format(title=page.title, now=now)
-        slug = 'copy-of-{slug}-on-{now}'.format(slug=page.slug, now=now)
-    else:
-        title = page.title
-        slug = page.slug
-
-    new_page = Page(title=title, slug=slug,
-                    parent=parent or page.parent, active=False)
-    new_page.save()
+def copy_content_and_children(page, new_page):
     new_page.copy_content_from(page)
     for child in page.get_children():
-        copy_tree(child, parent=new_page)
+        copy_page_with_parent(child, new_page)
     return new_page
+
+
+def copy_page_with_parent(page, parent):
+    new_page = Page.objects.create(
+        title=page.title, slug=page.slug, parent=parent, active=False)
+    return copy_content_and_children(page, new_page)
+
+
+def copy_tree(page):
+    now = datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
+    new_page = Page.objects.create(
+        title='Copy of {title} on {now}'.format(title=page.title, now=now),
+        slug='copy-of-{slug}-on-{now}'.format(slug=page.slug, now=now),
+        parent=page.parent, active=False)
+    return copy_content_and_children(page, new_page)
