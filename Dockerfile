@@ -6,6 +6,7 @@ ADD ./requirements.txt /app/requirements.txt
 ADD ./bin/peep.py /app/bin/peep.py
 RUN ./bin/peep.py install -r requirements.txt
 
+COPY ./.git/HEAD /app/static/revision.txt
 ADD . /app
 
 EXPOSE 80
