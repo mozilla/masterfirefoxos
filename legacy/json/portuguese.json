@@ -1,0 +1,2210 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Enviar</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Enviar</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Saiba tudo sobre o <br>Firefox OS",
+                    "description": "",
+                    "body": "Bem-vindo à plataforma de treinamento comunitário do Firefox OS. Aqui você encontra tudo o que precisa para apresentar o Firefox OS. Selecione um tópico para começar.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "Introdução",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Um telefone que faz cada momento valer a pena",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "As necessidades do seu cliente estão sempre mudando. Os smartphones Firefox OS se adaptam às necessidades dos seus clientes para que eles possam aproveitar o melhor de cada momento.<br/><br/>Os aparelhos Firefox OS, desenvolvidos pela Mozilla, são a escolha certa para todos os que se dedicam a garantir que a Web continue a ser um recurso público disponível para todos."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Pronto para explorar os principais benefícios do Firefox OS?",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/portuguese/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "O telefone adaptável"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "Um telefone adaptável",
+                                                            "body": "O Firefox OS se adapta às necessidades dos usuários melhor do que qualquer outro telefone.<br><br>A Pesquisa de Aplicativos Adaptável oferece informações sobre qualquer assunto e dá aos seus clientes mais do que eles procuram, exatamente quando eles precisam. Isso permite que eles aproveitem o melhor de cada momento.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "Um telefone adaptável"
+                                                            },
+                                                            "strapline": "Um telefone adaptável",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "Completo",
+                                                            "body": "O Firefox OS vem com os recursos que fizeram com que seus clientes quisessem um smartphone: aplicativos, mapas, câmera, galeria, redes sociais, música e muito mais.<br><br>Cheio de recursos, mas sem pegadinhas. O Firefox OS encaixa perfeitamente na vida dos seus clientes para que eles possam se encaixar no mundo ao redor deles.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "Completo"
+                                                            },
+                                                            "strapline": "Completo",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "Tenha a Web em suas mãos",
+                                                            "body": "Na Mozilla, queremos fazer a diferença, não lucro.<br><br>Os aparelhos com Firefox OS são apoiados por uma comunidade global de centenas de pessoas trabalhando para inovar e personalizar o sistema com conteúdos locais que ajudam os seus clientes. Quando eles escolhem o Firefox OS, estão ajudando a construir um futuro mais brilhante para a Web e para todos nós.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "Tenha a Web em suas mãos"
+                                                            },
+                                                            "strapline": "Tenha a Web em suas mãos",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>DICAS DE DEMONSTRAÇÃO <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "Dicas de Demonstração",
+                            "description": "Saiba mais sobre os componentes da pergunta.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Demonstrações que valem a pena",
+                                                    "body": "Demonstrar os recursos do Firefox OS e como ele é fácil de usar será a sua melhor ferramenta de vendas.<br>Confira os vídeos abaixo para ver como é simples demonstrar o Firefox OS."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Apresentação do Firefox OS",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "Se você tiver apenas um minuto, faça-o valer com a pena com esta abordagem simples.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Busca inteligente de aplicativos",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b10-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b10-c10.ogv"
+                                                    },
+                                                    "body": "Mostre aos clientes como o Firefox OS se adapta a eles, dando mais do que eles precisam, quando precisarem.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Conexões",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "Nunca foi tão fácil ficar conectado usando o Firefox OS.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "HERE Maps",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "Mostre as funcionalidades de localização do Firefox OS, incluindo informações do trânsito local.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Navegação",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b30-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b30-c05.ogv"
+                                                    },
+                                                    "body": "O Firefox Marketplace tem os aplicativos mais procurados pelos usuários, além de muitas novidades que eles vão gostar.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Marketplace",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b30-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b30-c10.ogv"
+                                                    },
+                                                    "body": "O Firefox Marketplace tem os jogos e aplicativos mais legais que o seu cliente quer.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Câmera e Galeria",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b40-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b40-c05.ogv"
+                                                    },
+                                                    "body": "Fotografar, editar e compartilhar. Mostre nossos aplicativos de câmera e galeria cheios de recursos, incluindo filtros de estilo integrados, vídeo e muito mais.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Música e Rádio FM",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b40-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/portuguese/m05-t05-p10-a05-b40-c10.ogv"
+                                                    },
+                                                    "body": "Com a música na ponta dos seus dedos, os clientes verão como o Firefox OS os mantêm entretidos e dançando nas ruas.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                         {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span>Introdução</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>GUIA DO USUÁRIO<span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "Guia Do Usuário",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Qual perfil de cliente que tende a usar o Firefox OS?",
+                                                    "body": "Compreender as necessidades do seu cliente e saber o que responder é fundamental para qualquer oportunidade de venda. Confira os tipos de clientes que tendem a usar o Firefox OS e arraste a barra para saber como responder as necessidades deles."
+                                                }
+                                            ]
+                                        },
+                                        
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/customer-1.png",
+                                                        "alt": "O novato com smartphones",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "O que você diria?",
+                                                        "body": "O Firefox OS é a melhor escolha para os usuários novatos de smartphone. É super fácil de usar e adapta-se às suas necessidades melhor do que qualquer outro telefone. Assim, você tem o que precisa com menos tempo de pesquisa. Além disso, ele contém todos os recursos que você espera, de câmera a e-mail, aplicativos, música, mapas e mais."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/customer-2.png",
+                                                        "alt": "O usuário que procura valor",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "O que você diria??",
+                                                        "body": "O Firefox OS dá a você mais valor pelo seu dinheiro. Tem tudo o que você espera em um smartphone - câmera, e-mail, aplicativos, música, mapas e mais - nos preços mais competitivos."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/customer-3.png",
+                                                        "alt": "O usuário em dúvida quanto à atualização",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "O que você diria?",
+                                                        "body": "O Firefox OS é o mais fácil para começar. A Pesquisa Adaptável de Aplicativos encontra o que você precisa instantaneamente. A interface é intuitiva e torna muito simples buscar e baixar o que você quiser."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/customer-4.png",
+                                                        "alt": "O fã do Firefox",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "O que você diria?",
+                                                        "body": "Se você conhece e adora o Firefox, vai adorar o Firefox OS. Os smartphones Firefox OS são totalmente baseados em HTML5, trazendo o melhor da Web para o seu telefone. Além disso, o Firefox OS é desenvolvido por uma comunidade dedicada a manter a Web acessível para todos. Quando você escolhe o Firefox OS, toda a potência da Web está em suas mãos."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/portuguese/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> DICAS DE DEMONSTRAÇÃO</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>PRINCIPAIS CARACTERÍSTICAS <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "Principais Características",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Recursos que valem a pena",
+                                                    "body": "O Firefox OS contém todos os recursos que os clientes esperam de um smartphone. Adapta-se facilmente à vida deles, para que eles possam acompanhar o mundo ao redor deles."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "Tenha tudo",
+                                                    "body": "Navegue pelas imagens para ver os principais recursos do Firefox OS.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Pesquisa de aplicativo adaptável",
+                                                            "body": "Uma nova maneira de ter o que você precisa, quando precisa, sem o incômodo de baixar aplicativos para o telefone. Pesquise qualquer coisa e o Firefox OS se adaptará à sua solicitação, mostrando fotos, vídeos, música, notícias, mapas e mais - facilitando a localização daquilo que você realmente está procurando.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Pesquisa de aplicativo adaptável..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "Sua fonte dedicada aos melhores aplicativos para Firefox OS. Pesquise centenas de aplicativos pagos ou gratuitos em diversas categorias, de jogos a utilitários, música, viagem, esportes e muito mais.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "Navegador Firefox",
+                                                            "body": "A forma mais rápida, segura e inteligente de obter o melhor da Web. Use a barra de endereços para acessar sites, fazer pesquisas e procurar em seu histórico de navegação. Além disso, as abas permitem que você faça diferentes tarefas ao navegar em várias páginas simultaneamente.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Navegador Firefox..."
+                                                        },
+                                                        {
+                                                            "title": "Facebook e Twitter",
+                                                            "body": "Fique conectado com acesso fácil aos seus amigos e colegas de onde você estiver.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Facebook e Twitter..."
+                                                        },
+                                                        {
+                                                            "title": "Contatos",
+                                                            "body": "Profundamente integrado com suas redes sociais preferidas. Você pode importar facilmente os contatos do Facebook para o telefone para manter toda a sua comunidade em um único lugar.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Contatos..."
+                                                        },
+                                                        {
+                                                            "title": "Câmera e Galeria",
+                                                            "body": "Com vários filtros de estilo integrados para fotografias criativas e divertidas, além de várias maneiras de compartilhar as suas fotografias, a câmera e a galeria de fotos cheia de recursos farão com que todos os seus modelos sorriam.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Câmera e Galeria..."
+                                                        },
+                                                        {
+                                                            "title": "Rádio FM",
+                                                            "body": "Todo o áudio que você quiser, em um só dispositivo.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Rádio FM..."
+                                                        },
+                                                        {
+                                                            "title": "Mapas",
+                                                            "body": "Confira a situação do trânsito ao vivo, salve seus locais preferidos e tenha acesso à eles sem necessidade de conexão com Internet. Nossa ferramenta de localização fornece a melhor rota, seja de carro, caminhando ou de transporte público, para que você chegue aonde quer.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-8.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Mapas..."
+                                                        },
+                                                        {
+                                                            "title": "Músicas e Vídeos",
+                                                            "body": "Reproduza tudo usando seu telefone, ou on-line via Youtube. Pesquise e reproduza sua coleção de música por álbum ou artista, avalie as músicas ou crie listas de reprodução com as suas preferidas.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Músicas e Vídeos..."
+                                                        },
+                                                        {
+                                                            "title": "SMS e E-mail",
+                                                            "body": "Fique conectado aos seus amigos e colegas de onde você estiver. É fácil de configurar diferentes contas de e-mail, com suporte para os fornecedores de e-mail Exchange, SMTP ou IMAP mais conhecidos.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/portuguese/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "SMS e E-mail..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> GUIA DO USUÁRIO</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>DÚVIDAS COMUNS <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "Dúvidas Comuns",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Você tem alguma pergunta? Nós temos as respostas!",
+                                                    "body": "Você provavelmente tem dúvidas, assim como os clientes! Selecione cada pergunta para saber mais sobre o Firefox OS."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "O que é uma Pesquisa de Aplicativos Adaptável?",
+                                                            "title": "O que é uma Pesquisa de Aplicativos Adaptável?",
+                                                            "body": "A Pesquisa de Aplicativos Adaptável é uma nova maneira de localizar conteúdo em toda a Web e envolver-se em uma experiência similar ao uso de aplicativos sem o incômodo de baixar o aplicativo para encontrar o que você precisa. Independentemente de onde você pesquisar, o telefone adapta o resultado da pesquisa e facilita a adição desses resultados à sua tela inicial para que o acesso posterior seja mais simples."
+                                                        },
+                                                        {
+                                                            "alt": "Quantos e que tipos de aplicativos estarão disponíveis?",
+                                                            "title": "Quantos e que tipos de aplicativos estarão disponíveis?",
+                                                            "body": "Desenvolvedores de aplicativos de todo o mundo estão comprometidos com o Firefox OS e centenas de aplicativos pagos e gratuitos estarão disponíveis no lançamento. A lista crescente inclui desenvolvedores de aplicativos líderes como Accuweather, Airbnb, Box, Cut the Rope, EA Games, Facebook, Nokia HERE, MTV Brasil, Pulse News, SoundCloud, SporTV, Time Out e Twitter."
+                                                        },
+                                                        {
+                                                            "alt": "O que torna o Firefox OS mais seguro do que os outros telefones?",
+                                                            "title": "O que torna o Firefox OS mais seguro do que os outros telefones?",
+                                                            "body": "O Firefox OS tem um modelo de segurança robusto, testado há mais de uma déciada por pessoas do mundo inteiro. É desenvolvido para proteger o usuário e o sistema de aplicativos mal intencionados."
+                                                        },
+                                                        {
+                                                            "alt": "Os aplicativos Android funcionam neste telefone?",
+                                                            "title": "Os aplicativos Android funcionam neste telefone?",
+                                                            "body": "Provavelmente não, mas muitos dos aplicativos mais famosos do iOs e do Android são feitos de modo que possam ser executados em qualquer plataforma. De qualquer forma, a maioria dos fabricantes de aplicativos mais famosos já está fazendo uma versão para Firefox OS, e nossa Pesquisa de Aplicativos Adaptável vai encontrar o que seu cliente precisa."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Meus aplicativos funcionam off-line?",
+                                                            "title": "Meus aplicativos funcionam off-line?",
+                                                            "body": "O Firefox OS é desenvolvido com tecnologias da Web, mas contém recursos off-line para todos os principais recursos do aparelho. Isso significa que os aplicativos não precisam de uma conexão ativa com a Internet para funcionar, exceto se precisarem enviar ou receber dados para outro sistema pela Internet para continuarem funcionando."
+                                                        },
+                                                        {
+                                                            "alt": "E quanto ao suporte ao cliente para aplicativos?",
+                                                            "title": "E quanto ao suporte ao cliente para aplicativos?",
+                                                            "body": "Os clientes que precisarem de suporte para um aplicativo desenvolvido para o Firefox OS serão encaminhados diretamente para o desenvolvedor do aplicativo para obter ajuda. Se a experiência do cliente com o Firefox OS for negativamente afetada pelo suporte do aplicativo, a Mozilla pode recomendar alternativas, incluindo desinstalar o aplicativo até que o desenvolvedor forneça a assistência apropriada."
+                                                        },
+                                                        {
+                                                            "alt": "Como eu faço download e instalo aplicativos no Firefox OS?",
+                                                            "title": "Como eu faço download e instalo aplicativos no Firefox OS?",
+                                                            "body": "Há dois modos de obter aplicativos no Firefox OS:<ul><li>Firefox  Marketplace — Nossa fonte dedicada aos melhores aplicativos, como o Twitter, e conteúdo local impressionante dos melhores desenvolvedores de Web de sua região.</li><li>Pesquisa de aplicativos adaptável —Digite uma única palavra como “sushi” para descobrir aplicativos móveis relacionados em sua região, fornecidos por uma experiência móvel superior e ajustado para dar o que você precisa.</li><ul>"
+                                                        },
+                                                        {
+                                                            "alt": "Quais provedores de e-mail são aceitos?",
+                                                            "title": "Quais provedores de e-mail são aceitos?",
+                                                            "body": "Atualmente o Firefox OS está funcionando com Hotmail e Yahoo, mas muitos outros estão saindo do forno."
+                                                        },
+                                                        {
+                                                            "alt": "Aonde posso esclarecer minhas outras dúvidas?",
+                                                            "title": "Aonde posso esclarecer minhas outras dúvidas?",
+                                                            "body": "Visite <a href='https://support.mozilla.org/en-US/kb/firefox-os-user-guide'>https://support.mozilla.org/en-US/kb/firefox-os-user-guide</a> para obter mais informações."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> PRINCIPAIS CARACTERÍSTICAS</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>MISSÃO DO FIREFOX <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "A Missão do Firefox",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "Nossa missão é promover a abertura, inovação e oportunidade na Web.",
+                                                    "body": "Atrás de cada smartphone do Firefox OS está a Mozilla: Uma comunidade global de milhares de pessoas dedicadas a manter a Web acessível para todos. Isso porque acreditamos que todos nós temos o direito a uma Web que não seja controlada por apenas algumas grandes organizações.<br><br>Pois é, somos um pouco diferentes. Juntos, podemos construir um futuro mais brilhante para a Web."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> DÚVIDAS COMUNS</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>ACEITE O DESAFIO <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "Aceite o Desafio",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Pronto para mostrar o que sabe?",
+                                                    "body": "Você acha que está quase pronto para começar a vender o Firefox OS para os seus clientes? Coloque o seu conhecimento em prática e responda a estas perguntas para mostrar que você tem o que é necessário."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 1",
+                                                    "body": "Como você acessa a funcionalidade de Pesquisa de Aplicativos Adaptável no Firefox OS?",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Resposta modelo",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo!  Simplesmente deslize para a esquerda para acessar a funcionalidade da Pesquisa de Aplicativos Adaptável.",
+                                                        "incorrect": "Não é assim.  Simplesmente deslize para a esquerda para acessar a funcionalidade da Pesquisa de Aplicativos Adaptável.",
+                                                        "partly": "Não é assim.  Simplesmente deslize para a esquerda para acessar a funcionalidade da Pesquisa de Aplicativos Adaptável."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Deslizar para a esquerda.",
+                                                            "title": "Deslizar para a esquerda.",
+                                                            "text": "Deslizar para a esquerda.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Clique no botão início.",
+                                                            "title": "Clique no botão início.",
+                                                            "text": "Clique no botão início.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Abra o Firefox Marketplace.",
+                                                            "title": "Abra o Firefox Marketplace.",
+                                                            "text": "Abra o Firefox Marketplace.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Abra o navegador Firefox.",
+                                                            "title": "Abra o navegador Firefox.",
+                                                            "text": "Abra o navegador Firefox.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 8,
+                                                    "title": "Pergunta 2",
+                                                    "body": "Quais dos seguintes aplicativos são pré-instalados em todos os telefones do Firefox OS? Selecione todas as que se aplicam..",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo! Todos esses aplicativos são pré-instalados em todos os telefones do Firefox OS.",
+                                                        "incorrect": "Todos esses aplicativos são pré-instalados em todos os telefones do Firefox OS.",
+                                                        "partly": "Há mais. Tente outra vez."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace",
+                                                            "title": "Firefox Marketplace",
+                                                            "text": "Firefox Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Navegador Firefox",
+                                                            "title": "Navegador Firefox",
+                                                            "text": "Navegador Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Câmera e Galeria",
+                                                            "title": "Câmera e Galeria",
+                                                            "text": "Câmera e Galeria",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Facebook",
+                                                            "title": "Facebook",
+                                                            "text": "Facebook",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "E-mail e SMS",
+                                                            "title": "E-mail e SMS",
+                                                            "text": "E-mail e SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Rádio FM",
+                                                            "title": "Rádio FM",
+                                                            "text": "Rádio FM",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Tocador de música",
+                                                            "title": "Tocador de música",
+                                                            "text": "Tocador de música",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "HERE Maps",
+                                                            "title": "HERE Maps",
+                                                            "text": "HERE Maps",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                                     
+					                    {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 3",
+                                                    "body": "O que acontece quando você digita uma palavra ou assunto do seu interesse usando a Pesquisa de Aplicativos Adaptável? Selecione todas as que se aplicam.",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Todas essas afirmações sobre a Pesquisa de Aplicativos Adaptável são verdadeiras.",
+                                                        "incorrect": "Na verdade, todas essas afirmações sobre a Pesquisa de Aplicativos Adaptável são verdadeiras.",
+                                                        "partly": "Na verdade, todas essas afirmações sobre a Pesquisa de Aplicativos Adaptável são verdadeiras."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Resultados de toda a Web são mostrados como aplicativos no seu telefone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Sua imagem de plano de fundo muda instantaneamente para revelar fotos populares da Web.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Os resultados incluem mapas relacionados, imagens, música, notícias, vídeos, feeds do Twitter e muito mais.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Milhões de aplicativos Web de todo o mundo são pesquisados instantaneamente.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },  
+						                        {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 4",
+                                                    "body": "Qual destas respostas do cliente indica um candidato ideal para o Firefox OS? Selecione todas as que se aplicam.",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Todos esses clientes são candidatos ideais para o Firefox OS!",
+                                                        "incorrect": "Na verdade, TODOS esses clientes são candidatos ideais para o Firefox OS!",
+                                                        "partly": "Na verdade, TODOS esses clientes são candidatos ideais para o Firefox OS!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Nunca usei um smartphone antes.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Estou procurando por melhor valor para meu dinheiro.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Quero um smartphone que seja fácil de usar.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Sou fã do Firefox.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+					                    {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 5",
+                                                    "body": "Qual funcionalidade do Firefox OS este ícone representa?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Esse ícone representa os Contatos.",
+                                                        "incorrect": "Na verdade, esse ícone representa os Contatos.",
+                                                        "partly": "Na verdade, esse ícone representa os Contatos."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Contatos",
+                                                            "title": "Contatos",
+                                                            "text": "Contatos",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Navegador Firefox",
+                                                            "title": "Navegador Firefox",
+                                                            "text": "Navegador Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Pesquisa de aplicativo adaptável",
+                                                            "title": "Pesquisa de aplicativo adaptável",
+                                                            "text": "Pesquisa de aplicativo adaptável",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 6",
+                                                    "body": "Qual funcionalidade do Firefox OS este ícone representa?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Esse ícone representa o navegador Firefox.",
+                                                        "incorrect": "Na verdade, esse ícone representa o navegador Firefox.",
+                                                        "partly": "Na verdade, esse ícone representa o navegador Firefox."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS",
+                                                            "title": "SMS",
+                                                            "text": "SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Contatos",
+                                                            "title": "Contatos",
+                                                            "text": "Contatos",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Navegador Firefox",
+                                                            "title": "Navegador Firefox",
+                                                            "text": "Navegador Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Pesquisa de aplicativo adaptável",
+                                                            "title": "Pesquisa de aplicativo adaptável",
+                                                            "text": "Pesquisa de aplicativo adaptável",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 7",
+                                                    "body": "Qual funcionalidade do Firefox OS este ícone representa?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Este ícone representa a Pesquisa de Aplicativos Adaptável.",
+                                                        "incorrect": "Na verdade, este ícone representa a Pesquisa de Aplicativos Adaptável.",
+                                                        "partly": "Na verdade, este ícone representa a Pesquisa de Aplicativos Adaptável."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Contatos",
+                                                            "title": "Contatos",
+                                                            "text": "Contatos",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Navegador Firefox",
+                                                            "title": "Navegador Firefox",
+                                                            "text": "Navegador Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Pesquisa de aplicativo adaptável",
+                                                            "title": "Pesquisa de aplicativo adaptável",
+                                                            "text": "Pesquisa de aplicativo adaptável",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 8",
+                                                    "body": "Seu cliente quer entender os maiores benefícios do Firefox OS em relação à concorrência. Selecione todas as afirmações válidas.",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Todas essas afirmações sobre o Firefox OS são verdadeiras.",
+                                                        "incorrect": "Na verdade, todas são verdadeiras, exceto a afirmação sobre “a mais ampla seleção de aparelhos”.",
+                                                        "partly": "Na verdade, todas são verdadeiras, exceto a afirmação sobre “a mais ampla seleção de aparelhos”."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Com a Pesquisa de Aplicativos Adaptável, o Firefox OS adapta-se a todas as suas necessidades melhor do que qualquer outro telefone.",
+                                                            "title": "Com a Pesquisa de Aplicativos Adaptável, o Firefox OS adapta-se a todas as suas necessidades melhor do que qualquer outro telefone.",
+                                                            "text": "Com a Pesquisa de Aplicativos Adaptável, o Firefox OS adapta-se a todas as suas necessidades melhor do que qualquer outro telefone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Com o Firefox Marketplace e dezenas de aplicativos pré-instalados, como e-mail, aplicativos, Facebook, uma câmera, música e mais, o Firefox OS tem os recursos que você espera de um smartphone.",
+                                                            "title": "Com o Firefox Marketplace e dezenas de aplicativos pré-instalados, como e-mail, aplicativos, Facebook, uma câmera, música e mais, o Firefox OS tem os recursos que você espera de um smartphone.",
+                                                            "text": "Com o Firefox Marketplace e dezenas de aplicativos pré-instalados, como e-mail, aplicativos, Facebook, uma câmera, música e mais, o Firefox OS tem os recursos que você espera de um smartphone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Como é desenvolvido pelo Firefox, você pode confiar que o Firefox OS é apoiado por uma comunidade global trabalhando em seu nome e voltada para os seus interesses.",
+                                                            "title": "Como é desenvolvido pelo Firefox, você pode confiar que o Firefox OS é apoiado por uma comunidade global trabalhando em seu nome e voltada para os seus interesses.",
+                                                            "text": "Como é desenvolvido pelo Firefox, você pode confiar que o Firefox OS é apoiado por uma comunidade global trabalhando em seu nome e voltada para os seus interesses.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "O Firefox OS oferece a mais ampla seleção de aparelhos no mercado atual.",
+                                                            "title": "O Firefox OS oferece a mais ampla seleção de aparelhos no mercado atual.",
+                                                            "text": "O Firefox OS oferece a mais ampla seleção de aparelhos no mercado atual.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 9",
+                                                    "body": "Um cliente fala que os smartphones parecem complicados. Que argumento de venda você deveria destacar?",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Para um cliente que procura um smartphone fácil de usar, o Firefox OS é a melhor escolha.",
+                                                        "incorrect": "De fato, para esse cliente, a melhor escolha é falar sobre como é fácil de usar o Firefox OS.",
+                                                        "partly": "De fato, para esse cliente, a melhor escolha é falar sobre como é fácil de usar o Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "O Firefox OS dá a você mais valor pelo seu dinheiro, com tudo o que você espera - câmera, e-mail, aplicativos, música, mapas e mais - com os preços mais competitivos.",
+                                                            "title": "O Firefox OS dá a você mais valor pelo seu dinheiro, com tudo o que você espera - câmera, e-mail, aplicativos, música, mapas e mais - com os preços mais competitivos.",
+                                                            "text": "O Firefox OS dá a você mais valor pelo seu dinheiro, com tudo o que você espera - câmera, e-mail, aplicativos, música, mapas e mais - com os preços mais competitivos.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "O Firefox OS é o smartphone mais fácil para começar. Seus aplicativos favoritos já estão pré-instalados e você pode facilmente importar amigos do Facebook também.",
+                                                            "title": "O Firefox OS é o smartphone mais fácil para começar. Seus aplicativos favoritos já estão pré-instalados e você pode facilmente importar amigos do Facebook também.",
+                                                            "text": "O Firefox OS é o smartphone mais fácil para começar. Seus aplicativos favoritos já estão pré-instalados e você pode facilmente importar amigos do Facebook também.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Se você adora os navegadores Firefox, vai adorar os telefones Firefox OS. Escolher o Firefox OS mantém a eficiência da Web em suas mãos.",
+                                                            "title": "Se você adora os navegadores Firefox, vai adorar os telefones Firefox OS. Escolher o Firefox OS mantém a eficiência da Web em suas mãos.",
+                                                            "text": "Se você adora os navegadores Firefox, vai adorar os telefones Firefox OS. Escolher o Firefox OS mantém a eficiência da Web em suas mãos.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 10",
+                                                    "body": "Uma cliente fala para você que está pronta para trocar o antigo aparelho. Que argumento de venda você deveria destacar?",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Com um usuário novato de smartphone, você deve falar sobre sua simplicidade e recursos como a Pesquisa de Aplicativo Adaptável.",
+                                                        "incorrect": "De fato, com um usuário novato de smartphone, você deve falar sobre sua simplicidade e recursos como a Pesquisa de Aplicativos Adaptável.",
+                                                        "partly": "De fato, com um usuário novato de smartphone, você deve falar sobre sua simplicidade e recursos como a Pesquisa de Aplicativos Adaptável."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS é o smartphone mais fácil para começar. Seus aplicativos favoritos já estão pré-instalados e você pode facilmente importar amigos do Facebook também.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS dá a você mais valor pelo seu dinheiro, com tudo o que você espera - câmera, e-mail, aplicativos, música, mapas e mais - com os preços mais competitivos. Além disso, o recurso de Pesquisa de Aplicativos Adaptável facilita a localização dos aplicativos que você realmente precisa, quando precisa.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Se você adora os navegadores Firefox, vai adorar os telefones Firefox OS. Escolher o Firefox OS mantém a eficiência da Web em suas mãos.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 11",
+                                                    "body": "Um cliente fala para você que usa o Firefox como navegador do computador. Que argumento de venda você deveria destacar?",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Quando encontrar um fã do Firefox, fale sobre como escolher o Firefox OS demonstra um comprometimento em manter a Web nas mãos dele.",
+                                                        "incorrect": "De fato, quando encontrar um fã do Firefox, fale sobre como escolher o Firefox OS demonstra um comprometimento em manter a Web nas mãos dele.",
+                                                        "partly": "De fato, quando encontrar um fã do Firefox, fale sobre como escolher o Firefox OS demonstra um comprometimento em manter a Web nas mãos dele."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "O Firefox OS dá a você mais valor pelo seu dinheiro, com tudo o que você espera - câmera, e-mail, aplicativos, música, mapas e mais - com os preços mais competitivos.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS é o smartphone mais fácil para começar. Seus aplicativos favoritos já estão pré-instalados e você pode facilmente importar amigos do Facebook também.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Se você adora os navegadores Firefox, vai adorar os telefones Firefox OS. Escolher o Firefox OS mantém a eficiência da Web em suas mãos.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Pergunta 12",
+                                                    "body": "Um cliente fala para você, “Estou procurando um jeito fácil de manter o contato com meus amigos, mas não quero gastar muito dinheiro.” Qual das seguintes afirmações seria uma boa resposta? Selecione todas as que se aplicam.",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Com este cliente, destaque o grande valor do conjunto completo de recursos do Firefox OS, incluindo aplicativos de redes sociais que são pré-instalados no telefone, tudo a um valor incrível.",
+                                                        "incorrect": "Não é isso. Com este cliente, destaque o grande valor do conjunto completo de recursos do Firefox OS, incluindo aplicativos de redes sociais que são pré-instalados no telefone, tudo a um valor incrível.",
+                                                        "partly": "Não é isso. Com este cliente, destaque o grande valor do conjunto completo de recursos do Firefox OS, incluindo aplicativos de redes sociais que são pré-instalados no telefone, tudo a um valor incrível."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O smartphone Firefox OS vem com todos os recursos que você espera pré-instalados, incluindo SMS, Facebook, e-mail, aplicativos, mapas e muito mais, tudo com o melhor valor.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Facebook é pré-instalado em todos os dispositivos Firefox OS e os contatos do Facebook podem ser facilmente importados!",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox Marketplace dispõe de milhares de aplicativos gratuitos ou com preços muito baixos.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Pergunta 13",
+                                                    "body": "Um cliente fala, “Uso o Firefox em meu computador doméstico e adoro, mas não sabia que havia um smartphone OS. Por quê?” Qual das seguintes afirmações seria a resposta mais apropriada a este cliente específico?",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Este cliente se parece com um fã do Firefox. Fale sobre como os telefones Firefox OS, feitos pela Mozilla, demonstram um comprometimento em manter a Web nas mãos nas pessoas. Embora todas essas afirmações sejam verdadeiras, apenas uma é a melhor resposta para este cliente.",
+                                                        "incorrect": "Embora todas essas afirmações sejam verdadeiras, apenas uma é a melhor resposta para este cliente, que parece ser um fã do Firefox. Fale sobre como os telefones Firefox OS, feitos pela Mozilla, são parte do comprometimento em manter a Web nas mãos nas pessoas.",
+                                                        "partly": "Embora todas essas afirmações sejam verdadeiras, apenas uma é a melhor resposta para este cliente, que parece ser um fã do Firefox. Fale sobre como os telefones Firefox OS, feitos pela Mozilla, são parte do comprometimento em manter a Web nas mãos nas pessoas."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Todos os telefones do Firefox incluem o navegador Firefox, o jeito mais rápido e inteligente de ficar on-line.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS inclui as mesmas funcionalidades disponíveis em smartphones competitivos e dá mais valor para o seu dinheiro.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Mozilla, fabricante do Firefox, desenvolveu um OS para smartphone para manter a Web acessível a todos. E como o Firefox OS é totalmente desenvolvido em HTML5, você tem acesso imediato a milhares de aplicativos já criados para a Web.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 14",
+                                                    "body": "Qual das seguintes afirmações sobre a Pesquisa de Aplicativos Adaptável é verdadeira? Selecione todas as que se aplicam.",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. A Pesquisa de Aplicativo Adaptável antecipa suas necessidades melhor do que qualquer outro telefone.",
+                                                        "incorrect": "Não é isso. Três estão corretas. Embora a Pesquisa de Aplicativos Adaptável antecipe suas necessidades melhor do que outros telefones, ela NÃO funciona como a pesquisa da Web nos navegadores Firefox.",
+                                                        "partly": "Certamente não é isso. Três estão corretas. Embora a Pesquisa de Aplicativos Adaptável antecipe suas necessidades melhor do que outros telefones, ela NÃO funciona como a pesquisa da Web nos navegadores Firefox."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Um recurso exclusivo incluído em todos os smartphones Firefox OS.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Funciona como as pesquisas da Web nos navegadores Firefox.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Os resultados incluem fotos, vídeos, música, notícias, mapas e mais.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Os resultados são utilizáveis imediatamente, você não precisa baixar o aplicativo.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 15",
+                                                    "body": "Embora todas as afirmações sejam verdadeiras, quais seriam as duas respostas mais úteis para um cliente novato de smartphone?",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Um usuário novato de smartphone estará mais interessado na facilidade de uso.",
+                                                        "incorrect": "Não é bem isso. Um usuário novato de smartphone estará mais interessado na facilidade de uso.",
+                                                        "partly": "Não é bem isso. Um usuário novato de smartphone estará mais interessado na facilidade de uso."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Você pode importar facilmente os contatos do Facebook para o telefone Firefox OS.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS dá a você acesso a aplicativos populares e reconhecidos, assim como a conteúdo local que significa mais para você.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS não é cheio de coisas que você não precisa.Ele fornece o que você espera em um smartphone, com uma interface fácil de usar que facilita a utilização.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "O Firefox OS é totalmente desenvolvido em HTML5 e padrões de open Web.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 16",
+                                                    "body": "Qual funcionalidade do Firefox OS este ícone representa?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo. Esse ícone representa o SMS, ou mensagem de texto.",
+                                                        "incorrect": "Na verdade, esse ícone representa o SMS, ou mensagem de texto.",
+                                                        "partly": "Na verdade, esse ícone representa o SMS, ou mensagem de texto."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "SMS",
+                                                            "title": "SMS",
+                                                            "text": "SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Contatos",
+                                                            "title": "Contatos",
+                                                            "text": "Contatos",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Navegador Firefox",
+                                                            "title": "Navegador Firefox",
+                                                            "text": "Navegador Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Pesquisa de aplicativo adaptável",
+                                                            "title": "Pesquisa de aplicativo adaptável",
+                                                            "text": "Pesquisa de aplicativo adaptável",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 17",
+                                                    "body": "Com a Pesquisa de Aplicativos Adaptável, você pode usar o aplicativo uma vez, de modo rápido e fácil, sem instalá-lo. Se quiser usá-lo novamente, é fácil adicioná-lo à sua tela inicial.",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo!",
+                                                        "incorrect": "De fato, é verdade.",
+                                                        "partly": "De fato, é verdade."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Verdadeiro",
+                                                            "title": "Verdadeiro",
+                                                            "text": "Verdadeiro",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Falso",
+                                                            "title": "Falso",
+                                                            "text": "Falso",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 18",
+                                                    "body": "Qual é a melhor resposta para a objeção deste cliente? “Ouvi dizer que vocês não têm muitos aplicativos.”",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo.",
+                                                        "incorrect": "A melhor resposta para esta objeção é falar sobre todos os aplicativos que estão disponíveis",
+                                                        "partly": "A melhor resposta para esta objeção é falar sobre todos os aplicativos que estão disponíveis"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Novo e apoiado por uma comunidade global trabalhando para ajudar a manter a Web acessível a todos.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Os telefones têm acesso a mais de 20 mil aplicativos pagos ou gratuitos no lançamento, incluindo alguns dos aplicativos globais mais conhecidos atualmente.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Um modelo de segurança robusto que é testado há mais de uma década de suporte da Open Web.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pergunta 19",
+                                                    "body": "Qual é a melhor resposta para a objeção deste cliente?<br>“Nunca ouvi falar dos telefones Firefox OS.”",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo.",
+                                                        "incorrect": "A melhor resposta para esta objeção é falar sobre a experiência da comunidade da Mozilla que está por trás do Firefox OS..",
+                                                        "partly": "A melhor resposta para esta objeção é falar sobre a experiência da comunidade da Mozilla que está por trás do Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Eles contêm os recursos que fizeram você querer um smartphone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Acesso a mais de 20 mil aplicativos pagos ou gratuitos no lançamento, incluindo alguns dos aplicativos globais mais conhecidos atualmente.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Novo e apoiado por uma comunidade global trabalhando para ajudar a manter a Web acessível a todos.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pergunta 20",
+                                                    "body": "Qual é a melhor resposta para a objeção deste cliente?<br>“Como saberei se este telefone é seguro?”",
+                                                    "button": {
+                                                        "submit": "Enviar",
+                                                        "reset": "Redefinir",
+                                                        "model": "Mostrar resposta",
+                                                        "mine": "Minha resposta"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "É isso mesmo!",
+                                                        "incorrect": "A melhor resposta para esta objeção é falar sobre o modelo robusto de segurança.",
+                                                        "partly": "A melhor resposta para esta objeção é falar sobre o modelo robusto de segurança."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Eles contêm os recursos que fizeram você querer um smartphone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Novo e apoiado por uma comunidade global trabalhando para ajudar a manter a Web acessível a todos.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Um modelo de segurança robusto que é testado há mais de uma década de suporte da Open Web. Desenvolvido para proteger o usuário e o sistema de conteúdo e aplicativos maliciosos, ele também protege os aplicativos uns dos outros.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },                                             
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Esteja pronto para vender!",
+                                                    "body": "Se você percorreu todas as perguntas e todo o conteúdo, então você tem os conhecimentos necessários para combinar o Firefox OS com as necessidades dos seus clientes.<br><br>Fácil de usar, um smartphone Firefox OS é perfeito para usuários novatos de smartphone e repleto de recursos que os clientes querem e precisam.<br><br>E é desenvolvido pela Mozilla, fazendo com que o Firefox OS seja a escolha certa para qualquer pessoa comprometida em assegurar que a Web continue em suas mãos!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> MISSÃO DO FIREFOX</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

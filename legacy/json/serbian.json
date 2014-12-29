@@ -1,0 +1,2210 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Submit</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Submit</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Savladajte Firefox OS",
+                    "description": "",
+                    "body": "Dobrodošli u Firefox OS globalni centar za obuku partnera i zajednice. Ovde se nalazi sve što treba da naučite da biste preneli osnove Firefox OS-a. Za početak odaberite bilo koju temu.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "Uvod",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Telefon koji svaki trenutak čini važnim",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "Potrebe VVaših klijenata se stalno menjaju. Pametni Firefox OS telefoni se prilagođavaju potrebama VVaših kupaca da bi oni u potpunosti proživeli svaki trenutak.<br/><br/>Laki za upotrebu, oni su savršeni za nove korisnike pametnih telefona i imaju sve funkcije koje kupci očekuju."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Da li ste spremni da istražite glavne prednosti koje nudi Firefox OS?",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/serbian/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "Prilagodljiv telefon"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "Prilagodljiv telefon",
+                                                            "body": "Firefox OS se prilagođava potrebama kupaca bolje od bilo kog drugog telefona.<br><br>Prilagodljiva pretraga aplikacija pruža informacije o svakoj temi i obezbeđuje VVašim kupcima više podataka koje traže, baš u trenutku kada su im oni potrebni. To im omogućuje da maksimalno iskoriste svaki trenutak.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "Prilagodljiv telefon"
+                                                            },
+                                                            "strapline": "Prilagodljiv telefon",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "Iskoristite sve mogućnosti",
+                                                            "body": "Firefox OS sadrži sve funkcije zbog kojih su VVaši kupci i hteli da nabave pametan telefon: aplikacije, mape, kameru, galeriju, društvene funkcije, muziku i još mnogo toga.<br><br>Firefox OS omogućuje klijentima da preuzmu kontrolu nad svojim životom na mreži i maksimalno iskoriste internet gde god da odu.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "Iskoristite sve mogućnosti"
+                                                            },
+                                                            "strapline": "Iskoristite sve mogućnosti",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "Neka IInternet ostane u Vašim rukama",
+                                                            "body": "Mozilla ima za cilj da unese promene, a ne da ostvari profit.<br><br>Iza Firefox OS pametnih telefona stoji globalna zajednica sastavljena od hiljada programera koji rade na inovacijama za VVaše kupce, na lokalnom nivou, imajući u vidu njihove interese i potrebe. Kada klijenti odaberu Firefox OS oni time pomažu da se izgradi svetlija budućnost IInterneta za sve.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "Neka IInternet ostane u Vašim rukama"
+                                                            },
+                                                            "strapline": "Neka IInternet ostane u Vašim rukama",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>DEMO SAVETI <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "Demo saveti",
+                            "description": "Saznajte koje su komponente pitanja.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Demonstracije koje su važne",
+                                                    "body": "Demonstracija funkcija  Firefox OS-a i jednostavnosti njegovog korišćenja biće VVaš najbolji argument pri prodaji."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Uvod u Firefox OS",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "Kada imate samo jedan minut, iskoristite ga pomoću ove jednostavne prezentacije.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Prilagodljiva pretraga aplikacija",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b10-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b10-c10.ogv"
+                                                    },
+                                                    "body": "Pokažite klijentima kako im se Firefox OS prilagođava pružajući im više podataka koji su im potrebni, u pravom trenutku.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Ostanite povezani",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "Sada je lakše nego ikad ostati povezan koristeći Firefox OS.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "HERE maps",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "Pokažite moćne funkcije mapa u Firefox OS-u, uključujući informacije o lokalnom saobraćaju.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Firefox veb pregledač",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b30-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b30-c05.ogv"
+                                                    },
+                                                    "body": "Firefox OS omogućuje klijentima da preuzmu kontrolu nad svojim životom na mreži i maksimalno iskoriste IInternet, gde god da odu.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Marketplace",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b30-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b30-c10.ogv"
+                                                    },
+                                                    "body": "Firefox Marketplace ima zabavne igrice i aplikacije koje VVaši kupci žele.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Kamera i galerija",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b40-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b40-c05.ogv"
+                                                    },
+                                                    "body": "Fotografišite, uređujte i delite. Pohvalite se našom potpuno funkcionalnom kamerom i galerijom, sa ugrađenim filterima za stil, video snimcima itd.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Muzika i FM radio",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b40-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/serbian/m05-t05-p10-a05-b40-c10.ogv"
+                                                    },
+                                                    "body": "Sa muzikom na dohvat ruke VVaši kupci će videti kako Firefox OS može da ih zabavi i navede da plešu na ulici.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                         {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span>Uvod</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>Vodič za kupce<span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "VODIČ ZA KUPCE",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Ko je VVaš idealan Firefox kupac?",
+                                                    "body": "Razumevanje potreba VVaših kupaca i poznavanje načina na koji treba da odgovorite na licu mesta ključno je za svaku priliku za prodaju.<br>Pogledajte segmente o uobičajenim kupcima ispod i prevucite traku da biste saznali kako da na najbolji način odgovorite na svaku od njihovih jedinstvenih potreba."
+                                                }
+                                            ]
+                                        },
+                                        
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/customer-1.png",
+                                                        "alt": "Novi korisnik pametnih telefona",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Šta biste rekli?",
+                                                        "body": "Evo šta možete da kažete. Veoma je lak za korišćenje i prilagođava se VVašim potrebama bolje od bilo kog drugog telefona, pa tako dobijate više uz manje vremena utrošenog na pretragu. Pored toga, sadrži sve funkcije koje očekujete, od kamere do e-pošte, aplikacija, muzike, mapa itd."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/customer-2.png",
+                                                        "alt": "Kupac koji traži vrednost",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Šta biste rekli?",
+                                                        "body": "Firefox OS Vam daje najveću vrednost za VVaš novac. Ima sve što očekujete od pametnog telefona - kameru, el. poštu, aplikacije, muziku, mape itd. - i najkonkurentnije cene."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/customer-3.png",
+                                                        "alt": "Nesiguran u želji za promenom",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Šta biste rekli?",
+                                                        "body": "Firefox OS je najjednostavniji telefon za početnike. Prilagodljiva pretraga aplikacija pomaže Vam da pronađete ono što Vam je potrebno, jednostavno - i odmah. Korisnički interfejs je vrlo intuitivan tako da ćete moći brzo da otkrijete i preuzmete svoje omiljene aplikacije, i spremni ste."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/customer-4.png",
+                                                        "alt": "Ljubitelj Firefox-a",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Šta biste rekli?",
+                                                        "body": "Ako poznajete i volite Firefox volećete i Firefox OS. Pametni telefoni Firefox OS su u potpunosti zasnovani na HTML5, prenoseći najbolje sa Interneta u svojVaš telefon. Osim toga, Firefox OS je osmislila zajednica čiji je cilj da IInternet ostane dostupan svima. Kada odaberete Firefox OS, imaćete svu moć Interneta u svojim rukama."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/serbian/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> Demo saveti</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>Glavne karakteristike <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "Glavne karakteristike",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Značajne funkcije",
+                                                    "body": "Firefox OS sadrži funkcije koje VVaši kupci očekuju od pametnog telefona. On se savršeno uklapa u njihove živote pa mogu da drže korak se svojim okruženjem."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "Iskoristite sve mogućnosti",
+                                                    "body": "Izaberite strelicu nadesno da biste otkrili glavne funkcije Firefox OS-a.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Prilagodljiva pretraga aplikacija",
+                                                            "body": "Novi način da dobijete sve što Vam je potrebno, u pravom trenutku, bez glavobolje zbog preuzimanja aplikacija Pretražujte bilo šta i Firefox OS će se prilagoditi VVašem zahtevu prikazujući fotografije, video snimke, muziku, vesti, mape itd. - što će vam olakšati pronalaženje stvari koje tražite.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Prilagodljiva pretraga aplikacija..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "Vaš pouzdan izvor najboljih aplikacija za Firefox OS. Pretražujte na desetine hiljada besplatnih i aplikacija koje se plaćaju, u više kategorija, od igrica do servisa, muzike, putovanja, sportova itd.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "Firefox pregledač",
+                                                            "body": "Brz, pametan i bezbedan način da dobijete najbolje od IInterneta. Koristite URL traku kako bi uneli adrese veb sajtova, napravili pretrage i pristupili Vašem istorijatu pregledanja. Pored toga, jezičci omogućuju da radite više stvari odjednom istovremenim pregledanjem više stranica.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Firefox veb pregledač..."
+                                                        },
+                                                        {
+                                                            "title": "Facebook i Twitter",
+                                                            "body": "Ostanite povezani kroz jednostavan pristup svojom prijateljima i kolegama ma gde se nalazili.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Facebook i Twitter..."
+                                                        },
+                                                        {
+                                                            "title": "Kontakti",
+                                                            "body": "Duboko integrisan sa Vašim omiljenim društvenim mrežama. Lako možete da uvezete Facebook kontakte u svoj telefon da bi cela VVaša zajednica bila na jednom mestu.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Kontakti..."
+                                                        },
+                                                        {
+                                                            "title": "Kamera i galerija",
+                                                            "body": "Sa ugrađenim filterima stila radi zabave, kreativnim snimcima i mnogo načina za deljenje slika, potpuno funkcionalna kamera i galerija fotografija nasmejaće sve VVaše prijatelje.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Kamera i galerija..."
+                                                        },
+                                                        {
+                                                            "title": "FM radio",
+                                                            "body": "Sav zvuk koji želite dok ste u pokretu i sve to u jednom uređaju. Samo priključite slušalice i počnite da slušate.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "FM radio..."
+                                                        },
+                                                        {
+                                                            "title": "Mape",
+                                                            "body": "Preuzmite satelitske preglede javnog prevoza i saobraćaja uživo, tražite ono što Vas zanima, pa čak i sačuvajte svoju mapu na uređaju za brži daljinski pristup. Mape mogu da pokažu VVašu lokaciju pa čak i da Vam daju uputstva (dok ste u kolima, ako pešačite ili se vozite javnim prevozom) do željenog odredišta.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-8.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Mape..."
+                                                        },
+                                                        {
+                                                            "title": "Muzika i video",
+                                                            "body": "Puštajte sve sa telefona ili preko IInterneta koristeći YouTube. Pretražujte i puštajte svoju muzičku kolekciju po albumima ili izvođačima, ocenjujte pesme i kreirajte liste omiljenih.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Puštajte sve sa telefona ili preko interneta koristeći Youtube."
+                                                        },
+                                                        {
+                                                            "title": "SMS poruke i El. pošta",
+                                                            "body": "Ostanite povezani sa prijateljima i kolegama ma gde da ste. Lako je otvoriti više naloga el. pošte uz podršku najčešćih Exchange, SMTP ili IMAP provajdera.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "SMS poruke i el. el. pošta..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> Vodič za kupce</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>Česta pitanja <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "Česta pitanja",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Imate pitanja? Mi imamo odgovore!",
+                                                    "body": "Do sada verovatno već imate pitanja, a imaće ih i Vaši kupci! Izaberite svako pitanje za više informacija o Firefox OS-u."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Šta je prilagodljiva pretraga aplikacija?",
+                                                            "title": "Šta je prilagodljiva pretraga aplikacija?",
+                                                            "body": "Prilagodljiva pretraga aplikacija je novi način za pronalaženje sadržaja na IInternetu i uključivanje u iskustvo slično aplikacijama, bez glavobolje zbog njihovog preuzimanja da biste našli ono što Vam je potrebno. Kad god pretražujete, VVaš telefon se prilagođava rezultatu pretrage i olakšava dodavanje tih rezultata na Vaš početniVaš radi lakšeg kasnijeg pristupa."
+                                                        },
+                                                        {
+                                                            "alt": "Koliko i koji tipovi aplikacija će biti dostupni?",
+                                                            "title": "Koliko i koji tipovi aplikacija će biti dostupni?",
+                                                            "body": "Programeri aplikacija širom sveta rade na Firefox OS-u i na desetine hiljada besplatnih i plaćenih aplikacija biće dostupno na promociji. Ova rastuća lista obuhvata vodeće programere aplikacija kao što su Accuweather, Airbnb, Box, Cut the Rope, EA Games, Facebook, Nokia HERE, MTV Brasil, Pulse News, SoundCloud, SporTV, Time Out i Twitter."
+                                                        },
+                                                        {
+                                                            "alt": "Šta čini Firefox OS sigurnijim od drugih telefona?",
+                                                            "title": "Šta čini Firefox OS sigurnijim od drugih telefona?",
+                                                            "body": "Firefox OS ima robustan bezbednosni model koji je osnažen tokom više od jedne decenije pružanja podrške Open Web-u. Projektovan je da zaštiti korisnika i sistem od zlonamernih aplikacija i sadržaja."
+                                                        },
+                                                        {
+                                                            "alt": "Projektovan je da zaštiti korisnika i sistem od zlonamernih aplikacija i sadržaja.",
+                                                            "title": "Projektovan je da zaštiti korisnika i sistem od zlonamernih aplikacija i sadržaja.",
+                                                            "body": "Ne direktno. Međutim, mnoge najpopularnije Android i iOS aplikacije su zapravo veb aplikacije koje imaju izvorni “omotač” da bi mogle da funkcionišu na zaštićenim platformama. Stoga će mnoge ove aplikacije biti dostupne i preko Prilagodljive pretrage aplikacija."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Da li moje aplikacije rade van mreže?",
+                                                            "title": "Da li moje aplikacije rade van mreže?",
+                                                            "body": "Firefox OS je izgrađen na Internet tehnologijama ali ima i mogućnosti van mreže za sve osnovne funkcije telefona. To znači da aplikacije ne zahtevaju aktivnu vezus sa Internetom da bi radile, osim u slučaju da moraju da šalju ili primaju podatke sa drugog sistema preko IInterneta da bi nastavile sa radom."
+                                                        },
+                                                        {
+                                                            "alt": "Šta je sa korisničkom podrškom za aplikacije?",
+                                                            "title": "Šta je sa korisničkom podrškom za aplikacije?",
+                                                            "body": "Korisnici kojima je potrebna podrška sa aplikacijom razvijenom za Firefox OS biće upućeni na programera aplikacije. Ako na iskustvo korisnika sa sistemom Firefox OS negativno utiče problem u podršci koji proistekne iz aplikacije, Mozilla može da preporuči rešenja, uključujući uklanjanje aplikacije sa uređaja korisnika dok programer ne pruži odgovarajuću pomoć."
+                                                        },
+                                                        {
+                                                            "alt": "Kako preuzimam i instaliram aplikacije na Firefox OS?",
+                                                            "title": "Kako preuzimam i instaliram aplikacije na Firefox OS?",
+                                                            "body": "Firefox OS daje dve mogućnosti za preuzimanje aplikacija:<ul><li>Firefox Marketplace - Naš pouzdani izvor sjajnih aplikacija kao što je Twitter i odličnog lokalnog sadržaja od najboljih vebInternet programera u regionu.</li><li>Prilagodljiva pretraga aplikacija — Otkucajte samo jednu reč kao što je “suši” da biste otkrili povezane mobilne aplikacije u svomVaš regionu, koje obezbeđuje vrhunsko mobilno iskustvo i koje su podešene da vam daju ono što želite.</li><ul>"
+                                                        },
+                                                        {
+                                                            "alt": "Koji provajderi e-pošte su podržani?",
+                                                            "title": "Koji provajderi e-pošte su podržani?",
+                                                            "body": "Hotmail and Yahoo mail are currently supported with more on the way in future releases."
+                                                        },
+                                                        {
+                                                            "alt": "Where should I go if I have more questions?",
+                                                            "title": "Where should I go if I have more questions?",
+                                                            "body": "Posetite <a href='https://support.mozilla.org/sr-Cyrl/kb/uputstvo-za-upotrebu-firefox-os'>https://support.mozilla.org/sr-Cyrl/kb/uputstvo-za-upotrebu-firefox-os</a> za više informacija."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> Glavne karakteristike</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>Firefox misija <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "Firefox misija",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "Naša misija je da promovišemo otvorenost, inovacije i mogućnosti na Internetu.",
+                                                    "body": "Iza svakog Firefox OS pametnog telefona stoji Mozilla: Globalna zajednica koju čini na hiljade ljudi čiji je cilj da IInternet ostane dostupan svima. To je zato što verujemo da svako od nas ima pravo na Internet koji ne kontroliše samo nekolicina velikih firmi.<br><br>Da, mi smo malo drugačiji od ostalih. Zajedno, možemo da izgradimo svetliju budućnost Interneta."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> Česta pitanja</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>Odgovorite na izazov <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "Odgovorite na izazov",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Da li ste spremni da pokažete šta znate?",
+                                                    "body": "Mislite da ste skoro spremni da počnete sa prodajom Firefox OS-a svojim kupcima? Primenite svoje znanje u praksi i odgovorite na ova pitanja da biste dokazali da imate ono što je potrebno."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 1",
+                                                    "body": "Kako pristupate funkciji Prilagodljive pretrage aplikacija na Firefox OS uređaju?",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Prikaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je!  Prosto prevučete prstom ulevo da biste pristupili funkciji Prilagodljive pretrage aplikacija.",
+                                                        "incorrect": "To nije tačan odgovor.  Prosto prevučete prstom ulevo da biste pristupili funkciji Prilagodljive pretrage aplikacija.",
+                                                        "partly": "To nije tačan odgovor.  Prosto prevučete prstom ulevo da biste pristupili funkciji Prilagodljive pretrage aplikacija."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Prevucite prstom ulevo",
+                                                            "title": "Prevucite prstom ulevo",
+                                                            "text": "Prevucite prstom ulevo",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Dodirnite taster za početni ekran.",
+                                                            "title": "Dodirnite taster za početni ekran.",
+                                                            "text": "Dodirnite taster za početni ekran.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Otvorite Firefox Marketplace.",
+                                                            "title": "Otvorite Firefox Marketplace.",
+                                                            "text": "Otvorite Firefox Marketplace.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Otvorite Firefox pregledač.",
+                                                            "title": "Otvorite Firefox pregledač.",
+                                                            "text": "Otvorite Firefox pregledač.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 8,
+                                                    "title": "Pitanje br. 2",
+                                                    "body": "Koja od sledećih aplikacija je već instalirana u svaki Firefox OS telefon? Odaberite sve na koje se ovo odnosi.",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Sve ove aplikacije su već instalirane u svaki Firefox OS telefon.",
+                                                        "incorrect": "Zapravo, sve ove aplikacije su već instalirane u svaki Firefox OS telefon.",
+                                                        "partly": "Zapravo, sve ove aplikacije su već instalirane u svaki Firefox OS telefon."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace",
+                                                            "title": "Firefox Marketplace",
+                                                            "text": "Firefox Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox pregledač",
+                                                            "title": "Firefox pregledač",
+                                                            "text": "Firefox pregledač",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Kamera i galerija",
+                                                            "title": "Kamera i galerija",
+                                                            "text": "Kamera i galerija",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Facebook",
+                                                            "title": "Facebook",
+                                                            "text": "Facebook",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "El. pošta i SMS poruke",
+                                                            "title": "El. pošta i SMS poruke",
+                                                            "text": "El. pošta i SMS poruke",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "FM radio",
+                                                            "title": "FM radio",
+                                                            "text": "FM radio",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Muzički plejer",
+                                                            "title": "Muzički plejer",
+                                                            "text": "Muzički plejer",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "HERE mape",
+                                                            "title": "HERE mape",
+                                                            "text": "HERE mape",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                                     
+					                    {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 3",
+                                                    "body": "Šta se dešava kada otkucate reč ili temu koja vas zanima preko Prilagodljive pretrage aplikacija? Odaberite sve na koje se ovo odnosi.",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Sve ove izjave o Prilagodljivoj pretrazi aplikacija su tačne!",
+                                                        "incorrect": "Zapravo, sve ove izjave o Prilagodljivoj pretrazi aplikacija su tačne!",
+                                                        "partly": "Zapravo, sve ove izjave o Prilagodljivoj pretrazi aplikacija su tačne!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Rezultati sa Interneta prikazuju se na Vašem telefonu kao aplikacije.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Vaša slika pozadine se odmah menja da bi se prikazale popularne fotografije sa Interneta.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Rezultati obuhvataju aktuelne mape, slike, muziku, vesti, video snimke, Twitter fidove itd.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Odmah se pretražuje na desetine hiljada Internet aplikacija širom sveta.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },  
+						                        {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 4",
+                                                    "body": "Koji od ovih odgovora kupaca ukazuje na idealnog kandidata za Firefox OS? Odaberite sve na koje se ovo odnosi.",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Svi ovi kupci su idealni kandidati za Firefox OS!",
+                                                        "incorrect": "Zapravo, Svi ovi kupci su idealni kandidati za Firefox OS!",
+                                                        "partly": "Zapravo, Svi ovi kupci su idealni kandidati za Firefox OS!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Nikada ranije nisam koristio/la pametan telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Tražim najveću vrednost za svoj novac.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Želim pametan telefon koji je zaista lak za korišćenje.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ljubitelj sam Firefox veb pregledača.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+					                    {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 5",
+                                                    "body": "Koju Firefox OS funkciju predstavlja ova ikonica?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Ova ikonica predstavlja kontakte.",
+                                                        "incorrect": "Zapravo, ova ikonica predstavlja kontakte.",
+                                                        "partly": "Zapravo, ova ikonica predstavlja kontakte."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Kontakti",
+                                                            "title": "Kontakti",
+                                                            "text": "Kontakti",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox pregledač",
+                                                            "title": "Firefox pregledač",
+                                                            "text": "Firefox pregledač",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Prilagodljiva pretraga aplikacija",
+                                                            "title": "Prilagodljiva pretraga aplikacija",
+                                                            "text": "Prilagodljiva pretraga aplikacija",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 6",
+                                                    "body": "Koju Firefox OS funkciju predstavlja ova ikonica?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Ova ikonica predstavlja Prilagodljivu pretragu aplikacija.",
+                                                        "incorrect": "Zapravo, ova ikonica predstavlja Prilagodljivu pretragu aplikacija.",
+                                                        "partly": "Zapravo, ova ikonica predstavlja Prilagodljivu pretragu aplikacija."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS",
+                                                            "title": "SMS",
+                                                            "text": "SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kontakti",
+                                                            "title": "Kontakti",
+                                                            "text": "Kontakti",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox pregledač",
+                                                            "title": "Firefox pregledač",
+                                                            "text": "Firefox pregledač",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Prilagodljiva pretraga aplikacija",
+                                                            "title": "Prilagodljiva pretraga aplikacija",
+                                                            "text": "Prilagodljiva pretraga aplikacija",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 7",
+                                                    "body": "Koju Firefox OS funkciju predstavlja ova ikonica?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Ova ikona predstavlja Prilagodljivu pretragu aplikacija.",
+                                                        "incorrect": "Zapravo, ova ikona predstavlja Prilagodljivu pretragu aplikacija.",
+                                                        "partly": "Zapravo, ova ikona predstavlja Prilagodljivu pretragu aplikacija."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kontakti",
+                                                            "title": "Kontakti",
+                                                            "text": "Kontakti",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox pregledač",
+                                                            "title": "Firefox pregledač",
+                                                            "text": "Firefox pregledač",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Prilagodljiva pretraga aplikacija",
+                                                            "title": "Prilagodljiva pretraga aplikacija",
+                                                            "text": "Prilagodljiva pretraga aplikacija",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 8",
+                                                    "body": "Vaš kupac želi da razume koja je najveća prednost Firefox OS-a u odnosu na njegove rivale. Odaberite sve izjave koje su tačne.",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Sve ove izjave o sistemu Firefox OS su tačne.",
+                                                        "incorrect": "Zapravo, sve ovo je tačno osim izjave o “najvećem izboru uređaja”. Ovo će možda biti tačno u budućnosti, ali je sada netačno.",
+                                                        "partly": "Zapravo, sve ovo je tačno osim izjave o “najvećem izboru uređaja”. Ovo će možda biti tačno u budućnosti, ali je sada netačno."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Sa Prilagodljivom pretragom aplikacija, Firefox OS se prilagođava Vašim potrebama bolje od bilo kog drugog telefona.",
+                                                            "title": "Sa Prilagodljivom pretragom aplikacija, Firefox OS se prilagođava Vašim potrebama bolje od bilo kog drugog telefona.",
+                                                            "text": "Sa Prilagodljivom pretragom aplikacija, Firefox OS se prilagođava Vašim potrebama bolje od bilo kog drugog telefona.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Sa Firefox Marketplace-om i desetinama već instaliranih aplikacija, kao što su el. pošta, mape, Facebook, kamera, muzika i slično, Firefox OS sadrži funkcije koje očekujete od pametnog telefona.",
+                                                            "title": "Sa Firefox Marketplace-om i desetinama već instaliranih aplikacija, kao što su el. pošta, mape, Facebook, kamera, muzika i slično, Firefox OS sadrži funkcije koje očekujete od pametnog telefona.",
+                                                            "text": "Sa Firefox Marketplace-om i desetinama već instaliranih aplikacija, kao što su el. pošta, mape, Facebook, kamera, muzika i slično, Firefox OS sadrži funkcije koje očekujete od pametnog telefona.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "S obzirom da ga je razvio Firefox, možete da budete sigurni da iza  Firefox OS-a stoji globalna zajednica koja radi za vas imajući u vidu Vaše interese.",
+                                                            "title": "S obzirom da ga je razvio Firefox, možete da budete sigurni da iza  Firefox OS-a stoji globalna zajednica koja radi za vas imajući u vidu Vaše interese.",
+                                                            "text": "S obzirom da ga je razvio Firefox, možete da budete sigurni da iza  Firefox OS-a stoji globalna zajednica koja radi za vas imajući u vidu Vaše interese.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS vam pruža najveći izbor uređaja na današnjem tržištu.",
+                                                            "title": "Firefox OS vam pruža najveći izbor uređaja na današnjem tržištu.",
+                                                            "text": "Firefox OS vam pruža najveći izbor uređaja na današnjem tržištu.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 9",
+                                                    "body": "Kupac vam kaže da pametni telefoni deluju komplikovano.  Koju prodajnu funkciju bi trebalo da istaknete?",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Za kupca koji traži pametan telefon lak za rukovanje Firefox OS je odličan izbor.",
+                                                        "incorrect": "Zapravo, za ovog kupca najbolji izbor je govoriti o tome kako je Firefox OS lak za upotrebu.",
+                                                        "partly": "Zapravo, za ovog kupca najbolji izbor je govoriti o tome kako je Firefox OS lak za upotrebu."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS Vam daje najveću vrednost za Vaš novac, sa svim dodacima koje očekujete - kamera, el. pošta, aplikacije, muzika, mape itd. - po najkonkurentnijim cenama.",
+                                                            "title": "Firefox OS Vam daje najveću vrednost za Vaš novac, sa svim dodacima koje očekujete - kamera, el. pošta, aplikacije, muzika, mape itd. - po najkonkurentnijim cenama.",
+                                                            "text": "Firefox OS Vam daje najveću vrednost za Vaš novac, sa svim dodacima koje očekujete - kamera, el. pošta, aplikacije, muzika, mape itd. - po najkonkurentnijim cenama.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox OS je najjednostavniji telefon za početnike. Vaše omiljene aplikacije su već instalirane, a možete i lako da uvezete svoje Facebook prijatelje.",
+                                                            "title": "Firefox OS je najjednostavniji telefon za početnike. Vaše omiljene aplikacije su već instalirane, a možete i lako da uvezete svoje Facebook prijatelje.",
+                                                            "text": "Firefox OS je najjednostavniji telefon za početnike. Vaše omiljene aplikacije su već instalirane, a možete i lako da uvezete svoje Facebook prijatelje.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Ako volite Firefox pregledače, volećete i Firefox OS telefone. Ako izaberete Firefox OS, imaćete moć Interneta u svojim rukama.",
+                                                            "title": "Ako volite Firefox pregledače, volećete i Firefox OS telefone. Ako izaberete Firefox OS, imaćete moć Interneta u svojim rukama.",
+                                                            "text": "Ako volite Firefox pregledače, volećete i Firefox OS telefone. Ako izaberete Firefox OS, imaćete moć Interneta u svojim rukama.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 10",
+                                                    "body": "Kupac vam kaže da je spreman da promeni svoj telefon sa starim funkcijama. Koju prodajnu funkciju bi trebalo da istaknete?",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Sa kupcem koji prvi put koristi pametan telefon treba da razgovarate o njegovoj jednostavnosti i funkcijama poput Prilagodljive pretrage aplikacija.",
+                                                        "incorrect": "Zapravo, sa kupcem koji prvi put koristi pametan telefon treba da razgovarate o njegovoj jednostavnosti i funkcijama poput Prilagodljive pretrage aplikacija.",
+                                                        "partly": "Zapravo, sa kupcem koji prvi put koristi pametan telefon treba da razgovarate o njegovoj jednostavnosti i funkcijama poput Prilagodljive pretrage aplikacija."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS je najjednostavniji telefon za početnike. Vaše omiljene aplikacije su već instalirane, a možete i lako da uvezete svoje Facebook prijatelje.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS vam daje najveću vrednost za vaš novac, sa svim dodacima koje očekujete - kamera, e-pošta, aplikacije, muzika, mape itd. - po najkonkurentnijim cenama. Pored toga, Prilagodljiva pretraga aplikacija olakšava pronalaženje aplikacija koje su vam potrebne, onda kada su vam potrebne.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ako volite Firefox pretraživače, volećete i Firefox OS telefone. Ako izaberete Firefox OS imaćete moć interneta u svojim rukama.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 11",
+                                                    "body": "Kupac Vam kaže da koristi Firefox kao svoj pregledač na stonom računaru. Koju prodajnu funkciju bi trebalo da istaknete?",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Kada naiđete na ljubitelja Firefox pregledača, pričajte o tome kako odabir Firefox OS-a izražava posvećenost ideji da Internet ostane u njihovim rukama.",
+                                                        "incorrect": "Zapravo, kada naiđete na ljubitelja Firefox pregledača, pričajte o tome kako odabir  Firefox OS-a izražava posvećenost ideji da Internet ostane u njihovim rukama.",
+                                                        "partly": "Zapravo, kada naiđete na ljubitelja Firefox pregledača, pričajte o tome kako odabir  Firefox OS-a izražava posvećenost ideji da Internet ostane u njihovim rukama."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Firefox OS vam daje najveću vrednost za vaš novac, sa svim dodacima koje očekujete - kamera, e-pošta, aplikacije, muzika, mape itd. - po najkonkurentnijim cenama.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS je najjednostavniji telefon za početnike. Vaše omiljene aplikacije su već instalirane, a možete i lako da uvezete svoje Facebook prijatelje.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ako volite Firefox pretraživače, volećete i Firefox OS telefone. Ako izaberete Firefox OS imaćete moć interneta u svojim rukama.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Pitanje br. 12",
+                                                    "body": "Kupac vam kaže: “Tražim lak način da ostanem u kontaktu sa prijateljima, ali ne želim da potrošim puno novca”. Koja bi od sledećih izjava bila dobar odgovor? Odaberite sve na koje se ovo odnosi. ",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Ovom kupcu naglasite veliku vrednost potpuno funkcionalnog kompleta Firefox OS, uključujući aplikacije koje su već instalirane u telefon, po sjajnoj ceni.",
+                                                        "incorrect": "To nije tačan odgovor. Ovom kupcu naglasite veliku vrednost potpuno funkcionalnog kompleta Firefox OS, uključujući aplikacije koje su već instalirane u telefon, po sjajnoj ceni.",
+                                                        "partly": "To nije tačan odgovor. Ovom kupcu naglasite veliku vrednost potpuno funkcionalnog kompleta Firefox OS, uključujući aplikacije koje su već instalirane u telefon, po sjajnoj ceni."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Pametan telefon Firefox OS već ima instalirane sve funkcije koje očekujete, uključujući SMS, Facebook, el. poštu, mape i još mnogo toga, po boljoj ceni.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Facebook je instaliran u svaki Firefox OS uređaj i lako možete da uvezete svoje Facebook kontakte!",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox Marketplace sadrži na hiljade aplikacija koje su besplatne ili imaju veoma niske cene",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Pitanje br. 13",
+                                                    "body": "Kupac kaže: “Koristim Firefox na svom kućnom računaru i sviđa mi se, ali nisam znao da imaju OS za pametne telefone. Zašto?” Koja bi od sledećih izjava bila najadekvatniji odgovor ovom kupcu?",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Izgleda da je kupac ljubitelj Firefox pregledača. Pričajte o tome kako su Firefox OS telefoni koje pravi Mozilla posvećeni ideji da Internet ostane u rukama ljudi. Iako su sve ove izjave istinite, samo ova predstavlja najbolji odgovor ovom kupcu.",
+                                                        "incorrect": "Sve ove izjave su istinite, ali je samo ova najbolji odgovor ovom konkretnom kupcu, za kojeg se čini da je ljubitelj Firefox pregledača. Pričajte o tome kako su Firefox OS telefoni koje pravi Mozilla deo ideje da Internet ostane dostupan svim ljudima.",
+                                                        "partly": "Sve ove izjave su istinite, ali je samo ova najbolji odgovor ovom konkretnom kupcu, za kojeg se čini da je ljubitelj Firefox pregledača. Pričajte o tome kako su Firefox OS telefoni koje pravi Mozilla deo ideje da Internet ostane dostupan svim ljudima."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Svaki Firefox telefon sadrži Firefox pregledač, brz, pametan i bezbedan način za pristup Internetu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS sadrži iste funkcije koje imaju i pametni telefoni rivala, ali vam daje veću vrednost za novac.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Mozilla, tvorac Firefox pregledača, razvila je OS za pametne telefone da bi Internet ostao dostupan svima. S obzirom da je Firefox OS u potpunosti zasnovan na HTML5, dobijate trenutni pristup hiljadama aplikacija koje su već izrađene za Internet.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 14",
+                                                    "body": "Koja je od sledećih izjava o Prilagodljivoj pretrazi aplikacija tačna? Odaberite sve na koje se ovo odnosi.",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Prilagodljiva pretraga aplikacija predviđa Vaše potrebe bolje od bilo kog drugog telefona.",
+                                                        "incorrect": "To nije tačan odgovor. Tri od ovih izjava su tačne. Iako Prilagodljiva pretraga aplikacija predviđa vašVaše potrebe bolje od bilo kog drugog telefona, ona NE radi isto kao pretraga internetInterneta na Firefox pretraživačFirefox pregledačima.",
+                                                        "partly": "Nije baš tako. Tri od ovih izjava su tačne. Iako Prilagodljiva pretraga aplikacija predviđa vašVaše potrebe bolje od bilo kog drugog telefona, ona NE radi isto kao pretraga internetInterneta na Firefox pretraživačFirefox pregledačima."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Jedinstvena funkcija je sadržana u svakom Firefox OS pametnom telefonu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Radi isto kao pretraga Interneta na Firefox pregledačima.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Rezultati obuhvataju fotografije, video snimke, muziku, vesti, mape itd.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Rezultati odmah mogu da se koriste - ne morate prvo da preuzmete aplikaciju.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 15",
+                                                    "body": "Iako su sve ove izjave tačne, koja dva odgovora bi bila najkorisnija za kupca koji prvi put koristi pametan telefon?",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Kupca koji prvi put koristi pametan telefon najviše će zanimati jednostavno korišćenje.",
+                                                        "incorrect": "Ne baš. Kupca koji prvi put koristi pametan telefon najviše će zanimati jednostavno korišćenje.",
+                                                        "partly": "Ne baš. Kupca koji prvi put koristi pametan telefon najviše će zanimati jednostavno korišćenje."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Lako možete da uvezete kontakte sa Facebook mreže u svoj Firefox OS telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS vam obezbeđuje pristup popularnim i zvučnim aplikacijama, kao i lokalnim sadržajima koji Vam najviše znače.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS nije pretrpan sa više sadržaja nego što Vam je potrebno. On vam pruža ono što očekujete od pametnog telefona, sa interfejsom lakim za korišćenje i jednostavnim za početnike.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS je u potpunosti razvijen primenom HTML5 i standarda otvorenog Interneta.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 16",
+                                                    "body": "Koju Firefox OS funkciju predstavlja ova ikonica?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je! Ova ikonicaica predstavlja SMS - ili slanje tekstualnih poruka.",
+                                                        "incorrect": "Zapravo, ova ikonicaica predstavlja SMS - ili slanje tekstualnih poruka.",
+                                                        "partly": "Zapravo, ova ikonicaica predstavlja SMS - ili slanje tekstualnih poruka."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kontakti",
+                                                            "title": "Kontakti",
+                                                            "text": "Kontakti",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox pregledač",
+                                                            "title": "Firefox pregledač",
+                                                            "text": "Firefox pregledač",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Prilagodljiva pretraga aplikacija",
+                                                            "title": "Prilagodljiva pretraga aplikacija",
+                                                            "text": "Prilagodljiva pretraga aplikacija",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 17",
+                                                    "body": "Sa Prilagodljivom pretragom aplikacija možete da koristite aplikaciju samo jednom, brzo i lako, bez instalacije. Ukoliko želite da je kasnije ponovo koristite, lako je da je dodate na svoj početni ekran.",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je!",
+                                                        "incorrect": "Zapravo, to je tačno.",
+                                                        "partly": "Zapravo, to je tačno."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Tačno",
+                                                            "title": "Tačno",
+                                                            "text": "Tačno",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Netačno",
+                                                            "title": "Netačno",
+                                                            "text": "Netačno",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 18",
+                                                    "body": "Šta je najbolji odgovor na prigovor ovog kupca? “Čuo sam da nema mnogo aplikacija.”",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je!",
+                                                        "incorrect": "Ne baš, najbolji odgovor na ovaj prigovor jeste da govorite o svim aplikacijama koje su dostupne.",
+                                                        "partly": "Ne baš, najbolji odgovor na ovaj prigovor jeste da govorite o svim aplikacijama koje su dostupne."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Nov i podržan od strane globalne zajednice koja pomaže da Internet ostane dostupan za sve.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Svaki telefon ima pristup preko 20.000 besplatnih ili plaćenih aplikacija na promociji, uključujući neke od trenutno najpopularnijih globalnih aplikacija.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Robustan bezbednosni model koji je osnažen tokom više od jedne decenije pružanja podrške Open Web-u.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Pitanje br. 19",
+                                                    "body": "Šta je najbolji odgovor na prigovor ovog kupca?<br>“Nikad nisam čuo/la za Firefox OS telefone.”",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je!",
+                                                        "incorrect": "Zapravo, najbolji odgovor na ovaj prigovor jeste da govorite o iskustvu Mozilla zajednice koja stoji iza Firefox OS telefona",
+                                                        "partly": "Zapravo, najbolji odgovor na ovaj prigovor jeste da govorite o iskustvu Mozilla zajednice koja stoji iza Firefox OS telefona"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Sadrži karakteristike zbog kojih ste i poželeli da nabavite pametan telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Pristup preko 20.000 besplatnih ili plaćenih aplikacija na promociji, uključujući neke od trenutno najpopularnijih globalnih aplikacija.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Nov i podržan od strane globalne zajednice koja pomaže da Internet ostane dostupan za sve.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Pitanje br. 20",
+                                                    "body": "Šta je najbolji odgovor na prigovor ovog kupca?<br>“Kako da znam da je ovaj novi telefon bezbedan?”",
+                                                    "button": {
+                                                        "submit": "Pošalji",
+                                                        "reset": "Poništi",
+                                                        "model": "Pokaži odgovor",
+                                                        "mine": "Moj odgovor"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Tako je!",
+                                                        "incorrect": "Zapravo, najbolji odgovor na ovaj prigovor jeste da govorite o robusnom bezbednosnom modelu.",
+                                                        "partly": "Zapravo, najbolji odgovor na ovaj prigovor jeste da govorite o robusnom bezbednosnom modelu."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Sadrži karakteristike zbog kojih ste i poželeli da nabavite pametan telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Nov i podržan od strane globalne zajednice koja pomaže da Internet ostane dostupan za sve.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Robustan bezbednosni model koji je osnažen tokom više od jedne decenije pružanja podrške Open Web-u. Osmišljen da zaštiti korisnika i sistem od zlonamernih aplikacija i sadržaja, a takođe štiti aplikacije jednu od druge.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },                                             
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Spremite se za prodaju!",
+                                                    "body": "Ako ste prošli ova pitanja i sav sadržaj, imate osnovu da povežete potrebe Firefox OS telefona sa svojim kupcima.<br><br>Lak za korišćenje, pametan telefon Firefox OS savršen je za nove korisnike pametnih telefona i sadrži sve funkcije koje kupci žele i koje su im potrebne.<br><br>A razvila ga je Mozilla, što Firefox OS čini pravim izborom za sve koji žele da obezbede da Internet ostane u Vašim rukama!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> Firefox misija</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

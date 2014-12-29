@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'feincms',
     'feincms.module.page',
     'feincms.module.medialibrary',
+    'django_extensions',
     'django_stackato',
     'storages',
 

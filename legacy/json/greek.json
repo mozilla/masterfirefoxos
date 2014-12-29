@@ -1,0 +1,2209 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the Μενού bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Υποβολή</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Υποβολή</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Κατακτήστε το<br/>Firefox OS",
+                    "description": "",
+                    "body": "Καλωσήρθατε στο σημείο εκπαίδευσης του Firefox OS για τους παγκόσμιους συνεργάτες και την κοινότητα. Όλα όσα χρειάζεται να μάθετε για να μεταδώσετε τα βασικά του Firefox OS είναι εδω. Επιλέξτε μια ενότητα για να ξεκινήσετε.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "ΕΙΣΑΓΩΓΗ",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Ένα τηλέφωνο που κάνει κάθε στιγμή να μετράει",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "Οι ανάγκες των πελατών σας αλλάζουν συνεχώς. Τα smartphones με Firefox OS προσαρμόζονται στις ανάγκες των πελατών σας, ώστε να μπορούν να ζουν κάθε στιγμή στο έπακρο.<br/><br/>Εύκολα στη χρήση, είναι τέλεια για νέους χρήστες smartphone και έχουν όλα τα χαρακτηριστικά που αναμένουν οι καταναλωτές."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Έτοιμοι να εξερευνήσετε τα βασικά προτερήματα του Firefox OS;",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/greek/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "Το τηλέφωνο που προσαρμόζεται"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "Το τηλέφωνο που προσαρμόζεται",
+                                                            "body": "Το Firefox OS προσαρμόζεται στις ανάγκες των πελατών καλύτερα από οποιοδήποτε άλλο τηλέφωνο.<br/><br/>Η δυναμική αναζήτηση εφαρμογών παρέχει πληροφορίες για οποιοδήποτε θέμα και δίνει στους πελάτες σας περισσότερα από όσα ζητούν, ακριβώς τη στιγμή που θα το χρειαστούν. Αυτό τους επιτρέπει να αποκομίζουν το μέγιστο, κάθε στιγμή.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "Το τηλέφωνο που προσαρμόζεται"
+                                                            },
+                                                            "strapline": "Το τηλέφωνο που προσαρμόζεται",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "Έχει ό,τι χρειάζεστε",
+                                                            "body": "Το Firefox OS περιέχει όλα τα χαρακτηριστικά που έκαναν τους πελάτες σας να θέλουν ένα smartphone: εφαρμογές, χάρτες, κάμερα, πολυμέσα, κοινωνικά χαρακτηριστικά, μουσική και περισσότερα.<br><br>Το Firefox OS επιτρέπει στους πελάτες να έχουν τον έλεγχο της διαδικτυακής τους ζωής και να αποκομίζουν το μέγιστο από τον ιστό οπουδήποτε και αν βρίσκονται.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "Έχει ό,τι χρειάζεστε"
+                                                            },
+                                                            "strapline": "Έχει ό,τι χρειάζεστε",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "Κρατήστε τον ιστό στα χέρια σας",
+                                                            "body": "Το ίδρυμα Mozilla υπάρχει για να κάνει τη διαφορά, όχι να αποκομίσει.<br><br>Τα Firefox OS smartphones υποστηρίζονται από μια παγκόσμια κοινότητα που εργάζεται για να καινοτομεί προς όφελος των πελατών σας και δημιουργούνται έχοντας κατά νου τις ανάγκες και τα ενδιαφέροντά τους. Όταν οι πελάτες διαλέγουν το Firefox OS, βοηθούν στη δημιουργία ενός λαμπρότερου μέλλοντος για τον ιστό - για όλους. ",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "Κρατήστε τον ιστό στα χέρια σας"
+                                                            },
+                                                            "strapline": "Κρατήστε τον ιστό στα χέρια σας",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>ΣΥΜΒΟΥΛΕΣ <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "ΣΥΜΒΟΥΛΕΣ",
+                            "description": "Μάθετε για τα στοιχεία των ερωτήσεων.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Παρουσιάσεις που αξίζουν",
+                                                    "body": "Η παρουσίαση των χαρακτηριστικών του Firefox OS και η ευκολία στη χρήση του θα είναι το καλύτερο εργαλείο πώλησης. Άρα, τι θα πρέπει να δείξετε;<br/><br/>Περιηγηθείτε στα βίντεο παρουσιάσεων παρακάτω για να ξεκινήσετε."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Γνωρίζοντας το Firefox OS",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "Όταν έχετε μόνο ένα λεπτό, κάντε το να μετρά με αυτό το απλό βήμα.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b10-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b10-c10.ogv"
+                                                    },
+                                                    "body": "Δείξτε στους πελάτες πως το Firefox OS προσαρμόζεται σε αυτούς, δίνοντας τους περισσότερα από όσα χρειάζονται, όποτε τα χρειάζονται.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Κοινωνική δικτύωση",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "Είναι πιο εύκολο από ποτέ να μείνετε δικτυωμένοι με το Firefox OS.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Χάρτες (HERE Maps)",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "Παρουσιάστε τα ισχυρά χαρακτηριστικά του χάρτη του Firefox OS, που περιλαμβάνουν και τοπικές πληροφορίες συγκοινωνίας.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Περιηγητής Firefox",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b30-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b30-c05.ogv"
+                                                    },
+                                                    "body": "Το Firefox OS βάζει τον ιστό στα χέρια των χρηστών και το πετυχαίνει καλύτερα από οποιοδήποτε άλλο τηλέφωνο.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Marketplace",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b30-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b30-c10.ogv"
+                                                    },
+                                                    "body": "Το Firefox Marketplace έχει τα απίθανα παιχνίδια και τις εφαρμογές που θέλουν οι πελάτες σας.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Κάμερα και πολυμέσα",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b40-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b40-c05.ogv"
+                                                    },
+                                                    "body": "Φωτογραφήστε, επεξεργαστείτε και μοιραστείτε το. Παρουσιάστε τις πλούσιες σε χαρακτηριστικά εφαρμογές κάμερας και πολυμέσων, οι οποίες περιλαμβάνουν ενσωματωμένα φίλτρα, βίντεο, και περισσότερα.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Μουσική και ραδιόφωνο FM",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b40-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/greek/m05-t05-p10-a05-b40-c10.ogv"
+                                                    },
+                                                    "body": "Με τη μουσική στα χέρια τους, οι πελάτες σας θα διαπιστώσουν πως το Firefox OS προσθέτει κέφι και ζωντάνια στη ροή της καθημερινότητας τους.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                         {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span> ΕΙΣΑΓΩΓΗ</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>ΟΔΗΓΟΣ ΠΕΛΑΤΗ <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "ΟΔΗΓΟΣ ΠΕΛΑΤΗ",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Ποιος είναι ο ιδανικός πελάτης Firefox;",
+                                                    "body": "Η κατανόηση των αναγκών του πελάτη σας και το να γνωρίζετε πως θα ανταποκριθείτε αμέσως είναι κρίσιμα σημεία για κάθε πώληση.<br><br>Δείτε παρακάτω στα τμήματα τυπικών πελατών, και σύρετε το πλαίσιο για να μάθετε πως θα αποκριθείτε βέλτιστα σε κάθε μοναδική ανάγκη τους."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/customer-1.png",
+                                                        "alt": "Ο νέος στα smartphone",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Να τι μπορείτε να πείτε",
+                                                        "body": "Το Firefox OS είναι η καλύτερη επιλογή για νέους χρήστες smartphone. Είναι πανεύκολο στη χρήση, και καλύπτει τις ανάγκες σας καλύτερα από κάθε άλλο τηλέφωνο, ώστε να παίρνετε περισσότερα από όσα ζητάτε και με λιγότερο χρόνο αναζήτησης. Ακόμη, περιέχει όλα τα χαρακτηριστικά που θα περιμένατε. Από κάμερα, μέχρι emaiｌ, εφαρμογές, μουσική, χάρτες και περισσότερα."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/customer-2.png",
+                                                        "alt": "Ο κυνηγός ευκαιριών",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Να τι μπορείτε να πείτε:",
+                                                        "body": "Το Firefox OS σας δίνει την καλύτερη αναλογία επιδόσεων για την τιμή του. Διαθέτει ό,τι αναμένετε από ένα smartphone -- κάμερα, email, εφαρμογές, μουσική, χάρτες και περισσότερα -- στις πιο ανταγωνιστικές τιμές."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/customer-3.png",
+                                                        "alt": "Ο αβέβαιος για τη μετάβαση",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Να τι μπορείτε να πείτε:",
+                                                        "body": "Το Firefox OS είναι το ευκολότερο smartphone για να ξεκινήσετε. Η Δυναμική αναζήτηση εφαρμογών σας βοηθά να βρείτε ό,τι χρειάζεστε εύκολα – και στη στιγμή Το περιβάλλον χρήσης είναι τόσο απλό, που θα είστε γρήγορα σε θέση να ανακαλύψετε και να κατεβάσετε τις αγαπημένες σας εφαρμογές ώστε να ξεκινήσετε."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/customer-4.png",
+                                                        "alt": "Ο υποστηρικτής του Firefox",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Να τι μπορείτε να πείτε:",
+                                                        "body": "Αν γνωρίζετε και αγαπάτε τον Firefox, θα λατρέψετε το Firefox OS. Τα Firefox OS smartphones βασίζονται εξολοκλήρου σε HTML5, φέρνοντας ό,τι καλύτερο από τον ιστό στο τηλέφωνο σας. Ακόμη, το Firefox OS είναι σχεδιασμένο από μια κοινότητα αφοσιωμένη στη διατήρηση του Web προσβάσιμου από όλους. Όταν διαλέγετε το Firefox OS, έχετε όλη τη δύναμη του Web στα χέρια σας."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/greek/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> ΣΥΜΒΟΥΛΕΣ</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>ΒΑΣΙΚΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "ΒΑΣΙΚΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Χαρακτηριστικά που αξίζουν",
+                                                    "body": "Το Firefox OS περιέχει όλα τα χαρακτηριστικά που οι πελάτες σας περιμένουν από ένα smartphone. Ταιριάζει τέλεια στη ζωή τους ώστε να είναι σε αρμονία με τον κόσμο γύρω τους."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "Αποκτήστε τα όλα",
+                                                    "body": "Επιλέξτε το βέλος προς τα εμπρός για να ανακαλύψετε τα βασικά χαρακτηριστικά του Firefox OS.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Αποκτήστε τα όλα",
+                                                            "body": "Ένας νέος τρόπος να πάρετε ό,τι χρειάζεστε όταν το χρειάζεστε, χωρίς περιττές δυσκολίες σχετικές με λήψη εφαρμογών. Ψάξτε για οτιδήποτε, και το Firefox OS προσαρμόζεται στην αναζήτηση σας, εμφανίζοντας φωτογραφίες, βίντεο, μουσική, νέα, χάρτες και περισσότερα – κάνοντας πολύ πιο εύκολη για εσάς την εύρεση αυτού που ζητήσατε.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Αποκτήστε τα όλα..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "Η πηγή για τις καλύτερες εφαρμογές του Firefox OS. Περιηγηθείτε μεταξύ δεκάδων χιλιάδων δωρεάν και επί πληρωμή εφαρμογών σε ποικίλες κατηγορίες, από παιχνίδια μέχρι εργαλεία, μουσική, ταξίδια, αθλήματα, και περισσότερα",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "Περιηγητής Firefox",
+                                                            "body": "Ο γρήγορος, έξυπνος, ασφαλής τρόπος να λάβετε τα καλύτερα από τον ιστό. Χρησιμοποιήστε την εργαλειοθήκη διευθύνσεων για να εισάγετε διευθύνσεις URL, να αναζητήσετε, και να αποκτήσετε πρόσβαση στο ιστορικό περιήγησής σας. Επιπλέον, οι καρτέλες σας επιτρέπουν να εργάζεστε παράλληλα ανοίγοντας πολλαπλές σελίδες ταυτόχρονα.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Περιηγητής Firefox..."
+                                                        },
+                                                        {
+                                                            "title": "Facebook και Twitter",
+                                                            "body": "Μείνετε δικτυωμένοι, με έυκολη πρόσβαση σε φίλους και συναδέλφους όπου και αν βρίσκεστε.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Facebook και Twitter..."
+                                                        },
+                                                        {
+                                                            "title": "Επαφές",
+                                                            "body": "Σε αρμονία με τα αγαπημένα σας κοινωνικά δίκτυα. Μπορείτε εύκολα να εισάγετε στο τηλέφωνο σας τις επαφές σας από το Facebook και να κρατήσετε όλη την παρέα σας σε ένα μέρος.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Επαφές..."
+                                                        },
+                                                        {
+                                                            "title": "Κάμερα και πολυμέσα",
+                                                            "body": "Με ενσωματωμένα φίλτρα στυλ για διασκέδαση, δημιουργικές λήψεις, και πολλούς τρόπους να μοιράζεστε τις φωτογραφίες σας, η πλήρης χαρακτηριστικών κάμερα και η έκθεση φωτογραφιών θα γεμίσουν με χαμόγελα.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Κάμερα και πολυμέσα..."
+                                                        },
+                                                        {
+                                                            "title": "Ραδιόφωνο FM",
+                                                            "body": "Όλη η μουσική που θέλετε εν κινήσει, σε μια συσκευή. Απλά συνδέστε τα ακουστικά σας, και ξεκινήστε να ακούτε.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Ραδιόφωνο FM..."
+                                                        },
+                                                        {
+                                                            "title": "Χάρτες",
+                                                            "body": "Λάβετε δορυφορικές εικόνες, πληροφορίες δημόσιας συγκοινωνίας και τρέχουσας κυκλοφορίας, αναζητήστε σημεία ενδιαφέροντος, κι ακόμη αποθηκεύστε το χάρτη σας τοπικά για πιο γρήγορη απομακρυσμένη πρόσβαση. Οι χάρτες Here Maps μπορούν να εντοπίσουν τη θέση σας, μέχρι και να σας δώσουν οδηγίες (με αυτοκίνητο, με τα πόδια ή με δημόσια συγκοινωνία) για να φθάσετε στον προορισμό σας.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-8.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Χάρτες..."
+                                                        },
+                                                        {
+                                                            "title": "Μουσική και βίντεο",
+                                                            "body": "Αναπαράγετε τα πάντα από το τηλέφωνό σας, ή διαδικτυακά μέσω Youtube. Περιηγηθείτε και αναπαράγετε τη μουσική σας συλλογή βάσει άλμπουμ ή καλλιτέχνη, βαθμολογήστε κομμάτια και δημιουργήστε λίστες αναπαραγωγής για τα αγαπημένα σας.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Μουσική και βίντεο..."
+                                                        },
+                                                        {
+                                                            "title": "SMS και email",
+                                                            "body": "Μείνετε συνδεδεμένοι με τους φίλους και τους συναδέλφους σας οπουδήποτε και αν βρίσκεστε. Είναι εύκολο να ρυθμίσετε πολλαπλούς λογαριασμούς email, με την υποστήριξη των πιο διαδεδομένων Exchange, SMTP ή IMAP παρόχων email.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/greek/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "SMS και email..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> ΟΔΗΓΟΣ ΠΕΛΑΤΗ</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Έχετε ερωτήσεις; Έχουμε απαντήσεις!",
+                                                    "body": "Αυτή τη στιγμή, πιθανότατα έχετε ερωτήσεις όπως θα έχουν και οι πελάτες σας! Επιλέξτε οποιαδήποτε ερώτηση για περισσότερα σχετικά με το Firefox OS."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Τι είναι η προσαρμοσμένη αναζήτηση εφαρμογών;",
+                                                            "title": "Τι είναι η προσαρμοσμένη αναζήτηση εφαρμογών;",
+                                                            "body": "Η προσαρμοσμένη αναζήτηση εφαρμογών είναι ένας νέος τρόπος να βρίσκετε από τον ιστό και να συμμετέχετε σε μια εμπειρία εφαρμογών χωρίς τον πονοκέφαλο της λήψης της εφαρμογής για να βρείτε αυτό που ζητάτε. Όποτε κάνετε αναζήτηση, το τηλέφωνό σας προσαρμόζεται στα αποτελέσματα και έτσι κάνει πιο εύκολη την προσθήκη αυτών των αποτελεσμάτων στην αρχική οθόνη για πιο εύκολη πρόσβαση αργότερα."
+                                                        },
+                                                        {
+                                                            "alt": "Πόσες και τι τύπου εφαρμογές θα είναι διαθέσιμες;",
+                                                            "title": "Πόσες και τι τύπου εφαρμογές θα είναι διαθέσιμες;",
+                                                            "body": "Προγραμματιστές εφαρμογών από όλο τον κόσμο έχουν αφοσιωθεί στο Firefox OS και δεκάδες χιλιάδες από δωρεάν και επί πληρωμή εφαρμογές θα είναι διαθέσιμες στο λανσάρισμα. Η αυξανόμενη λίστα περιλαμβάνει κορυφαίους προγραμματιστές εφαρμογών όπως Accuweather, Airbnb, Box, Cut the Rope, EA Games, Facebook, Nokia HERE, MTV Brasil, Pulse News, SoundCloud, SporTV, Time Out και Twitter."
+                                                        },
+                                                        {
+                                                            "alt": "Τι κάνει το Firefox OS πιο ασφαλές από άλλα τηλέφωνα;",
+                                                            "title": "Τι κάνει το Firefox OS πιο ασφαλές από άλλα τηλέφωνα;",
+                                                            "body": "Το Firefox OS έχει ένα ισχυρό μοντέλο ασφαλείας το οποίο έχει σκληραγωγηθεί παραπάνω από μια δεκαετία υποστηρίζοντας τον ανοιχτό χαρακτήρα του ιστού. Είναι σχεδιασμένο να προστατεύει τον χρ'ηστη και το σύστημα από κακόβουλες εφαρμογές και περιεχόμενο."
+                                                        },
+                                                        {
+                                                            "alt": "Οι εφαρμογές Android λειτουργούν σε αυτό το τηλέφωνο;",
+                                                            "title": "Οι εφαρμογές Android λειτουργούν σε αυτό το τηλέφωνο;",
+                                                            "body": "Όχι άμεσα. Ωστόσο, πολλές από τις πιο δημοφιλείς εφαρμογές Andoid και iOS είναι στην πραγματικότητα απλά εφαρμογές ιστού που περιέχουν ενσωμετωμένο «wrapper» ο οποίος τους επιτρέπει να εκτελούνται σε άλλες πλατφόρμες. Έτσι, πολλές από τις ίδιες εφαρμογές θα είναι διαθέσιμες μέσω της προσαρμοσμένης αναζήτησης εφαρμογών."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Οι εφαρμογές μου δουλεύουν και χωρίς σύνδεση;",
+                                                            "title": "Οι εφαρμογές μου δουλεύουν και χωρίς σύνδεση;",
+                                                            "body": "Το Firefox OS έχει δημιουργηθεί με βάση τεχνολογίες του ιστού όμως έχει δυνατότητα χρήσης εκτός σύνδεσης για όλες τις βασικές λειτουργίες του τηλεφώνου. Αυτό σημαίνει πως οι εφαρμογές δεν απαιτούν ενεργή σύνδεση στο διαδίκτυο για τη λειτουργία τους εκτός αν η εφαρμογή πρέπει να στείλει ή να λάβει δεδομένα από κάποιο άλλο σύστημα μέσω διαδικτύου προκειμένου να συνεχίσει τη λειτουργία της."
+                                                        },
+                                                        {
+                                                            "alt": "Θα παρέχετε υποστήριξη πελατών για τις εφαρμογές;",
+                                                            "title": "Θα παρέχετε υποστήριξη πελατών για τις εφαρμογές;",
+                                                            "body": "Οι πελάτες που χρειάζονται υποστήριξη για μια εφαρμογή η οποια δημιουργήθηκε για το Firefox OS θα παραπέμπονται στον προγραμματιστή της εφαρμογής για βοήθεια. Αν η εμπειρία χρήσης του Firefox OS επηρρεάζεται αρνητικά από  περιστατικό ελλιπούς υποστήριξης της εφαρμογής, το ίδρυμα Mozilla μπορεί να συστήσει άλλες λύσεις που περιλαμβάνουν απεγκατάσταση της εφαρμογής έως ότου ο προγραμματιστής παρέχει την αρμόζουσα βοήθεια."
+                                                        },
+                                                        {
+                                                            "alt": "Πως λαμβάνω και εγκαθιστώ εφαρμογές στο Firefox OS;",
+                                                            "title": "Πως λαμβάνω και εγκαθιστώ εφαρμογές στο Firefox OS;",
+                                                            "body": "Το Firefox OS παρέχει δύο τρόπους να λάβετε εφαρμογές:<ul><li>Firefox  Marketplace — Η πηγή μας για σπουδαίες εφαρμογές όπως το Twitter και φοβερό τοπικό περιεχόμενο από τους καλύτερους Web developers της περιοχής σας.</li><li>Προσαρμοσμένη αναζήτηση εφαρμογών -- Απλώς πληκτρολογήστε μια λέξη όπως «sushi» για να ανακαλύψετε σχετικές εφαρμογές στην περιοχή σας. Μια τεχνολογικά προηγμένη υπηρεσία στο κινητό σας, ώστε να έχετε ό,τι χρειάζεστε.</li><ul>"
+                                                        },
+                                                        {
+                                                            "alt": "Ποιοι πάροχοι email υποστηρίζονται;",
+                                                            "title": "Ποιοι πάροχοι email υποστηρίζονται;",
+                                                            "body": "Προς το παρόν υποστηρίζονται οι Hotmail και Yahoo, μα αναμένονται περισσότεροι σε μελλοντικές εκδόσεις"
+                                                        },
+                                                        {
+                                                            "alt": "Που θα απευθυνθώ αν έχω κι άλλες ερωτήσεις;",
+                                                            "title": "Που θα απευθυνθώ αν έχω κι άλλες ερωτήσεις;",
+                                                            "body": "Επισκεφθείτε τη σελίδα <a href='https://support.mozilla.org/en-US/kb/firefox-os-user-guide'>https://support.mozilla.org/en-US/kb/firefox-os-user-guide</a> για περισσότερες πληροφορίες."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> ΒΑΣΙΚΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>ΑΠΟΣΤΟΛΗ ΤΟΥ FIREFOX <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "ΑΠΟΣΤΟΛΗ ΤΟΥ FIREFOX",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "Αποστολή μας είναι η προώθηση της διαφάνειας, της καινοτομίας και της ευκαιρίας στον ιστό.",
+                                                    "body": "Πίσω από κάθε Firefox OS smartphone βρίσκεται το ίδρυμα Mozilla: Μια παγκόσμια κοινότητα χιλιάδων ανθρώπων, αφοσιωμένων στη διατήρηση της προσβασιμότητας του ιστού από όλους. Κι αυτό επειδή πιστεύουμε πως ο καθένας μας έχει το δικαίωμα πρόσβασης σε έναν ιστό που δεν ελέγχεται από μερικούς μόνο μεγάλους οργανισμούς.<br><br>Ναι, είμαστε λίγο διαφορετικοί από τους άλλους. Μαζί, μπορούμε να χτίσουμε ένα λαμπρότερο μέλλον για τον ιστό."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>ΑΠΟΔΕΧΤΕΙΤΕ ΤΗΝ ΠΡΟΚΛΗΣΗ <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "Αποδεχτείτε την πρόκληση",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Έτοιμοι να δείξετε τι γνωρίζετε;",
+                                                    "body": "Είστε  έτοιμοι να ξεκινήσετε να πουλάτε το Firefox OS στους πελάτες σας; Βάλτε μπροστά τις γνώσεις σας και απαντήστε αυτές τις ερωτήσεις για να το επιβεβαιώσετε."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 1",
+                                                    "body": "Πώς έχετε πρόσβαση στο χαρακτηριστικό προσαρμοσμένης αναζήτησης εφαρμογών στο Firefox OS;",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντηση μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά! Απλώς σύρετε προς τα αριστερά για να αποκτήσετε πρόσβαση στο χαρακτηριστικό δυναμικής  αναζήτησης εφαρμογών.",
+                                                        "incorrect": "Δεν είναι έτσι. Απλώς σύρετε προς τα αριστερά για να αποκτήσετε πρόσβαση στο χαρακτηριστικό δυναμικής  αναζήτησης εφαρμογών.",
+                                                        "partly": "Δεν είναι έτσι. Απλώς σύρετε προς τα αριστερά για να αποκτήσετε πρόσβαση στο χαρακτηριστικό Δυναμικής Αναζήτησης Εφαρμογών."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Σύρετε προς τα αριστερά.",
+                                                            "title": "Σύρετε προς τα αριστερά.",
+                                                            "text": "Σύρετε προς τα αριστερά.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Κάντε κλικ στο κουμπί αρχικής οθόνης.",
+                                                            "title": "Κάντε κλικ στο κουμπί αρχικής οθόνης.",
+                                                            "text": "Κάντε κλικ στο κουμπί αρχικής οθόνης.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Ανοίξτε το Firefox Marketplace.",
+                                                            "title": "Ανοίξτε το Firefox Marketplace.",
+                                                            "text": "Ανοίξτε το Firefox Marketplace.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Ανοίξτε τον περιηγητή Firefox.",
+                                                            "title": "Ανοίξτε τον περιηγητή Firefox.",
+                                                            "text": "Ανοίξτε τον περιηγητή Firefox.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 8,
+                                                    "title": "Ερώτηση 2",
+                                                    "body": "Ποιες από τις παρακάτω εφαρμογές έρχονται προεγκατεστημένες με κάθε τηλέφωνο Firefox OS; Επιλέξτε όλες όσες ταιριάζουν.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά! Όλες αυτές οι εφαρμογές έρχονται μαζί με κάθε τηλέφωνο Firefox OS.",
+                                                        "incorrect": "Στην πραγματικότητα, όλες αυτές οι εφαρμογές έρχονται μαζί με κάθε τηλέφωνο Firefox OS.",
+                                                        "partly": "Υπάρχουν περισσότερα. Προσπαθήστε ξανά. Στην πραγματικότητα, όλες αυτές οι εφαρμογές έρχονται μαζί με κάθε τηλέφωνο Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace",
+                                                            "title": "Firefox Marketplace",
+                                                            "text": "Firefox Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Περιηγητής Firefox",
+                                                            "title": "Περιηγητής Firefox",
+                                                            "text": "Περιηγητής Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Κάμερα και πολυμέσα",
+                                                            "title": "Κάμερα και πολυμέσα",
+                                                            "text": "Κάμερα και πολυμέσα",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Facebook",
+                                                            "title": "Facebook",
+                                                            "text": "Facebook",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Email και SMS",
+                                                            "title": "Email και SMS",
+                                                            "text": "Email και SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Ραδιόφωνο FM",
+                                                            "title": "Ραδιόφωνο FM",
+                                                            "text": "Ραδιόφωνο FM",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Μουσική",
+                                                            "title": "Μουσική",
+                                                            "text": "Μουσική",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Χάρτες (HERE Maps)",
+                                                            "title": "Χάρτες (HERE Maps)",
+                                                            "text": "Χάρτες (HERE Maps)",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                                     
+                                        {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 3",
+                                                    "body": "Όταν πληκτρολογείτε μια λέξη ή ένα θέμα που σας ενδιαφέρει χρησιμοποιώντας την προσαρμοσμένη αναζήτηση εφαρμογών τι συμβαίνει; Επιλέξτε όλα όσα ταιριάζουν.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Όλα αυτά είναι σωστά σχετικά με την προσαρμοσμένη αναζήτηση εφαρμογών!",
+                                                        "incorrect": "Στην πραγματικότητα, όλα αυτά είναι σωστά σχετικά με την προσαρμοσμένη αναζήτηση εφαρμογών!",
+                                                        "partly": "Στην πραγματικότητα, όλα αυτά είναι σωστά σχετικά με την προσαρμοσμένη αναζήτηση εφαρμογών!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Εμφανίζονται αποτελέσματα από όλο το διαδίκτυο όπως εφαρμογές στο τηλέφωνο σας.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Η εικόνα φόντου σας αλλάζει αμέσως για να αποκαλύψει δημοφιλείς φωτογραφίες από το διαδίκτυο.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Τα αποτελέσματα περιλαμβάνουν χάρτες, εικόνες, μουσική, νέες, βίντεο, twitter feeds και περισσότερα.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Δεκάδες χιλιάδες Web εφαρμογές από όλο τον κόσμο αναζητούνται αμέσως.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },  
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 4",
+                                                    "body": "Ποιες από αυτές τις απαντήσεις πελατών φανερώνουν έναν ιδανικό υποψήφιο για το Firefox OS; Επιλέξτε όλα όσα ταιριάζουν.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά! Όλοι αυτοί οι πελάτες είναι ιδανικοί υποψήφιοι για το Firefox OS!",
+                                                        "incorrect": "Στην πραγματικότητα, ΟΛΟΙ αυτοί οι πελάτες είναι ιδανικοί υποψήφιοι για το Firefox OS!",
+                                                        "partly": "Στην πραγματικότητα, ΟΛΟΙ αυτοί οι πελάτες είναι ιδανικοί υποψήφιοι για το Firefox OS!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Δεν έχω χρησιμοποιήσει smartphone ποτέ πριν.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ψάχνω για την καλύτερη απόδοση  για τα χρήματά μου.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Θέλω ένα smartphone το οποίο είναι πραγματικά εύκολο στη χρήση.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Είμαι υποστηρικτής του Firefox!",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 5",
+                                                    "body": "Ποιο χαρακτηριστικό του Firefox OS αντιπροσωπεύει αυτό το εικονίδιο;<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Αυτό το εικονίδιο αντιπροσωπεύει τις επαφές",
+                                                        "incorrect": "Στην πραγματικότητα αυτό το εικονίδιο αντιπροσωπεύει τις επαφές",
+                                                        "partly": "Στην πραγματικότητα αυτό το εικονίδιο αντιπροσωπεύει τις επαφές"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Επαφές",
+                                                            "title": "Επαφές",
+                                                            "text": "Επαφές",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Περιηγητής Firefox",
+                                                            "title": "Περιηγητής Firefox",
+                                                            "text": "Περιηγητής Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "title": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "text": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 6",
+                                                    "body": "Ποιο χαρακτηριστικό του Firefox OS αντιπροσωπεύει αυτό το εικονίδιο;<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Αυτό το εικονίδιο αντιπροσωπεύει τον περιηγητή Firefox.",
+                                                        "incorrect": "Στην πραγματικότητα, αυτό το εικονίδιο αντιπροσωπεύει τον περιηγητή Firefox.",
+                                                        "partly": "Στην πραγματικότητα, αυτό το εικονίδιο αντιπροσωπεύει τον περιηγητή Firefox."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS",
+                                                            "title": "SMS",
+                                                            "text": "SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Επαφές",
+                                                            "title": "Επαφές",
+                                                            "text": "Επαφές",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Περιηγητής Firefox",
+                                                            "title": "Περιηγητής Firefox",
+                                                            "text": "Περιηγητής Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "title": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "text": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 7",
+                                                    "body": "Ποιο χαρακτηριστικό του Firefox OS αντιπροσωπεύει αυτό το εικονίδιο;<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Αυτό το εικονίδιο αντιπροσωπεύει την προσαρμοσμένη αναζήτηση εφαρμογών.",
+                                                        "incorrect": "Στην πραγματικότητα, αυτό το εικονίδιο αντιπροσωπεύει την προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                        "partly": "Στην πραγματικότητα, αυτό το εικονίδιο αντιπροσωπεύει την προσαρμοσμένη αναζήτηση εφαρμογών"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Επαφές",
+                                                            "title": "Επαφές",
+                                                            "text": "Επαφές",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Περιηγητής Firefox",
+                                                            "title": "Περιηγητής Firefox",
+                                                            "text": "Περιηγητής Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "title": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "text": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 8",
+                                                    "body": "Ο πελάτης σας θέλει να καταλάβει τα μέγιστα προτερήματα του Firefox OS έναντι των ανταγωνιστών του. Επιλέξτε όλες τις προτάσεις που ταιριάζουν.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Όλες αυτές οι προτάσεις είναι σωστές για το Firefox OS.",
+                                                        "incorrect": "Στην πραγματικότητα, όλα αυτά είναι αλήθεια εκτός από την πρόταση σχετικά με την «πιο ευρεία επιλογή συσκευών» Αυτό μπορεί να γίνει πραγματικότητα στο μέλλον, αλλά δεν είναι αλήθεια προς το παρόν.",
+                                                        "partly": "Στην πραγματικότητα, όλα αυτά είναι αλήθεια εκτός από την πρόταση σχετικά με την «πιο ευρεία επιλογή συσκευών» Αυτό μπορεί να γίνει πραγματικότητα στο μέλλον, αλλά δεν είναι αλήθεια προς το παρόν."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Με την προσαρμοσμένη αναζήτηση εφαρμογών, το Firefox OS καλύπτει τις ανάγκες σας καλύτερα από κάθε άλλο τηλέφωνο.",
+                                                            "title": "Με την προσαρμοσμένη αναζήτηση εφαρμογών, το Firefox OS καλύπτει τις ανάγκες σας καλύτερα από κάθε άλλο τηλέφωνο.",
+                                                            "text": "Με την προσαρμοσμένη αναζήτηση εφαρμογών, το Firefox OS καλύπτει τις ανάγκες σας καλύτερα από κάθε άλλο τηλέφωνο.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Με το Firefox Marketplace και δεκάδες προεγκατεστημένες εφαρμογές, όπως email,  χάρτες, Facebook, μια κάμερα, μουσική, και περισσότερα, το Firefox OS περιλαμβάνει όλα τα χαρακτηριστικά που θα περιμένατε από ένα smartphone.",
+                                                            "title": "Με το Firefox Marketplace και δεκάδες προεγκατεστημένες εφαρμογές, όπως email,  χάρτες, Facebook, μια κάμερα, μουσική, και περισσότερα, το Firefox OS περιλαμβάνει όλα τα χαρακτηριστικά που θα περιμένατε από ένα smartphone.",
+                                                            "text": "Με το Firefox Marketplace και δεκάδες προεγκατεστημένες εφαρμογές, όπως email,  χάρτες, Facebook, μια κάμερα, μουσική, και περισσότερα, το Firefox OS περιλαμβάνει όλα τα χαρακτηριστικά που θα περιμένατε από ένα smartphone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Από τη στιγμή που είναι φτιαγμένο από τον Firefox, μπορείτε να αισθάνεστε σίγουροι πως το Firefox OS υποστηρίζεται από μια παγκόσμια κοινότητα που εργάζεται εκ μέρους σας και έχοντας κατά νου τα ενδιαφέροντα σας.",
+                                                            "title": "Από τη στιγμή που είναι φτιαγμένο από τον Firefox, μπορείτε να αισθάνεστε σίγουροι πως το Firefox OS υποστηρίζεται από μια παγκόσμια κοινότητα που εργάζεται εκ μέρους σας και έχοντας κατά νου τα ενδιαφέροντα σας.",
+                                                            "text": "Από τη στιγμή που είναι φτιαγμένο από τον Firefox, μπορείτε να αισθάνεστε σίγουροι πως το Firefox OS υποστηρίζεται από μια παγκόσμια κοινότητα που εργάζεται εκ μέρους σας και έχοντας κατά νου τα ενδιαφέροντα σας.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Το Firefox OS σας δίνει την πιο ευρεία επιλογή συσκευών στην αγορά σήμερα.",
+                                                            "title": "Το Firefox OS σας δίνει την πιο ευρεία επιλογή συσκευών στην αγορά σήμερα.",
+                                                            "text": "Το Firefox OS σας δίνει την πιο ευρεία επιλογή συσκευών στην αγορά σήμερα.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 9",
+                                                    "body": "Ένας πελάτης σας λέει πως τα smartphones φαίνονται περίπλοκα. Με ποιο χαρακτηριστικό θα πρέπει να ξεκινήσετε;",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Για έναν πελάτη που ψάχνει για ένα εύκολο στη χρήση smartphone, το Firefox OS είναι μια σπουδαία επιλογή.",
+                                                        "incorrect": "Στην πραγματικότητα, για αυτόν τον πελάτη, η καλύτερη επιλογή είναι να μιλήσετε σχετικά με το πόσο εύκολο στη χρήση είναι το Firefox OS.",
+                                                        "partly": "Στην πραγματικότητα, για αυτόν τον πελάτη, η καλύτερη επιλογή είναι να μιλήσετε σχετικά με το πόσο εύκολο στη χρήση είναι το Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Το Firefox OS σας δίνει τη μεγαλύτερη  απόδοση για τα χρήματα σας, με ό,τι περιμένετε – κάμερα, email, εφαρμογές, μουσική, χάρτες και περισσότερα – στις πιο ανταγωνιστικές τιμές.",
+                                                            "title": "Το Firefox OS σας δίνει τη μεγαλύτερη  απόδοση για τα χρήματα σας, με ό,τι περιμένετε – κάμερα, email, εφαρμογές, μουσική, χάρτες και περισσότερα – στις πιο ανταγωνιστικές τιμές.",
+                                                            "text": "Το Firefox OS σας δίνει τη μεγαλύτερη  απόδοση για τα χρήματα σας, με ό,τι περιμένετε – κάμερα, email, εφαρμογές, μουσική, χάρτες και περισσότερα – στις πιο ανταγωνιστικές τιμές.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Το Firefox OS είναι το πιο εύκολο smartphone για να ξεκινήσετε. Οι αγαπημένες σας εφαρμογές είναι ήδη προεγκατεστημένες και μπορείτε επίσης εύκολα να εισάγετε τους φίλους σας από το Facebook.",
+                                                            "title": "Το Firefox OS είναι το πιο εύκολο smartphone για να ξεκινήσετε. Οι αγαπημένες σας εφαρμογές είναι ήδη προεγκατεστημένες και μπορείτε επίσης εύκολα να εισάγετε τους φίλους σας από το Facebook.",
+                                                            "text": "Το Firefox OS είναι το πιο εύκολο smartphone για να ξεκινήσετε. Οι αγαπημένες σας εφαρμογές είναι ήδη προεγκατεστημένες και μπορείτε επίσης εύκολα να εισάγετε τους φίλους σας από το Facebook.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Αν λατρεύετε τον περιηγητή Firefox, θα λατρέψετε επίσης τα τηλέφωνα Firefox OS. Η επιλογή του Firefox OS σας προσφέρει τη δύναμη του ιστού στα χέρια σας.",
+                                                            "title": "Αν λατρεύετε τον περιηγητή Firefox, θα λατρέψετε επίσης τα τηλέφωνα Firefox OS. Η επιλογή του Firefox OS σας προσφέρει τη δύναμη του ιστού στα χέρια σας.",
+                                                            "text": "Αν λατρεύετε τον περιηγητή Firefox, θα λατρέψετε επίσης τα τηλέφωνα Firefox OS. Η επιλογή του Firefox OS σας προσφέρει τη δύναμη του ιστού στα χέρια σας.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 10",
+                                                    "body": "Μια πελάτης σας λέει πως είναι έτοιμη να προχωρήσει πέρα από το πεπαλαιωμένων χαρακτηριστικών τηλέφωνο της. Με ποιο χαρακτηριστικό θα πρέπει να ξεκινήσετε;",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Με έναν αρχάριο χρήστη smartphone, θα πρέπει να μιλήσετε για την απλότητα του και για χαρακτηριστικά όπως η προσαρμοσμένη αναζήτηση εφαρμογών.",
+                                                        "incorrect": "Στην πραγματικότητα, με έναν αρχάριο χρήστη smartphone, θα πρέπει να μιλήσετε για την απλότητα του και για χαρακτηριστικά όπως η προσαρμοσμένη αναζήτηση εφαρμογών.",
+                                                        "partly": "Στην πραγματικότητα, με έναν αρχάριο χρήστη smartphone, θα πρέπει να μιλήσετε για την απλότητα του και για χαρακτηριστικά όπως η προσαρμοσμένη αναζήτηση εφαρμογών."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS είναι το πιο εύκολο smartphone για να ξεκινήσετε. Οι αγαπημένες σας εφαρμογές είναι ήδη προεγκατεστημένες και μπορείτε επίσης εύκολα να εισάγετε τους φίλους σας από το Facebook.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS σας δίνει τη μεγαλύτερη  απόδοση για τα χρήματα σας, με ό,τι περιμένετε – κάμερα, email, εφαρμογές, μουσική, χάρτες και περισσότερα – στις πιο ανταγωνιστικές τιμές. Επιπροσθέτως, η δυναμική αναζήτηση εφαρμογών διευκολύνει την ανακάλυψη των εφαρμογών που χρειάζεστε, όταν τις χρειάζεστε.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Αν λατρεύετε τον περιηγητή Firefox, θα λατρέψετε επίσης τα τηλέφωνα Firefox OS. Η επιλογή του Firefox OS σας προσφέρει τη δύναμη του ιστού στα χέρια σας.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 11",
+                                                    "body": "Ένας πελάτης σας λέει πως χρησιμοποιεί τον Firefox σαν περιηγητή στον υπολογιστή του. Με ποιο χαρακτηριστικό θα προχωρήσετε;",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Όταν συναντάτε έναν υποστηρικτή του Firefox, μιλήστε σχετικά με το πως η επιλογή του Firefox OS  δείχνει μια δέσμευση στη διατήρηση του ελέγχου του ιστού στα χέρια του.",
+                                                        "incorrect": "Στην πραγματικότητα, όταν συναντάτε έναν υποστηρικτή του Firefox, μιλήστε σχετικά με το πως η επιλογή του Firefox OS  δείχνει μια δέσμευση στη διατήρηση του ελέγχου του ιστού στα χέρια του.",
+                                                        "partly": "Στην πραγματικότητα, όταν συναντάτε έναν υποστηρικτή του Firefox, μιλήστε σχετικά με το πως η επιλογή του Firefox OS  δείχνει μια δέσμευση στη διατήρηση του ελέγχου του ιστού στα χέρια του."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Το Firefox OS σας δίνει τη μεγαλύτερη  απόδοση για τα χρήματα σας, με ό,τι περιμένετε – κάμερα, email, εφαρμογές, μουσική, χάρτες και περισσότερα – στις πιο ανταγωνιστικές τιμές.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS είναι το πιο εύκολο smartphone για να ξεκινήσετε. Οι αγαπημένες σας εφαρμογές είναι ήδη προεγκατεστημένες και μπορείτε επίσης εύκολα να εισάγετε τους φίλους σας από το Facebook.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Αν λατρεύετε τον περιηγητή Firefox, θα λατρέψετε επίσης τα τηλέφωνα Firefox OS. Η επιλογή του Firefox OS σας προσφέρει τη δύναμη του ιστού στα χέρια σας.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Ερώτηση 12",
+                                                    "body": "Ένας πελάτης σας λέει, «Ψάχνω για έναν εύκολο τρόπο να κρατήσω επαφή με τους φίλους μου, χωρίς να ξοδέψω πολλά χρήματα». Ποιες από τις παρακάτω προτάσεις θα ήταν μια καλή απάντηση; Επιλέξτε όλες όσες ταιριάζουν.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Σε αυτόν τον πελάτη επισημάνετε τη μεγάλη αξία του συνόλου των χαρακτηριστικών του Firefox OS, που περιλαμβάνει  εφαρμογές κοινωνικής δικτύωσης προεγκατεστημένες στο τηλέφωνο και όλα αυτά σε εξαιρετική τιμή.",
+                                                        "incorrect": "Δεν είναι έτσι. Σ' αυτόν τον πελάτη επισημάνετε τη μεγάλη αξία του συνόλου των χαρακτηριστικών του Firefox OS, που περιλαμβάνει εφαρμογές κοινωνικής δικτύωσης προεγκατεστημένες στο τηλέφωνο και όλα αυτά σε εξαιρετική τιμή.",
+                                                        "partly": "Δεν είναι έτσι. Σ' αυτόν τον πελάτη επισημάνετε τη μεγάλη αξία του συνόλου των χαρακτηριστικών του Firefox OS, που περιλαμβάνει εφαρμογές κοινωνικής δικτύωσης προεγκατεστημένες στο τηλέφωνο και όλα αυτά σε εξαιρετική τιμή."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS smartphone έχει προεγκατεστημένα όλα τα χαρακτηριστικά που θα περιμένατε, περιλαμβανομένων SMS, Facebook, email, εφαρμογών, χαρτών και περισσοτέρων, όλα σε καλύτερη τιμή.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Facebook είναι προεγκατεστημένο σε κάθε συσκευή Firefox OS και μπορείτε να εισάγετε τις επαφές σας εύκολα!",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox Marketplace διαθέτει χιλιάδες εφαρμογές δωρεάν ή σε πολύ χαμηλές τιμές.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Ερώτηση 13",
+                                                    "body": "Ένας πελάτης λέει, «Χρησιμοποιώ τον Firefox στον υπολογιστή μου και τον λατρεύω, μα δε γνώριζα πως υπάρχει και OS για  smartphone. Γιατί;» Ποια από τις ακόλουθες προτάσεις θα ήταν η πιο κατάλληλη απάντηση σε αυτόν τον συγκεκριμένο πελάτη;",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Αυτός ο πελάτης μοιάζει να είναι υποστηρικτής του Firefox. Μιλήστε σχετικά με το πως τα τηλέφωνα Firefox OS, που δημιουργούνται από το ίδρυμα Mozilla, δείχνουν μια δέσμευση στη διατήρηση του ελέγχου του ιστού στα χέρια των ανθρώπων. Και παρότι όλες αυτές οι προτάσεις είναι σωστές, μόνο αυτή είναι η καλύτερη απάντηση για αυτόν τον συγκεκριμένο πελάτη.",
+                                                        "incorrect": "Όλες αυτές οι προτάσεις είναι σωστές, αλλά μόνο  αυτή είναι η καλύτερη απάντηση για αυτόν τον συγκεκριμένο πελάτη που μοιάζει να είναι υποστηρικτής του Firefox. Μιλήστε σχετικά με το πως τα τηλέφωνα Firefox OS, που δημιουργούνται από το ίδρυμα Mozilla, δείχνουν μια δέσμευση στη διατήρηση του Web στα χέρια των ανθρώπων.",
+                                                        "partly": "Όλες αυτές οι προτάσεις είναι σωστές, αλλά μόνο  αυτή είναι η καλύτερη απάντηση για αυτόν τον συγκεκριμένο πελάτη που μοιάζει να είναι υποστηρικτής του Firefox. Μιλήστε σχετικά με το πως τα τηλέφωνα Firefox OS, που δημιουργούνται από το ίδρυμα Mozilla, δείχνουν μια δέσμευση στη διατήρηση του Web στα χέρια των ανθρώπων."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Κάθε τηλέφωνο Firefox περιλαμβάνει τον περιηγητή Firefox , τον γρήγορο, έξυπνο και ασφαλή τρόπο να βγείτε στο διαδίκτυο.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS περιλαμβάνει όλα τα χαρακτηριστικά που θα βρείτε σε ανταγωνιστικά smartphones, και σας δίνει καλύτερη απόδοση για τα χρήματα σας.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το ίδρυμα Mozilla, οι δημιουργοί του Firefox, δημιούργησαν ένα OS  για smartphone για να διατηρήσουν τον ιστό προσβάσιμο από όλους. Και εφόσον το Firefox OS είναι εξ'ολοκλήρου χτισμένο με HTML5, αποκτάτε άμεσα πρόσβαση σε χιλιάδες εφαρμογές που έχουν δημιουργηθεί ήδη για τον ιστό.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 14",
+                                                    "body": "Ποιες από τις ακόλουθες προτάσεις για τη δυναμική αναζήτηση εφαρμογών είναι σωστές; Επιλέξτε όλες όσες ταιριάζουν.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Η προσαρμοσμένη αναζήτηση εφαρμογών καλύπτει τις ανάγκες σας καλύτερα από κάθε άλλο τηλέφωνο.",
+                                                        "incorrect": "Δεν είναι ακριβώς έτσι. Τρείς από αυτές είναι σωστές. Ενώ η προσαρμοσμένη αναζήτηση εφαρμογών καλύπτει τις ανάγκες σας καλύτερα από οποιοδήποτε άλλο τηλέφωνο, ΔΕΝ λειτουργεί ακριβώς όπως η δικτυακή αναζήτηση στον περιηγητή Firefox.",
+                                                        "partly": "Δεν είναι ακριβώς έτσι. Τρείς από αυτές είναι σωστές. Ενώ η προσαρμοσμένη αναζήτηση εφαρμογών καλύπτει τις ανάγκες σας καλύτερα από οποιοδήποτε άλλο τηλέφωνο, ΔΕΝ λειτουργεί ακριβώς όπως η δικτυακή αναζήτηση στον περιηγητή Firefox."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ένα μοναδικό χαρακτηριστικό που περιλαμβάνεται σε κάθε smartphone Firefox OS.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Λειτουργεί όπως και η δικτυακή αναζήτηση στον περιηγητή Firefox.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Τα αποτελέσματα περιλαμβάνουν φωτογραφίες, βίντεο, μουσική, νέα, χάρτες και περισσότερα.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Τα αποτελέσματα μπορούν να χρησιμοποιηθούν άμεσα – δε χρειάζεται να κατεβάσετε πρώτα την εφαρμογή.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 15",
+                                                    "body": "Παρότι όλες αυτές οι προτάσεις είναι σωστές, ποιες δύο απαντήσεις θα ήταν περισσότερο χρήσιμες σε έναν αρχάριο χρήστη smartphone;",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά. Ένας αρχάριος χρήστης smartphone θα ενδιαφέρεται περισσότερο για την ευκολία χρήσης.",
+                                                        "incorrect": "Όχι ακριβώς. Ένας αρχάριος χρήστης smartphone θα ενδιαφέρεται περισσότερο για την ευκολία χρήσης.",
+                                                        "partly": "Όχι ακριβώς. Ένας αρχάριος χρήστης smartphone θα ενδιαφέρεται περισσότερο για την ευκολία χρήσης."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Μπορείτε εύκολα να εισάγετε επαφές από το Facebook στο τηλέφωνο σας με Firefox OS.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS σας δίνει πρόσβαση σε δημοφιλείς, γνωστές εφαρμογές, καθώς και σε τοπικό περιεχόμενο που έχει μεγαλύτερη σημασία για εσάς.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS δεν είναι «φορτωμένο» με περισσότερα από όσα ζητάτε. Σας δίνει ό,τι περιμένετε από ένα smartphone, μέσα από ένα εύκολο στη χρήση περιβάλλον που σας διευκολύνει να ξεκινήσετε.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Το Firefox OS είναι χτισμένο εξολοκλήρου χρησιμοποιώντας HTML5 και ανοιχτά πρότυπα για τον ιστό.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 16",
+                                                    "body": "Ποιο χαρακτηριστικό του Firefox OS αντιπροσωπεύει αυτό το εικονίδιο; Ποιο χαρακτηριστικό του Firefox OS αντιπροσωπεύει αυτό το εικονίδιο;<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά! Αυτό το εικονίδιο αντιπροσωπεύει την εφαρμογή SMS – ή μηνυμάτων κειμένου",
+                                                        "incorrect": "Στην πραγματικότητα, αυτό το εικονίδιο αντιπροσωπεύει την εφαρμογή SMS – ή μηνυμάτων κειμένου.",
+                                                        "partly": "Στην πραγματικότητα, αυτό το εικονίδιο αντιπροσωπεύει την εφαρμογή SMS – ή μηνυμάτων κειμένου."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Επαφές",
+                                                            "title": "Επαφές",
+                                                            "text": "Επαφές",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Περιηγητής Firefox",
+                                                            "title": "Περιηγητής Firefox",
+                                                            "text": "Περιηγητής Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "title": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "text": "Προσαρμοσμένη αναζήτηση εφαρμογών",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 17",
+                                                    "body": "Με την προσαρμοσμένη αναζήτηση εφαρμογών, μπορείτε να χρησιμοποιήσετε μια εφαρμογή εύκολα και γρήγορα, χωρίς να την εγκαταστήσετε. Αν θέλετε να τη χρησιμοποιήσετε ξανά αργότερα, είναι εύκολο να την προσθέσετε στην αρχική σας οθόνη.",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά!",
+                                                        "incorrect": "Στην πραγματικότητα, αυτό είναι σωστό.",
+                                                        "partly": "Στην πραγματικότητα, αυτό είναι σωστό."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Σωστό",
+                                                            "title": "Σωστό",
+                                                            "text": "Σωστό",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Λάθος",
+                                                            "title": "Λάθος",
+                                                            "text": "Λάθος",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 18",
+                                                    "body": "Ποια είναι η καλύτερη απάντηση στην ένσταση αυτού του πελάτη; «Έχω ακούσει πως δεν υπάρχουν και πολλές εφαρμογές.»”",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά!",
+                                                        "incorrect": "Η καλύτερη απάντηση σε αυτή την ένσταση είναι να μιλήσετε σχετικά με όλες τις διαθέσιμες εφαρμογές.",
+                                                        "partly": "Η καλύτερη απάντηση σε αυτή την ένσταση είναι να μιλήσετε σχετικά με όλες τις διαθέσιμες εφαρμογές."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Νέο και υποστηριζόμενο από μια παγκόσμια κοινότητα που εργάζεται με στόχο τη διατήρηση του ιστού προσβάσιμου από όλους.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Από το λανσάρισμα του, κάθε τηλέφωνο έχει πρόσβαση σε περισσότερες από 20,000 δωρεάν και επί πληρωμή εφαρμογές, περιλαμβανομένων μερικών από τις πιο δημοφιλείς παγκοσμίως σήμερα.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ένα ισχυρό μοντέλο ασφαλείας που έχει σκληραγωγηθεί για περισσότερο από μία δεκαετία στην υποστήριξη του ανοιχτού ιστού.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Ερώτηση 19",
+                                                    "body": "Ποια είναι η καλύτερη απάντηση στην ένσταση αυτού του πελάτη; «Δεν έχω ακούσει ξανά για κινητά Firefox OS.»",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά!",
+                                                        "incorrect": "Η καλύτερη απάντηση σε αυτή την ένσταση είναι να μιλήσετε σχετικά με την εμπειρία της κοινότητας του Mozilla που βρίσκεται πίσω από το Firefox OS.",
+                                                        "partly": "Η καλύτερη απάντηση σε αυτή την ένσταση είναι να μιλήσετε σχετικά με την εμπειρία της κοινότητας του Mozilla που βρίσκεται πίσω από το Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Περιέχει όλα τα χαρακτηριστικά που σας έκαναν να θέλετε ένα smartphone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Αποκτήστε πρόσβαση σε περισσότερες από 20,000 δωρεάν και επί πληρωμή εφαρμογές από την πρώτη στιγμή κυκλοφορίας, περιλαμβανομένων μερικών από τις πιο δημοφιλείς παγκοσμίως σήμερα.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Νέο και υποστηριζόμενο από μια παγκόσμια κοινότητα που εργάζεται για να βοηθήσει στη διατήρηση του ιστού προσβάσιμου από όλους.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Ερώτηση 20",
+                                                    "body": "Ποια είναι η καλύτερη απάντηση στην ένσταση αυτού του χρήστη; «Πως γνωρίζω ότι αυτό το νέο τηλέφωνο είναι ασφαλές;»",
+                                                    "button": {
+                                                        "submit": "Υποβολή",
+                                                        "reset": "Επαναφορά",
+                                                        "model": "Εμφάνιση απάντησης",
+                                                        "mine": "Η απάντησή μου"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Σωστά!",
+                                                        "incorrect": "Η καλύτερη απάντηση σε αυτή την ένσταση είναι να μιλήσετε για το ισχυρό μοντέλο ασφαλείας.",
+                                                        "partly": "Η καλύτερη απάντηση σε αυτή την ένσταση είναι να μιλήσετε για το ισχυρό μοντέλο ασφαλείας."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Περιέχει όλα τα χαρακτηριστικά που σας έκαναν να θέλετε ένα smartphone.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Νέο και υποστηριζόμενο από μια παγκόσμια κοινότητα που εργάζεται ώστε να διατηρηθεί ο ιστός προσβάσιμος από όλους.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ένα ισχυρό μοντέλο ασφαλείας που έχει σκληραγωγηθεί για περισσότερο από μία δεκαετία στην υποστήριξη του ανοιχτού ιστού. Σχεδιασμένο να προστατεύει τον χρήστη και το σύστημα από κακόβουλες εφαρμογές και περιεχόμενο, προστατεύει επίσης κάθε εφαρμογή από κάθε άλλη.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                                             
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Ετοιμαστείτε για πωλήσεις!",
+                                                    "body": "Εφόσον έχετε καλύψει τις παραπάνω ερωτήσεις και έχετε κατανοήσει το περιεχόμενο, τότε διαθέτετε τα απαραίτητα για να ταιριάξετε τα χαρακτηριστικά του Firefox OS με τους πελάτες σας.<br/><br/>Εύκολο στη χρήση, ένα smartphone Firefox OS είναι τέλειο για νέους χρήστες smartphone και γεμάτο με τα χαρακτηριστικά που θέλουν και χρειάζονται οι πελάτες.<br/><br/>Επιπλέον, υποστηρίζεται από το ίδρυμα Mozilla, πράγμα που κάνει το Firefox OS την κατάλληλη επιλογή για οποιονδήποτε δεσμεύεται να διασφαλίσει πως ο ιστός θα παραμείνει στα χέρια σας!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> ΑΠΟΣΤΟΛΗ ΤΟΥ FIREFOX</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
