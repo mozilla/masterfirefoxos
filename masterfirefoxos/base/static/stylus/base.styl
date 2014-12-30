@@ -1,0 +1,457 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+// Global styling and layout
+
+@require 'fonts.styl';
+@require 'reset.styl';
+@require 'lib.styl';
+
+
+
+//*----------------------------------------------------------------*/
+// @General elements
+html {
+    background: #fff;
+    font-size: $base-font-size;
+    line-height: 1.5;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    color: $primary-text-color;
+    background: #fff;
+    height: 100%;
+}
+
+// We most often use lists for structure and don't style them as lists.
+// Use a .prose class for lists appearing in normal content that need normal styling.
+ol.prose {
+    list-style: decimal;
+    margin-left: 40px;
+}
+
+ul.prose {
+    list-style: disc;
+    margin-left: 40px;
+
+    ul {
+        list-style: circle;
+        margin-left: 40px;
+    }
+}
+
+.page-head .prose {
+    text-align: left;
+}
+
+img.avatar {
+    border: 3px solid $light-text-color;
+    border-radius: 100%;
+}
+
+.faq dd {
+    border-bottom: 1px dotted $medium-gray;
+    margin: 0 0 1.5em;
+}
+
+img.lazy {
+    display: none;
+}
+
+
+//*----------------------------------------------------------------*/
+// @Headings
+h1, h2, h3, h4, h5, h6, legend, dl.faq dt {
+    color: $secondary-text-color;
+    font-weight: normal;
+    letter-spacing: -.025em;
+    line-height: 1.1;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .35);
+    margin: 0 0 .5em;
+}
+
+h1,
+.page-title,
+.section-title {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4,
+legend,
+dl.faq dt {
+    font-size: 18px;
+    letter-spacing: normal;
+}
+
+h5 {
+    font-size: 16px;
+    letter-spacing: normal;
+}
+
+h6 {
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.page-title {
+    text-align: center;
+    margin: 0 auto .5em;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0 auto .5em;
+}
+
+
+
+//*----------------------------------------------------------------*/
+// @Links
+a:link {
+    color: $link-color;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: desaturate($link-color, 30%);
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: darken($link-color, 30%);
+}
+
+.go:after {
+    content: " »";
+    white-space: nowrap;
+}
+
+
+//*----------------------------------------------------------------*/
+// @Forms
+input,
+textarea,
+select {
+    font-family: inherit;
+    font-size: 100%;
+    color: $primary-text-color;
+}
+
+input,
+textarea {
+    background: #fff;
+    padding: 3px 6px;
+    border: 1px solid darken($light-blue, 20%);
+    border-radius: 4px;
+
+    &:hover,
+    &:focus {
+        border-color: darken($light-blue, 30%);
+    }
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin: 0 0 .25em;
+
+    &.check {
+        display: inline;
+        margin: 0;
+        text-transform: none;
+
+        input {
+            width: auto;
+            background: transparent;
+            border: 0;
+            padding: 0;
+        }
+    }
+}
+
+:disabled,
+.disabled {
+    opacity: .5;
+}
+
+
+//*----------------------------------------------------------------*/
+// @Buttons
+// Standard blue buttons
+.button,
+.button:link,
+.button:visited {
+    background-color: $medium-blue;
+    background-image: -webkit-linear-gradient($light-blue, $medium-blue);
+    background-image:         linear-gradient($light-blue, $medium-blue);
+    border-radius: .25em;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    min-width: 100px;
+    padding: .25em 25px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
+    -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1), inset 0 -2px 0 0 rgba(0, 0, 0, .2);
+            box-shadow: 0 2px 0 0 rgba(0,0,0,.1), inset 0 -2px 0 0 rgba(0, 0, 0, .2);
+    -webkit-transition: -webkit-box-shadow linear .25s;
+       -moz-transition: box-shadow linear .25s;
+            transition: box-shadow linear .25s;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: lighten($medium-blue, 10%);
+    -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1), inset 0 -2px 0 0 rgba(0, 0, 0,.2), inset 0 12px 24px 2px lighten($medium-blue, 15%);
+            box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1), inset 0 -2px 0 0 rgba(0, 0, 0,.2), inset 0 12px 24px 2px lighten($medium-blue, 15%);
+}
+
+.button:focus {
+  outline-color: #484848;
+}
+
+
+
+//*----------------------------------------------------------------*/
+// @Layout containers
+#outer-wrapper {
+    background: #fff;
+    border-top: 2px solid #fff;
+    position: relative;
+    min-height: 99%;
+}
+
+.section {
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    padding: 24px 0;
+}
+
+.section:last-child {
+    border-bottom: 0;
+}
+
+.contain {
+    margin: 0 auto;
+    min-width: 280px;
+    padding: 0 20px;
+    position: relative;
+    clearfix();
+}
+
+.media {
+    clearfix();
+}
+
+.media-image img {
+    float: left;
+    margin: 0 $grid-gutter-width 1.5em 0;
+}
+
+[dir='rtl'] .media-image img {
+    float: right;
+    margin: 0 0 1.5em $grid-gutter-width;
+}
+
+
+//*----------------------------------------------------------------*/
+// @Header
+#masthead {
+    {section-blue}
+    {light-links}
+}
+
+#masthead .contain {
+    padding: 80px 0 20px;
+}
+
+#masthead #tabzilla {
+    background: url('/static/img/tab.png') no-repeat;
+    display: block;
+    height: 44px;
+    width: 150px;
+    overflow: hidden;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    text-indent: 150%;
+}
+
+.version-switcher {
+    label {
+        display: inline;
+        margin-right: 10px;
+    }
+
+    button {
+        a11y-hidden();
+    }
+
+    a {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+
+//*----------------------------------------------------------------*/
+// @Footer
+#footer {
+    {section-blue}
+    {light-links}
+    color: $light-text-color;
+    font-size: 12px;
+    padding: 48px 0;
+}
+
+
+//*----------------------------------------------------------------*/
+// @Mobile @Landscape layout: 480px
+
+@media $media-query-mobile-wide {
+
+
+
+}
+
+
+
+//*----------------------------------------------------------------*/
+// @Tablet layout: 760px
+
+@media $media-query-tablet {
+
+    h1,
+    .section-title,
+    .page-title {
+        font-size: 48px;
+    }
+
+    h2  {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4,
+    legend,
+    dl.faq dt {
+        font-size: 24px;
+    }
+
+    .contain {
+        width: $width-tablet - ($grid-gutter-width * 2);
+    }
+
+    .main {
+        span_narrow(8);
+        offset(1);
+    }
+
+    .aside {
+        span_narrow(3);
+    }
+
+    .media-image img {
+        width: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 2);
+    }
+
+    .footer-license,
+    .footer-lang {
+        span_narrow(3);
+    }
+
+    .footer-logo,
+    .footer-nav {
+        span_narrow(2);
+    }
+
+    .footer-license {
+        margin-right: $grid-narrow-column-width + $grid-gutter-width;
+    }
+
+}
+
+
+
+//*----------------------------------------------------------------*/
+// @Desktop layout: 1000px
+
+@media $media-query-desktop {
+
+    .contain {
+        width: $width-desktop - ($grid-gutter-width * 2);
+    }
+
+    .main {
+        span(8);
+        offset(1);
+    }
+
+    .aside {
+        span(3);
+    }
+
+    .site-logo {
+        span(8);
+    }
+
+    .version-switcher {
+        span(3);
+        offset(1);
+    }
+
+    .media-image img {
+        width: ($grid-column-width * 3) + ($grid-gutter-width * 2);
+    }
+
+    .footer-license,
+    .footer-lang {
+        span(3);
+    }
+
+    .footer-logo,
+    .footer-nav {
+        span(2);
+    }
+
+    .footer-license {
+        margin-right: $grid-column-width + $grid-gutter-width;
+    }
+
+}
+
+
+
+//*----------------------------------------------------------------*/
+// More height for tall viewports
+
+@media screen and (min-height: 600px) {
+
+    .section {
+        padding: 48px 0;
+    }
+
+}

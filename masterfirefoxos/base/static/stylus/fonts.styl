@@ -1,0 +1,40 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+// Declare webfonts.
+// We're omitting EOT files since this site delivers a separate stylesheet
+// to old versions of IE (IE9 and up support WOFF).
+
+// Regular
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Regular'), url('https://mozorg.cdn.mozilla.net/media/fonts/FiraSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Bold
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Bold'), url('https://mozorg.cdn.mozilla.net/media/fonts/FiraSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+// Italic
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Italic'), url('https://mozorg.cdn.mozilla.net/media/fonts/FiraSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// Bold Italic
+@font-face {
+    font-family: 'Fira Sans';
+    src: local('Fira Sans Bold Italic'), url('https://mozorg.cdn.mozilla.net/media/fonts/FiraSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}

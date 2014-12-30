@@ -1,17 +1,9 @@
 {% extends "base.html" %}
 
-{% block base_body %}
+{% block content %}
+  <main id="content-main" class="main">
 
-<div class="row">
-  <div class="large-4 columns">
-    <div id="content">
-     {{ render_region(feincms_page, "sidebar", request) }}
-    </div>
-  </div>
-  <div class="large-8 columns">
-    <div id="content">
-     {{ render_region(feincms_page, "main", request) }}
-    </div>
-  </div>
-</div>
+    {{ render_region(feincms_page, "main", request) }}
+
+  </main>
 {% endblock %}
