@@ -115,3 +115,12 @@ pytest==2.6.4
 
 # sha256: 5vBgp2ziAlqrrrblVCVpuSBnlPrDKKBm6vAsU17wXQI
 pytest-django==2.7.0
+
+# sha256: MeUZjAbykOHoE9MN3QY6BAHZ46aYEpykQmd4FnOnEoU
+pytest-cov
+
+# sha256: 0a6hxKphuDZtakLdNlBiL7-cY07STq9_N5yLlw5e1E4
+coverage
+
+# sha256: ShTGfVIP2p1CsNphNGOFeMquHTdLm7Ri2N4AWH26dkw
+cov-core
