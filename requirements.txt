@@ -46,12 +46,6 @@ django-csp==2.0.3
 # sha256: S6CrdPp_NPd_8jbuIVdFTRwqrqqiWTI2O_ob5suC29Y
 pytz==2014.9
 
-# sha256: drxjpOLV5aDfd8p9GPD1bixGz7YrcRA7qSqSx5-rHgM
-nose==1.3.4
-
-# sha256: mq4WtWKGak3apeiXhymrrbvtVEco2I4LnJr3sx3Qcu0
-django-nose==1.2
-
 # sha256: J7kqegDxYuebWJb-nliXGbmF6c_fRFgmzBiFYVnObB4
 newrelic==2.40.0.34
 
@@ -112,3 +106,14 @@ feedparser==5.1.3
 
 # sha256: CJ37xCfPCbXyVzLjbQe-Nz1rL97SbK7cG4s0Qfgc6ec
 django-stackato==1.0
+
+# sha256: KN0LkNKbOGr7VS78TjVciJ9GOc6TZYp4cqIVDs4ou4k
+py==1.4.26
+
+# sha256: VQiDuYGEzvbLuYDU2QBRMwrq5BB1CS-Y7wIVcZr47zM 
+pytest==2.6.4
+
+# sha256: 5vBgp2ziAlqrrrblVCVpuSBnlPrDKKBm6vAsU17wXQI
+pytest-django==2.7.0
+
+https://github.com/mverteuil/pytest-ipdb/archive/106a6ed0deacff7b5c2dc2d72ab1d85fdf407193#egg=pytest-ipdb

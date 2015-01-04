@@ -6,3 +6,5 @@ docs/_build
 /static
 /locale
 db-strings.txt
+*~
+\#*\#

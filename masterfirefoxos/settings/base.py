@@ -38,7 +38,6 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 INSTALLED_APPS = [
     # Third party apps
-    'django_nose',
     'mptt',
     'feincms',
     'feincms.module.page',
@@ -148,8 +147,6 @@ CSP_STYLE_SRC = (
     'http://*.mozilla.net',
     'https://*.mozilla.net',
 )
-
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 SESSION_COOKIE_SECURE = not DEBUG
 

@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it $(docker ps | grep masterfirefoxos_web | awk '{ print $1 }') $1

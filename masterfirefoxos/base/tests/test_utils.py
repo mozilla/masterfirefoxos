@@ -3,7 +3,6 @@ from unittest.mock import Mock, patch
 from django.test import SimpleTestCase
 
 from feincms.module.page.models import Page
-from nose.tools import eq_, ok_
 
 from .. import models 
 from .. import utils
@@ -57,7 +56,8 @@ class TestUtils(SimpleTestCase):
         mock_datetime.now().strftime.return_value = 'date'
         parent = Page()
         page = Page(title='foo bar', slug='sl-ug', active=True, parent=parent)
-        eq_(utils.copy_tree(page), mock_copy_content_and_children.return_value)
+        assert (utils.copy_tree(page) ==
+                mock_copy_content_and_children.return_value)
         mock_page_objects.create.assert_called_with(
             title='Copy of foo bar on date', slug='copy-of-sl-ug-on-date',
             parent=parent, active=False)
@@ -69,8 +69,8 @@ class TestUtils(SimpleTestCase):
     def test_copy_page_with_parent(self, mock_page_objects,
                                    mock_copy_content_and_children):
         page = Page(title='title', slug='slug', active=False)
-        eq_(utils.copy_page_with_parent(page, 'parent'),
-            mock_copy_content_and_children.return_value)
+        assert (utils.copy_page_with_parent(page, 'parent') ==
+                mock_copy_content_and_children.return_value)
         mock_page_objects.create.assert_called_with(
             title='title', slug='slug', parent='parent', active=False)
         mock_copy_content_and_children.assert_called_with(
@@ -82,6 +82,6 @@ class TestUtils(SimpleTestCase):
        page = Mock()
        page.get_children.return_value = ['child']
        new_page = Mock()
-       eq_(utils.copy_content_and_children(page, new_page), new_page)
+       assert utils.copy_content_and_children(page, new_page) == new_page
        new_page.copy_content_from.assert_called_with(page)
        mock_copy_page_with_parent.assert_called_with('child', new_page)
