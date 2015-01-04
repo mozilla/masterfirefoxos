@@ -115,5 +115,3 @@ pytest==2.6.4
 
 # sha256: 5vBgp2ziAlqrrrblVCVpuSBnlPrDKKBm6vAsU17wXQI
 pytest-django==2.7.0
-
-https://github.com/mverteuil/pytest-ipdb/archive/106a6ed0deacff7b5c2dc2d72ab1d85fdf407193#egg=pytest-ipdb
