@@ -52,25 +52,24 @@ $grid-gutter-width          = 20px;
 
 
 // Colors
-$primary-text-color     = #4e4f53;
+$primary-text-color     = #484848;
 $secondary-text-color   = darken($primary-text-color, 10%);
 $light-text-color       = #fff;
 
 $link-color = #09c;
 
-$light-blue     = #3ebaee;
-$medium-blue    = #0c7cbe;
-$dark-blue      = #004884;
-$orange         = #e26522;
+$light-gray     = #e3e8ec;
+$dark-gray      = darken($light-gray, 20%);
+$light-blue     = #1b9ed4;
+$medium-blue    = #1881ba;
+$dark-blue      = #115b83;
+$yellow         = #fc3;
 
 
 
 // Blue backgrounds for some page sections
 section-blue = @block {
     background: $medium-blue;
-    background: linear-gradient(to top, rgba(85, 90, 95, .25) 0, rgba(85, 90, 95, 0) 15px),
-                linear-gradient(to bottom, darken($medium-blue, 20%) 0, $dark-blue 350px),
-                $medium-blue;
     color: $light-text-color;
 
     h1, h2, h3, legend {
@@ -118,9 +117,27 @@ light-links = @block {
 }
 
 
+// Basic button
+button = @block {
+    border-radius: .35em;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    min-width: 160px;
+    padding: .5em 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color linear .1s;
+       -moz-transition: background-color linear .1s;
+            transition: background-color linear .1s;
+}
+
+
 // Override base heading styles
 normalize-heading = @block {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans Light', sans-serif;
     letter-spacing: normal;
     text-shadow: none;
 }
@@ -138,6 +155,9 @@ $media-query-desktop        = 'screen and (min-width: 1000px)';
 $media-query-tablet         = 'screen and (min-width: 760px)';
 $media-query-mobile-wide    = 'screen and (min-width: 480px)';
 $media-query-mobile         = 'screen and (max-width: 480px)';
+
+// @High resolution images for @retina-type displays
+$media-query-highres        = 'only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), only screen and (min-resolution: 144dpi)';
 
 
 // Column spans for standard column widths

@@ -1,0 +1,85 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+// Home page
+
+@require 'lib';
+
+
+//*----------------------------------------------------------------*/
+// @Tablet layout: 760px
+
+@media $media-query-tablet {
+
+    .home {
+
+        .masthead {
+            background: $medium-blue url('/static/img/fox-swoop.png') calc(50% + 300px) 145px no-repeat;
+        }
+
+        .page-intro {
+            span_narrow(6);
+
+            h1 {
+                font-size: 48px;
+            }
+        }
+
+        .main {
+            span_all();
+            margin: 0;
+        }
+    }
+
+    .home-entry {
+        span_narrow(5);
+        margin-bottom: 2em;
+
+        &:nth-child(even) {
+            offset_narrow(1);
+        }
+
+        &:nth-child(odd) {
+            clear: left;
+        }
+    }
+
+}
+
+
+
+//*----------------------------------------------------------------*/
+// @Desktop layout: 1000px
+
+@media $media-query-desktop {
+
+    .home {
+        .page-intro {
+            span(6);
+
+            h1 {
+                font-size: 60px;
+            }
+        }
+    }
+
+    .home-entry {
+        span(5);
+
+        &:nth-child(even) {
+            offset(1);
+        }
+
+    }
+
+}
+
+@media $media-query-highres {
+
+    .home .masthead {
+        background-image: url('/static/img/fox-swoop-hr.png');
+        background-size: 590px 670px;
+    }
+
+}
