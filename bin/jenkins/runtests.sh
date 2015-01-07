@@ -8,7 +8,7 @@ virtualenv $TDIR
 pip install fig
 
 # Run Tests
-fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web ./manage.py test -v 2
+fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web bin/unit_tests
 
 # Delete virtualenv
 rm -rf $TDIR
