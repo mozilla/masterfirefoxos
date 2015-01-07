@@ -13,7 +13,6 @@ Page.register_templates(
         'path': 'content.html',
         'regions': (
             ('main', 'Main content area'),
-            ('sidebar', 'Sidebar', 'inherited'),
         ),
     },
     {
