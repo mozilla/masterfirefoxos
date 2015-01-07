@@ -99,8 +99,8 @@ docutils==0.12
 # sha256: fydQ9H4cA_ffSGbTdhm4B0_8HTIYI7taNRMC_k3SC2c
 Pygments==2.0.1
 
-# sha256: -UNCz4qtYwebOtgjDiNAYGlKB6Fmo6M4Qh9OPg4zg0c
-Pillow==2.6.1
+# sha256: JukyDnP1ghgmtrJAijv_Cowp5FFZUwBpoRfv0572Gfg
+Pillow==2.7
 
 # sha256: weQRlSPki_97MixuMzcJWAiaksmIttSOTWlCUpEmmf4
 # sha256: BkP70xV34f4HDXXIq5wi6XkVvUsRsu2u5yx2u1jZ9iQ
