@@ -166,8 +166,20 @@ LOCALE_PATHS = (
 )
 
 LANGUAGES = (
+    ('bn', ugettext_lazy('Bengali')),
+    ('hr', ugettext_lazy('Croatian')),
+    ('cz', ugettext_lazy('Czech')),
     ('en', ugettext_lazy('English')),
+    ('de', ugettext_lazy('German')),
     ('el', ugettext_lazy('Greek')),
+    ('hi', ugettext_lazy('Hindi')),
+    ('hu', ugettext_lazy('Hungarian')),
+    ('it', ugettext_lazy('Italian')),
+    ('pl', ugettext_lazy('Polish')),
+    ('pt', ugettext_lazy('Portuguese')),
+    ('sr', ugettext_lazy('Serbian')),
+    ('es', ugettext_lazy('Spanish')),
+    ('ta', ugettext_lazy('Tamil')),
 )
 
 VERSIONS_LOCALE_MAP = OrderedDict({
