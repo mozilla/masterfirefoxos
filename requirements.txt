@@ -110,17 +110,29 @@ django-stackato==1.0
 # sha256: KN0LkNKbOGr7VS78TjVciJ9GOc6TZYp4cqIVDs4ou4k
 py==1.4.26
 
-# sha256: VQiDuYGEzvbLuYDU2QBRMwrq5BB1CS-Y7wIVcZr47zM 
+# sha256: VQiDuYGEzvbLuYDU2QBRMwrq5BB1CS-Y7wIVcZr47zM
 pytest==2.6.4
 
 # sha256: 5vBgp2ziAlqrrrblVCVpuSBnlPrDKKBm6vAsU17wXQI
 pytest-django==2.7.0
 
 # sha256: MeUZjAbykOHoE9MN3QY6BAHZ46aYEpykQmd4FnOnEoU
-pytest-cov
+pytest-cov==1.8.1
 
 # sha256: 0a6hxKphuDZtakLdNlBiL7-cY07STq9_N5yLlw5e1E4
-coverage
+coverage==3.7.1
 
 # sha256: ShTGfVIP2p1CsNphNGOFeMquHTdLm7Ri2N4AWH26dkw
-cov-core
+cov-core==1.15.0
+
+# sha256: toGa2NBy2E-9uplY849sjk5D1dxDerykmBGq8MWjq64
+# sha256: MxnZwEi7pMyJqWkRgdDgIYei8JtDQ_0vz2zL-EtO4Yo
+dennis==0.6.1
+
+# sha256: seoUHVjtXkiu0mdPfIlN-4P2OcMobXsysuGfoDKltAA
+# sha256: INKg1YmmksEd9Um9fNqDxmXu8qg-AXuEP-zflW7brXQ
+polib==1.0.6
+
+# sha256: yZcvTSuAV1u5ESUAz-x1Dq9PBOB6vaSyxE5FPN5l7nc
+# sha256: 95yMBNfrUAcbytZ_0j88EPq2xy1WhXrfhINngGhF1uU
+click==3.3

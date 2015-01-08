@@ -7,8 +7,13 @@ virtualenv $TDIR
 . $TDIR/bin/activate
 pip install fig
 
+FIG_CMD="fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} -f ./bin/jenkins/fig.yml"
+
+# Lint translations
+$FIG_CMD run -T web dennis-cmd lint --errorsonly locale/
+
 # Run Tests
-fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web bin/unit_tests
+$FIG_CMD run -T web bin/unit_tests
 
 # Delete virtualenv
 rm -rf $TDIR
