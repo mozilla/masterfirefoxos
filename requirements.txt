@@ -149,8 +149,10 @@ django-storages-redux==1.2.1
 # sha256: YmBPD99oormmxr1REcguECgbSYaVFS0h9WyeSgaR1F0
 boto==2.35.1
 
-# sha256: -s_gx8zq_Uno9-RyERKUVmYF_f3cIwEdoGzDpGAcn30
-six==1.8.0
+# sha256: QYqTw5en7asj5ViNvAZ6x0pyPts9VBvUk295R252Rdo
+# sha256: 4kBSQR_E-9H2cmNVN8P8IzDZSBsYwDF2lbRiWVEskdU
+six==1.9.0
 
+# sha256: rf8-36E3YtVqvHx95gnTldSwOjBBRxImBizpn8qDU3A
 # sha256: Mfw1XHE1TVYJWPhskeGAvivHbGHBiaqG6Gm0nbOrDfU
 django-extensions==1.4.9
