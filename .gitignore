@@ -5,6 +5,7 @@ docs/_build
 /media/*
 /static
 /locale
+node_modules
 db-strings.txt
 *~
 \#*\#

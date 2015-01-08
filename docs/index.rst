@@ -4,14 +4,16 @@
    contain the root `toctree` directive.
 
 Welcome to masterfirefoxos's documentation!
-======================================
+===========================================
 
 Contents:
 
 .. toctree::
+   :maxdepth: 2
 
    internationalization
-   :maxdepth: 2
+   gulp
+
 
 
 
