@@ -9,7 +9,7 @@ page_template_template = '''
 Translators:
     Page Title: {title}
     Parent Page Title: {parent_title}
-{{% endcoment %}}
+{{% endcomment %}}
 {{% blocktrans trimmed %}}
 {string}
 {{% endblocktrans %}}
