@@ -22,8 +22,11 @@ Pre-Requisites
 
 Installation
 ------------
+If not installed already, install gulp globally. You may need to run this command using sudo::
 
-Run::
+    npm install -g gulp
+
+Install the project specific node modules::
 
     npm install
 
