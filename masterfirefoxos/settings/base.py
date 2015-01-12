@@ -159,6 +159,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.tz',
     'django.contrib.messages.context_processors.messages',
     'django.core.context_processors.request',
+    'masterfirefoxos.base.context_processors.settings',
 )
 
 LOCALE_PATHS = (
