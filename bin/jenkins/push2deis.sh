@@ -16,4 +16,4 @@ pip install deis==1.1.0
 
 
 deis login $DEIS_CONTROLLER  --username $DEIS_USERNAME --password $DEIS_PASSWORD
-deis pull $DOCKER_REPOSITORY:latest -a $DEIS_APPLICATION
+deis pull $DOCKER_REPOSITORY:`git rev-parse HEAD` -a $DEIS_APPLICATION
