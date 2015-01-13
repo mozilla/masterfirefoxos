@@ -108,7 +108,7 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 MEDIA_ROOT = config('MEDIA_ROOT', default=os.path.join(BASE_DIR, 'media'))
 MEDIA_URL = config('MEDIA_URL', '/media/')
 
-SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=True, cast=bool)
+SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=not DEBUG, cast=bool)
 
 TEMPLATE_LOADERS = (
     'jingo.Loader',
@@ -147,8 +147,6 @@ CSP_STYLE_SRC = (
     'http://*.mozilla.net',
     'https://*.mozilla.net',
 )
-
-SESSION_COOKIE_SECURE = not DEBUG
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
