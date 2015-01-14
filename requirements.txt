@@ -3,9 +3,9 @@
 # sha256: 0E86YzILY1jJTttsgioP3zmaEIQiV-Tnp9wlOYUgkrg
 peep==2.0
 
-# sha256: McbDwin4wEs76H5q_DSSkDtX7I8RiKR7auFg2Qz2U8g
-# sha256: sihx7cnd8-V7GJicPH6RdLTBaNx7jb4_MdQQGnO_IAY
-Django==1.7.2
+# sha256: cu3Ue1WudI0p8acdXKS4bnhcn7l0QHzyQrMWjm8bF34
+# sha256: 8ib7iqQ4RWlo1AP2c53hzy2tEo24b2buK0Hf6-NkXFs
+Django==1.7.3
 
 # TarGZ
 # sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
