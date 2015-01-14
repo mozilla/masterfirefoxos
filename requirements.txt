@@ -136,3 +136,7 @@ polib==1.0.6
 # sha256: yZcvTSuAV1u5ESUAz-x1Dq9PBOB6vaSyxE5FPN5l7nc
 # sha256: 95yMBNfrUAcbytZ_0j88EPq2xy1WhXrfhINngGhF1uU
 click==3.3
+# sha256: QW014kelmSc9QP0Bp8pIJmbr2UZ7lYUsqUpV3bzxDuA
+# sha256: 49SRYStWkFJZgEtdIpJhJr7ZoMKoMXSFgrhQUAkgs3A
+# sha256: lZZFTHQINrALhLsuwySDga96cQXWoY_i6BO9GwW6MbE
+peepin==0.7
