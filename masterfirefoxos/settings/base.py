@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'feincms.module.page',
     'feincms.module.medialibrary',
     'django_stackato',
+    'storages',
 
     # Project specific apps
     'masterfirefoxos.base',
@@ -198,3 +199,10 @@ VERSIONS_LOCALE_MAP = OrderedDict({
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 USE_X_FORWARDED_HOST = True
+
+AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID', default='')
+AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY', default='')
+AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME', default='')
+
+if AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and AWS_STORAGE_BUCKET_NAME:
+    DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'

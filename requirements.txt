@@ -136,7 +136,15 @@ polib==1.0.6
 # sha256: yZcvTSuAV1u5ESUAz-x1Dq9PBOB6vaSyxE5FPN5l7nc
 # sha256: 95yMBNfrUAcbytZ_0j88EPq2xy1WhXrfhINngGhF1uU
 click==3.3
+
 # sha256: QW014kelmSc9QP0Bp8pIJmbr2UZ7lYUsqUpV3bzxDuA
 # sha256: 49SRYStWkFJZgEtdIpJhJr7ZoMKoMXSFgrhQUAkgs3A
 # sha256: lZZFTHQINrALhLsuwySDga96cQXWoY_i6BO9GwW6MbE
 peepin==0.7
+
+# sha256: u2w2OyYqTO7TvzhLefz0108LSchZ54xnAP0BXg3iSdo
+django-storages-redux==1.2.1
+
+# sha256: 23aDBqF69XCWE7zCO3Cpu7dZSCOx5kHR7ZhdagPIKxA
+# sha256: YmBPD99oormmxr1REcguECgbSYaVFS0h9WyeSgaR1F0
+boto==2.35.1
