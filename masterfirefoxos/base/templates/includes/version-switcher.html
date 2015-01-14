@@ -1,9 +1,9 @@
 <form class="version-switcher" action="#">
   <label for="version">{{ _('Firefox OS version') }}</label>
   <select id="version" name="version">
-    <option value="1.0">1.0</option>
-    <option value="1.4">1.4</option>
-    <option value="2.0">2.0</option>
+    {% for version, data in settings.VERSIONS_LOCALE_MAP.items() %}
+      <option value="{{ data['slug'] }}">{{ version }}</option>
+    {% endfor %}
   </select>
   <button type="submit">{{ _('Change') }}</button>
   <a href="#TODO">{{ _('Which version do I have?') }}</a>
