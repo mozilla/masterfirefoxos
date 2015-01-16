@@ -216,3 +216,8 @@ if AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and AWS_STORAGE_BUCKET_NAME:
     DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
 FEINCMS_RICHTEXT_INIT_TEMPLATE = 'init_tinymce4.html'
+MIGRATION_MODULES = {
+    'medialibrary': 'masterfirefoxos.base.migrate.medialibrary',
+    'page': 'masterfirefoxos.base.migrate.page',
+
+}
