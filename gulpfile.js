@@ -1,49 +1,50 @@
 var gulp = require('gulp');
-var concat = require('gulp-concat');
 var gulpFilter = require('gulp-filter');
+var concat = require('gulp-concat');
 var stylus = require('gulp-stylus');
-var nib = require('nib');
+var sourcemaps = require('gulp-sourcemaps');
+var del = require('del');
 
-gulp.task('compress-base', function () {
-  var filter = gulpFilter(['*', '!oldIE.styl']);
+var paths = {
+  stylus: './masterfirefoxos/base/static/stylus',
+  css: './masterfirefoxos/base/static/css/'
+};
 
-  gulp.src('./masterfirefoxos/base/static/stylus/base.styl')
-    .pipe(filter)
-    .pipe(stylus({
-      use: nib(),
-      compress: true
-    }))
+gulp.task('compress:base', function () {
+  return gulp.src(paths.stylus + '/base.styl')
+    .pipe(sourcemaps.init())
+    .pipe(stylus({compress: true}))
     .pipe(concat('base.css'))
-    .pipe(gulp.dest('./masterfirefoxos/base/static/css'));
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(paths.css));
 });
 
-gulp.task('compress-home', function () {
-  var filter = gulpFilter(['*', '!oldIE.styl']);
-
-  gulp.src('./masterfirefoxos/base/static/stylus/home.styl')
-    .pipe(filter)
-    .pipe(stylus({
-      use: nib(),
-      compress: true
-    }))
+gulp.task('compress:home', function () {
+  return gulp.src(paths.stylus + '/home.styl')
+    .pipe(sourcemaps.init())
+    .pipe(stylus({compress: true}))
     .pipe(concat('home.css'))
-    .pipe(gulp.dest('./masterfirefoxos/base/static/css'));
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(paths.css));
 });
 
-gulp.task('compress-ie', function () {
-  gulp.src('./masterfirefoxos/base/static/stylus/oldIE.styl')
-    .pipe(stylus({
-      use: nib(),
-      compress: true
-    }))
-    .pipe(gulp.dest('./masterfirefoxos/base/static/css'));
+gulp.task('compress:ie', function () {
+  return gulp.src(paths.stylus + '/oldIE.styl')
+    .pipe(sourcemaps.init())
+    .pipe(stylus({compress: true}))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest(paths.css));
 });
 
-gulp.task('compress', ['compress-base', 'compress-home', 'compress-ie']);
-
-gulp.task('watch', ['compress'], function () {
-  gulp.watch("./masterfirefoxos/base/static/stylus/**.styl", ['compress']);
+gulp.task('clean:css', function (cb) {
+  return del([
+    paths.css + '/*',
+    '!' + paths.css + '/README.md'
+  ], cb);
 });
+
+gulp.task('default', ['clean:css', 'compress:base', 'compress:home', 'compress:ie']);
+
 
 
 
