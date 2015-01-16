@@ -6,6 +6,7 @@ from django.utils.translation import ugettext as _
 import jingo
 from feincms.module.page.models import Page
 from feincms.content.medialibrary.models import MediaFileContent
+from jinja2 import Markup
 
 
 jingo.env.install_gettext_translations(translation)
@@ -40,10 +41,10 @@ class YouTubeParagraphEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'videoparagraph.html',
+            'includes/videoparagraph.html',
             {
                 'title': _(self.title),
-                'text': _(self.text),
+                'text': Markup(_(self.text)),
                 'video': _(self.youtube_id)
             }
         )
@@ -59,10 +60,10 @@ class MediaParagraphEntry(MediaFileContent):
 
     def render(self, **kwargs):
         return render_to_string(
-            'mediaparagraph.html',
+            'includes/mediaparagraph.html',
             {
                 'title': _(self.title),
-                'text': _(self.text),
+                'text': Markup(_(self.text)),
                 'mediafile': self.mediafile
             }
         )
@@ -78,10 +79,10 @@ class FAQEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'faqentry.html',
+            'includes/faqentry.html',
             {
                 'question': _(self.question),
-                'answer': _(self.answer),
+                'answer': Markup(_(self.answer)),
             }
         )
 
@@ -94,9 +95,9 @@ class RichTextEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'richtext.html',
+            'includes/richtext.html',
             {
-                'html': _(self.text),
+                'html': Markup(_(self.text)),
             }
         )
 
