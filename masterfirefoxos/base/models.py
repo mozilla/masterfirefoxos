@@ -70,7 +70,7 @@ class MediaParagraphEntry(MediaFileContent):
 
 class FAQEntry(models.Model):
     question = models.CharField(max_length=255)
-    answer = models.CharField(max_length=255)
+    answer = models.TextField()
     _l10n_fields = ['question', 'answer']
 
     class Meta:
