@@ -9,6 +9,8 @@
     <meta http-equiv="imagetoolbar" content="no">
     <![endif]-->
 
+    <link rel="shortcut icon" href="{{ static('img/favicon.ico') }}">
+
     <title>{% if feincms_page.title %}{{ feincms_page.title }} | {% endif %}{{ _('Master Firefox OS') }}</title>
 
     {% block site_css %}
@@ -29,46 +31,48 @@
   </head>
   <body id="{% block body_id %}{% endblock %}" class="no-js {% block body_class %}{% endblock %}">
     <div id="outer-wrapper">
-      {% block site_header %}
-      <header id="masthead" role="banner">
+    {% block site_header %}
+      <header class="masthead" role="banner">
         <div class="contain">
           <a href="//www.mozilla.org/" id="tabzilla">{{ _('Mozilla') }}</a>
 
         {% block site_logo %}
           <h2 class="site-logo">
-            <a href="/">
-            {{ _('Master Firefox OS') }}
+            <a href="{{ feincms_page.get_root().get_absolute_url() }}">
+              {{ _('Master Firefox OS') }}
             </a>
           </h2>
         {% endblock %}
 
-        {% block version_switcher %}
-          {% include 'includes/version-switcher.html' %}
+        {% block site_switcher %}
+          {% include 'includes/version-language-switcher.html' %}
+        {% endblock %}
+
+        {% block nav_info %}
+          {% include 'includes/nav-information.html' %}
         {% endblock %}
         </div>
       </header>
-      {% endblock %}
+    {% endblock %}
 
       <div class="section">
         <div class="contain">
-          {% block nav_menu %}
-          <nav id="nav-main" class="aside">
+        {% block nav_content %}
+          <nav class="nav-main aside">
             <ul>
-              <li>Demo Tips</li>
-              <li>Customer Guide</li>
-              <li>Key Features</li>
-              <li>FAQ</li>
-              <li>Quizzes</li>
+            {% for child in feincms_page.get_root().get_children() %}
+              <li><a href="{{ child.get_absolute_url() }}">{{ child.title }}</a></li>
+            {% endfor %}
             </ul>
           </nav>
-          {% endblock %}
+        {% endblock %}
 
-          {% block content %}{% endblock %}
+        {% block content %}{% endblock %}
         </div>
       </div>
 
       {% block site_footer %}
-        <footer id="footer" role="contentinfo">
+        <footer class="footer" role="contentinfo">
           <div class="contain">
 
             <div class="footer-logo">

@@ -2,14 +2,11 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+@require 'fonts';
+@require 'reset';
+@require 'lib';
 
 // Global styling and layout
-
-@require 'fonts.styl';
-@require 'reset.styl';
-@require 'lib.styl';
-
-
 
 //*----------------------------------------------------------------*/
 // @General elements
@@ -30,47 +27,19 @@ body {
     height: 100%;
 }
 
-// We most often use lists for structure and don't style them as lists.
-// Use a .prose class for lists appearing in normal content that need normal styling.
-ol.prose {
-    list-style: decimal;
+ul,
+ol {
     margin-left: 40px;
 }
 
-ul.prose {
-    list-style: disc;
-    margin-left: 40px;
-
-    ul {
-        list-style: circle;
-        margin-left: 40px;
-    }
-}
-
-.page-head .prose {
-    text-align: left;
-}
-
-img.avatar {
-    border: 3px solid $light-text-color;
-    border-radius: 100%;
-}
-
-.faq dd {
-    border-bottom: 1px dotted $medium-gray;
-    margin: 0 0 1.5em;
-}
-
-img.lazy {
-    display: none;
-}
 
 
 //*----------------------------------------------------------------*/
 // @Headings
 h1, h2, h3, h4, h5, h6, legend, dl.faq dt {
     color: $secondary-text-color;
-    font-weight: normal;
+    font-weight: 400;
+    font-family: 'Fira Sans Light', sans-serif;
     letter-spacing: -.025em;
     line-height: 1.1;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, .35);
@@ -106,16 +75,6 @@ h5 {
 h6 {
     font-size: 14px;
     letter-spacing: normal;
-}
-
-.page-title {
-    text-align: center;
-    margin: 0 auto .5em;
-}
-
-.section-title {
-    text-align: center;
-    margin: 0 auto .5em;
 }
 
 
@@ -197,38 +156,36 @@ label {
 .button,
 .button:link,
 .button:visited {
+    {button}
     background-color: $medium-blue;
-    background-image: -webkit-linear-gradient($light-blue, $medium-blue);
-    background-image:         linear-gradient($light-blue, $medium-blue);
-    border-radius: .25em;
-    border: 0;
     color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    min-width: 100px;
-    padding: .25em 25px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, .25);
-    -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1), inset 0 -2px 0 0 rgba(0, 0, 0, .2);
-            box-shadow: 0 2px 0 0 rgba(0,0,0,.1), inset 0 -2px 0 0 rgba(0, 0, 0, .2);
-    -webkit-transition: -webkit-box-shadow linear .25s;
-       -moz-transition: box-shadow linear .25s;
-            transition: box-shadow linear .25s;
 }
 
 .button:hover,
 .button:focus,
 .button:active {
-    color: #fff;
-    text-decoration: none;
     background-color: lighten($medium-blue, 10%);
-    -webkit-box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1), inset 0 -2px 0 0 rgba(0, 0, 0,.2), inset 0 12px 24px 2px lighten($medium-blue, 15%);
-            box-shadow: 0 2px 0 0 rgba(0, 0, 0, .1), inset 0 -2px 0 0 rgba(0, 0, 0,.2), inset 0 12px 24px 2px lighten($medium-blue, 15%);
 }
 
 .button:focus {
-  outline-color: #484848;
+  outline-color: $primary-text-color;
+}
+
+.button-hollow,
+.button-hollow:link,
+.button-hollow:visited {
+    {button}
+    background-color: lighten($light-gray, 20%);
+    border: 2px solid $dark-gray;
+    color: $link-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $medium-blue;
+        border-color: $medium-blue;
+        color: #fff;
+    }
 }
 
 
@@ -236,15 +193,16 @@ label {
 //*----------------------------------------------------------------*/
 // @Layout containers
 #outer-wrapper {
-    background: #fff;
+    background: $light-gray;
     border-top: 2px solid #fff;
     position: relative;
     min-height: 99%;
 }
 
 .section {
-    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
     padding: 24px 0;
+    clearfix();
 }
 
 .section:last-child {
@@ -276,16 +234,16 @@ label {
 
 //*----------------------------------------------------------------*/
 // @Header
-#masthead {
+.masthead {
     {section-blue}
     {light-links}
+
+    .contain {
+        padding: 60px 20px 20px;
+    }
 }
 
-#masthead .contain {
-    padding: 80px 0 20px;
-}
-
-#masthead #tabzilla {
+#tabzilla {
     background: url('/static/img/tab.png') no-repeat;
     display: block;
     height: 44px;
@@ -297,7 +255,14 @@ label {
     text-indent: 150%;
 }
 
-.version-switcher {
+.site-switcher {
+    text-align: right;
+    font-size: 14px;
+
+    p {
+        margin: 0 0 .5em;
+    }
+
     label {
         display: inline;
         margin-right: 10px;
@@ -310,18 +275,91 @@ label {
     a {
         font-size: 12px;
         display: block;
+        color: $yellow;
+
+        &:hover,
+        &:focus {
+            color: #fff;
+        }
+    }
+}
+
+.site-logo a {
+    display: block;
+    width: 225px;
+    height: 70px;
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    background: url('/static/img/fxos-logo.png') no-repeat;
+
+    @media $media-query-highres {
+        background-image: url('/static/img/fxos-logo-hr.png');
+        background-size: 225px 80px;
+    }
+}
+
+.nav-info {
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    text-transform: uppercase;
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline;
+            margin: 0 10px .25em;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}
+
+
+//*----------------------------------------------------------------*/
+// @Navigation
+
+.nav-main {
+    ul {
+        border-top: 1px dotted $dark-gray;
+        list-style: none;
+        margin: 0;
+    }
+
+    li {
+        border-bottom: 1px dotted $dark-gray;
+    }
+
+    a {
+        display: block;
+        padding: .5em 10px;
+        text-decoration: none;
+        transition: background-color .1s ease;
+
+        &:hover,
+        &:focus {
+            background-color: lighten($light-gray, 20%);
+        }
     }
 }
 
 
 //*----------------------------------------------------------------*/
 // @Footer
-#footer {
-    {section-blue}
-    {light-links}
-    color: $light-text-color;
+.footer {
+    background: #fff;
     font-size: 12px;
     padding: 48px 0;
+
+    ul {
+        list-style: none;
+        margin-left: 0;
+    }
 }
 
 
@@ -367,11 +405,20 @@ label {
 
     .main {
         span_narrow(8);
-        offset(1);
+        offset_narrow(1);
     }
 
     .aside {
         span_narrow(3);
+    }
+
+    .site-logo {
+        span_narrow(8);
+    }
+
+    .site-switcher {
+        span_narrow(3);
+        offset_narrow(1);
     }
 
     .media-image img {
@@ -418,7 +465,7 @@ label {
         span(8);
     }
 
-    .version-switcher {
+    .site-switcher {
         span(3);
         offset(1);
     }
