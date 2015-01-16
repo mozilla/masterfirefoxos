@@ -5,7 +5,6 @@ from django.utils.translation import ugettext as _
 
 import jingo
 from feincms.module.page.models import Page
-from feincms.content.richtext.models import RichTextContent
 from feincms.content.medialibrary.models import MediaFileContent
 
 
@@ -86,7 +85,23 @@ class FAQEntry(models.Model):
             }
         )
 
+class RichTextEntry(models.Model):
+    text = models.TextField()
+    _l10n_fields = ['text']
 
+    class Meta:
+        abstract = True
+
+    def render(self, **kwargs):
+        return render_to_string(
+            'richtext.html',
+            {
+                'html': _(self.text),
+            }
+        )
+
+
+Page.create_content_type(RichTextEntry)
 Page.create_content_type(MediaParagraphEntry,
                          TYPE_CHOICES=(('default', 'default'),))
 Page.create_content_type(FAQEntry)
