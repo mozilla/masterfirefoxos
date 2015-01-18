@@ -2,6 +2,7 @@ import json
 import os
 
 from django.conf import settings
+from django.core.management import call_command
 from django.utils.text import slugify
 
 from feincms.module.page.models import Page
@@ -9,23 +10,32 @@ from feincms.module.page.models import Page
 import polib
 
 
-def load_topic(language='english'):
+def load_topic(language='en', version='1.3T'):
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                           'json', language + '.json')) as f:
+                           'json', version, language + '.json')) as f:
         # all content for the legacy site is in a single 'topic'
         return json.load(f)['modules'][0]['topics'][0]
+
+
+def pwrap(text):
+    if text.startswith('<p>') and text.endswith('</p>'):
+        return text
+    else:
+        return '<p>{}</p>'.format(text)
 
 
 def add_richtext(page, text):
     if text:
         page.richtextentry_set.create(
-            text=text, parent=page, region='main')
+            text=pwrap(text), parent=page, region='main')
 
 
 def add_blocks(page, blocks):
     for block in blocks or []:
         add_richtext(page, block['title'])
         for component in block['components']:
+            if component.get('class') in ('nav-next', 'nav-back'):
+                continue
             add_richtext(page, component['title'])
             add_richtext(page, component['body'])
             # TODO: upload media, use different content type
@@ -40,18 +50,18 @@ def add_blocks(page, blocks):
                 add_richtext(page, item.get('strapline'))
 
 
-def create_page(title, body='', parent=None, override_url='', blocks=None):
+def create_page(title, body='', parent=None, slug='', blocks=None):
     page = Page.objects.create(
-        title=title, slug=slugify(title), parent=parent,
-        override_url=override_url)
+        title=title, slug=slug or slugify(title), parent=parent)
     add_richtext(page, body)
     add_blocks(page, blocks)
     return page
     
 
-def create_pages():
-    topic = load_topic()
-    home_page = create_page(topic['title'], topic['body'], override_url='/')
+def create_pages(version='1.3T'):
+    topic = load_topic(version=version)
+    home_page = create_page(topic['title'], topic['body'],
+                            slug=version.replace('.', '-'))
     for page in topic['pages']:
         create_page(page['title'], page.get('body'), parent=home_page,
                     blocks=page['articles'][0]['blocks'])
@@ -63,6 +73,7 @@ def update_if_present(source, translated, translations, keys):
         xlated = translated.get(key)
         if src and xlated:
             translations[src] = xlated
+            translations[pwrap(src)] = pwrap(xlated)
 
 
 def update_component_translations(components, translated_components,
@@ -102,9 +113,9 @@ def update_block_translations(blocks, translated_blocks, translations):
                 translations)
 
 
-def get_translations(language):
-    topic = load_topic()
-    translated_topic = load_topic(language)
+def get_translations(language, version):
+    topic = load_topic(version=version)
+    translated_topic = load_topic(language=language, version=version)
     translations = {}
 
     for page in topic['pages']:
@@ -119,16 +130,13 @@ def get_translations(language):
     return translations
 
 
-
 def load_po(language):
-    language_codes = {'german': 'de'}
-    return polib.pofile(os.path.join(settings.BASE_DIR, 'locale',
-                                     language_codes[language], 'LC_MESSAGES',
-                                     'django.po'))
+    return polib.pofile(os.path.join(settings.BASE_DIR, 'locale', language,
+                                     'LC_MESSAGES', 'django.po'))
 
 
-def update_po(language):
-    translations = get_translations(language)
+def update_po(language, version):
+    translations = get_translations(language, version)
     po = load_po(language)
     translated = False
     for entry in po:
@@ -139,3 +147,15 @@ def update_po(language):
                       'for', entry.msgid)
             entry.msgstr = translated
     po.save()
+
+
+def create_pages_and_translations():
+    for version, locale_map in settings.VERSIONS_LOCALE_MAP.items():
+        create_pages(version=version)
+        call_command('runscript', 'db_strings')
+        for locale in locale_map['locales']:
+            if locale == 'en':
+                continue
+            call_command('makemessages', locale=[locale])
+            update_po(locale, version)
+    call_command('compilemessages')

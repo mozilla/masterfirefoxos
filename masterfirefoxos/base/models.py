@@ -1,10 +1,15 @@
 from django.db import models
 from django.template.loader import render_to_string
+from django.utils import translation
 from django.utils.translation import ugettext as _
 
+import jingo
 from feincms.module.page.models import Page
 from feincms.content.richtext.models import RichTextContent
 from feincms.content.medialibrary.models import MediaFileContent
+
+
+jingo.env.install_gettext_translations(translation)
 
 
 Page.register_templates(
