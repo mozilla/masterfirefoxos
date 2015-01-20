@@ -43,6 +43,10 @@ gulp.task('clean:css', function (cb) {
   ], cb);
 });
 
+gulp.task('watch:css', function() {
+  gulp.watch(paths.stylus + '/**/*.styl', ['default']);
+});
+
 gulp.task('default', ['clean:css', 'compress:base', 'compress:home', 'compress:ie']);
 
 
