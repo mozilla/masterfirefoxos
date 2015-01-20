@@ -12,7 +12,7 @@ set -ex
 TDIR=`mktemp -d`
 virtualenv $TDIR
 . $TDIR/bin/activate
-pip install deis==1.1.0
+pip install deis==1.1.1
 
 
 deis login $DEIS_CONTROLLER  --username $DEIS_USERNAME --password $DEIS_PASSWORD
