@@ -7,7 +7,8 @@ function selectChangeLocation(id) {
     select[id] = document.getElementById(id);
     selected[id] = select[id].options[select[id].selectedIndex]
     select[id].addEventListener('change', function(event) {
-    window.location = window.location.href.replace(selected[id].value, event.target.value);
+        window.location = window.location.href.replace(
+            selected[id].value, event.target.value).split('?')[0];
     });
 }
 
@@ -21,10 +22,10 @@ function queryParam(param) {
 
 function languageName(lang) {
     for (var i = 0; i < select['language'].options.length; i++) {
-    var option = select['language'].options.item(i)
-    if (lang === option.value) {
-        return option.text
-    }
+        var option = select['language'].options.item(i)
+        if (lang === option.value) {
+            return option.text
+        }
     }
     return 'your selected language'
 }
@@ -41,6 +42,7 @@ if (fromLang) {
         text +=  ' The latest version available in ' + language + ' is ' +
             latestVersion.replace('-', '.');
     }
-    document.getElementById('redirected-from-lang').appendChild(document.createTextNode(text));
+    document.getElementById('redirected-from-lang').appendChild(
+        document.createTextNode(text));
 }
 })();
