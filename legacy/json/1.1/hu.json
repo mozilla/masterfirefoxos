@@ -1,0 +1,2210 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Beküldés</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Beküldés</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Szelídítse meg a <br/>Firefox OS-t",
+                    "description": "",
+                    "body": "Üdvözöljük a Firefox OS globális partner és közösségi képzési oldalán. Minden, ami a Firefox OS alapjainak kommunikálásához szükséges, itt megtalálható. Válasszon egy témát a kezdéshez.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "Bevezetés",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Egy telefon, amellyel minden pillanatot kihasználhat.",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "A vásárlók igényei folyamatosan változnak. A Firefox OS okostelefonok alkalmazkodnak vásárlói igényeihez, így ők minden pillanatot kihasználhatnak.<br/><br/>Egyszerű használhatóságukkal tökéletesek az új okostelefon-felhasználók számára, és teli vannak a vásárlók által elvárt funkciókkal. A Mozilla által támogatott Firefox OS készülékek megfelelőek bárkinek, aki elkötelezett a Web mindenki számára elérhető nyilvános erőforrásként való megőrzése mellett."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Készen áll a Firefox OS főbb előnyeinek megismerésére?",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/hungarian/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "Az alkalmazkodó telefon"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "Az alkalmazkodó telefon",
+                                                            "body": "A Firefox OS jobban alkalmazkodik a vásárlókhoz, mint bármely más telefon.<br/><br/>Az adaptív app keresés bármiről információt kínál, és többet ad a keresettnél, pontosan amikor szükségük van rá. Ez lehetővé teszi, hogy minden pillanatot a legjobban kihasználjanak.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "Az alkalmazkodó telefon"
+                                                            },
+                                                            "strapline": "Az alkalmazkodó telefon",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "Birtokolja mindet",
+                                                            "body": "A Firefox OS tele van olyan funkciókkal, amelyeket a vásárlók elvárnak egy okostelefontól: appok, térképek, kamera, galéria, közösségi funkciók, zene és sok más.<br/><br/>A Firefox OS lehetővé teszi, hogy a vásárlók átvegyék az irányítást online életük felett, és elérjék a web legjavát bárhová is menjenek.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "Birtokolja mindet"
+                                                            },
+                                                            "strapline": "Birtokolja mindet",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "Tartsa kezében a webet",
+                                                            "body": "A Mozillánál a célunk a változás elérése, nem pedig a profit.<br/><br/>A Firefox OS okostelefonok alkalmazkodnak a vásárlók igényeihez, így ők minden pillanatot kihasználhatnak.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "Tartsa kezében a webet"
+                                                            },
+                                                            "strapline": "Tartsa kezében a webet",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>Ötletek a bemutatáshoz <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "Ötletek a bemutatáshoz",
+                            "description": "Ismerje meg a kérdés összetevőit.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Bemutatók, amik számítanak",
+                                                    "body": "Nem kell mást tennie, mint megmutatni, hogy a Firefox OS funkciói könnyen elérhetőek, és használata végtelenül egyértelmű. A felhasználók ezt fogják keresni, nem is kell több az értékesítéshez.<br/><br/>A kezdéshez tallózza a lenti bemutató videókat."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "A Firefox OS bemutatása",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "Ha csak egy perce van, használja ki a legjobban a következő egyszerű fogással.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Adaptív app keresés",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b10-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b10-c10.ogv"
+                                                    },
+                                                    "body": "Mutassa meg a vásárlóknak, hogy a Firefox OS hogyan alkalmazkodik hozzájuk, többet adva abból, amire szükségük van, akkor amikor szükségük van rá.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Kapcsolat fenntartása",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "Minden korábbinál egyszerűbb kapcsolatban maradni a Firefox OS-sel.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "HERE Maps",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "Mutassa be a Firefox OS hatékony térképfunkcióit, beleértve a helyi közlekedési információkat.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Firefox böngésző",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b30-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b30-c05.ogv"
+                                                    },
+                                                    "body": "A Firefox OS a webet sokkal inkább a felhasználók kezébe teszi, mint bármely más telefon.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Marketplace",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b30-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b30-c10.ogv"
+                                                    },
+                                                    "body": "A Firefox Marketplace tartalmazza azokat a menő játékokat és appokat, amelyekre a vásárlói vágynak.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Kamera és Galéria",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b40-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b40-c05.ogv"
+                                                    },
+                                                    "body": "Fényképezzen, szerkesszen és osszon meg. Mutassa meg teljes felszereltségű Kamera és Galéria appjainkat, beleértve a beépített stílusszűrőket, a videót és sok mást.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Zene és FM rádió",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b40-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hungarian/m05-t05-p10-a05-b40-c10.ogv"
+                                                    },
+                                                    "body": "A zenével az ujjhegyeiken a vásárlók látni fogják, hogyan szórakoztatja és táncoltatja meg őket a Firefox OS.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                         {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span>BEVEZETÉS</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>VÁSÁRLÓK BEMUTATÁSA<span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "Vásárlók bemutatása",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Ki az ideális Firefox vásárló?",
+                                                    "body": "A vásárlók igényeinek megértése és azonnali válaszadás képessége kritikus minden eladási helyzetben.<br/><br/>Nézze meg alább az általános vásárlói típusokat, és húzza félre a sávot az egyedi igényekre adandó legjobb válaszok megismeréséhez."
+                                                }
+                                            ]
+                                        },
+                                        
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/customer-1.png",
+                                                        "alt": "A kezdő okostelefonos",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "A következőt mondhatja",
+                                                        "body": "A Firefox OS a legjobb választás első okostelefonként. Használata nagyon egyszerű, és minden más telefonnál jobban alkalmazkodik igényeihez, így kevesebb kereséssel többet kap abból, amire szüksége van. Ezen kívül tartalmazza az összes olyan funkciót, amire számít: fényképezőgép, e-mail, appok, zene, térképek és sok más."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/customer-2.png",
+                                                        "alt": "Az értékkereső",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "A következőt mondhatja",
+                                                        "body": "A Firefox OS adja a legtöbb értéket a pénzéért. Tartalmazza az összes olyan funkciót, amit egy okostelefontól elvár – fényképezőgép, e-mail, appok, zene, térképek és sok más – a legversenyképesebb áron."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/customer-3.png",
+                                                        "alt": "A bizonytalan frissítő",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "A következőt mondhatja",
+                                                        "body": "A Firefox OS a legegyszerűbb okostelefon, amivel elindulhat. Az adaptív keresés segít egyszerűen – és azonnal – megtalálni, amit keres. A felhasználói felület nagyon intuitív, gyorsan fel fogja fedezni és letöltheti kedvenc appjait, hogy használatba vehesse."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/customer-4.png",
+                                                        "alt": "A Firefox rajongó",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "A következőt mondhatja",
+                                                        "body": "Ha ismeri és szereti a Firefoxot, akkor a Firefox OS-t is szeretni fogja. A Firefox OS okostelefonok teljesen HTML5-alapúak, elhozva a web legjavát a telefonjára. Ezen túl a Firefox OS-t egy közösség tervezte, amely eltökélt a web mindenki számára elérhetőségének fenntartása iránt. Amikor a Firefox OS-t választja, a web minden erejét a kezében tarthatja."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hungarian/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> Ötletek a bemutatáshoz</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>FŐ FUNKCIÓK <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "Fő funkciók",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Funkciók, amelyek számítanak",
+                                                    "body": "A Firefox OS tele van azokkal a funkciókkal, amelyeket vásárlói elvárnak egy okostelefontól. Tökéletesen illeszkedik életükbe, így lépést tarthatnak a körülöttük lévő világgal."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "Birtokolja mindet",
+                                                    "body": "Válassza az előre nyilat a Firefox OS fő funkcióinak felfedezéséhez.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Adaptív app keresés",
+                                                            "body": "Egy új módszer pontosan azon dolgok megkapására, amiket és amikor akar, az alkalmazások telefonjára való letöltésének gondjai nélkül. Keressen bármire, és a Firefox OS alkalmazkodik kéréséhez, megjelenítve fotókat, videókat, zenét, híreket, térképeket és sok mást – sokkal egyszerűbbé téve annak megtalálását, amit igazán keresett.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Adaptív app keresés..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "Itt megtalálhatja a legjobb appokat a Firefox OS-hez. Több tízezer ingyenes és fizetős app között válogathat több kategóriában a játékoktól a segédprogamokon át a zenei, utazási, sport és sok más kategóriáig.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "Firefox böngésző",
+                                                            "body": "A gyors, egyszerű és biztonságos út a web legjavának eléréséhez. A címsorba beírhatja weboldalak címeit, keresést végezhet és elérheti böngészési előzményeit. Ezen kívül a lapokkal egyszerre több oldalt is böngészhet.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Firefox böngésző..."
+                                                        },
+                                                        {
+                                                            "title": "Facebook és Twitter",
+                                                            "body": "Maradjon kapcsolatban, egyszerűen elérve ismerőseit és kollégáit, bárhol is legyen.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Facebook és Twitter..."
+                                                        },
+                                                        {
+                                                            "title": "Névjegyek",
+                                                            "body": "Mélyen integrálva kedvenc közösségi hálózataival. Egyszerűen importálhatja facebookos ismerőseit telefonjára, így közösségét egy helyen tarthatja.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Névjegyek..."
+                                                        },
+                                                        {
+                                                            "title": "Kamera és Galéria",
+                                                            "body": "A vidám, kreatív képek készítésére használható beépített stílusszűrőkkel és rengeteg fotómegosztási lehetőséggel rendelkező, teljes felszereltségű kamera és fotógaléria minden alanyát mosolyra fogja késztetni.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Kamera és Galéria..."
+                                                        },
+                                                        {
+                                                            "title": "FM rádió",
+                                                            "body": "Minden zene, amit út közben hallgatni szeretne, egy készüléken. Csatlakoztassa fülhallgatóját, és kezdheti is a zenehallgatást.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "FM rádió..."
+                                                        },
+                                                        {
+                                                            "title": "Térképek",
+                                                            "body": "Elérhet műholdképeket, tömegközlekedési és élő forgalmihelyzet-információkat, rákereshet tájékozódási pontokra, és a térképet el is mentheti készülékére a gyorsabb elérés érdekében. A Here Maps megmutatja aktuális helyét, és az úti céljához vezető útvonalat (autós, gyalogos vagy tömegközlekedési) is meg tudja tervezni.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-8.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Térképek..."
+                                                        },
+                                                        {
+                                                            "title": "Zene és videó",
+                                                            "body": "Játssza le telefonjáról, vagy online a Youtube-ról. Válogasson gyűjteményében, és játssza le album vagy előadó szerint, értékelje számait és készítsen lejátszólistákat kedvenceiből.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Zene és videó...."
+                                                        },
+                                                        {
+                                                            "title": "SMS és e-mail",
+                                                            "body": "Maradjon kapcsolatban barátaival és kollégáival, bárhol is legyen. Egyszerűen beállíthat több e-mail fiókot, a leggyakoribb Exchange, SMTP vagy IMAP szolgáltatók támogatásával.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/hungarian/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "SMS és e-mail..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> VÁSÁRLÓK BEMUTATÁSA</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>Gyakori kérdések <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "Gyakori kérdések",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "kérdése van? Tudjuk a választ!",
+                                                    "body": "Mostanra valószínűleg van néhány kérdése, és vásárlóinak is lesz! Válassza ki az egyes kérdéseket további információkért a Firefox OS-ről."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Mi az az adaptív app keresés?",
+                                                            "title": "Mi az az adaptív app keresés?",
+                                                            "body": "Az adaptív app keresés egy új módszer a tartalom keresésére a weben, és az app-szerű élmény megkapásához – a kívánt információ megkereséséhez szükséges app letöltésének nehézségei nélkül. Amikor keres, telefonja alkalmazkodik a találatokhoz, és egyszerűvé teszi ezek hozzáadását a kezdőképernyőjéhez a későbbi gyors elérés érdekében."
+                                                        },
+                                                        {
+                                                            "alt": "Hány és milyen típusú app lesz elérhető?",
+                                                            "title": "Hány és milyen típusú app lesz elérhető?",
+                                                            "body": "Világszerte vannak elkötelezett app fejlesztők, akik a Firefox OS-re több tízezer, a bevezetésekor már elérhető  ingyenes és fizetős appot fejlesztettek. A vezető app fejlesztők növekvő listája a következőket tartalmazza: Accuweather, Airbnb, Box, Cut the Rope, EA Games, Facebook, Nokia HERE, MTV Brasil, Pulse News, SoundCloud, SporTV, Time Out és Twitter."
+                                                        },
+                                                        {
+                                                            "alt": "Mi teszi a Firefox OS-t biztonságosabbá más telefonoknál?",
+                                                            "title": "Mi teszi a Firefox OS-t biztonságosabbá más telefonoknál?",
+                                                            "body": "A Firefox OS robusztus biztonsági modellel rendelkezik, amely a nyílt web évtizedesnél régebbi támogatásában edződött. Ezt a felhasználók és a rendszer rosszindulatú alkalmazásoktól és tartalmaktól való megvédésére tervezték."
+                                                        },
+                                                        {
+                                                            "alt": "Az androidos appok működnek ezen a telefonon?",
+                                                            "title": "Az androidos appok működnek ezen a telefonon?",
+                                                            "body": "Közvetlenül nem. Azonban sok népszerű Android és iOS app valójában webes app, amelyek rendelkeznek egy natív „kerettel”, hogy futhassanak ezeken a zárt platformokon. Emiatt ezen appok közül sok elérhető az adaptív app kereséssel is."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Az appok működnek offline?",
+                                                            "title": "Az appok működnek offline?",
+                                                            "body": "A Firefox OS webes technológiákra épül, de a telefon alapfunkcióit offline is el tudja látni. Ez azt jelenti, hogy az appok nem igényelnek aktív internetkapcsolatot a működéshez, hacsak nem kell egy appnak egy másik rendszerre adatokat küldenie vagy onnan az interneten fogadnia a működése folytatásához."
+                                                        },
+                                                        {
+                                                            "alt": "WVan-e ügyfélszolgálat az appokhoz?",
+                                                            "title": "Van-e ügyfélszolgálat az appokhoz?",
+                                                            "body": "Ha egy vásárló támogatást igényel egy Firefox OS-hez készült apphoz, akkor az app fejlesztőjéhez fogjuk irányítani. Ha a Firefox OS felhasználói élményét negatívan befolyásolja az apphoz kapott támogatás, akkor a Mozilla kerülő megoldásokat javasolhat, beleértve az app eltávolítását amíg a fejlesztő nem biztosít megfelelő segítséget."
+                                                        },
+                                                        {
+                                                            "alt": "Hogyan tölthetek le és telepíthetek appokat a Firefox OS-en?",
+                                                            "title": "Hogyan tölthetek le és telepíthetek appokat a Firefox OS-en?",
+                                                            "body": "A Firefox OS két módszert biztosít appok beszerzésére:<ul><li>Firefox Marketplace – A legjobb appok lelőhelye, mint például a Twitter és a legjobb helyi webfejlesztőktől származó helyi tartalom.</li><li>Adaptív app keresés – Csak írjon be egy szót, mint például „pizza” a kapcsolódó helyi mobil appok felfedezéséhez, amelyeket kiváló webes élmény és az Ön által keresett tartalom biztosítására terveztek.</li><ul>"
+                                                        },
+                                                        {
+                                                            "alt": "Mely e-mail szolgáltatók támogatottak?",
+                                                            "title": "Mely e-mail szolgáltatók támogatottak?",
+                                                            "body": "Jelenleg a Hotmail és Yahoo mail támogatott, a későbbi verziókba továbbiak támogatása is várható."
+                                                        },
+                                                        {
+                                                            "alt": "Hová fordulhatok a további kérdéseimmel?",
+                                                            "title": "Hová fordulhatok a további kérdéseimmel?",
+                                                            "body": "További információkért keresse fel a <a href='https://support.mozilla.org/en-US/kb/firefox-os-user-guide'>https://support.mozilla.org/en-US/kb/firefox-os-user-guide</a> oldalt."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> FŐ FUNKCIÓK</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>A FIREFOX KÜLDETÉSE <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "A Firefox küldetése",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "Küldetésünk a nyíltság, innováció és a web lehetőségeinek népszerűsítése.",
+                                                    "body": "Minden Firefox OS okostelefon mögött ott áll a Mozilla több ezer fős globális közössége, akik elkötelezettek a web mindenki számára elérhetőnek megőrzése iránt. Ennek oka, hogy szerintünk mindenkinek joga van egy olyan webhez, amelyet nem csak néhány nagy társaság irányít.<br/><br/>Igen, egy picit különbözünk a többiektől. Együtt fényesebb jövőt építhetünk a web számára."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> GYAKORI KÉRDÉSEK</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>Tesztelje tudását! <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "Tesztelje tudását!",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Készen áll tudása megmutatására?",
+                                                    "body": "Úgy érzi, készen áll a Firefox OS eladására vásárlóinak? Kezdje el használni tudását és válaszolja meg ezeket a kérdéseket, bizonyítsa, hogy képes rá!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "1. kérdés",
+                                                    "body": "Hogyan érhető el az adaptív app keresés funkció a Firefox OS-en?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van! Csak csúsztasson balra az adaptív app keresés funkció eléréséhez.",
+                                                        "incorrect": "Nem-nem. Csak csúsztasson balra az adaptív app keresés funkció eléréséhez.",
+                                                        "partly": "Nem-nem. Csak csúsztasson balra az adaptív app keresés funkció eléréséhez."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Balra csúsztatás.",
+                                                            "title": "Balra csúsztatás.",
+                                                            "text": "Balra csúsztatás.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "A kezdőoldal gomb megnyomásával.",
+                                                            "title": "A kezdőoldal gomb megnyomásával.",
+                                                            "text": "A kezdőoldal gomb megnyomásával.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "A Firefox Marketplace megnyitásával.",
+                                                            "title": "A Firefox Marketplace megnyitásával.",
+                                                            "text": "A Firefox Marketplace megnyitásával.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "A Firefox böngésző megnyitásával.",
+                                                            "title": "A Firefox böngésző megnyitásával.",
+                                                            "text": "A Firefox böngésző megnyitásával.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 8,
+                                                    "title": "2. kérdés",
+                                                    "body": "A következő appok közül melyik érhető el alapesetben minden Firefox OS telefonon? Jelölje be az összes jó választ.",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van! Ezen appok mindegyike alapesetben elérhető minden Firefox OS telefonon.",
+                                                        "incorrect": "Valójában ezen appok mindegyike alapesetben elérhető minden Firefox OS telefonon.",
+                                                        "partly": "Valójában ezen appok mindegyike alapesetben elérhető minden Firefox OS telefonon."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace",
+                                                            "title": "Firefox Marketplace",
+                                                            "text": "Firefox Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox böngésző",
+                                                            "title": "Firefox böngésző",
+                                                            "text": "Firefox böngésző",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Kamera és Galéria",
+                                                            "title": "Kamera és Galéria",
+                                                            "text": "Kamera és Galéria",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Facebook",
+                                                            "title": "Facebook",
+                                                            "text": "Facebook",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "E-mail és SMS",
+                                                            "title": "E-mail és SMS",
+                                                            "text": "E-mail és SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "FM-rádió",
+                                                            "title": "FM-rádió",
+                                                            "text": "FM-rádió",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Zenelejátszó",
+                                                            "title": "Zenelejátszó",
+                                                            "text": "Zenelejátszó",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "HERE Maps",
+                                                            "title": "HERE Maps",
+                                                            "text": "HERE Maps",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                                     
+					                    {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "3. kérdés",
+                                                    "body": "Mi történik, amikor beír egy szót vagy témát, ami érdekli? Jelölje be az összes jó választ.",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Ez mind igaz az adaptív app keresésre!",
+                                                        "incorrect": "Valójában ez mind igaz az adaptív app keresésre!",
+                                                        "partly": "Valójában ez mind igaz az adaptív app keresésre!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A találatok az egész webről appokként jelennek meg a telefonon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A háttérkép azonnal megváltozik, és a webről származó népszerű fényképeket jelenít meg.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A találatok közé releváns térképek, képek, zenék, hírek, videók, Twitter oldalak és sok más tartozik.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A keresés azonnal, világszerte több tízezer webes app között történik.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },  
+						                        {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "4. kérdés",
+                                                    "body": "A következő válaszok közül melyik jelez ideális vásárlójelöltet a Firefox OS-hez?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Ezek a vásárlók mind ideális jelöltek a Firefox OS-hez!",
+                                                        "incorrect": "Valójában közülük MINDEGYIK ideális jelölt a Firefox OS-hez!",
+                                                        "partly": "Valójában közülük MINDEGYIK ideális jelölt a Firefox OS-hez!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Még soha nem használtam okostelefont.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A legjobb értéket várom a pénzemért.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Egy nagyon egyszerűen használható okostelefont keresek.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox rajongó vagyok.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+					                    {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "5. kérdés",
+                                                    "body": "Ez az ikon melyik Firefox OS funkciót jelképezi?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van! Ez az ikon a Névjegyeket jelképezi.",
+                                                        "incorrect": "Valójában ez az ikon a Névjegyeket jelképezi.",
+                                                        "partly": "Valójában ez az ikon a Névjegyeket jelképezi."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Névjegyek",
+                                                            "title": "Névjegyek",
+                                                            "text": "Névjegyek",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox böngésző",
+                                                            "title": "Firefox böngésző",
+                                                            "text": "Firefox böngésző",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Adaptív app keresés",
+                                                            "title": "Adaptív app keresés",
+                                                            "text": "Adaptív app keresés",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "6. kérdés",
+                                                    "body": "Ez az ikon melyik Firefox OS funkciót jelképezi?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van! Ez az ikon a Firefox böngészőt jelképezi.",
+                                                        "incorrect": "Valójában ez az ikon a Firefox böngészőt jelképezi.",
+                                                        "partly": "Valójában ez az ikon a Firefox böngészőt jelképezi."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS",
+                                                            "title": "SMS",
+                                                            "text": "SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Névjegyek",
+                                                            "title": "Névjegyek",
+                                                            "text": "Névjegyek",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox böngésző",
+                                                            "title": "Firefox böngésző",
+                                                            "text": "Firefox böngésző",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Adaptív app keresés",
+                                                            "title": "Adaptív app keresés",
+                                                            "text": "Adaptív app keresés",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "7. kérdés",
+                                                    "body": "Ez az ikon melyik Firefox OS funkciót jelképezi?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van! Ez az ikon az Adaptív app keresést jelképezi.",
+                                                        "incorrect": "Valójában ez az ikon az Adaptív app keresést jelképezi.",
+                                                        "partly": "Valójában ez az ikon az Adaptív app keresést jelképezi."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Névjegyek",
+                                                            "title": "Névjegyek",
+                                                            "text": "Névjegyek",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox böngésző",
+                                                            "title": "Firefox böngésző",
+                                                            "text": "Firefox böngésző",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Adaptív app keresés",
+                                                            "title": "Adaptív app keresés",
+                                                            "text": "Adaptív app keresés",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "8. kérdés",
+                                                    "body": "Vásárlója szeretné megérteni a Firefox OS legjelentősebb előnyeit a versenytársaihoz képest. Jelölje be az összes jó választ.",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Ezek az állítások mind igazak a Firefox OS-ről.",
+                                                        "incorrect": "Valójában mindegyik állítás igaz a legszélesebb készülékválasztékról szólót kivéve. Ez a jövőben igazzá válhat, de ma még nem az.",
+                                                        "partly": "Valójában mindegyik állítás igaz a legszélesebb készülékválasztékról szólót kivéve. Ez a jövőben igazzá válhat, de ma még nem az."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Az adaptív app kereséssel a Firefox OS jobban alkalmazkodik Önhöz, mint bármely másik telefon.",
+                                                            "title": "Az adaptív app kereséssel a Firefox OS jobban alkalmazkodik Önhöz, mint bármely másik telefon.",
+                                                            "text": "Az adaptív app kereséssel a Firefox OS jobban alkalmazkodik Önhöz, mint bármely másik telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "A Firefox Marketplace-szel és több tucat előre telepített appal, mint az e-mail, térképek, Facebook, Kamera, Zene és sok más, a Firefox OS tele van azokkal a funkciókkal, amelyeket elvár egy okostelefontól.",
+                                                            "title": "A Firefox Marketplace-szel és több tucat előre telepített appal, mint az e-mail, térképek, Facebook, Kamera, Zene és sok más, a Firefox OS tele van azokkal a funkciókkal, amelyeket elvár egy okostelefontól.",
+                                                            "text": "A Firefox Marketplace-szel és több tucat előre telepített appal, mint az e-mail, térképek, Facebook, Kamera, Zene és sok más, a Firefox OS tele van azokkal a funkciókkal, amelyeket elvár egy okostelefontól.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Mivel a Firefox készíti, bízhat benne, hogy a Firefox OS-t egy globális közösség támogatja, amely az Ön nevében és érdekeit szem előtt tartva dolgozik.",
+                                                            "title": "Mivel a Firefox készíti, bízhat benne, hogy a Firefox OS-t egy globális közösség támogatja, amely az Ön nevében és érdekeit szem előtt tartva dolgozik.",
+                                                            "text": "Mivel a Firefox készíti, bízhat benne, hogy a Firefox OS-t egy globális közösség támogatja, amely az Ön nevében és érdekeit szem előtt tartva dolgozik.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "A Firefox OS biztosítja ma a legszélesebb készülékválasztékot a piacon.",
+                                                            "title": "A Firefox OS biztosítja ma a legszélesebb készülékválasztékot a piacon.",
+                                                            "text": "A Firefox OS biztosítja ma a legszélesebb készülékválasztékot a piacon.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "9. kérdés",
+                                                    "body": "Egy vásárló szerint az okostelefonok bonyolultnak tűnnek. Melyik funkcióval kell a vásárlás mellett érvelnie?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Az egyszerűen használható okostelefont kereső vásárló számára a Firefox OS remek választás.",
+                                                        "incorrect": "Valójában ennek a vásárlónak a Firefox OS egyszerű használhatóságáról érdemes beszélni.",
+                                                        "partly": "Valójában ennek a vásárlónak a Firefox OS egyszerű használhatóságáról érdemes beszélni."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "A Firefox OS adja a legtöbb értéket a pénzéért, minden elvárt funkcióval – kamera, e-mail, appok, zene, térképek és sok más – a legversenyképesebb áron. Ezen kívül az adaptív app keresés funkció egyszerűvé teszi az igazán szükséges appok megtalálását, épp amikor arra szüksége van.",
+                                                            "title": "A Firefox OS adja a legtöbb értéket a pénzéért, minden elvárt funkcióval – kamera, e-mail, appok, zene, térképek és sok más – a legversenyképesebb áron. Ezen kívül az adaptív app keresés funkció egyszerűvé teszi az igazán szükséges appok megtalálását, épp amikor arra szüksége van.",
+                                                            "text": "A Firefox OS adja a legtöbb értéket a pénzéért, minden elvárt funkcióval – kamera, e-mail, appok, zene, térképek és sok más – a legversenyképesebb áron. Ezen kívül az adaptív app keresés funkció egyszerűvé teszi az igazán szükséges appok megtalálását, épp amikor arra szüksége van.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "A Firefox OS a legegyszerűbb okostelefon, amivel elindulhat. A kedvenc appjai előre telepítve vannak, és egyszerűen átmásolhatja facebookos ismerőseit is.",
+                                                            "title": "A Firefox OS a legegyszerűbb okostelefon, amivel elindulhat. A kedvenc appjai előre telepítve vannak, és egyszerűen átmásolhatja facebookos ismerőseit is.",
+                                                            "text": "A Firefox OS a legegyszerűbb okostelefon, amivel elindulhat. A kedvenc appjai előre telepítve vannak, és egyszerűen átmásolhatja facebookos ismerőseit is.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Ha szereti a Firefox böngészőket, akkor a Firefox OS telefonokat is szeretni fogja. A Firefox OS választása a kezébe adja a web erejét.",
+                                                            "title": "Ha szereti a Firefox böngészőket, akkor a Firefox OS telefonokat is szeretni fogja. A Firefox OS választása a kezébe adja a web erejét.",
+                                                            "text": "Ha szereti a Firefox böngészőket, akkor a Firefox OS telefonokat is szeretni fogja. A Firefox OS választása a kezébe adja a web erejét.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "10. kérdés",
+                                                    "body": "Egy vásárló azt mondja, hogy készen áll a régi középkategóriás telefonjának leváltására. Melyik funkcióval kell a vásárlás mellett érvelnie?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Az első okostelefon beszerzésekor az egyszerűségéről és az adaptív app kereséshez hasonló funkciókról kell beszélni.",
+                                                        "incorrect": "Valójában az első okostelefon vásárlásakor az egyszerűségéről és az adaptív app kereséshez hasonló funkciókról kell beszélni.",
+                                                        "partly": "Valójában az első okostelefon vásárlásakor az egyszerűségéről és az adaptív app kereséshez hasonló funkciókról kell beszélni."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS a legegyszerűbb okostelefon, amivel elindulhat. A kedvenc appjai előre telepítve vannak, és egyszerűen átmásolhatja facebookos ismerőseit is.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS adja a legtöbb értéket a pénzéért, minden elvárt funkcióval – kamera, e-mail, appok, zene, térképek és sok más – a legversenyképesebb áron. Ezen kívül az adaptív app keresés funkció egyszerűvé teszi az igazán szükséges appok megtalálását, épp amikor arra szüksége van.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ha szereti a Firefox böngészőket, akkor a Firefox OS telefonokat is szeretni fogja. A Firefox OS választása a kezébe adja a web erejét.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "11. kérdés",
+                                                    "body": "Egy vásárló azt mondja, hogy számítógépén a Firefox böngészőt használja. Melyik funkcióval kell a vásárlás mellett érvelnie?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Egy Firefox rajongóval való találkozáskor beszéljen arról, hogy a Firefox OS választása elkötelezettséget mutat a web saját kézben tartása iránt.",
+                                                        "incorrect": "Valójában a Firefox rajongóval való találkozáskor beszéljen arról, hogy a Firefox OS választása elkötelezettséget mutat a web saját kézben tartása iránt.",
+                                                        "partly": "Valójában a Firefox rajongóval való találkozáskor beszéljen arról, hogy a Firefox OS választása elkötelezettséget mutat a web saját kézben tartása iránt."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "A Firefox OS adja a legtöbb értéket a pénzéért, minden elvárt funkcióval – kamera, e-mail, appok, zene, térképek és sok más – a legversenyképesebb áron.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS a legegyszerűbb okostelefon, amivel elindulhat. A kedvenc appjai előre telepítve vannak, és egyszerűen átmásolhatja facebookos ismerőseit is.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ha szereti a Firefox böngészőket, akkor a Firefox OS telefonokat is szeretni fogja. A Firefox OS választása a kezébe adja a web erejét.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "12. kérdés",
+                                                    "body": "Egy vásárló azt mondja: „Szeretnék egyszerűen kapcsolatban maradni barátaimmal, de nem akarok sokat költeni.” A következő állítások közül melyik lenne jó válasz? Jelölje be az összes jó választ.",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Ennek a vásárlónak emelje ki a Firefox OS remek árát és funkcióit, beleértve az előre telepített közösségi appokat.",
+                                                        "incorrect": "Nem-nem. Ennek a vásárlónak emelje ki a Firefox OS remek árát és funkcióit, beleértve az előre telepített közösségi appokat.",
+                                                        "partly": "Nem-nem. Ennek a vásárlónak emelje ki a Firefox OS remek árát és funkcióit, beleértve az előre telepített közösségi appokat."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS okostelefon már tartalmazza az elvárható funkciókat, beleértve az SMS-t, Facebookot, e-mail, térképeket és sok mást, mindezt jobb áron.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Facebook előre van telepítve minden Firefox OS készülékre, és egyszerűen átmásolhatja a facebookos ismerőseit.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox Marketplace több ezer appot tartalmaz ingyen vagy nagyon alacsony áron.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "13. kérdés",
+                                                    "body": "Egy vásárló azt mondja: „A Firefoxot használom az otthoni számítógépemen és szeretem, de nem tudtam, hogy okostelefonos rendszert készítettek. Miért?” A következő állítások közül melyik lenne a legmegfelelőbb válasz ennek a vásárlónak?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Ez a felhasználó egy Firefox rajongónak tűnik. Beszéljen arról, hogy a Mozilla által készített Firefox OS telefonok elkötelezettséget mutatnak a web megtartására az emberek kezében. És míg ezek az állítások mind igazak, ez a legjobb válasz ennek az adott felhasználónak.",
+                                                        "incorrect": "Ezek az állítások mind igazak, de csak az egyik a legjobb válasz ennek az adott felhasználónak, aki Firefox rajongónak tűnik. Beszéljen arról, hogy a Mozilla által készített Firefox OS telefonok részei a web megtartásának az emberek kezében.",
+                                                        "partly": "Ezek az állítások mind igazak, de csak az egyik a legjobb válasz ennek az adott felhasználónak, aki Firefox rajongónak tűnik. Beszéljen arról, hogy a Mozilla által készített Firefox OS telefonok részei a web megtartásának az emberek kezében."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Minden Firefox telefon tartalmazza a Firefox böngészőt, amely gyors, okos és biztonságos módszer az internet eléréséhez.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS minden elvárt funkcióval rendelkezik, amivel a versenytársak okostelefonjai, és több értéket ad a pénzéért.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Mozilla, a Firefox készítője egy okostelefonos rendszert készített, hogy a webet megtartsa mindenki számára elérhetőnek.És mivel a Firefox OS teljesen a HTML5-re épül, azonnali hozzáférést kap több ezer apphoz, amelyeket már a webre fejlesztettek.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "14. kérdés",
+                                                    "body": "A következő, az adaptív app keresésről szóló állítások közül melyik igaz? Jelölje be az összes jó választ.",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Az adaptív app keresés minden más telefonnál jobban felkészült igényeire.",
+                                                        "incorrect": "Nem így van. Ezek közül három igaz. Míg az adaptív app keresés minden más telefonnál jobban felkészült igényeire, NEM úgy működik, mint a webes keresés a Firefox böngészőkben.",
+                                                        "partly": "Nem egészen. Ezek közül három igaz. Míg az adaptív app keresés minden más telefonnál jobban felkészült igényeire, NEM úgy működik, mint a webes keresés a Firefox böngészőkben."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Egyedi funkció, amelyet minden Firefox OS okostelefon tartalmaz.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Úgy működik, mint a webes keresés a Firefox böngészőben.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A találatok között fényképek, videók, zenék, hírek, térképek és sok más van.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A találatok azonnal használhatók – nem kell előtte letöltenie az appot.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "15. kérdés",
+                                                    "body": "Míg az alábbi állítások mind igazak, mely két válasz lenne a leghasznosabb egy új okostelefon-vásárlónak?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van. Egy új okostelefon-vásárlót leginkább az egyszerű használhatóság érdekel.",
+                                                        "incorrect": "Nem éppen. Az új okostelefon-vásárlót leginkább az egyszerű használhatóság érdekli.",
+                                                        "partly": "Nem éppen. Az új okostelefon-vásárlót leginkább az egyszerű használhatóság érdekli."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Egyszerűen importálhatja ismerőseit a Facebookról a Firefox OS telefonjára.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS elérhetővé tesz népszerű, neves appokat, valamint az Önnek legtöbbet jelentő helyi tartalmakat.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS nincs telezsúfolva a szükségesnél több funkcióval. Megadja, amit egy okostelefontól elvár, egy egyszerűen használható felületen, amely egyszerűvé teszi a használatba vételt.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS teljesen a HTML5 és nyílt webes szabványok használatával épül fel.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "16. kérdés",
+                                                    "body": "Ez az ikon melyik Firefox OS funkciót jelképezi?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van! Ez az ikon az SMS-t jelképezi.",
+                                                        "incorrect": "Valójában ez az ikon az SMS-t jelképezi.",
+                                                        "partly": "Valójában ez az ikon az SMS-t jelképezi."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Névjegyek",
+                                                            "title": "Névjegyek",
+                                                            "text": "Névjegyek",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox böngésző",
+                                                            "title": "Firefox böngésző",
+                                                            "text": "Firefox böngésző",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Adaptív app keresés",
+                                                            "title": "Adaptív app keresés",
+                                                            "text": "Adaptív app keresés",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "17. kérdés",
+                                                    "body": "Az adaptív app kereséssel egy appot használhat egyszer, gyorsan és egyszerűen, telepítés nélkül is. Ha később újra szeretné használni, akkor egyszerűen hozzáadhatja a kezdőoldalához.",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van!",
+                                                        "incorrect": "Valójában ez igaz.",
+                                                        "partly": "Valójában ez igaz."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Igaz",
+                                                            "title": "Igaz",
+                                                            "text": "Igaz",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "FHamis",
+                                                            "title": "Hamis",
+                                                            "text": "Hamis",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "18. kérdés",
+                                                    "body": "Mi a legjobb válasz a következő vásárlói tiltakozásra: „Úgy hallottam, nincs sok app.”?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van!",
+                                                        "incorrect": "A legjobb válasz erre a tiltakozásra, ha az elérhető appokról kezd el beszélni.",
+                                                        "partly": "A legjobb válasz erre a tiltakozásra, ha az elérhető appokról kezd el beszélni."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ez egy új rendszer, amelyet egy globális közösség támogat, hogy a web mindenki számára elérhető maradhasson.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Minden telefon a bevezetéskor már több mint 20 000 ingyenes és fizetős appot érhet el, beleértve a ma legnépszerűbb globális appok némelyikét.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS robusztus biztonsági modellel rendelkezik, amely a nyílt web évtizedesnél régebbi támogatásában edződött.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "19. kérdés",
+                                                    "body": "Mi a legjobb válasz a következő vásárlói tiltakozásra: „Soha nem hallottam a Firefox OS telefonokról.”?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van!",
+                                                        "incorrect": "A legjobb válasz erre a tiltakozásra, ha a Firefox OS mögött álló Mozilla közösség tapasztalatáról kezd el beszélni.",
+                                                        "partly": "A legjobb válasz erre a tiltakozásra, ha a Firefox OS mögött álló Mozilla közösség tapasztalatáról kezd el beszélni."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Tele van azokkal a funkciókkal, amelyek miatt eredetileg is okostelefont szeretett volna venni.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Minden telefon a bevezetéskor már több mint 20 000 ingyenes és fizetős appot érhet el, beleértve a ma legnépszerűbb globális appok némelyikét.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ez egy új rendszer, amelyet egy globális közösség támogat, hogy a web mindenki számára elérhető maradhasson.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "20. kérdés",
+                                                    "body": "Mi a legjobb válasz a következő vásárlói tiltakozásra: „Honnan tudhatom, hogy az új telefon biztonságos?”?",
+                                                    "button": {
+                                                        "submit": "Beküldés",
+                                                        "reset": "Törlés",
+                                                        "model": "Válasz mutatása",
+                                                        "mine": "A válaszom"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "Így van!",
+                                                        "incorrect": "A legjobb válasz erre a tiltakozásra, ha a robusztus biztonsági modellről kezd el beszélni.",
+                                                        "partly": "A legjobb válasz erre a tiltakozásra, ha a robusztus biztonsági modellről kezd el beszélni."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Tele van azokkal a funkciókkal, amelyek miatt eredetileg is okostelefont szeretett volna venni.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Ez egy új rendszer, amelyet egy globális közösség támogat, hogy a web mindenki számára elérhető maradhasson.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "A Firefox OS robusztus biztonsági modellel rendelkezik, amely a nyílt web évtizedesnél régebbi támogatásában edződött. Ezt a felhasználók és a rendszer rosszindulatú alkalmazásoktól és tartalmaktól való megvédésére tervezték.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },                                             
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Készüljön fel az eladásra!",
+                                                    "body": "Ha túljutott a kérdéseken és az összes tartalmon, akkor már ismeri az alapokat a Firefox OS és vásárlói igényeinek összeegyeztetéséhez.<br><br>Az egyszerűen használható Firefox OS okostelefon tökéletes választás új okostelefon-felhasználók számára, és tele van azokkal a funkciókkal, amelyeket a vásárlók elvárnak és igényelnek.<br><br>És a Mozilla támogatja, ezzel a Firefox OS-t jó választássá téve mindenkinek, aki elkötelezett a web megőrzése iránt az emberek kezében!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> A FIREFOX KÜLDETÉSE</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

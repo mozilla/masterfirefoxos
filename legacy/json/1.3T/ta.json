@@ -1,0 +1,2201 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Submit</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Submit</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "முதன்மை Firefox OS",
+                    "description": "",
+                    "body": "Firefox OS இன் உலகலாவிய பங்குதாரர் மற்றும் சமூக பயிற்சி மையத்திற்கு வரவேற்கிறோம். உங்களுக்கு தேவையான அனைத்து Firefox OS அடிப்படை தகவல்களும் இங்கே இருக்கிறது. ஒரு தலைப்பை தேர்ந்து தொடங்கவும்.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "அறிமுகம்",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "ஒவ்வொரு நொடியையும் கணிக்க வைக்கும் ஒரு பேசி",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "ஒவ்வொரு நொடியையும் கணிக்க வைக்கும் ஒரு பேசி<br><br>பயன்படுத்த எளிதாக இருக்கும், புதிய பயனர்களுக்கு சரியான திறன்பேசி அவர்கள் எதிர்பார்க்கும் அனைத்து அம்சங்களையும் உள்ளடக்கியது. எல்லோருக்கும் இணையத்தை பொது வளமாக கிடைக்க Firefox OS கருவிகளே சரியானது என்பதை கடப்பாடாக அமைத்து Mozilla ஆவால் இயக்கப்பட்டு வருகிறது."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "தகவமைப்பு பேசி",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/tamil/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "தகவமைப்பு பேசி"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "தகவமைப்பு பேசி",
+                                                            "body": "வேறு எந்த பேசியைவிட Firefox OS பேசியே வாடிக்கையாளர்களின் தேவைக்கேற்ப மாறுகிறது.<br><br>தகவமைப்பு பயன்பாடு தேடலானது உங்களுடைய வாடிக்கையாளர்களுக்கு தேவையானவற்றை தகுந்த நேரத்தில் எந்த தலைப்பிலும் தகவல்களை வழங்குகிறது. அவர்களின் ஒவ்வொரு தருணத்தையும் செம்மையாக்குகிறது.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "தகவமைப்பு பேசி"
+                                                            },
+                                                            "strapline": "தகவமைப்பு பேசி",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "அனைத்தையும் வைத்திரு",
+                                                            "body": "ஒரு வாடிக்கையாளர் விரும்பும் அனைத்து அம்சங்களையும் வைத்து உருவாக்கிய முதலிடத்தில் இருக்கும் ஒரு திறன்பேசி Firefox OS ஆகும்: பயன்பாடுகள், படக்கருவி, படத்தொகுப்பு, சமூக அம்சங்கள், இசை இன்னும் கூடுதலாக.<br><br>வாடிக்கையாளர்கள் எங்கு சென்றாலும் சிறந்தை இணையத்தை பெறுவதோடு அவர்களுடைய இணைய செயல்பாடுகளில் Firefox OS முழு கட்டுப்பாட்டை எடுக்கவும வாய்ப்பளிக்கிறது.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "அனைத்தையும் வைத்திரு"
+                                                            },
+                                                            "strapline": "அனைத்தையும் வைத்திரு",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "உங்களுடைய கையில் இணையத்தை வைத்திருக்க",
+                                                            "body": "நாங்கள் இலாபத்தை உண்டாக்க அல்ல, மாற்றத்தை உண்டாக்க Mozilla வில் இருக்கிறோம்.<br><br>வாடிக்கையாளர்கள் எங்கு சென்றாலும் திறந்த இணையம் கிடைக்கவும் எளிதில் அணுகவும் அவர்களின் இணைய செயல்களை பாதுகாப்பானதாகவும் கட்டுப்படுத்தும் வகையிலும்  தொடர்ந்து தருவது எங்களின் கடப்பாடாகும்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "உங்களுடைய கையில் இணையத்தை வைத்திருக்க"
+                                                            },
+                                                            "strapline": "உங்களுடைய கையில் இணையத்தை வைத்திருக்க",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>காட்சிமுறை குறிப்புகள் <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "காட்சிமுறை குறிப்புகள்",
+                            "description": "Find out about the question components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "செய்முறைக்காட்சியே சிறந்தது",
+                                                    "body": "Firefox OS இன் அம்சங்களைப் பற்றிய செய்முறைக் காட்சியும் எப்படி இதை சுலபமாக பயன்படுத்துவது என்பதுமே விற்பனை செய்யும் காரணிகளாகும்.<br><br>கீழ்க்கண்ட செய்முறைக் காட்சிக்களுக்கான காணொளிகளை உலாவ தொடங்குங்கள்."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "media",
+                                                    "title": "Firefox OS அறிமுகப்படுத்துகிறோம்",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "உங்களுக்கு ஒரு நிமிடம் மட்டுமே இருக்கும்போது, இந்த சிறிய மெட்டுடன் எண்ண தொடங்குங்கள்.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b15-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b15-c05.ogv"
+                                                    },
+                                                    "body": "வாடிக்கையாளர்களுக்கு எற்றவாறு Firefox OS எப்படி மாறுகிறது என்பதை காண்பியுங்கள், அவர்களுக்கு என்ன தேவையோ அதற்கு தகுந்தவாறு தேடி தருகிறது.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "நண்பர்களை ஒத்திசைவு செய்",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b15-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b15-c10.ogv"
+                                                    },
+                                                    "body": "தொடர்பு ஒத்திசைவு நாள்காட்டியுடன் முகநூல் சமூக ஊடக தொடர்புகளை ஒத்திசைவு செய்யவும்.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "சமூகம்",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "முன்பை விட எளிதாக தொடர்ந்து Firefox OS உடன் இணைந்திருங்கள்.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "உலாவல்",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/tamil/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "மற்ற பேசிகளை விட Firefox OS பயனர்கள் கைகளில் சிறந்த இணையத்தை கொடுக்கிறது.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span> அறிமுகம்</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>வாடிக்கையாளர் வழிமுறை <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "வாடிக்கையாளர் வழிமுறை",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "உங்களுடைய Firefox வாடிக்கையாளர் யார்?",
+                                                    "body": "உடனுக்குடன் வாடிக்கையாளர்களின் தேவைகளைப் புரிந்துக்கொண்டு எப்படி சமாளிப்பது என்ற நெருக்கடி நிலை ஒரு விற்பனையாளரின் வாய்ப்பாகும். கீழேயுள்ள பொதுவான வாடிக்கையாளர் பிரிவுகளை பாருங்கள், மேலும் அவர்களின் தனித்தனித் தேவைக்கேற்ப சிறப்பாக எப்படி பதில் அளிப்பது என்பதை பட்டையை இழுத்து கற்றுக்கொள்ளவும்."
+                                                }
+                                            ]
+                                        },
+                                        
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/customer-1.png",
+                                                        "alt": "Rookie திறன்பேசி",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "இங்கே நீங்க என்ன சொல்ல முடியும்",
+                                                        "body": "முதல் முறையாக திறன்பேசியைப் பயன்படுத்தும் பயனர்களுக்கு Firefox OS பேசி சிறந்தது. இதை சூப்பராக எளிமையாக பயன்படுத்த முடியும் மேலும் மற்ற பேசிகளை விட உங்களின் தேவைக்கேற்ப மாறவல்லது எனவே நீங்கள் எதிர்பார்த்ததை விட குறைந்த நேரத்தில் தேடி பெறுவீர்கள். கூடுதலாக, இது அனைத்து அம்சங்களையும் உள்ளடக்கி நீங்கள் எதிர்பார்த்த Firefox Marketplace இன் பயன்பாடுகளான படகருவி முதல் மின்னஞ்சல் வரையிலும் மேலும் இசையுடன் என்னற்ற பயன்பாடுகளை கொண்டு வெளிவருகிறது."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/customer-2.png",
+                                                        "alt": "மதிப்பை தேடுபவர்",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "இங்கே நீங்க என்ன சொல்ல முடியும்",
+                                                        "body": "உங்களுடைய பணத்திற்கு தகுந்த மதிப்பை Firefox OS தருகிறது. ஒரு திறன்பேசியில் நீங்கள் எதிர்பார்க்கும் அனைத்தும் இருக்கிறது — Firefox Marketplace இலிருந்து படகருவி, மின்னஞ்சல் போன்றவற்றுடன் கூடுதலான பயன்பாடுகள் மலிந்த விலையில் கிடைக்கிறது."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/customer-3.png",
+                                                        "alt": "நிச்சியமற்ற புதுப்பிப்பாளர்",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "இங்கே நீங்க என்ன சொல்ல முடியும்:",
+                                                        "body": "தொடங்குவதற்கு Firefox OS ஒரு எளிமையான திறன்பேசி ஆகும். உங்களுக்கு தேவையான எளிமையானவைகளை கண்டறிய தகவமைப்பு பயன்பாடு தேடல் — உடனடியாக தந்துதவுகிறது.தூண்டக்கூடிய பயனர் இடைமுகப்பு உங்களுக்கு விருப்பமான பயன்பாடுகளை விரைவாக கண்டுபிடித்து பதிவிறக்கி பயன்படுத்த சொல்லுங்கள்."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/customer-4.png",
+                                                        "alt": "Firefox இரசிகன்",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "இங்கே நீங்க என்ன சொல்ல முடியும்:",
+                                                        "body": "உங்களுக்கு பயர்பாக்ஸை பற்றி தெரிந்திருந்தாலோ, பிடித்திருந்தாலோ நீங்கள் Firefox OS ஐ நேசிப்பீர்கள். Firefox OS திறன்பேசிகள் முற்றிலும் HTML5ஐ-அடிப்படையாக வைத்திருப்பதால் உங்களுடைய பேசிக்கு சிறந்த இணையத்தை கொண்டுவரும். மற்றும், எல்லோரும் இணையத்தை அணுக தங்களை அர்பணித்த சமூகத்தால் Firefox OS ஆனது வடிவமைக்கப்பட்டுள்ளது. எப்பொழுது Firefox OS ஐ நீங்கள் தேர்வுச்செய்தீர்களோ அப்பொழுதே உங்கள் கைகளில் சக்தி மிகுந்த இணையம் இருக்கும்."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/tamil/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> காட்சிமுறை குறிப்புகள்</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>முக்கிய அம்சங்கள் <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "முக்கிய அம்சங்கள்",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "முக்கிய அம்சங்கள்",
+                                                    "body": "உங்களுக்கு பயர்பாக்ஸை பற்றி தெரிந்திருந்தாலோ, பிடித்திருந்தாலோ நீங்கள் Firefox OS ஐ நேசிப்பீர்கள்.<br><br>Firefox OS திறன்பேசிகள் முற்றிலும் HTML5ஐ-அடிப்படையாக வைத்திருப்பதால் உங்களுடைய பேசிக்கு சிறந்த இணையத்தை கொண்டுவரும்.<br><br>மற்றும், எல்லோரும் இணையத்தை அணுக தங்களை அர்பணித்த சமூகத்தால் Firefox OS ஆனது வடிவமைக்கப்பட்டுள்ளது. எப்பொழுது Firefox OS ஐ நீங்கள் தேர்வுச்செய்தீர்களோ அப்பொழுதே உங்கள் கைகளில் சக்தி மிகுந்த இணையம் இருக்கும்."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "அனைத்தையும் வைத்திரு",
+                                                    "body": "Firefox OS இன் முக்கிய அம்சங்களை கண்டறிய முன்னோக்கிய அம்புக்குறியை தேர்ந்தெடுக்கவும்.",
+                                                    "items": [
+                                                        {
+                                                            "title": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "body": "சரியான தேவைகளை சரியான நேரத்தில் புதிய முறையில் தேடிய பயன்பாடுகளை உங்களின் தேவைக்கேற்ப Firefox OS மாற்றியமைப்பதோடு படம், காணொளி, இசை, செய்தி போன்றவற்றி காண்பிக்கவும் உங்களின் தேவைக்கேற்றதை எளிமையான முறையில் கண்டுபிடிக்கவும் உதவுகிறது.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "தகவமைப்பு பயன்பாடு தேடல்..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "உங்களுடைய Firefox OS இல் மிகச்சிறந்த பயன்பாடுகளை பெறுவதற்க்கான மூலம். ஆயிரக்கணக்கான இலவச பயன்பாடுகளை பல்வேறு பிரிவுகளான ஆட்டங்கள் முதல் உபபயன்பாடுகள் வரை, இசை, சுற்றுலா, விளையாட்டு மேலும் கூடுதலாக உலாவலாம்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "பயர்பாக்ஸ் உலாவி",
+                                                            "body": "சிறந்த இணையத்தை விரைவாக, திறைமையாக, பாதுகாப்பாக அடையும் வழி. உங்களுடைய இணையத்தள URLஐ உள்ளிட, தேடச்செய்ய, உலாவல் வரலாற்றை அணுக அற்புதமான பட்டையை பயன்படுத்தவும். மற்றும், தத்தல்கள் ஒரே நேரத்தில் பலபணிகளை ஒரே சமயத்தில் பல பக்கங்களை உலாவச்செய்யலாம்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "பயர்பாக்ஸ் உலாவி..."
+                                                        },
+                                                        {
+                                                            "title": "முகநூல்",
+                                                            "body": "உங்களுக்கு பிடித்தமான சமூக வலைத்தளங்களுடன் பிணைந்திருங்கள். உங்களுடைய பேசியிக்கு முகநுல் தொடர்புகளை அனைத்தையும் இறக்குமதிச்செய்து ஒரே இடத்தில் வைத்திருங்கள்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "முகநூல்"
+                                                        },
+                                                        {
+                                                            "title": "தொடர்புகள்",
+                                                            "body": "நீங்கள் எங்கே இருந்தாலும் உங்களுடைய தோழர்களுடனும் சக ஊழியர்களுடனும் தொடர்ந்து இணைந்திருக்க முடியும்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "தொடர்புகள்..."
+                                                        },
+                                                        {
+                                                            "title": "படக்கருவியும் படங்களும்",
+                                                            "body": "முழு அம்சத்துடன் கூடிய படக்கருவியையும் படத்தொகுப்பும் தோற்ற வடிப்பிகளைக்கொண்டு வேடிக்கையாகவோ, ஆக்கப்பூர்வமாகவோ பிடிப்பகப்படும் படங்களை தொகுத்து அழகூட்டி படங்களை பல வழிகளில் பகிரலாம்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "படகருவியும் படங்களும்..."
+                                                        },
+                                                        {
+                                                            "title": "பண்பலை வானொலி",
+                                                            "body": "உங்களுக்கு தேவையான அனைத்து ஒலிகளையும் ஒரே சமயத்தில் ஒரே சாதனத்தில் கேட்கலாம். உங்களுடைய செவிப்பொறியை பொருத்தி கேட்கத் தொடங்கவும்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "பண்பலை வானொலி..."
+                                                        },
+                                                        {
+                                                            "title": "இசையும் காணொளியும்",
+                                                            "body": "அனைத்தையும் உங்களுடைய பேசியிலிருந்தும் அல்லது யூடியூபிலிருந்தும் இயக்கலாம். உங்களுக்கு பிடித்தமான பாடல்களை உலாவ, தொகுப்பு, கலைஞர் அல்லது பாடல் மதிப்பு வாரியாக இசை களஞ்சியத்தை இயக்க, மேலும் உங்களுக்கு பிடித்த பட்டியலை உருவாக்க.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "இசையும் காணொளியும்..."
+                                                        },
+                                                        {
+                                                            "title": "குறுந்செய்தியும் மின்னஞ்சலும்",
+                                                            "body": "நீங்கள் எங்கிருந்தாலும் உங்கள் தோழர்களுடனும் சக ஊழியர்களுடனும் தொடர்ந்து இணைந்திருக்க. இதில் பொதுவாகப் பயன்படுத்தப்படும் Exchange, SMTP or IMAP மின்னஞ்சல் வசதிகள் ஆதரிக்கிறக்கப்படுகிறன எனவே பல மின்னஞ்சல் கணக்குகளை அமைக்க முடியும்.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "குறுந்செய்தியும் மின்னஞ்சலும்..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> வாடிக்கையாளர் வழிமுறை</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>அகேகே <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "அகேகே",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "உங்களிடம் கேள்வி இருக்கிறதா? எங்களிடம் பதில் இருக்கிறது!",
+                                                    "body": "இத்தருணத்தில், ஒருவேளை கேள்விகள் இருக்கணும் உங்கள் வாடிக்கையாளர்கள் அவர்களுக்கு தேவையான Firefox OS கேள்வியை தேர்ந்தெடுங்க."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "தகவமைப்பு பயன்பாடு தேடல் என்றால் என்ன?",
+                                                            "title": "தகவமைப்பு பயன்பாடு தேடல் என்றால் என்ன?",
+                                                            "body": "தகவமைப்பு பயன்பாடு தேடல் ஒரு புதிய வழியில் உள்ளடக்கங்களை இணையம் ஊடாக தேடி கண்டுபிடிப்பதோடு தலைவலி இல்லாமல் உங்களுக்கு வேண்டியதை பயன்பாட்டு அனுபவத்துடன் பதிவிறக்குகிறது. எப்பொழுது தேடினாலும் பேசியானது உங்களின் தேவைக்கேற்ப தேடல் முடிவுகளை மாற்றுகிறது மேலும் இது தேடிய முடிவுகளை எளிதாக பின்னர் அணுக உங்களின் முகப்பு திரையில் சேர்க்கிறது."
+                                                        },
+                                                        {
+                                                            "alt": "எத்தனை பயன்பாடுகள் எத்தனை வகை பயன்பாடுகள் உள்ளன?",
+                                                            "title": "எத்தனை பயன்பாடுகள் எத்தனை வகை பயன்பாடுகள் உள்ளன?",
+                                                            "body": "உலகம் முழுவதிலும் உள்ள பயன்பாடு உருவாக்குநர்கள் Firefox OS உடன் உறுதிபூண்டுள்ளனர் மேலும் பல்லாயிரக்கணக்கான இலவச பயன்பாடுகள் துவக்கத்திலே கிடைக்கின்றது. முன்னணி பயன்பாடு உருவாக்குநர்களின் நீளும் பட்டியலில் முகநூல், யூடியூப், டுவீட்டர் மற்றும் கனக்ட்A2 அதுமட்டும் இல்லாமல் ஒளிவிளக்கு கணிப்பான் பயன்பாடுகளும் அடங்கும்."
+                                                        },
+                                                        {
+                                                            "alt": "எது மற்ற பேசிகளை விட Firefox OSஐ அதிக பாதுகாப்புடன் இருக்கச் செய்கிறது?",
+                                                            "title": "எது மற்ற பேசிகளை விட Firefox OSஐ அதிக பாதுகாப்புடன் இருக்கச் செய்கிறது?",
+                                                            "body": "ஒரு வலுவான பாதுகாப்பு மாதிரி என்ாட்டம் சுமார் 10 வருடங்களுக்கு மேலாக திறந்த இணையத்தை ஆதரித்து வருவது கடினம் ஆகும். இதன் வடிவமைப்பு பயனர்களையும் கணினியையும் நச்சு நிரல்களிடம் இருந்து பயன்பாடுகளையும் அதன் உள்ளடக்கங்களையும் பாதுகாப்பதோடு தன்னையும் காப்பாற்றிக்கொள்கிறது."
+                                                        },
+                                                        {
+                                                            "alt": "செல்பேசி தளங்களை பயன்பாடுகளாக மாற்ற முடியும் என குறிப்பிட்டீர்களா?",
+                                                            "title": "செல்பேசி தளங்களை பயன்பாடுகளாக மாற்ற முடியும் என குறிப்பிட்டீர்களா?",
+                                                            "body": "பயனர்கள் முகப்பு பக்கத்தில் எந்த இணையத்தளத்தின் புத்தகக்குறியையும் இட்டு அந்த இணையத்தளத்தை நேரடியாக முகப்பு திரையிலருந்து அணுகும் செயல்பாட்டை வழங்குகிறது. முகப்பு திரையில் வலதாக தேய்த்து எந்த தேடல் சொல்லையும் உள்ளிட்டு ஒரு தடவை பயன்படும் அல்லது பதிவிறக்கக் கூடியதாக உடனடியாக உருவாக்கவும். பயனர்களிடம் முழு கட்டுப்பாட்டைக் கொடுத்து இதுபோன்ற பயன்பாடுகளை உருவாக்கி பயனடையச் செய்ய வேண்டும் மேலும் மக்களின் திறன்பேசி அனுபவத்தில் அவர்கள் நினைத்ததை நினைத்தவாறே பொருத்தமான உள்ளடக்கங்களை பெற முடியும்."
+                                                        },
+                                                        {
+                                                            "alt": "ஆண்ட்ராய்டு பயன்பாடுகள் இந்த பேசியில் வேலை செய்யுமா?",
+                                                            "title": "ஆண்ட்ராய்டு பயன்பாடுகள் இந்த பேசியில் வேலை செய்யுமா?",
+                                                            "body": "நேரடியாக இல்லை. எப்படியாகினும், மிகவும் பிரபலமான ஆண்ட்ராய்டு(Android) மற்றும் iOS பயன்பாடுகள் உண்மையில் இணைய பயன்பாடுகளே அவை சொந்தமாக “wrapper” என்பதைப் பயன்படுத்தி தனியுரிம தளங்களிலும் இயங்குகிறது. எனவே, அந்த மாதிரியான பயன்பாடுகளை தகவமைப்பு தேடல் வாயிலாக பெறுங்கள்.<br><br>Emscripten மற்றும் PhoneGap போன்ற மென்பொருள் கருவிகள் மற்ற பயன்பாடுகளை(*.apk மற்றும்/அல்லது C/C++) இணைய பயன்பாடுகளாக மாற்றித் தருகிறது."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "இணையம் இல்லாமல் என் பயன்பாடுகள் வேலை செய்யுமா?",
+                                                            "title": "இணையம் இல்லாமல் என் பயன்பாடுகள் வேலை செய்யுமா?",
+                                                            "body": "Firefox OS ஆனது இணைய தொழில்நுட்பங்களை வைத்து உருவாக்கப்பட்ட போதிலும் இணையமற்ற நிலையிலும் பேசி செயல்படத் தேவையான முக்கிய செயல்பாடுகள் வைத்துள்ளது. எனவே பயன்பாடுகள் செயல்பட இணைய இணைப்பு அவசியம் இல்லை ஏனென்றால் பயன்பாடு மற்ற சாதனங்களுடன் தொடர்பு கொண்டு தகவலை அனுப்பம்போதோ பெறும்போதோ இணையம் வேலை செய்ய வேண்டும்."
+                                                        },
+                                                        {
+                                                            "alt": "பயன்பாடுகளுக்கான வாடிக்கையாளர் ஆதரவு பற்றி?",
+                                                            "title": "பயன்பாடுகளுக்கான வாடிக்கையாளர் ஆதரவு பற்றி?",
+                                                            "body": "Firefox OS க்காக உருவாக்கப்பட்ட பயன்பாடுகளின் ஆதரவு பயனர்களுக்கு தேவையெனில் அந்த பயன்பாட்டை உருவாக்கிய உருவாக்குநருக்கு கோரிக்கை திருப்பப்படும். ஒருவேளை பயனரின் Firefox OS அனுபவம் அந்த பயன்பாட்டால் சீர்குழைகிறது என்றால் உருவாக்குநரிடம் இருந்து தகுந்த ஆதரவு கிடைக்கும் வரையில் பயன்பாட்டை நீக்கச் சொல்வதே தீர்வாகும்."
+                                                        },
+                                                        {
+                                                            "alt": "நான் Firefox OS இல் எப்படி பயன்பாடுகளை பதிவிறக்கி நிறுவுவது?",
+                                                            "title": "நான் Firefox OS இல் எப்படி பயன்பாடுகளை பதிவிறக்கி நிறுவுவது?",
+                                                            "body": "Firefox OS இரண்டு வழிகளில் பயன்பாடுகளை வழங்குகிறது:<ul><li>Firefox Marketplace — டுவீட்டர் போன்ற சிறந்த பயன்பாடுகள் உள்ள நுழைவாசல் உள்ளூர் பகுதிகளில் உள்ள சிறந்த நிரலாற்களால் அற்புதமான உள்ளடக்கங்களை உருவாக்கும்.</li><li>தகவமைப்பு பயன்பாடு தேடல் — “தமிழ்” என்ற வார்த்தையை உள்ளிட்டு அதனுடன் தொடர்புடைய உங்கள் பகுதியில் இருக்கும் செல்பேசி பயன்பாடுகளை கண்டறியும் சிறந்த செல்பேசி அனுபவத்தை கொடுப்பதோடு உங்களுக்கு வேண்டியதையும் கொண்டுவருகிறது.</li></ul>"
+                                                        },
+                                                        {
+                                                            "alt": "என்னென்ன மின்னஞ்சல் வழங்குநர்கள் ஆதிரிக்கப்படுகிறார்கள்?",
+                                                            "title": "என்னென்ன மின்னஞ்சல் வழங்குநர்கள் ஆதிரிக்கப்படுகிறார்கள்?",
+                                                            "body": "Hotmail மற்றும் Yahoo மின்னஞ்சல் தற்போது ஆதரிக்கப்படுகிறது வருங்காலத்தில் இன்னமும் அதிகமாக ஆதிரக்கப்படும்."
+                                                        },
+                                                        {
+                                                            "alt": "எனக்கு நிறைய கேள்விகள் இருப்பின் நான் எங்கே செல்ல வேண்டும்?",
+                                                            "title": "எனக்கு நிறைய கேள்விகள் இருப்பின் நான் எங்கே செல்ல வேண்டும்?",
+                                                            "body": "மேலும் தகவலுக்கு <a href='https://support.mozilla.org/en-US/kb/firefox-os-user-guide'>https://support.mozilla.org/en-US/kb/firefox-os-user-guide</a> பக்கத்தை பாரக்கவும்."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> முக்கிய அம்சங்கள்</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>FIREFOX நோக்கம் <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "FIREFOX நோக்கம்",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "இணையத்தில் வெளிப்படைத்தன்மை, புதுமை மற்றும் வாய்ப்பு ஆகியவற்றை மேம்படுத்துவதே எங்களின் நோக்கம்.",
+                                                    "body": "ஒவ்வொரு Firefox OS திறன்பேசிக்கு பின்னாலும் Mozilla: ஆயிரக்கணக்கானவர்களுக்கு இணையம் கிடைத்திட ஒரு உலகலாவிய குழுமம் தன்னையே அர்பணித்துள்ளது. ஏனென்றால் நாம் அனைவரும் இணையம் வேண்டும் என் ஒருத்தரை ஒருத்தர் நம்புகிறோம் மேலும் ஒரு சில பெரிய அமைப்புகள் நம்மளை கட்டுப்படுத்த முடியாது.<br><br>ஆமாம், நாம் மற்றவர்களைவிட சிறிய அளவில் மாறுபட்டவர்கள். சேர்ந்திருங்கள், நாம் ஒளிமையமான எதிர்கால இணையத்தை உருவாக்குவோம்."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> அகேகே</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>சவாளை எதிர்கொள்ளுங்கள் <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "சவாளை எதிர்கொள்ளுங்கள்",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "உங்களுக்கு தெரிந்ததை வெளிப்படுத்த தயாரா?",
+                                                    "body": "நீங்கள் Firefox Osஐ வாடிக்கையாளர்களுக்கு விற்பனை செய்ய தொடங்கிவிட்டீர்கள் என நினையுங்கள்? உங்களுடைய அறிவை போட்டு கீழேக் கேட்கப்படும் கேள்விகளுக்கு பதில் சொல்லுவதன் மூலம் உங்களுக்கு என்ன தேவை என்பதை தெரியவரும்."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 1",
+                                                    "body": "Firefox OS இல் உள்ள தகவமைப்பு பய்பாட்டு தேடல் வசதியை எப்படி அணுகுவது?",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரி! உங்களுடைய முகப்பு திரைக்குச் சென்றாலே அங்கே இருக்கும்!",
+                                                        "incorrect": "அதுவல்ல. தகவமைப்பு பயன்பாட்டுத் தேடல் வசதியை அணுக உங்களுடைய முகப்பு திரைக்குச் செல்லவும்.",
+                                                        "partly": "அதுவல்ல. தகவமைப்பு பயன்பாட்டுத் தேடல் வசதியை அணுக உங்களுடைய முகப்பு திரைக்குச் செல்லவும்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "இடமாக தேய்க்கவும்",
+                                                            "title": "இடமாக தேய்க்கவும்",
+                                                            "text": "இடமாக தேய்க்கவும்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "முகப்பு திரை பொத்தானை சொடுக்கவும்.",
+                                                            "title": "முகப்பு திரை பொத்தானை சொடுக்கவும்.",
+                                                            "text": "முகப்பு திரை பொத்தானை சொடுக்கவும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox Marketplace திறக்கவும்.",
+                                                            "title": "Firefox Marketplace திறக்கவும்.",
+                                                            "text": "Firefox Marketplace திறக்கவும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox உலாவியை திறக்கவும்.",
+                                                            "title": "Firefox உலாவியை திறக்கவும்.",
+                                                            "text": "Firefox உலாவியை திறக்கவும்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 15,
+                                                    "title": "கேள்வி 2",
+                                                    "body": "பின்வரும் பயன்பாடுகளில் எவை முன்கூட்டியே Firefox OS பேசியில் நிறுவப்பட்டு இருக்கும்? பொருத்தமாக இருக்கும் அனைத்தையும் தேர்ந்தெடுங்கள்.",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்! ஒவ்வொரு Firefox OS பேசியும் அனைத்து பயன்பாடுகளையும் ஏற்கனவே உள்ளேற்றப்பட்டு வருகின்றது.",
+                                                        "incorrect": "உண்மையில், ஒவ்வொரு Firefox OS பேசியும் அனைத்து பயன்பாடுகளுடனே வருகின்றது.",
+                                                        "partly": "இன்னும் பல உள்ளன. மீண்டும் முயற்சிக்கவும்"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Marketplace",
+                                                            "title": "Marketplace",
+                                                            "text": "Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "உலாவி",
+                                                            "title": "உலாவி",
+                                                            "text": "உலாவி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "படகருவி & படங்கள்",
+                                                            "title": "படகருவி & படங்கள்",
+                                                            "text": "படகருவி & படங்கள்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "முகநுல்",
+                                                            "title": "முகநுல்",
+                                                            "text": "முகநுல்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "கனக்ட்A2",
+                                                            "title": "கனக்ட்A2",
+                                                            "text": "கனக்ட்A2",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "யூடியூப்",
+                                                            "title": "யூடியூப்",
+                                                            "text": "யூடியூப்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "பேசி",
+                                                            "title": "பேசி",
+                                                            "text": "பேசி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "தொடர்பு",
+                                                            "title": "தொடர்பு",
+                                                            "text": "தொடர்பு",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "நாள்காட்டி",
+                                                            "title": "நாள்காட்டி",
+                                                            "text": "நாள்காட்டி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "கடிகாரம்",
+                                                            "title": "கடிகாரம்",
+                                                            "text": "கடிகாரம்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "காணொளி",
+                                                            "title": "காணொளி",
+                                                            "text": "காணொளி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "பயனளவு",
+                                                            "title": "பயனளவு",
+                                                            "text": "பயனளவு",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "அஞ்சல் & குறுந்செய்தி",
+                                                            "title": "அஞ்சல் & குறுந்செய்தி",
+                                                            "text": "அஞ்சல் & குறுந்செய்தி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "வானொலி",
+                                                            "title": "வானொலி",
+                                                            "text": "வானொலி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "இசை",
+                                                            "title": "இசை",
+                                                            "text": "இசை",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },         
+                                        {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 3",
+                                                    "body": "Firefox OS இன் எந்த வசதியை இந்த சின்னம் குறிக்கிறது?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்! இந்த சின்னம் குறுந்செய்தி அல்லது உரைச்செய்தியைக் குறிக்கிறது.",
+                                                        "incorrect": "உண்மையில், இந்த சின்னம் குறுந்செய்தி அல்லது உரைச்செய்தியைக் குறிக்கிறது.",
+                                                        "partly": "உண்மையில், இந்த சின்னம் குறுந்செய்தி அல்லது உரைச்செய்தியைக் குறிக்கிறது."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "குறுந்செய்தி",
+                                                            "title": "குறுந்செய்தி",
+                                                            "text": "குறுந்செய்தி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "தொடர்பு",
+                                                            "title": "தொடர்பு",
+                                                            "text": "தொடர்பு",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "உலாவி",
+                                                            "title": "உலாவி",
+                                                            "text": "உலாவி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "title": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "text": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 4",
+                                                    "body": "Firefox OS இன் எந்த வசதியை இந்த சின்னம் குறிக்கிறது?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரியே! இந்த சின்னம் தொடர்பைக் குறிக்கிறது.",
+                                                        "incorrect": "உண்மையில், இந்த சின்னம் தொடர்பைக் குறிக்கிறது.",
+                                                        "partly": "உண்மையில், இந்த சின்னம் தொடர்பைக் குறிக்கிறது."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "குறுந்செய்தி",
+                                                            "title": "குறுந்செய்தி",
+                                                            "text": "குறுந்செய்தி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "தொடர்பு",
+                                                            "title": "தொடர்பு",
+                                                            "text": "தொடர்பு",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "உலாவி",
+                                                            "title": "உலாவி",
+                                                            "text": "உலாவி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "title": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "text": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },         
+                                        {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 5",
+                                                    "body": "Firefox OS இன் எந்த வசதியை இந்த சின்னம் குறிக்கிறது?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரியே! இந்த சின்னம் பயர்பாக்ஸ் உலாவியைக் குறிக்கிறது.",
+                                                        "incorrect": "உண்மையில், இந்த சின்னம் பயர்பாக்ஸ் உலாவியைக் குறிக்கிறது.",
+                                                        "partly": "உண்மையில், இந்த சின்னம் பயர்பாக்ஸ் உலாவியைக் குறிக்கிறது."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "குறுந்செய்தி",
+                                                            "title": "குறுந்செய்தி",
+                                                            "text": "குறுந்செய்தி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "தொடர்பு",
+                                                            "title": "தொடர்பு",
+                                                            "text": "தொடர்பு",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "உலாவி",
+                                                            "title": "உலாவி",
+                                                            "text": "உலாவி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "title": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "text": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 6",
+                                                    "body": "Firefox OS இன் எந்த வசதியை இந்த சின்னம் குறிக்கிறது?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரியே! இந்த சின்னம் தகவமைப்பு பயன்பாட்டு தேடலைக் குறிக்கிறது.",
+                                                        "incorrect": "உண்மையில், இந்த சின்னம் தகவமைப்பு பயன்பாட்டு தேடலைக் குறிக்கிறது.",
+                                                        "partly": "உண்மையில், இந்த சின்னம் தகவமைப்பு பயன்பாட்டு தேடலைக் குறிக்கிறது."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "குறுந்செய்தி",
+                                                            "title": "குறுந்செய்தி",
+                                                            "text": "குறுந்செய்தி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "தொடர்பு",
+                                                            "title": "தொடர்பு",
+                                                            "text": "தொடர்பு",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "உலாவி",
+                                                            "title": "உலாவி",
+                                                            "text": "உலாவி",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "title": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "text": "தகவமைப்பு பயன்பாடு தேடல்",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                       
+					                    {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "கேள்வி 7",
+                                                    "body": "Firefox OS இன் போட்டியாளர்களை விட இதில் உள்ள மிகப்பெரிய நன்மைகளை புரந்துக்கொள்ள விருப்புகிறார்கள். பொருத்தமான கூற்று அனைத்தையும் தேர்ந்தெடுக்கவும்.",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். மேற்கண்ட Firefox OS பற்றிய கூற்றுகள் அனைத்தும் மெய்யானதே.",
+                                                        "incorrect": "உண்மையில், “பரவலான சாதனங்களை தேர்ந்தெடுக்கும்.” கூற்றைத் தவிர மற்ற கூற்றுகள் உண்மை. இது வருங்காலத்தில் உண்மையாகலாம் ஆனால் தற்போது இது உண்மையில்லை.",
+                                                        "partly": "உண்மையில், “பரவலான சாதனங்களை தேர்ந்தெடுக்கும்.” கூற்றைத் தவிர மற்ற கூற்றுகள் உண்மை. இது வருங்காலத்தில் உண்மையாகலாம் ஆனால் தற்போது இது உண்மையில்லை."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "மற்ற பேசிகளை விட தகவமைப்பு பயன்பாடு தேடல் உங்களுடைய தேவைகளை நன்றாக உணர்கிறது.",
+                                                            "title": "மற்ற பேசிகளை விட தகவமைப்பு பயன்பாடு தேடல் உங்களுடைய தேவைகளை நன்றாக உணர்கிறது.",
+                                                            "text": "மற்ற பேசிகளை விட தகவமைப்பு பயன்பாடு தேடல் உங்களுடைய தேவைகளை நன்றாக உணர்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace உடன் பயன்பாடுகள் , மின்னஞ்சல், படகருவி, இசை மேலும் கூடுதலாக நீங்கள் எதிர்பார்த்ததை விட Firefox OS பல அம்சங்களை உள்ளடக்கிய ஒரு திறன்பேசி ஆகும்.",
+                                                            "title": "Firefox Marketplace உடன் பயன்பாடுகள் , மின்னஞ்சல், படகருவி, இசை மேலும் கூடுதலாக நீங்கள் எதிர்பார்த்ததை விட Firefox OS பல அம்சங்களை உள்ளடக்கிய ஒரு திறன்பேசி ஆகும்.",
+                                                            "text": "Firefox Marketplace உடன் பயன்பாடுகள் , மின்னஞ்சல், படகருவி, இசை மேலும் கூடுதலாக நீங்கள் எதிர்பார்த்ததை விட Firefox OS பல அம்சங்களை உள்ளடக்கிய ஒரு திறன்பேசி ஆகும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "இது Firefox ஆல் உருவாக்கப்பட்டது, எனவே Firefox OS ஆனது உலகலாவிய சமூகத்தால் உங்களின் விருப்பத்தை மனதில் கொண்டு உங்களுக்கு நிகராக வேலைச்செய்கிறது.",
+                                                            "title": "இது Firefox ஆல் உருவாக்கப்பட்டது, எனவே Firefox OS ஆனது உலகலாவிய சமூகத்தால் உங்களின் விருப்பத்தை மனதில் கொண்டு உங்களுக்கு நிகராக வேலைச்செய்கிறது.",
+                                                            "text": "இது Firefox ஆல் உருவாக்கப்பட்டது, எனவே Firefox OS ஆனது உலகலாவிய சமூகத்தால் உங்களின் விருப்பத்தை மனதில் கொண்டு உங்களுக்கு நிகராக வேலைச்செய்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "இன்றைய சந்தையில் பரவலான சாதனங்களை தேர்ந்தெடுக்கும் வாய்ப்பை Firefox OS உங்களுக்கு வழங்குகிறது.",
+                                                            "title": "இன்றைய சந்தையில் பரவலான சாதனங்களை தேர்ந்தெடுக்கும் வாய்ப்பை Firefox OS உங்களுக்கு வழங்குகிறது.",
+                                                            "text": "இன்றைய சந்தையில் பரவலான சாதனங்களை தேர்ந்தெடுக்கும் வாய்ப்பை Firefox OS உங்களுக்கு வழங்குகிறது.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 8",
+                                                    "body": "ஒரு வாடிக்கையாளர் உங்களிடம் சொல்கிறார் திறன்பேசிகள் சிக்கலானது. நீங்கள் எந்த விற்பனை அம்சத்தை முன்னெடுக்கனும்?",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். ஒரு வாடிக்கையாளர் சுலபமாக பயன்படுத்தும் திறன்பேசி எதிர்பார்த்திருந்தால், Firefox OS ஒரு சிறந்த வாய்ப்பு ஆகும்.",
+                                                        "incorrect": "உண்மையில், இந்த வாடிக்கையாளிடம், Firefox OS பற்றியும், Firefox Marketplace இன் இலவச பயன்பாடு பற்றியும் கேட்பொறியின் மதிப்பையும் மலிவு சாதனத்தை பற்றியும் பேசவதே சிறந்த வாய்ப்பாகும்.",
+                                                        "partly": "உண்மையில், இந்த வாடிக்கையாளிடம், Firefox OS பற்றியும், Firefox Marketplace இன் இலவச பயன்பாடு பற்றியும் கேட்பொறியின் மதிப்பையும் மலிவு சாதனத்தை பற்றியும் பேசவதே சிறந்த வாய்ப்பாகும்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS ஆனது உங்களுடைய பணத்திற்கு தகுந்த மதிப்பை அளிக்கும் விதமாக நீங்கள் எதிர்பார்த்த — படகருவி, மின்னஞ்சல், பயன்பாடுகள், இசை மேலும் கூடுதலாகவும் — மலிவான விலையிலும் தருகிறது.",
+                                                            "title": "Firefox OS ஆனது உங்களுடைய பணத்திற்கு தகுந்த மதிப்பை அளிக்கும் விதமாக நீங்கள் எதிர்பார்த்த — படகருவி, மின்னஞ்சல், பயன்பாடுகள், இசை மேலும் கூடுதலாகவும் — மலிவான விலையிலும் தருகிறது.",
+                                                            "text": "Firefox OS ஆனது உங்களுடைய பணத்திற்கு தகுந்த மதிப்பை அளிக்கும் விதமாக நீங்கள் எதிர்பார்த்த — படகருவி, மின்னஞ்சல், பயன்பாடுகள், இசை மேலும் கூடுதலாகவும் — மலிவான விலையிலும் தருகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox OS பொன்ற சுலபமான திறன்பேசியை பயன்படுத்தி தொடங்குங்கள். உங்களுக்கு பிடித்த பயன்பாடுகள் ஏற்கனவே உள்ளேற்றப்பட்டு வருவதோடு முகநூலிருந்து தொடர்புகளை ஒத்திசைவு செய்ய முடியும்.",
+                                                            "title": "Firefox OS பொன்ற சுலபமான திறன்பேசியை பயன்படுத்தி தொடங்குங்கள். உங்களுக்கு பிடித்த பயன்பாடுகள் ஏற்கனவே உள்ளேற்றப்பட்டு வருவதோடு முகநூலிருந்து தொடர்புகளை ஒத்திசைவு செய்ய முடியும்.",
+                                                            "text": "Firefox OS பொன்ற சுலபமான திறன்பேசியை பயன்படுத்தி தொடங்குங்கள். உங்களுக்கு பிடித்த பயன்பாடுகள் ஏற்கனவே உள்ளேற்றப்பட்டு வருவதோடு முகநூலிருந்து தொடர்புகளை ஒத்திசைவு செய்ய முடியும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "நீங்கள் Firefox உலாவியை விரும்பினால், உங்களுக்கு Firefox OS பேசிகளும் பிடிக்கும். Firefox OS ஐ தேர்வுச்செய்தால் சக்தி வாய்ந்த இணையம் உங்கள் கைகளில் இருக்கும்.",
+                                                            "title": "நீங்கள் Firefox உலாவியை விரும்பினால், உங்களுக்கு Firefox OS பேசிகளும் பிடிக்கும். Firefox OS ஐ தேர்வுச்செய்தால் சக்தி வாய்ந்த இணையம் உங்கள் கைகளில் இருக்கும்.",
+                                                            "text": "நீங்கள் Firefox உலாவியை விரும்பினால், உங்களுக்கு Firefox OS பேசிகளும் பிடிக்கும். Firefox OS ஐ தேர்வுச்செய்தால் சக்தி வாய்ந்த இணையம் உங்கள் கைகளில் இருக்கும்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 9",
+                                                    "body": "வாடிக்கையாளர் ஒருவர் தன்னுடைய பழைய செல்பேசியை மாற்ற நினைக்கிறேன் என உங்களிடம் சொல்கிறார். நீங்கள் எந்த விற்பனை அம்சத்தை முன்னெடுக்கனும்?",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். முதன்முறை திறன்பேசி பயன்படுத்தும் பயனரிடம், இதனுடைய எளிமையும் தகவமைப்பு பயன்பாடு தேடல் போன்ற அம்சங்களைப்பற்றியும் பேச வேண்டும்.",
+                                                        "incorrect": "உண்மையில், முதன்முறை திறன்பேசி பயன்படுத்தும் பயனரிடம், இதனுடைய எளிமையும் தகவமைப்பு பயன்பாடு தேடல் போன்ற அம்சங்களைப் பற்றியும் பேச வேண்டும்.",
+                                                        "partly": "உண்மையில், முதன்முறை திறன்பேசி பயன்படுத்தும் பயனரிடம், இதனுடைய எளிமையும் தகவமைப்பு பயன்பாடு தேடல் போன்ற அம்சங்களைப் பற்றியும் பேச வேண்டும்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பொன்ற சுலபமான திறன்பேசியை பயன்படுத்தி தொடங்குங்கள். உங்களுக்கு பிடித்த பயன்பாடுகள் ஏற்கனவே உள்ளேற்றப்பட்டு வருவதோடு முகநூலிருந்து தொடர்புகளை ஒத்திசைவு செய்ய முடியும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "உங்களுடைய பணத்திற்கு தகுந்த மதிப்பை Firefox OS தருகிறது, நீங்கள் எதிர்பார்க்கும் படகருவி, மின்னஞ்சல், பயன்பாடுகள், இசை போன்றவற்றுடன் கூடுதலான பயன்பாடுகள மலிந்த விலையில் கிடைக்கிறது. கூடுதலாக, தகவமைப்பு பயன்பாடு தேடல் அம்சங்கள் உங்களுக்கு தேவையான பயன்பாடுகளை தேவைப்படும் நேரத்தில் சுலபமாக கிடைக்கச்செய்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "நீங்கள் Firefox உலாவியை விரும்பினால், உங்களுக்கு Firefox OS பேசிகளும் பிடிக்கும். Firefox OS ஐ தேர்வுச்செய்தால் சக்தி வாய்ந்த இணையம் உங்கள் கைகளில் இருக்கும்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 10",
+                                                    "body": "ஒரு வாடிக்கையாளர் தன்னுடைய மேசைக்கணினியில் Firefox உலாவியை பயன்படுத்துகிறார் என்று உங்களிடம் சொல்கிறார். நீங்கள் எந்த விற்பனை அம்சத்தை முன்னெடுக்கனும்?",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். நீங்கள் ஒரு Firefox இரசிகரை சந்திக்கும்போது, உங்கள் கையில் இணையத்தை எப்போதும் இருக்கச் செய்வதே கடப்பாடாக கொண்டிருக்கும் Firefox OS ஐ தேர்ந்தெடுப்பது பற்றி பேசுங்கள்.",
+                                                        "incorrect": "உண்மையில், நீங்கள் ஒரு Firefox இரசிகரை சந்திக்கும்போது, உங்கள் கையில் இணையத்தை எப்போதும் இருக்கச் செய்வதே கடப்பாடாக கொண்டிருக்கும் Firefox OS ஐ தேர்ந்தெடுப்பது பற்றி பேசுங்கள்.",
+                                                        "partly": "உண்மையில், நீங்கள் ஒரு Firefox இரசிகரை சந்திக்கும்போது, உங்கள் கையில் இணையத்தை எப்போதும் இருக்கச் செய்வதே கடப்பாடாக கொண்டிருக்கும் Firefox OS ஐ தேர்ந்தெடுப்பது பற்றி பேசுங்கள்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "உங்களுடைய பணத்திற்கு தகுந்த மதிப்பை Firefox OS தருகிறது, நீங்கள் எதிர்பார்க்கும் படகருவி, மின்னஞ்சல், பயன்பாடுகள், இசை போன்றவற்றுடன் கூடுதலான பயன்பாடுகள மலிந்த விலையில் கிடைக்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பொன்ற சுலபமான திறன்பேசியை பயன்படுத்தி தொடங்குங்கள். உங்களுக்கு பிடித்த பயன்பாடுகள் ஏற்கனவே உள்ளேற்றப்பட்டு வருவதோடு முகநூலிருந்து தொடர்புகளை ஒத்திசைவு செய்ய முடியும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "நீங்கள் Firefox உலாவியை பிடித்திருந்தால், உங்களுக்கு Firefox OS பேசிகளும் பிடிக்கும். Firefox OS ஐ தேர்வுச்செய்தால் சக்தி வாய்ந்த இணையம் உங்கள் கைகளில் இருக்கும்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "கேள்வி 11",
+                                                    "body": "ஒரு வாடிக்கையாளர் உங்களிடம் சொல்கிறார், “நான் அதிக பணம் செலவு செய்யமாட்டேன், ஆனால் எளிய வழியில் நண்பர்களுடன் தொடர்ந்து தொடர்பில் இருக்க வேண்டும்”. பின்வரும் கூற்றுகளில் எவை நல்ல பதிலாக இருக்கம்? பொருத்தமான அனைத்தையும் தேர்ந்தெடுக்கவும்.",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். இந்த வாடிக்கையாளரிடம் Firefox OS இன் மதிப்பையும் சமூக பயன்பாடுகளைப் பற்றியும் பேசியில் ஏற்கனவே அவை உள்ளேற்றப்பட்டு இருக்கும் அதன் மதிப்பையும் உயர்த்திக் காட்டுங்கள்.",
+                                                        "incorrect": "அது அல்ல. இந்த வாடிக்கையாளரிடம் Firefox OS இன் மதிப்பையும் சமூக பயன்பாடுகளைப் பற்றியும் பேசியில் ஏற்கனவே அவை உள்ளேற்றப்பட்டு இருக்கும் அதன் மதிப்பையும் உயர்த்திக் காட்டுங்கள்.",
+                                                        "partly": "அது அல்ல. இந்த வாடிக்கையாளரிடம் Firefox OS இன் மதிப்பையும் சமூக பயன்பாடுகளைப் பற்றியும் பேசியில் ஏற்கனவே அவை உள்ளேற்றப்பட்டு இருக்கும் அதன் மதிப்பையும் உயர்த்திக் காட்டுங்கள்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS திறன்பேசியானது நீங்கள் எதிர்பார்த்த எல்லா அம்சங்களுடனும் குறுந்செய்தி, முகநுல், மின்னஞ்சல் மெலும் கூடுதலாக அனைத்தும் நல்ல மதிப்பில் கிடைக்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "முகநூலானது அனைத்து Firefox OS சாதனங்களிலும் உள்ளேற்றப்பட்டு கிடைக்கிறது மேலும் முகநூல் தொடர்புகளை எளிதாக ஒத்திசைக்க முடியும்!",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "பல்லாயிரக்கணக்கான பயன்பாடுகள் Firefox Marketplace இல் இலவசமாக கிடைக்கின்றன உள்நுழைய வேண்டிய அவசியம் இல்லை.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "கேள்வி 12",
+                                                    "body": "ஒரு வாடிக்கையாளர் சொன்னார் “நான் Firefox ஐ என்னுடைய வீட்டுக் கணினியில் விரும்பி பயன்படுத்துகிறேன் ஆனால் அவர்கள் திறன்பேசி OS வைத்திருக்கிறார்கள் என்பதே எனக்கு தெரியாது. ஏன்?” இந்த வாடிக்கையாளருக்கு பின்வரும் கூற்றுகளில் எது மிகவும் பொருந்திய பதிலாக இருக்கும்?",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்.பார்ப்பதற்கு இந்த வாடிக்கையாளர் Firefox இரசிகராக தெரிகிறது. Firefox OS பேசிகள் எப்படி Mozilla ஆல் உருவாக்கப்பட்டது என்பது பற்றி பேசவும், மக்களின் கைகளில் இணையம் கிடைக்கச்செய்யும் அதன் கடப்பாட்டையும் காண்பியுங்கள். மேற்கண்ட அனைத்து கூற்றுகளும் சரியாக இருக்கும்பட்சத்தில், இந்த வாடிக்கையளருக்கு இந்த கூற்று மட்டுமே சிறந்த பதிலாக அமைகிறது.",
+                                                        "incorrect": "மேற்கண்ட அனைத்து கூற்றுகளும் சரியாக இருக்கிறது, ஆனால் யார் Firefox இரசிகராக இருக்கிறார்களோ அந்த வாடிக்கையளருக்கு இந்த கூற்று மட்டுமே சிறந்த பதிலாக இருக்கும். Firefox OS பேசிகள் எப்படி Mozilla ஆல் உருவாக்கப்பட்டதையும், மக்களின் கைகளில் இணையத்தை கிடைக்கச்செய்யவது பற்றியும் பேசுங்கள்.",
+                                                        "partly": "மேற்கண்ட அனைத்து கூற்றுகளும் சரியாக இருக்கிறது, ஆனால் யார் Firefox இரசிகராக இருக்கிறார்களோ அந்த வாடிக்கையளருக்கு இந்த கூற்று மட்டுமே சிறந்த பதிலாக இருக்கும். Firefox OS பேசிகள் எப்படி Mozilla ஆல் உருவாக்கப்பட்டதையும், மக்களின் கைகளில் இணையத்தை கிடைக்கச்செய்யவது பற்றியும் பேசுங்கள்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "ஒவ்வொரு பேசியும் வேகமான, திறனான, பாதுகாப்பான இணையத்தை பெறுவதற்கான Firefox உலாவி உடன் வருகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "மற்ற திறன்பேசிகளுக்கு சமமாகவும் தகுந்த விலை மதிப்புடனும் எல்லா அம்சங்களுடனும் Firefox OS வருகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox ஐ தயாரித்த Mozilla தான், எல்லோருக்கும் இணையத்தை கிடைக்கச்செய்யும் ஒரு திறன்பேசி OS ஐயும் உருவாக்கியது. Firefox OS முழுவதுமாக HTML5 இல் உருவாக்கப்பட்டதால் ஏற்கனவேயுள்ள ஆயிரக்கணக்கான இணைய பயன்பாடுகளை உடனடியாக அணுகி பெறலாம்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "கேள்வி 13",
+                                                    "body": "பின்வரும் தகவமைப்பு பயன்பாடு தேடல் பற்றிய கூற்றுகளில் எவை மெய்யானவை? பொருத்தமான அனைத்தையும் தேர்ந்தெடு.",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். மற்ற பேசிகளை விட தகவமைப்பு பயன்பாடு தேடல் உங்களுடைய தேவைகளை நன்றாக உணர்கிறது.",
+                                                        "incorrect": "அது அல்ல. அந்த மூன்றும் சரியாக இருக்கும். தகவமைப்பு பயன்பாடு தேடல் மற்ற பேசிகளை விட உங்களுடைய தேவைகளை புரிந்துக்கொள்கிறது, இது Firefox உலாவியின் இணையத் தேடல் பொன்று வேலைச்செய்யாது.",
+                                                        "partly": "அது சரியாக இருக்கும். அந்த மூன்றும் சரியாக இருக்கும். தகவமைப்பு பயன்பாடு தேடல் மற்ற பேசிகளை விட உங்களுடைய தேவைகளை புரிந்துக்கொள்கிறது, இது Firefox உலாவியின் இணையத் தேடல் பொன்று வேலைச்செய்யாது."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "ஒவ்வொரு Firefox OS திறன்பேசியிலும் ஒரு தனி அம்சம் இருக்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox உலாவிகளில் உள்ள இணையத் தேடலைப் போன்றே வேலைச்செய்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "படங்கள், காணொளிகள், இசை, செய்தி, வரைப்படங்கள் மேலும் கூடுதலாக முடிவுகளில் உள்ளடங்கும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "முடிவுகள் உடனடியாக பயனளிக்கும் — முதலில் பயன்பாட்டை பதிவிறக்க வேண்டிய அவசியம் இல்லை.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "கேள்வி 14",
+                                                    "body": "அனைத்து கூற்றுகளும் மெய்யாக இருக்கும்போது, எந்த இரண்டு பதில்கள் முதல் முறை திறன்பேசியை பயன்படுத்தும் பயனருக்கு பயனுள்ளதாக இருக்கும்?",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். திறன்பேசியைப் முதல் முறை பயன்படுத்தும் பயனருக்கு இதன் பயன்முறை ஆர்வத்தை கூட்டும்.",
+                                                        "incorrect": "அது மட்டுமல்ல. திறன்பேசியைப் முதல் முறை பயன்படுத்தும் பயனருக்கு இதன் பயன்முறை ஆர்வத்தை கூட்டும்.",
+                                                        "partly": "அது மட்டுமல்ல. திறன்பேசியைப் முதல் முறை பயன்படுத்தும் பயனருக்கு இதன் பயன்முறை ஆர்வத்தை கூட்டும்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "உங்களுடைய Firefox OS பேசிக்கு முகநூலிருந்து தொடர்புகளை சுலபமாக இறக்குமதி செய்ய முடியும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "பிரபலமான பயன்பாடுகளை அணுகவும் அதேப்போல நமக்கு முக்கியமான உள்ளூர் உள்ளடக்கங்களையும் அணுகவும் Firefox OS வகைச்செய்கிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "உங்களின் தேவையைத் தவிர வேறு எதுவமில்லை. ஒரு திறன்பேசியில் என்ன எதிர்பார்கிறீர்களோ அதைத் தருவதோடு, இதன் சுலபமான இடைமுகப்பைப் பயன்படுத்தி சுலபமாக பயன்படுத்த தொடங்கலாம்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "திறந்த இணைய தரங்களையும் HTML5ஐயும் பயன்படுத்தி Firefox OS உருவாக்கப்பட்டது.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "கேள்வி 15",
+                                                    "body": "உங்களுக்கு ஆர்வமான ஒரு வார்த்தை அல்லது தலைப்பை தட்டி தகவமைப்பு பயன்பாடு தேடலைப் பயன்படுத்தி தேடும்போது என்ன ஆகிறது? பொருத்தமாக உள்ள அனைத்தையும் தேர்ந்தெடுக்கவும்.",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். தகவமைப்பு பயன்பாடு தேடல் பற்றிய அனைத்துமே மெய்யானது!",
+                                                        "incorrect": "உண்மையில், தகவமைப்பு பயன்பாடு தேடல் பற்றிய அனைத்துமே மெய்யானது!",
+                                                        "partly": "உண்மையில், தகவமைப்பு பயன்பாடு தேடல் பற்றிய அனைத்துமே மெய்யானது!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "உங்களுடைய பேசியில் பயன்பாடுகளைப் போன்றே முடிவுகளும் இணையத்திலிருந்து காண்பிக்கப்படுகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "இணையத்திலிருந்து பிரபலமான படங்களை வெளிப்படுத்த சுவர்சித்திரம் உடனுக்குடன் மாறுகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "முடிவுகளில் தொடர்புடைய வரைபடங்கள், படங்கள், இசை, செய்தி, காணொளிகள், டுவீட்டர் ஓடைகள் மெலும் கூடுதலாக அடங்கிருக்கும்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 16",
+                                                    "body": "தகவமைப்பு பயன்பாடு தேடலை நிறுவாமலே விரைவாக எளிதாக பயன்படுத்த முடியும். பிறகு நீங்கள் பயன்படுத்த விரும்பினால் அதை எளிதில் முகப்பு திரையில் சேர்க்க முடியும்.",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்!",
+                                                        "incorrect": "உண்மையில், அது மெய்யே.",
+                                                        "partly": "உண்மையில், அது மெய்யே."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "மெய்",
+                                                            "title": "மெய்",
+                                                            "text": "மெய்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "பொய்",
+                                                            "title": "பொய்",
+                                                            "text": "பொய்",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 17",
+                                                    "body": "இந்த வாடிக்கையாளரின் எதிர்ப்புக்கு எது சிறந்த பதில்?”இதில் நிறைய பயன்பாடுகள் இல்லை என்று நான் கேள்விப்பட்டேன்.”",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்!",
+                                                        "incorrect": "இந்த எதிர்ப்புக்கு பதிலளிக்கும்பொருட்டு இருக்கும் அனைத்து பயன்பாடுகளைப் பற்றி பேசுங்கள்.",
+                                                        "partly": "இந்த எதிர்ப்புக்கு பதிலளிக்கும்பொருட்டு இருக்கும் அனைத்து பயன்பாடுகளைப் பற்றி பேசுங்கள்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பேசிகள் புதிய மற்றும் எல்லோரும் இணையத்தை அணுக வேண்டும் என்பதை வைத்து செயல்பட உதவும் ஒரு உலகலாவிய சமூகத்தால் ஏற்க்கப்பட்டுள்ளது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "ஒவ்வொரு பேசியிலும் தொடக்கத்திலே ஆயிரக்கணக்கான இலவச பயன்பாடுகளையும் உலகில் பிரபலமான பயன்பாடுகளையும் அணுக முடியும்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "ஒரு வலுவான பாதுகாப்பு மாதிரி என்ாட்டம் சுமார் 10 வருடங்களுக்கு மேலாக திறந்த இணையத்தை ஆதரித்து வருவது கடினம் ஆகும்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "கேள்வி 18",
+                                                    "body": "இந்த வாடிக்கையாளரின் எதிர்ப்புக்கு எது சிறந்த பதில்?”நான் Firefox OS பற்றி கேள்விப்பட்டதே இல்லை.”",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்",
+                                                        "incorrect": "இந்த எதிர்ப்புக்கு பதிலளிக்கும்பொருட்டு Firefox OS இன் பின்னணியான Mozilla சமூகத்தையும் உங்களின் அனுபவத்தைப் பற்றியும் பேசுங்கள்.",
+                                                        "partly": "இந்த எதிர்ப்புக்கு பதிலளிக்கும்பொருட்டு Firefox OS இன் பின்னணியான Mozilla சமூகத்தையும் உங்களின் அனுபவத்தைப் பற்றியும் பேசுங்கள்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பேசிகள் நீங்கள் கேட்ட முதலிடத்தில் உள்ள திறன்பேசியானது எல்லா அம்சங்களையும் உள்ளடக்கி வெளிவருகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பேசிகள் தொடக்கத்திலே ஆயிரக்கணக்கான இலவச பயன்பாடுகளையும் இன்றைய உலகில் பிரபலமான பயன்பாடுகளையும் அணுக கூடியது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பேசிகள் புதிய மற்றும் எல்லோரும் இணையத்தை அணுக வேண்டும் என்பதை வைத்து செயல்பட உதவும் ஒரு உலகலாவிய சமூகத்தால் ஏற்க்கப்பட்டுள்ளது.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "கேள்வி 19",
+                                                    "body": "இந்த வாடிக்கையாளரின் எதிர்ப்புக்கு எது சிறந்த பதில்?”இந்த பேசி பாதுகாப்பானதா என எனக்கு எப்படி தெரியும்?”",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான்!",
+                                                        "incorrect": "இந்த எதிர்ப்புக்கு சரியான பதில் பாதுகாப்பு மாதிரி பற்றி பேச வேண்டும்.",
+                                                        "partly": "இந்த எதிர்ப்புக்கு சரியான பதில் பாதுகாப்பு மாதிரி பற்றி பேச வேண்டும்."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பேசிகள் நீங்கள் பயன்படுத்தும் திறன்பேசிகளில் முதலாவதாக உங்களுக்கு தேவையான முக்கிய வசதிகளை உள்ளடக்கி வருகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS பேசிகள் புத்தம் புதிய உலகலாவிய சமூகத்தின் பங்களிப்பால் உருவாகி அனைவரும் இணையத்தை அணுக உதவுகிறது.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "ஒரு வலுவான பாதுகாப்பு மாதிரி சுமார் 10 வருடங்களுக்கு மேலாக திறந்த இணையத்தை Firefox OS ஆதரித்து வருவது கடினம் ஆகும். இதன் வடிவமைப்பு பயனர்களையும் கணினியையும் நச்சு நிரல்களிடம் இருந்து பயன்பாடுகளையும் அதன் உள்ளடக்கங்களையும் பாதுகாப்பதோடு தன்னையும் காப்பாற்றிக்கொள்கிறது.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "கேள்வி 20",
+                                                    "body": "பின்வரும் வாடிக்கையாளர்களின் பதில்களில் எது Firefox OS பயனாளிக்கு ஒத்துப்போகிறது? உகுந்த அனைத்தையும் தேர்வுசெய்யவும்",
+                                                    "button": {
+                                                        "submit": "சமர்ப்பி",
+                                                        "reset": "மீட்டமை",
+                                                        "model": "பதிலை காண்பி",
+                                                        "mine": "என் பதில்"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "அது சரிதான். அனைத்து வாடிக்கையாளர்களுக்கும் உகந்தது Firefox OS!",
+                                                        "incorrect": "உண்மையாக, அனைத்து வாடிக்கையாளர்களுக்கும் உகந்தது Firefox OS!",
+                                                        "partly": "உண்மையாக, அனைத்து வாடிக்கையாளர்களுக்கும் உகந்தது Firefox OS!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "இதற்கு முன்னர் திறன்பேசியை பயன்படுத்தியதே இல்லை.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "நான் பணத்திற்கேற்ற விலைபொருளை எதிர்பார்க்கிறேன்.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "உண்மையில் நான் பயன்படுத்த ஒரு எளிமையான திறன்பேசி வேண்டும்",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "நான் பயர்பாக்ஸின் இரசிகன்.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "விற்க தயாராக இருங்கள்!",
+                                                    "body": "மேற்க்கண்ட கேள்விகளுக்கும் எல்லா உள்ளடக்கங்களுக்கும் வேலை செய்திருந்தால் உங்களுடைய வாடிக்கையாளர்களின் தேவைகளை பூர்த்தி செய்வதற்க்கான அடிப்படை உங்களிடம் இருக்கிறது.<br><br>சுலபமாக பயன்படுத்தக்கூடிய, Firefox OS திறன்பேசி புதிய பயனர்களுக்கான பொருத்தமானதாகும் மேலும் வாடிக்கையாளர்களுக்கு விருப்பப்படும் தேவையான எல்லா அம்சங்களையும் கொண்டிள்ளது.<br><br>உங்கள் கையில் தொடர்ந்து இணையம் கிடைத்திட உறுதி தரும் Firefox OS கருவிகளே எவருக்கும் சரியானது என்பதை கடப்பாடாக வைத்து Mozilla ஆவால் இயக்கப்பட்டு வருகிறது."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> FIREFOX நோக்கம்</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

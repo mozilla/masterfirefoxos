@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'feincms',
     'feincms.module.page',
     'feincms.module.medialibrary',
+    'django_extensions',
     'django_stackato',
     'storages',
 
@@ -168,7 +169,7 @@ LOCALE_PATHS = (
 LANGUAGES = (
     ('bn', ugettext_lazy('Bengali')),
     ('hr', ugettext_lazy('Croatian')),
-    ('cz', ugettext_lazy('Czech')),
+    ('cs', ugettext_lazy('Czech')),
     ('en', ugettext_lazy('English')),
     ('de', ugettext_lazy('German')),
     ('el', ugettext_lazy('Greek')),
@@ -183,19 +184,16 @@ LANGUAGES = (
 )
 
 VERSIONS_LOCALE_MAP = OrderedDict({
-    '1.3': {
-        'slug': 'version-13',
+    '1.1': {
+        'slug': '1-1',
         'locales': [
-            'en',
-            'el'
+            'en', 'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt', 'sr', 'es'
         ]
     },
-    '2.0': {
-        'slug': 'version-20',
-        'locales': [
-            'en',
-        ]
-    }
+    '1.3T': {
+        'slug': '1-3T',
+        'locales': ['en', 'hi', 'ta']
+    },
 })
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

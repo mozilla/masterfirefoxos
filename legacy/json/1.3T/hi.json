@@ -1,0 +1,2201 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the question, choose the appropriate option(s) and select <b>Submit</b> to make your decision.",
+                "title": "Multiple choice question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Submit</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point question",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Firefox OS के गुरु बनें",
+                    "description": "",
+                    "body": "Firefox OS वैश्विक साझेदार और समुदाय प्रशिक्षण केंद्र में आपका स्वागत है. आपको Firefox OS की कुछ मूल बातें प्रभावी रूप से संवाद करने के लिए सीखने की जरूरत है सब कुछ यहाँ है. आरंभ करने के लिए किसी भी विषय का चयन करें.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "परिचय",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "एक फ़ोन जो हर पल को महत्वपूर्ण बनाता है",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "आपके ग्राहकों की जरूरतें हमेशा बदलती रहती हैं. इसलिए Firefox OS अपने ग्राहकों की जरूरतों के मुताबिक बदलते है — ताकि आपके ग्राहक हर पल पूरी तरह जी सके.<br><br>Firefox OS नए स्मार्टफ़ोन उपयोक्ताओं के लिए परिपूर्ण है —ग्राहकों की उम्मीद के अनुसार सभी सुविधाओं से भरा और उपयोग में आसान. और चूँकि Firefox OS Mozilla द्वारा ऊर्जावान है, वे उन सभी के लिए सही विकल्प है जो यह सुनिश्चित करने के लिए प्रतिबद्ध हैं कि वेब सभी के लिए खुली रहे."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Firefox OS के प्रमुख लाभों का पता लगाने के लिए तैयार हैं?",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/hindi/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "अनुकूलनीय फ़ोन"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "अनुकूलनीय फ़ोन",
+                                                            "body": "Firefox OS किसी अन्य फ़ोन से बेहतर अपने ग्राहकों की जरुरतों के मुताबिक बदलते हैं जिससे वे उनकी जरूरतों का अनुमान लगा सकें और तत्काल उनकी द्वारा चाही गई सूचनाएँ दे सकें.<br><br>अनुकूली एप्प खोज से आपके ग्राहक उन चीजों को अधिकाधिक पाएँगे जिसके लिए वे खोज रहे हैं, ठीक उसी समय जब उन्हे जरूरत होती है.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "अनुकूलनीय फ़ोन"
+                                                            },
+                                                            "strapline": "अनुकूलनीय फ़ोन",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "यह सब आपके लिए है",
+                                                            "body": "Firefox OS सभी सुविधाओं से भरा-पूरा है जिसके कारण आपके ग्राहकों के लिए स्मार्टफ़ोन पहली जगह पर आ जाता है: कैमरा, गैलरी, सामाजिक सुविधाएँ, संगीत के साथ और भी बहुत कुछ.<br><br>Firefox OS उपयोक्ता Firefox Marketplace में ऐप्स की पूरी पहुँच देता है बिना कोई साइन-इन किए. वहाँ आप सभी लोकप्रिय, नामी-गिरामी ऐप्स के साथ ही साथ उन स्थानीय सामग्रियों को पाएँगे जो उन्हें उनकी आस-पास की दुनिया का अधिकाधिक हासिल करने देती.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "यह सब आपके लिए है"
+                                                            },
+                                                            "strapline": "यह सब आपके लिए है",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "अपने हाथ में वेब को रखें",
+                                                            "body": "Mozilla पर, हम एक बदलाव के लिए आए हैं, न कि लाभ कमाने के लिए.सभी के लिए वेब को खुला और पहुँच के अंदर रखने की हमारी प्रतिबद्धता आपको वेब का सर्वोत्तम देगी चाहे जहाँ भी वे जाएँ वे सुरक्षित और अपने ऑनलाइन जिंदगी में सुरक्षित बने रहेंगे.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "अपने हाथ में वेब को रखें"
+                                                            },
+                                                            "strapline": "अपने हाथ में वेब को रखें",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>प्रदर्शन सुझाव <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "प्रदर्शन सुझाव",
+                            "description": "प्रश्न अंश के बारे में जानकारी प्राप्त करें.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "विषयवस्तु का प्रदर्शन",
+                                                    "body": "Firefox OS की विशेषताओं का प्रदर्शन और बिक्री करने के लिए इसका सरल उपयोग आपका सबसे बेहतर उपकरण होगा. तो आपको क्या दिखाना चाहिए?<br><br>आरंभ करने के लिए नीचे दिए गए प्रदर्शन वीडियो को खोलें."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "media",
+                                                    "title": "Firefox OS का परिचय",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "Firefox OS उन सारे चीजों की पेशकश करता है जो आपके ग्राहक किसी स्मार्टफ़ोन में देखना चाहते हैं — और भी बहुत कुछ — उन कीमतों पर जिसका वहन आप आसानी से कर सकते हैं.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "उपयोग में आसान",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b15-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b15-c05.ogv"
+                                                    },
+                                                    "body": "Firefox OS अंतरज्ञानी है और काफी सरल है. बेहद खूबसूरत तरीके से डिजायन किए गए अंतरफलक के साथ, आपके ग्राहक आरंभ से ही इसका उपयोग करने में आसान पाएँगे. यह साथ ही दोहरे सिम सिम और कई स्थानीय भाषाओं का समर्थन करता है.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "मार्केटप्लेस और अनुकूलन योग्य एप्प की खोज",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b15-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b15-c10.ogv"
+                                                    },
+                                                    "body": "अपने ग्राहकों को दिखाएँ कि Firefox Marketplace में ऐप्स को पाना कितना आसान है, या वेब पर कहीं से भी – अनुकूलित ऐप्प खोज से. यह उपयोक्ता को उनकी जरूरत का अधिकाधिक देना है, जब उन्हें इसकी जरूरत होती है.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Rich Media Experience (NT)",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "कैमरा, गैलरी, संगीत ऐप्स और कई सारे चीजों के साथ Firefox OS आपके ग्राहकों को लगातार मनोरंजन देगा और उन चीजों से कनेक्टेड है जो उनके लिए काफी जरूरी हैं.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "सामाजिक और संपर्क सिंक",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/hindi/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "Firefox OS लोकप्रिय तत्काल मैसेजिंग औऱ सोसल मीडिया ऐप्प से पहले से लोड है जैसे Facebook ताकि आपके ग्राहक अपने दोस्तों और परिवार के लोगों से कनेक्टेड बने रहें. वे अपने संपर्कों को फ़ोन से तेजी और आसानी से सिंक कर सकते हैं.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span> परिचय</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>ग्राहक मार्गदर्शिका <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "ग्राहक मार्गदर्शिका",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "आपका अनुकूल Firefox ग्राहक कौन है?",
+                                                    "body": "अपने ग्राहकों की जरूरतों को समझना और मौके पर किस तरह प्रतिक्रिया करनी है यह किसी भी बिक्री अवसर के लिए महत्वपूर्ण है. नीचे दिए गए आम ग्राहक अनुभाग को देखें, उसके बाद उनके अद्वितीय जरूरतों का सबसे अच्छा जवाब जानने के लिए पट्टी खींचें."
+                                                }
+                                            ]
+                                        },
+                                        
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/customer-1.png",
+                                                        "alt": "हालिया स्मार्टफ़ोन उपयोक्ता",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "यहाँ है जो आप कह सकते हैं",
+                                                        "body": "प्रथम बार स्मार्टफ़ोन उपयोक्ताओं के लिए Firefox OS  सबसे अच्छा विकल्प है. यह प्रयोग करने में सबसे आसान है, और यह किसी भी अन्य फ़ोन से बेहतर आपकी आवश्यकताओं के अनुकूल है, ताकि आप कम समय के खोज साथ आपको जरूरत से अधिक मिलता है. इसके अलावा, यह उम्मीद मुताबिक सभी सुविधाओं के साथ पैक किया जाता है जैसे कि कैमरा से, ईमेल तक, Firefox Marketplace से एप्प्स, संगीत और अधिक."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/customer-2.png",
+                                                        "alt": "मूल्य जिज्ञासु",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "यहाँ है जो आप कह सकते हैं:",
+                                                        "body": "Firefox OS आपको आपके पैसे का सबसे अधिक मूल्य देता है. इसमे वह सब है जो आप एक स्मार्टफ़ोन में उम्मीद करते है - Firefox Marketplace से एप्प्स, कैमरा, ईमेल और अधिक - सबसे अधिक प्रतिस्पर्धी कीमतों पर."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/customer-3.png",
+                                                        "alt": "अनिश्चित नवीनीकरण करने वाला",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "यहाँ है जो आप कह सकते हैं:",
+                                                        "body": "Firefox OS सबसे आसान स्मार्टफ़ोन है जिसे आपने कभी उपयोग किया है. अनुकूली एप्प खोज चीजों को आसानी से और तुरन्त खोजने में मदद करता है. उपयोक्ता अंतरफलक इतना सहज है कि जल्दी से पसंदीदा ऐप्स का पता लगा सकते हैं और बिना किसी देरी के डाउनलोड भी कर सकते है."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/customer-4.png",
+                                                        "alt": "Firefox प्रशंसक",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "यहाँ है जो आप कह सकते हैं:",
+                                                        "body": "यदि आप Firefox को जानते हैं और प्यार करतेहैं, तो आप Firefox OS को भी प्यार करेंगे.<br><br>Firefox OS स्मार्टफोन्स पूरी तरह से HTML5 के आधार पर है, अपके फ़ोन में वेब का सर्वश्रेष्ठ लाने के लिए. इसके अलावा, Firefox OS सभी के लिए वेब सुलभ रखने के लिए समर्पित एक समुदाय द्वारा बनाया गया है. जब आप Firefox OS चुनते हैं, तो आपके हाथों में वेब की पूरी शक्ति आ जाती है."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/hindi/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> प्रदर्शन सुझाव</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>मुख्य विशेषताएं <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "मुख्य विशेषताएं",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "विशेषताएं जो महत्वपूर्ण हैं",
+                                                    "body": "Firefox OS उन सभी सुविधाओं के साथ पैक किया जाता है जो आपके ग्राहकों एक स्मार्टफ़ोन में उम्मीद करते है. इसे ऐसे डिजायन किया गया है जो पूरी तरह से उनके जीवन पर फिट बैठता है ताकि वे चारों ओर की दुनिया के साथ तालमेल रख सके."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "यह सब रखें",
+                                                    "body": "Firefox OS की प्रमुख विशेषताओं को खोजने के लिए आगे वाले तीर का चयन करें.",
+                                                    "items": [
+                                                        {
+                                                            "title": "अनुकूली एप्प खोज",
+                                                            "body": "जब आपको इसकी जरूरत है उसी वक़्त पाने के लिए एक नया तरीका, कुछ भी खोजने, और Firefox OS आपके अनुरोध को मानकर फोटो, वीडियो, संगीत, समाचार और अधिक प्रदर्शित करने के लिए.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "अनुकूली एप्प खोज..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "Firefox OS के सबसे अच्छे ऐप्स के लिए आपका उद्गम. कई श्रेणियों में सैकड़ों मुफ्त ऐप्स ब्राउज़ करें: खेल, औज़ार, जीवनशैली और भी काफी कुछ.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "Firefox ब्राउज़र",
+                                                            "body": "वेब का सबसे अच्छा पाने के लिए तेजी से, स्मार्ट, सुरक्षित तरीका है. वेबसाइट यूआरएल दर्ज करने के लिए कमाल पट्टी का उपयोग करें. खोजों प्रदर्शन, और अपने ब्राउज़िंग इतिहास का उपयोग. प्लस एक साथ कई पृष्ठों ब्राउज़िंग करने देते हैं.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Firefox ब्राउज़र..."
+                                                        },
+                                                        {
+                                                            "title": "Facebook",
+                                                            "body": "Firefox OS आपके पसंदीदा सोसल संजाल के एकीकृत है. अपने Facebook संपर्क को अपने फोन में अपने समुदाय के साथ एक स्थान पर बनाए रखने के लिए आसानी से सिंक करें.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Facebook"
+                                                        },
+                                                        {
+                                                            "title": "संपर्क",
+                                                            "body": "कनेक्टेड रहें, अपने मित्र और सहकर्मियों के साथ आसानी से पहुँच के साथ जहाँ भी आप हैं.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "संपर्क..."
+                                                        },
+                                                        {
+                                                            "title": "कैमरा और गैलरी",
+                                                            "body": "मज़ा, रचनात्मक शॉट्स, और अपनी बहुत सारे तस्वीरें साझा करने के लिए, निर्मित शैली फिल्टर के साथ पूर्ण विशेषताओं कैमरा और फोटो गैलरी आपके सभी विषयों को मुस्कुरा देंगे.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "कैमरा और गैलरी..."
+                                                        },
+                                                        {
+                                                            "title": "FM रेडियो",
+                                                            "body": "सभी ऑडियो जो आप चाहते हैं वह सभी एक डिवाइस पर. बस अपने इयरफ़ोन प्लग करे, और सुनना प्रारंभ करें.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "FM रेडियो..."
+                                                        },
+                                                        {
+                                                            "title": "संगीत और वीडियो",
+                                                            "body": "अपने संगीत संग्रह को ब्राउज करें और चलाएँ, गानों को रेट करें और अपने पसंदीदा के लिए प्लेलिस्ट बनाएँ. अपने फोन से वीडियो देखें या ऑनलाइन YouTube के द्वारा.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "संगीत और वीडियो"
+                                                        },
+                                                        {
+                                                            "title": "संदेश और ईमेल",
+                                                            "body": "आसानी और सुविधा से कनेक्टेड रहें. कई ईमेल खाता सेटअप करें, सबसे सामान्य Exchange, SMTP या IMAP ईमेल प्रदाता से.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "संदेश और ईमेल..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> ग्राहक मार्गदर्शिका</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>अक्सर पूछे गए प्रश्न <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "अक्सर पूछे गए प्रश्न",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "आपके पास सवाल हैं? हमारे पास उसके जवाब हैं!",
+                                                    "body": "अब तक, आपके पास शायद प्रश्न हैं और इसलिए आपके ग्राहकों के पास भी होंगे! Firefox OS पर अधिक प्रश्न के लिए प्रत्येक का चयन करें."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "अनुकूली एप्प्स खोज क्या है?",
+                                                            "title": "अनुकूली एप्प्स खोज क्या है?",
+                                                            "body": "अनुकूली एप्प खोज वेब पर सामग्री खोजने के लिए एक नया तरीका है और संलग्न एप्प की तरह अनुभव व बिना डाउनलोड किए जो चाहिए खोजें. जब आप खोजते है तब आपके फ़ोन खोज परिणाम के अनुकूल हो जाते है और उन परिणामों को बाद में आसानी से प्राप्त  करने के लिए मुखपृष्ठ स्क्रीन पर जोड़ने देते है "
+                                                        },
+                                                        {
+                                                            "alt": "कितने और किस प्रकार के एप्प्स उपलब्ध हो जाएँगे?",
+                                                            "title": "कितने और किस प्रकार के एप्प्स उपलब्ध हो जाएँगे?",
+                                                            "body": "दुनिया भर के एप्लिकेशन डेवलपर Firefox OS के लिए प्रतिबद्ध हैं और शुभारंभ के अवसर पर सैकड़ों हजारों मुफ्त अनुप्रयोगों उपलब्ध हो जाएगा. बढ़ती हुई सूची में अग्रणी एप्लिकेशन डेवलपर है Facebook, YouTube, Twitter और ConnectA2 साथ ही साथ Flashlight ऐप्प  और Calculator भी है."
+                                                        },
+                                                        {
+                                                            "alt": "क्या Firefox OS को दूसरे फ़ोन से अधिक सुरक्षित बनाता है?",
+                                                            "title": "क्या Firefox OS को दूसरे फ़ोन से अधिक सुरक्षित बनाता है?",
+                                                            "body": "Firefox OS के पास एक मजबूत सुरक्षा मॉडल है जो एक दशक से खोलो वेब का समर्थन के लिए कठोर युद्ध कर रहा है यह दुर्भावनापूर्ण अनुप्रयोगों और सामग्री से उपयोक्ता और सिस्टम को सुरक्षित रखने के लिए बनाया गया है."
+                                                        },
+                                                        {
+                                                            "alt": "क्या इसका मतलब है कि मैं मोबाइल साइटों को एप्प्स में बदल सकता हूँ?",
+                                                            "title": "क्या इसका मतलब है कि मैं मोबाइल साइटों को एप्प्स में बदल सकता हूँ?",
+                                                            "body": "उपयोक्ताओं वेबसाइट पुस्तचिह्न को गृह पृष्ठ पर रख सकते हैं ताकि उन साइटों के साथ सीधी पहुँच ली जा सके. इसके अलावा, मुखपृष्ठ स्क्रीन से दाएँ स्वाइप करने से, उपयोक्ताओं किसी भी खोज शब्द को केवल दर्ज करें और तुरंत एक बार उपयोग या डाउनलोड एप्लिकेशन बना सकते हैं.मांग पर इन एप्प्स को बनाने और उपभोग करने से उपयोक्ता को उनके अनुप्रयोग के पूर्ण नियंत्रण में डालता है और स्मार्टफ़ोन अनुभव है और यह संभव बनेगे कि लोगों को वे मिले जो चाहते हैं"
+                                                        },
+                                                        {
+                                                            "alt": "कया Android एप्प्स इस फ़ोन पर काम करते हैं?",
+                                                            "title": "कया Android एप्प्स इस फ़ोन पर काम करते हैं?",
+                                                            "body": "सीधे से नहीं. हालांकि, सबसे लोकप्रिय Android और IOS एप्प्स असल में वेब एप्प्स है जिनको वास्तव में मालिकाना प्लेटफार्मों पर चलाने के लिए है जो देशी 'आवरण' भी है. इसलिए, एक ही एप्प्स की कई अनुकूली अनुप्रयोग खोज के माध्यम से उपलब्ध हो जाएगा. इस तरह Emscripten और PhoneGap जैसे उपकरण भी वेब एप्लिकेशन पर अन्य एप्प्स (*.apk and/or C/C++) को परिवर्तित करने में सक्षम हैं."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "कया मेरा एप्प्स ऑफ़लाइन काम करेगा?",
+                                                            "title": "कया मेरा एप्प्स ऑफ़लाइन काम करेगा?",
+                                                            "body": "Firefox OS वेब प्रौद्योगिकियों पर बनाया गया है, लेकिन सभी फ़ोन के मुख्य कार्यात्मकता के लिए ऑफ़लाइन क्षमता है. इसका मतलब है कि समारोह के लिए एप्प्स को  एक सक्रिय इंटरनेट कनेक्शन की आवश्यकता नहीं है जब तक डेटा भेजने या प्राप्त करने की आवशकता न हो."
+                                                        },
+                                                        {
+                                                            "alt": "एप्प्स के लिए ग्राहक सहायता के बारे में क्या है?",
+                                                            "title": "एप्प्स के लिए ग्राहक सहायता के बारे में क्या है?",
+                                                            "body": "Firefox OS के लिए बनाए गये एक एप्प्स से जुड़े समर्थन की सहायता के लिए उपभोक्ताओं को  एप्लिकेशन डेवलपर के लिए निर्देशित किया जाएगा. यदि Firefox OS के साथ उपभोक्ता अनुभव नकारात्मक रूप से सहायता की घटना से प्रभावित हो रहा है तब Mozilla उस एप्प को अनइन्स्टॉल तथा उचित डेवलपर की सहायता की सिफारिश करेंगे."
+                                                        },
+                                                        {
+                                                            "alt": "मैं Firefox OS पर एप्प्स को डाउनलोड और स्थापित कैसे कर सकता हूँ ?",
+                                                            "title": "मैं Firefox OS पर एप्प्स को डाउनलोड और स्थापित कैसे कर सकता हूँ ?",
+                                                            "body": "Firefox OS एप्प्स पाने के लिए दो तरीके सुझाता है:<ul><li>Firefox  Marketplace — Twitter और Facebook और शानदार स्थानीय सामग्री की तरह के लोकप्रिय सामग्री – आपके क्षेत्र के सबसे अच्छे वेब डेवलेपर से.</li><li>अनुकूली ऐप्प खोज — “news” जैसे एक शब्द को टाइप करें ताकि आपके क्षेत्र में संबंधित मोबाइल ऐप्स पा सकें.</li></ul>"
+                                                        },
+                                                        {
+                                                            "alt": "क्या ईमेल प्रदाताओं का समर्थन हैं?",
+                                                            "title": "क्या ईमेल प्रदाताओं का समर्थन हैं?",
+                                                            "body": "Hotmail और Yahoo मेल भविष्य में अधिक अच्छे से अभी समर्थित है."
+                                                        },
+                                                        {
+                                                            "alt": "मुझे कहाँ जाना चाहिए यदि मेरे पास और सवाल हैं?",
+                                                            "title": "मुझे कहाँ जाना चाहिए यदि मेरे पास और सवाल हैं?",
+                                                            "body": "Visit <a href='https://support.mozilla.org/hi-IN/kb/firefox-os-user-guide'>https://support.mozilla.org/hi-IN/kb/firefox-os-user-guide</a> for more information. (NT)"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> मुख्य विशेषताएं</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>Firefox का मिशन <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "Firefox का मिशन",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "हमारा मिशन वेब पर खुलापन, नवाचार और अवसर को बढ़ावा देने का  है.",
+                                                    "body": "हर Firefox OS स्मार्टफ़ोन के पीछे Mozilla है:  हजारों का एक वैश्विक समुदाय जो सभी के लिए सुलभ वेब रखने के लिए समर्पित है . क्योंकि हमारा मानना है कि हर किसीको वेब का अधिकार है जो की कुछ बड़ी संस्थाओं द्वारा नियंत्रित नहीं है और जो इकट्ठा होकर वेब के बेहतर भविष्य के लिए तैयार किया गया है.<br><br>हाँ, हम अन्य लोगों से थोड़ा अलग हैं."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> अक्सर पूछे गए प्रश्न</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>चुनौती लें <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "चुनौती लें",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "जो आप जानते हैं उसे दिखाने के लिए तैयार?",
+                                                    "body": "लगता है आप अपने ग्राहकों को Firefox OS की बिक्री शुरू करने के लिए लगभग तैयार हैं? अपने ज्ञान को जाँचें और अपने आप को साबित करने के लिए इन सवालों के जवाब दें."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 1",
+                                                    "body": "कैसे आप Firefox OS पर अनुकूली एप्प खोजने की सुविधा का उपयोग कर सकते हैं ?",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "My Answer"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है! आप बस अपने मुखपृष्ठ स्क्रीन पर जाये और यह वहां है!",
+                                                        "incorrect": "वह यह नहीं है. आप बस अनुकूली एप्प खोज सुविधा का उपयोग करने के लिए अपने मुखपृष्ठ स्क्रीन पर जाएँ.",
+                                                        "partly": "वह यह नहीं है. आप बस अनुकूली एप्प खोज सुविधा का उपयोग करने के लिए अपने मुखपृष्ठ स्क्रीन पर जाएँ."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "बाईं ओर स्वाइप करें",
+                                                            "title": "बाईं ओर स्वाइप करें",
+                                                            "text": "बाईं ओर स्वाइप करें",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "मुखपृष्ठ बटन पर क्लिक करें.",
+                                                            "title": "मुखपृष्ठ बटन पर क्लिक करें.",
+                                                            "text": "मुखपृष्ठ बटन पर क्लिक करें.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Marketplace खोलें.",
+                                                            "title": "Marketplace खोलें.",
+                                                            "text": "Marketplace खोलें.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "ब्राउज़र खोलें.",
+                                                            "title": "ब्राउज़र खोलें.",
+                                                            "text": "ब्राउज़र खोलें.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 15,
+                                                    "title": "सवाल 2",
+                                                    "body": "निम्नलिखित में से कौनसी एप्प्स Firefox OS फ़ोन पर पहले से मौजूद है? लागू होने वाले सभी का चयन करें.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है! ये सभी एप्प्स Firefox OS फ़ोन में पहले से आते हैं.",
+                                                        "incorrect": "दरअसल, ये सभी एप्प्स Firefox OS फ़ोन में पहले से आते हैं.",
+                                                        "partly": "यहाँ बहुत हैं. फिर से कोशिश करें"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Marketplace",
+                                                            "title": "Marketplace",
+                                                            "text": "Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Browser",
+                                                            "title": "Browser",
+                                                            "text": "Browser",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "कैमरा और गैलरी",
+                                                            "title": "कैमरा और गैलरी",
+                                                            "text": "कैमरा और गैलरी",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "फेसबुक",
+                                                            "title": "फेसबुक",
+                                                            "text": "फेसबुक",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "कनेक्ट-ए2",
+                                                            "title": "कनेक्ट-ए2",
+                                                            "text": "कनेक्ट-ए2",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "YouTube",
+                                                            "title": "YouTube",
+                                                            "text": "YouTube",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Phone",
+                                                            "title": "Phone",
+                                                            "text": "Phone",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "संपर्क",
+                                                            "title": "संपर्क",
+                                                            "text": "संपर्क",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "कैलेंडर",
+                                                            "title": "कैलेंडर",
+                                                            "text": "कैलेंडर",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "घड़ी",
+                                                            "title": "घड़ी",
+                                                            "text": "घड़ी",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "वीडियो",
+                                                            "title": "वीडियो",
+                                                            "text": "वीडियो",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "उपयोग",
+                                                            "title": "उपयोग",
+                                                            "text": "उपयोग",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "ईमेल और संदेश",
+                                                            "title": "ईमेल और संदेश",
+                                                            "text": "ईमेल और संदेश",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "FM रेडियो",
+                                                            "title": "FM रेडियो",
+                                                            "text": "FM रेडियो",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "संगीत",
+                                                            "title": "संगीत",
+                                                            "text": "संगीत",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },         
+                                        {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 3",
+                                                    "body": "कौनसा आइकन Firefox OS सुविधा को प्रदर्शित करता है?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. यह चिह्न संदेश को प्रदर्शित करता है.",
+                                                        "incorrect": "दरअसल, यह चिह्न संदेश-या टेक्स्ट संदेश को प्रदर्शित करता है.",
+                                                        "partly": "दरअसल, यह चिह्न संदेश-या टेक्स्ट संदेश को प्रदर्शित करता है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "संदेश",
+                                                            "title": "संदेश",
+                                                            "text": "संदेश",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "सम्पर्क",
+                                                            "title": "सम्पर्क",
+                                                            "text": "सम्पर्क",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Browser",
+                                                            "title": "Browser",
+                                                            "text": "Browser",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "अनुकूलित एप्प खोज",
+                                                            "title": "अनुकूलित एप्प खोज",
+                                                            "text": "अनुकूलित एप्प खोज",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 4",
+                                                    "body": "कौन-सा आइकन Firefox OS सुविधा को प्रदर्शित करता है?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. यह चिह्न सम्पर्क को प्रदर्शित करता है.",
+                                                        "incorrect": "दरअसल, यह चिह्न सम्पर्क को प्रदर्शित करता है.",
+                                                        "partly": "दरअसल, यह चिह्न सम्पर्क को प्रदर्शित करता है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "संदेश",
+                                                            "title": "संदेश",
+                                                            "text": "संदेश",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "सम्पर्क",
+                                                            "title": "सम्पर्क",
+                                                            "text": "सम्पर्क",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Browser",
+                                                            "title": "Browser",
+                                                            "text": "Browser",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "अनुकूलित एप्प खोज",
+                                                            "title": "अनुकूलित एप्प खोज",
+                                                            "text": "अनुकूलित एप्प खोज",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },         
+                                        {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 5",
+                                                    "body": "कौनसा आइकन Firefox OS विशेषता को प्रदर्शित करता है?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. यह चिह्न Browser को प्रदर्शित करता है.",
+                                                        "incorrect": "दरअसल, यह चिह्न Browser को प्रदर्शित करता है.",
+                                                        "partly": "दरअसल, यह चिह्न Browser को प्रदर्शित करता है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "संदेश",
+                                                            "title": "संदेश",
+                                                            "text": "संदेश",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "सम्पर्क",
+                                                            "title": "सम्पर्क",
+                                                            "text": "सम्पर्क",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Browser",
+                                                            "title": "Browser",
+                                                            "text": "Browser",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "अनुकूलित एप्प खोज",
+                                                            "title": "अनुकूलित एप्प खोज",
+                                                            "text": "अनुकूलित एप्प खोज",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 6",
+                                                    "body": "कौनसा आइकन Firefox OS सुविधा को प्रदर्शित करता है?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. यह चिह्न Browser को प्रदर्शित करता है.",
+                                                        "incorrect": "दरअसल, यह चिह्न Browser को प्रदर्शित करता है.",
+                                                        "partly": "दरअसल, यह चिह्न Browser को प्रदर्शित करता है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "संदेश",
+                                                            "title": "संदेश",
+                                                            "text": "संदेश",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "सम्पर्क",
+                                                            "title": "सम्पर्क",
+                                                            "text": "सम्पर्क",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Browser",
+                                                            "title": "Browser",
+                                                            "text": "Browser",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "अनुकूलित एप्प खोज",
+                                                            "title": "अनुकूलित एप्प खोज",
+                                                            "text": "अनुकूलित एप्प खोज",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                       
+					                    {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "सवाल 7",
+                                                    "body": "आपके ग्राहक अपने प्रतियोगियों की तुलना में Firefox OS का सबसे बड़ा लाभ समझना चाहते हैं. लागू होने वाले बयानों का चयन करें.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. यह सभी बयान Firefox OS के बारे में सत्य है.",
+                                                        "incorrect": "दरअसल, “उपकरणों की विस्तृत चयन” बयान को छोड़कर बाकी सभी सही हैं, ये सभी भविष्य में सच हो सकतें है. लेकिन यह वर्तमान में सच नहीं है.",
+                                                        "partly": "दरअसल, “उपकरणों की विस्तृत चयन” बयान को छोड़कर बाकी सभी सही हैं, ये सभी भविष्य में सच हो सकतें है. लेकिन यह वर्तमान में सच नहीं है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "अनुकूल एप्प खोज के साथ, Firefox OS आपको किसी दूसरे फ़ोन से बेहतर जरूरत के लिए अनुकूल बनाता है. ",
+                                                            "title": "अनुकूल एप्प खोज के साथ, Firefox OS आपको किसी दूसरे फ़ोन से बेहतर जरूरत के लिए अनुकूल बनाता है. ",
+                                                            "text": "अनुकूल एप्प खोज के साथ, Firefox OS आपको किसी दूसरे फ़ोन से बेहतर जरूरत के लिए अनुकूल बनाता है. ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace और  ईमेल की तरह दर्जनों एप्प्स पहले से ही साथ हैं जैसे, ईमेल फेसबुक, कैमरा, संगीत, और अधिक, Firefox OS आपकी स्मार्टफ़ोन की सभी सुविधाओं के साथ पैक किया जाता है.",
+                                                            "title": "Firefox Marketplace और  ईमेल की तरह दर्जनों एप्प्स पहले से ही साथ हैं जैसे, ईमेल फेसबुक, कैमरा, संगीत, और अधिक, Firefox OS आपकी स्मार्टफ़ोन की सभी सुविधाओं के साथ पैक किया जाता है.",
+                                                            "text": "Firefox Marketplace और  ईमेल की तरह दर्जनों एप्प्स पहले से ही साथ हैं जैसे, ईमेल फेसबुक, कैमरा, संगीत, और अधिक, Firefox OS आपकी स्मार्टफ़ोन की सभी सुविधाओं के साथ पैक किया जाता है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "यह Mozilla, द्वारा बनाया गया है, इसलिए आप Firefox OS अपनी ओर से काम कर रहे एक वैश्विक समुदाय से और मन में अपने हितों के साथ समर्थित है कि आप आत्मविश्वास महसूस कर सकते हैं.",
+                                                            "title": "यह Mozilla, द्वारा बनाया गया है, इसलिए आप Firefox OS अपनी ओर से काम कर रहे एक वैश्विक समुदाय से और मन में अपने हितों के साथ समर्थित है कि आप आत्मविश्वास महसूस कर सकते हैं.",
+                                                            "text": "यह Mozilla, द्वारा बनाया गया है, इसलिए आप Firefox OS अपनी ओर से काम कर रहे एक वैश्विक समुदाय से और मन में अपने हितों के साथ समर्थित है कि आप आत्मविश्वास महसूस कर सकते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS आपको बाजार में उपकरणों का विस्तृत चयन देता है.",
+                                                            "title": "Firefox OS आपको बाजार में उपकरणों का विस्तृत चयन देता है.",
+                                                            "text": "Firefox OS आपको बाजार में उपकरणों का विस्तृत चयन देता है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 8",
+                                                    "body": "एक ग्राहक आपको बताता हैं की स्मार्टफ़ोन जटिल लगता है. आपको क्या बेचने की कौनसी सुविधा के साथ नेतृत्व करना चाहिए?",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. ग्राहक एक ऐसे स्मार्टफ़ोन की तलाश में हैं जो उपयोग करने में आसान है. Firefox OS एक बढ़िया विकल्प है.",
+                                                        "incorrect": "दरअसल, यह ग्राहक के लिए सबसे अच्छा विकल्प Firefox OS, Firefox Marketplace और हैंडसेट, सस्ती डिवाइस है और इस तथ्य के भीतर मुफ्त एप्प्स का उपयोग करने के लिए कितना आसान है.",
+                                                        "partly": "दरअसल, यह ग्राहक के लिए सबसे अच्छा विकल्प Firefox OS, Firefox Marketplace और हैंडसेट, सस्ती डिवाइस है और इस तथ्य के भीतर मुफ्त एप्प्स का उपयोग करने के लिए कितना आसान है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS आपको आपके पैसों का सही मूल्य देता है, और आपकी उम्मीद से भी ज्यादा — कैमरा, ईमेल, एप्प्स, संगीत और अधिक — अधिक प्रतिस्पर्धी कीमतों पर.",
+                                                            "title": "Firefox OS आपको आपके पैसों का सही मूल्य देता है, और आपकी उम्मीद से भी ज्यादा — कैमरा, ईमेल, एप्प्स, संगीत और अधिक — अधिक प्रतिस्पर्धी कीमतों पर.",
+                                                            "text": "Firefox OS आपको आपके पैसों का सही मूल्य देता है, और आपकी उम्मीद से भी ज्यादा — कैमरा, ईमेल, एप्प्स, संगीत और अधिक — अधिक प्रतिस्पर्धी कीमतों पर.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox OS आरंभ करने के लिए सबसे आसान स्मार्टफ़ोन है. अपने पसंदीदा एप्प पहले से ही लोड हैं और आप आसानी से, फेसबुक से अपने संपर्क को आयात और सिंक कर सकते हैं.",
+                                                            "title": "Firefox OS आरंभ करने के लिए सबसे आसान स्मार्टफ़ोन है. अपने पसंदीदा एप्प पहले से ही लोड हैं और आप आसानी से, फेसबुक से अपने संपर्क को आयात और सिंक कर सकते हैं.",
+                                                            "text": "Firefox OS आरंभ करने के लिए सबसे आसान स्मार्टफ़ोन है. अपने पसंदीदा एप्प पहले से ही लोड हैं और आप आसानी से, फेसबुक से अपने संपर्क को आयात और सिंक कर सकते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "यदि आप Firefox से प्यार करते हैं, तो आप Firefox OS से भी प्यार करेंगे. Firefox OS डिवाइस का चुनाव करके वेब की शक्ति आपके हाथों में होती है.",
+                                                            "title": "यदि आप Firefox से प्यार करते हैं, तो आप Firefox OS से भी प्यार करेंगे. Firefox OS डिवाइस का चुनाव करके वेब की शक्ति आपके हाथों में होती है.",
+                                                            "text": "यदि आप Firefox से प्यार करते हैं, तो आप Firefox OS से भी प्यार करेंगे. Firefox OS डिवाइस का चुनाव करके वेब की शक्ति आपके हाथों में होती है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 9",
+                                                    "body": "एक ग्राहक बताती है कि वह अपने पुराने फीचर फ़ोन को ऊपर ले जाने के लिए तैयार है. आपको क्या बेचने की सुविधा के साथ नेतृत्व करना चाहिए?",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. पहली बार स्मार्ट फ़ोन उपयोक्ता के साथ, आपको Firefox OS की सरलता और अनुकूली एप्प खोज जैसी सुविधाओं के बारे में बात करनी चाहिए.",
+                                                        "incorrect": "दरअसल, पहली बार स्मार्ट फ़ोन उपयोक्ता के साथ, आपको Firefox OS की सरलता और अनुकूली एप्प खोज जैसी सुविधाओं के बारे में बात करनी चाहिए.",
+                                                        "partly": "दरअसल, पहली बार स्मार्ट फ़ोन उपयोक्ता के साथ, आपको Firefox OS की सरलता और अनुकूली एप्प खोज जैसी सुविधाओं के बारे में बात करनी चाहिए."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS आरंभ करने के लिए सबसे आसान स्मार्टफ़ोन है. अपने पसंदीदा एप्प पहले से ही लोड हैं और आप आसानी से, फेसबुक से अपने संपर्क को आयात और सिंक कर सकते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS आपको आपके पैसों का अच्छा मूल्य देता है, और आपकी उम्मीद से भी ज्यादा — कैमरा, ईमेल, एप्प्स, संगीत और अधिक — अधिक प्रतिस्पर्धी कीमतों पर. इसके अलावा, अनुकूली एप्प खोज एक विशेषता है जो कि आसानी बरतती हैं आपकी खोज में, और जरूरतमंद एप्प्स को ही खोजती हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "यदि आप Firefox से प्यार करते हैं, तो आप Firefox OS से भी प्यार करेंगे. Firefox OS डिवाइस वेब की शक्ति को आपके हाथों में रखता है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 10",
+                                                    "body": "ग्राहक आपको बताता हैं की वह डेस्कटॉप ब्राउज़र के रूप में Firefox का उपयोग करता है आप क्या बेचने की किस विशेषता के साथ नेतृत्व करना चाहिए?",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. जब आप एक Firefox प्रशंसक से मिलते हैं, तो Firefox OS चुनने उनके हाथों में वेब रखने के लिए एक प्रतिबद्धता दिखाता है उसके बारे में बात करें.",
+                                                        "incorrect": "दरअसल, जब आप एक Firefox प्रशंसक से मिलते हैं, तो Firefox OS चुनने उनके हाथों में वेब रखने के लिए एक प्रतिबद्धता दिखाता है उसके बारे में बात करें.",
+                                                        "partly": "दरअसल, जब आप एक Firefox प्रशंसक से मिलते हैं, तो Firefox OS चुनने उनके हाथों में वेब रखने के लिए एक प्रतिबद्धता दिखाता है उसके बारे में बात करें."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Firefox OS आपको आपके पैसों का अच्छा मूल्य देता हैं, और आपकी उम्मीद से भी ज्यादा — कैमरा, ईमेल, एप्प्स, संगीत और अधिक — अधिक प्रतिस्पर्धी कीमतों पर.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS आरंभ करने के लिए सबसे आसान स्मार्टफ़ोन है. अपने पसंदीदा एप्प पहले से ही लोड हैं और आप आसानी से, फेसबुक से अपने संपर्क को सिंक कर सकते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "यदि आप Firefox से प्यार करते हैं, तो आप Firefox OS से भी प्यार करेंगे. Firefox OS डिवायस वेब की शक्ति को आपके हाथों में देता है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "सवाल 11",
+                                                    "body": "एक ग्राहक आपसे कहता है कि, “मैं अपने दोस्तों के साथ संपर्क में रहने के लिए एक आसान तरीका ढूंढ रहा हूँ, लेकिन मैं बहुत सारा पैसा खर्च नहीं करना चाहता”, निम्नलिखित बयानों में से कौन सी एक अच्छी प्रतिक्रिया होगी? लागू होने वाले सभी का चयन करें.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. ग्राहक के साथ, Firefox OS के पूर्ण फीचर सेट को आलोकित करें, सोसल ऐप्प सहित जो आपके फोन में काफी कम लागत पर उपलब्ध है.",
+                                                        "incorrect": "यह सही नहीं है. ग्राहक के साथ, Firefox OS के पूर्ण फीचर सेट को आलोकित करें और Firefox OS के महान मूल्य पर प्रकाश डाला.",
+                                                        "partly": "यह सही नहीं है. ग्राहक के साथ, Firefox OS के पूर्ण फीचर सेट को आलोकित करें और Firefox OS के महान मूल्य पर प्रकाश डाला."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS समार्टफोन उन सभी विशेषताओं से लैस है जिसे आप चाहते हैं, संदेशों, Facebook, ईमेल और भी काफी कुछ, सभी अच्छी तरह से.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Facebook हर Firefox OS डिवाइस पर पहले से लोड किया जाता है और आप आसानी से अपने Facebook संपर्कों को सिंक कर सकते हैं!",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox Marketplace पर हजारों सुविधाएँ और एप्प्स मुफ्त उपलब्ध हैं और साइन इन करने की आवश्यकता नहीं है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "सवाल 12",
+                                                    "body": "एक ग्राहक कहता है की, मैं अपने घर के कंप्यूटर पर Firefox का उपयोग करता हूँ और मैं इसे प्यार करता हूँ, लेकिन मुझे पता नहीं था मोबाइल OS भी है. निम्नलिखित बयानों में क्यों? तो इस विशेष ग्राहक के लिए सबसे उपयुक्त प्रतिक्रिया होगी?",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. इस ग्राहक ने एक Firefox प्रशंसक की तरह लगता है. Mozilla द्वारा किए गए Firefox OS फ़ोन, लोगों के हाथों में वेब रखने के लिए एक प्रतिबद्धता दिखाने के तरीके के बारे में बात करें. इन बयानों के सभी सत्य हैं, और, जबकि केवल इस एक इस विशेष ग्राहक के लिए सबसे अच्छी प्रतिक्रिया है.",
+                                                        "incorrect": "यह सभी बयान सत्य हैं, लेकिन केवल एक Firefox प्रशंसक हो रहा है, जो इस विशेष ग्राहक के लिए सबसे अच्छी प्रतिक्रिया है. Mozilla द्वारा किए गए Firefox OS फ़ोन, लोगों के हाथों में वेब रखने का हिस्सा हैं के बारे में कैसे बात करें.",
+                                                        "partly": "यह सभी बयान सत्य हैं, लेकिन केवल एक Firefox प्रशंसक हो रहा है, जो इस विशेष ग्राहक के लिए सबसे अच्छी प्रतिक्रिया है. Mozilla द्वारा किए गए Firefox OS फ़ोन, लोगों के हाथों में वेब रखने का हिस्सा हैं के बारे में कैसे बात करें."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "हर Firefox फ़ोन में Firefox Browser, ऑनलाइन प्राप्त करने के लिए, तेज, स्मार्ट और सुरक्षित तरीका भी शामिल है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS आपको प्रतिस्पर्धी स्मार्टफोन्स में मिलेगा सभी एक ही सुविधाओं में शामिल हैं, और आप पैसे के लिए अधिक मूल्य देता है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Mozilla, Firefox के निर्माता, सभी के लिए सुलभ वेब रखने के लिए एक मोबाइल OS बनाया हैं. Firefox OS पूरी तरह HTML5 में बनाया गया है और के बाद से, आप वेब के लिए पहले से ही बनाया एप्प्स की हजारों करने के लिए त्वरित पहुँच जाओ. ",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "सवाल 13",
+                                                    "body": "निम्नलिखित बयानों में से कौन सा अनुकूली एप्प खोज के बारे में सही हैं? लागू होने वाले सभी का चयन करें.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. अनुकूली एप्प खोज किसी अन्य फ़ोन से अपनी आवश्यकताओं को बेहतर बनाती है.",
+                                                        "incorrect": "यह काफी नहीं है. इनमें से तीन सही हैं. अनुकूली एप्प खोज किसी अन्य फ़ोन से आपकी आवश्यकताओं बेहतर बनाती है, यह सिर्फ Firefox Browsers पर वेब खोज की तरह काम नहीं करता है.",
+                                                        "partly": "यह काफी नहीं है. इनमें से तीन सही हैं. अनुकूली एप्प खोज किसी अन्य फ़ोन से आपकी आवश्यकताओं बेहतर बनाती है, यह सिर्फ Firefox Browsers पर वेब खोज की तरह काम नहीं करता है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "एक अनूठी विशेषता हर Firefox OS स्मार्टफ़ोन में शामिल हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox Browser पर वेब खोज की तरह काम करता है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "परिणाम में फोटो, वीडियो, संगीत, समाचार, नक्शे और अधिक शामिल हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "परिणाम तुरंत प्रयोग करने योग्य हैं - आपको पहली बार एप्लिकेशन डाउनलोड करने की ज़रूरत नहीं है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "सवाल 14",
+                                                    "body": "ये सब बयान सच हैं, कौनसी दो प्रतिक्रियाओं जो पहली बार स्मार्टफ़ोन ग्राहकों के लिए सबसे उपयोगी होगी?",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. एक पहली बार स्मार्टफ़ोन उपयोक्ता, को आसानी से उपयोग करने में सबसे अधिक दिलचस्पी होगी.",
+                                                        "incorrect": "काफी नहीं है. एक पहली बार स्मार्टफ़ोन उपयोक्ता, को आसानी से उपयोग करने में सबसे अधिक दिलचस्पी होगी.",
+                                                        "partly": "काफी नहीं है. एक पहली बार स्मार्टफ़ोन उपयोक्ता, को आसानी से उपयोग करने में सबसे अधिक दिलचस्पी होगी."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "आप आसानी से अपने Firefox OS फ़ोन में फेसबुक से संपर्क आयात कर सकते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS आपको सबसे अधिक लोकप्रिय, बड़े नाम के एप्प, साथ ही स्थानीय सामग्री के लिए एक्सेस देता है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS आपकी जरूरत से अधिक के साथ बरबाद नहीं है. एक स्मार्टफ़ोन से आपकी क्या उम्मीद थी उसी के आधार पर आपको देता है. यह एक आसान इंटरफ़ेस का उपयोग करने के साथ आपको आरंभ करने के लिए आसान बनाता है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS पूरी तरह HTML5 और खुला वेब मानकों का उपयोग कर बनाया गया है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "सवाल 15",
+                                                    "body": "जब आप अनुकूली खोज का उपयोग कर आप अपनी रुचि वाले शब्द या विषय कि खोज करते हैं तब क्या होता हैं? लागू होने वाले सभी का चयन करें.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. ये सब अनुकूली एप्प खोज का सच है!",
+                                                        "incorrect": "दरअसल, ये सब अनुकूली एप्प खोज का सच है!",
+                                                        "partly": "दरअसल, ये सब अनुकूली एप्प खोज का सच है!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "परिणाम में नक्शे, छवियाँ, संगीत, समाचार, वीडियो, ट्वीट और अधिक शामिल हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "आपकी पृष्ठभूमि छवि, वेब से लोकप्रिय तस्वीरें प्रकट करने के लिए तुरन्त बदल जाती है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "परिणाम में नक्शे, छवियाँ, संगीत, समाचार, वीडियो, ट्वीट और अधिक शामिल हैं.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 16",
+                                                    "body": "अनुकूली एप्प खोज के साथ, आप इसे स्थापित करने के बिना, जल्दी और आसानी से, एक बार एप्प का उपयोग कर सकते हैं. यदि आप बाद में इसे फिर से उपयोग करना चाहते हैं, तो यह अपने होमस्क्रीन पर जोड़ने भी आसान है.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है!",
+                                                        "incorrect": "दरअसल, यह सच है.",
+                                                        "partly": "दरअसल, यह सच है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "सच",
+                                                            "title": "सच",
+                                                            "text": "सच",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "ग़लत",
+                                                            "title": "ग़लत",
+                                                            "text": "ग़लत",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 17",
+                                                    "body": "इस ग्राहक के आपत्ति करने के लिए सबसे अच्छी प्रतिक्रिया क्या है? “मैं सुना हैं कि इसमें ज्यादा एप्प्स नहीं हैं.”",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है!",
+                                                        "incorrect": "इस आपत्ति के लिए सबसे अच्छी प्रतिक्रिया है कि सभी उपलब्ध एप्प्स के बारे में बात करने के लिए है.",
+                                                        "partly": "इस आपत्ति के लिए सबसे अच्छी प्रतिक्रिया है कि सभी उपलब्ध एप्प्स के बारे में बात करने के लिए है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS फोन नया है और सभी के लिए सुलभ वेब रखने में मदद करने के लिए एक वैश्विक समुदाय ने समर्थन किया.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "हर फ़ोन के पास शुभारंभ के अवसर कई लोकप्रिय वैश्विक मुफ्त एप्प होते हैं, उनमे से कुछ आज सहित शुभारंभ के अवसर पर मुफ़्त एप्प्स की संख्या सैकड़ों तक पहुँच गई है",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "एक मजबूत सुरक्षा मॉडल जो कठोर ओपन वेब का समर्थन करने में एक दशक से ज्यादा से है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "सवाल 18",
+                                                    "body": "ग्राहक के आपत्ति करने के लिए सबसे अच्छी प्रतिक्रिया क्या है? “मैंनें Firefox OS फ़ोन के बारे में कभी नहीं सुना है.”",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है!",
+                                                        "incorrect": "इस आपत्ति के लिए सबसे अच्छी प्रतिक्रिया Firefox OS के पीछे है कि Mozilla समुदाय के अनुभव के बारे में बात करने के लिए है.",
+                                                        "partly": "इस आपत्ति के लिए सबसे अच्छी प्रतिक्रिया Firefox OS के पीछे है कि Mozilla समुदाय के अनुभव के बारे में बात करने के लिए है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS फोन उन सभी विशेषताओं से भरा है जो पहली बार आप एक स्मार्टफ़ोन में चाहते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS लॉन्च के अवसर सबसे लोकप्रिय सैकड़ों वैश्विक ऐप्स मुफ़्त में इस्तेमाल करने देता है जिसमें कुछ सबसे लोकप्रिय वैश्विक ऐप्स शामिल हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS फोन नई और वेब को सभी के लिए सुलभ बनाए रखने में मदद करने के लिए एक वैश्विक समुदाय के द्वारा समर्थित है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "सवाल 19",
+                                                    "body": "इस ग्राहक से आपत्ति करने के लिए सबसे अच्छी प्रतिक्रिया क्या है?<br>“मैं कैसे जानूं कि यह फ़ोन सुरक्षित है?”",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है!",
+                                                        "incorrect": "इस आपत्ति के लिए सबसे अच्छी प्रतिक्रिया मजबूत सुरक्षा मॉडल के बारे में बात करने के लिए है.",
+                                                        "partly": "इस आपत्ति के लिए सबसे अच्छी प्रतिक्रिया मजबूत सुरक्षा मॉडल के बारे में बात करने के लिए है."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS ऐसी विशेषताओं से भरी है जो पहली बार में आप एक स्मार्टफ़ोन में चाहते हैं.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS फोन नई और वेब को सभी के लिए सुलभ बनाए रखने में मदद करने के लिए एक वैश्विक समुदाय के द्वारा समर्थित है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS एक मजबूत सुरक्षा मॉडल जो कठोर ओपन वेब का समर्थन करने में एक दशक से ज्यादा से है. दुर्भावनापूर्ण अनुप्रयोगों और सामग्री से उपयोक्ता और सिस्टम की सुरक्षा के लिए बनाया गया है, यह भी एक दूसरे से आवेदन की रक्षा करता है.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "सवाल 20",
+                                                    "body": "ग्राहकों की प्रतिक्रियाओं के कौन से संकेत, जो एक Firefox OS आदर्श उम्मीदवार को दर्शाता है? लागू होने वाले सभी का चयन करें.",
+                                                    "button": {
+                                                        "submit": "सब्मिट",
+                                                        "reset": "रीसेट",
+                                                        "model": "उत्तर दिखाएं",
+                                                        "mine": "मेरा जवाब"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "यह सही है. ये सभी ग्राहक Firefox OS के लिए आदर्श उम्मीदवार हैं!",
+                                                        "incorrect": "वास्तव में. ये सभी ग्राहक Firefox OS के लिए आदर्श उम्मीदवार हैं!",
+                                                        "partly": "वास्तव में. ये सभी ग्राहक Firefox OS के लिए आदर्श उम्मीदवार हैं!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "मैनें पहले कभी स्मार्टफ़ोन का इस्तेमाल नहीं किया.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "मैं अपने पैसे के लिए सबसे अच्छे मूल्य के लिए देख रहा हूँ.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "मैं एक स्मार्टफ़ोन चाहता हूँ, जो वास्तव में उपयोग करने के लिए आसान है.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "मैं एक Firefox प्रशंसक हूँ.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "बेचने के लिए तैयार हो जाएँ!",
+                                                    "body": "यदि आपने प्रश्न के माध्यम से काम किया है और सभी सामग्री है, तो आपके पास अपने ग्राहकों को Firefox OS की जरूरतों से मेल करने के लिए मूल है.<br><br>उपयोग करने के लिए आसान है, एक Firefox OS स्मार्टफ़ोन, नए स्मार्टफ़ोन उपयोक्ताओं और ग्राहकों की जरूरत की सभी सुविधाओं का पूरा के लिए एकदम सही है.<br><br>और यह Mozilla द्वारा संचालित है, Firefox OS सुनिश्चित करने के लिए प्रतिबद्ध है और सभी के लिए सही विकल्प बनाने, और वेब उनके हाथों में रहता है."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> Firefox का मिशन</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

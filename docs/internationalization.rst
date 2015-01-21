@@ -41,7 +41,7 @@ Python and HTML files are automatically handled by django's
 into a text file be parsable by `makemessages` command. To extract the
 database strings run::
 
-  ./manage.py cron extract_database_strings
+  ./manage.py runscript db_strings
 
 .. note::
 

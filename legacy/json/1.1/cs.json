@@ -1,0 +1,2210 @@
+{
+    "title": "Adapt",
+    "version": "3.1.4",
+    "build": true,
+    "guide": {
+        "buttons": {
+            "core": "core button text",
+            "components": "component button text"
+        },
+        "items": [
+            {
+                "body": "This <b>How-to Guide</b> will provide the learner with tips and advice on how to interact with the components. They will select the forward arrow to move through the guide if it is viewed on desktop, or swipe if viewed on mobile or tablet. They can access the guide by selecting the cog icon in the left of the menu bar and selecting ‘Help/Guide’.",
+                "title": "Welcome",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "These non-interactive components provide further information.",
+                "title": "Text and graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the headings in the stacked list to reveal more information.",
+                "title": "Accordion",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "If viewed on desktop, select the forward arrows to move through the stages of the narrative.<br/>If mobile, you’ll need to swipe the images and select the plus icons to reveal the text.<br/>If tablet, swipe the images to move through the stages of the narrative.",
+                "title": "Narrative",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the interactive parts of the image to reveal the accompanying text.",
+                "title": "Hot graphic",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the play button to view the video.",
+                "title": "Media",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the reveal bar from left to right across the image.",
+                "title": "Reveal",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the slider from left to right across the rating bar to set your confidence level at the start of the course. You will be asked to set it again after you have completed the learning.",
+                "title": "Confidence slider",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Read the Otázka, choose the appropriate option(s) and select <b>Odeslat</b> to make your decision.",
+                "title": "Multiple choice Otázka",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Drag the pins to the appropriate areas on the image and select <b>Odeslat</b>. You will have the option to view a <b>Model Answer</b> if you don’t get it right first time.",
+                "title": "Pin point Otázka",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "This pop-up provides feedback to the answer you’ve given. Just select the X icon to return to the learning page from here.",
+                "title": "Feedback",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            },
+            {
+                "body": "Select the X icon to return to the learning page.",
+                "title": "Ready?",
+                "image": "",
+                "device": "all",
+                "type": "adapt",
+                "alt=": "",
+                "icon": ""
+            }
+        ]
+    },
+    "modules": [
+        {
+            "id": "m05",
+            "title": "Module title",
+            "description": "The module description sits here.",
+            "graphic": {
+                "src": "",
+                "alt": "alt text",
+                "title": "title text"
+            },
+            "topics": [
+                {
+                    "id": "m05-t05",
+                    "title": "Hlavní stránka<br>Firefox OS",
+                    "description": "",
+                    "body": "Vítá vás globální partner a komunitní školicí centrum Firefox OS. Zde najdete všechno, co potřebujete vědět, abyste mohli sdělovat základní informace o telefonech Firefox OS. Začít můžete výběrem libovolného tématu.",
+                    "graphic": {
+                        "src": "",
+                        "alt": "alt text",
+                        "title": "title text"
+                    },
+                    "pages": [
+                        {
+                            "id": "m05-t05-p05",
+                            "class": "",
+                            "title": "Úvod",
+                            "description": "Find out about the two presentation components.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p05-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p05-a05-b05",
+                                            "class": "",
+                                            "title": "Telefon, se kterým se každá chvíle počítá",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": "Potřeby vašich zákazníků se neustále mění. Chytré telefony Firefox OS se umí přizpůsobit potřebám vašich zákazníků tak, aby mohli žít každý okamžik naplno.<br/><br/>Snadno se používají. Jsou perfektní volbou pro nové uživatele chytrých telefonů. A jsou nabité funkcemi, které zákazníci očekávají. Zařízení Firefox OS podporovaná Mozillou jsou tou nejlepší volbou pro každého, komu záleží na tom, aby web zůstal veřejným zdrojem dostupným pro všechny."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p05/m05-p05-a05-b05-c10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p05-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "hotgraphic",
+                                                    "title": "Jste připraveni prozkoumat největší výhody, které Firefox OS nabízí?",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p05/czech/m05-p05-a05-b10-c05.png",
+                                                        "alt": "",
+                                                        "title": "Adaptivní telefon"
+                                                    },
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "title": "Adaptivní telefon",
+                                                            "body": "Firefox OS se umí přizpůsobit potřebám zákazníkům lépe než jiné telefony.<br><br>Adaptivní funkce prohledávání aplikací dodá informace o čemkoliv. Dá vašim zákazníkům více, než hledají, přesně tehdy, když to potřebují. Díky tomu mají možnost maximálně využít každého okamžiku.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-1.png",
+                                                                "alt": "",
+                                                                "title": "Adaptivní telefon"
+                                                            },
+                                                            "strapline": "Adaptivní telefon",
+                                                            "top": 69,
+                                                            "left": 4.5
+                                                        },
+                                                        {
+                                                            "title": "Získejte vše",
+                                                            "body": "Firefox OS je plný funkcí, které vaši zákazníci od chytrého telefonu chtějí v první řadě: aplikace, mapy, fotoaparát, galerie, multimediální funkce, hudba a mnoho dalších.<br><br>With all the features and no compromises, Firefox OS phones fit your customers' lives more perfectly, so they can fit in with the world around them.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-2.png",
+                                                                "alt": "",
+                                                                "title": "Získejte vše"
+                                                            },
+                                                            "strapline": "Získejte vše",
+                                                            "top": 69,
+                                                            "left": 38.5
+                                                        },
+                                                        {
+                                                            "title": "Web ve vašich rukou",
+                                                            "body": "Pro Mozillu je nejdůležitější to, čím se liší od ostatních, nikoli zisk.<br><br>Chytré telefony Firefox OS jsou vyvíjeny globální komunitou tisíců vývojářů, kteří pracují na inovacích podle potřeb vašich zákazníků a jsou vyvíjeny s důrazem na místní zájmy a potřeby. Když se zákazníci rozhodnou pro Firefox OS, pomáhají tím vytvářet lepší budoucnost webu pro všechny.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p05/m05-p05-a05-b10-c05-3.png",
+                                                                "alt": "",
+                                                                "title": "Web ve vašich rukou"
+                                                            },
+                                                            "strapline": "Web ve vašich rukou",
+                                                            "top": 69,
+                                                            "left": 73
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p05-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p05-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'>Demo tipy <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p10",
+                            "class": "",
+                            "title": "Demo tipy",
+                            "description": "Zjistěte více k danému tématu.",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p10-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p10-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Názorné ukázky, které stojí za to",
+                                                    "body": "Předvedení funkcí telefonu Firefox OS a toho, jak snadné je tento telefon používat – to budou vaše nejlepší prodejní nástroje."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Úvod k FirefoxOS",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b10-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b10-c05.ogv"
+                                                    },
+                                                    "body": "Když máte jenom minutu, využijte ji k této jednoduché nahrávce.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Adaptivní hledání aplikací",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b10-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b10-c10.ogv"
+                                                    },
+                                                    "body": "Ukažte zákazníkům, jak se jim telefon Firefox OS přizpůsobí, dá jim ještě více než potřebují a kdykolivž to potřebují.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-p10-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Zůstaňte připojeni",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b20-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b20-c05.ogv"
+                                                    },
+                                                    "body": "Být v kontaktu je s telefonem Firefox OS mnohem snadnější.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-p10-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Mapy HERE",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b20-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b20-c10.ogv"
+                                                    },
+                                                    "body": "Předveďte skvělé funkce map v telefonu Firefox OS, včetně informací o místním provozu či dopravě.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Prohlížeč Firefox",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b30-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b30-c05.ogv"
+                                                    },
+                                                    "body": "Firefox OS zákazníkům umožní, aby měli svůj online život pod kontrolou a získali na tomto webu to nejlepší bez ohledu na to, kde právě jsou.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Marketplace",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b30-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b30-c10.ogv"
+                                                    },
+                                                    "body": "Firefox Marketplace nabízí báječné hry a aplikace, které vaši zákazníci chtějí.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p10-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "Fotoaparát a Galerie",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b40-c05.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b40-c05.ogv"
+                                                    },
+                                                    "body": "Fotografujte, upravujte a sdílejte. Předveďte naše propracované aplikace fotoaparátu a galerie,včetně zabudovaných filtrů stylů, videí a dalších funkcí.",
+                                                    "transcript": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "media",
+                                                    "title": "Hudba a FM rádio",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b40-c10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p10/czech/m05-t05-p10-a05-b40-c10.ogv"
+                                                    },
+                                                    "body": "Díky hudbě na dosah ruky vaši zákazníci uvidí, jak se s Firefoxem OS mohou bavit a tančit třeba i na ulici.",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                         {
+                                            "id": "m05-t05-p10-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p05'><span><</span> Úvod</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p10-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'>Průvodce zákazníka <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p15",
+                            "class": "",
+                            "title": "Průvodce zákazníka",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p15-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p15-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Kdo je v případě telefonu Firefox vaším ideálním zákazníkem?",
+                                                    "body": "Porozumět potřebám vašich zákazníků a vědět, jak okamžitě reagovat – to jsou z hlediska možnosti prodeje nejdůležitější dovednosti.<br>Seznamte se s nejběžnějšími zákaznickými segmenty a přetažením lišty ověřte, jak nejlépe reagovat na jejich konkrétní potřeby."
+                                                }
+                                            ]
+                                        },
+                                        
+                                        {
+                                            "id": "m05-t05-p15-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/customer-1.png",
+                                                        "alt": "The Smartphone Rookie",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b10-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Jak budete reagovat?",
+                                                        "body": "Firefox OS je pro lidi, kteří si kupují svůj první chytrý telefon, tou nejlepší volbou. Supersnadno se používá a přizpůsobuje se vašim potřebám lépe než jakýkoli jiný telefon, takže získáte více, než potřebujete – a při kratším vyhledávání. A ještě k tomu je plný funkcí, které od chytrého telefonu očekáváte – jako je fotoaparát, e-mail, aplikace, hudba, mapy a mnoho dalšího."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b10-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/customer-2.png",
+                                                        "alt": "Ten, kdo porovnává hodnotu a cenu",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b15-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Jak budete reagovat?",
+                                                        "body": "Firefox OS vám dá za vaše peníze největší hodnotu. Má všechno, co se od chytrého telefonu očekává – fotoaparát, e-mail, aplikace, hudbu, mapy a mnoho dalšího – a to všechno za velmi konkurenční ceny."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b15-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/customer-3.png",
+                                                        "alt": "Člověk, který chce přejít na vyšší typ, ale není si jistý",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b15-c10-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Jak budete reagovat??",
+                                                        "body": "Když začínáte s chytrým telefonem, Firefox OS je ten nejvhodnější. Adaptivní vyhledávání aplikací vám pomůže najít věci, které potřebujete – a najde vám je snadno a hned. Uživatelské rozhraní je tak intuitivní, že v něm dokážete rychle najít a stáhnout své oblíbené aplikace a rovnou je začít používat."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b15-c10-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "graphic",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/customer-4.png",
+                                                        "alt": "Milovník Firefoxu",
+                                                        "title": "title text"
+                                                    }
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "reveal",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "graphic": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b20-c05-1.jpg",
+                                                        "alt": "",
+                                                        "title": "Jak budete reagovat??",
+                                                        "body": "Když znáte Firefox a máte ho rádi, budete mít rádi telefon Firefox OS. Telefony Firefox OS jsou vyvinuté na základě jazyka HTML5, a díky tomu se do vašeho telefonu dostává to nejlepší, co na webu je. Kromě toho telefony Firefox OS vyvíjí komunita, která se snaží o to, aby přístup na web měli všichni. Když se rozhodnete pro telefon Firefox OS, budete mít ve svých rukou to nejlepší, co na web nabízí."
+                                                    },
+                                                    "reveal": {
+                                                        "src": "course/assets/m05/t05/p15/czech/m05-t05-p15-a05-b20-c05-2.jpg",
+                                                        "alt": "",
+                                                        "title": "",
+                                                        "body": ""
+                                                    },
+                                                    "handle": {
+                                                        "alt": "alt",
+                                                        "title": "",
+                                                        "text": ""
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p15-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p10'><span><</span> Demo tipy</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p15-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'>Základní funkce <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p20",
+                            "class": "",
+                            "title": "Základní funkce",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p20-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p20-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p05-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Funkce, které se počítají",
+                                                    "body": "Firefox OS je plný funkcí, které vaši zákazníci od chytrého telefonu očekávají. Skvěle zapadne do jejich života, takže si udrží krok se světem, který je obklopuje."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "narrative",
+                                                    "title": "Získejte vše",
+                                                    "body": "Kliknutím na šipku vpřed objevíte základní funkce telefonu Firefox OS.",
+                                                    "items": [
+                                                        {
+                                                            "title": "Adaptivní vyhledávání aplikací",
+                                                            "body": "Nový způsob, jak získat to, co potřebujete, přesně ve chvíli, kdy to potřebujete – a bez nutnosti stahovat při vyhledávání jakékoli aplikace. Firefox OS se přizpůsobí vašemu požadavku, zobrazí fotografie, videa, hudbu, zprávy, mapy a mnoho dalšího. Umožní vám, abyste snadno našli skutečně to, co hledáte.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-1.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Adaptivní vyhledávání aplikací..."
+                                                        },
+                                                        {
+                                                            "title": "Marketplace",
+                                                            "body": "Zdroj, kde najdete nejlepší aplikace pro svůj Firefox OS. Prohlédněte si desítky tisíc bezplatných i placených aplikací v mnoha kategoriích, od her přes nástroje až po hudbu, cestování, sporty a mnoho dalšího.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-2.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Marketplace..."
+                                                        },
+                                                        {
+                                                            "title": "Prohlížeč Firefox",
+                                                            "body": "Rychlý, chytrý a bezpečný způsob, jak získat z webu to nejlepší. Použijte panel URLadresní řádek pro zadání adres webových stránek, vyhledávejte a prohlížejte historii svého vyhledávání",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-3.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Prohlížeč Firefox..."
+                                                        },
+                                                        {
+                                                            "title": "Facebook a Twitter",
+                                                            "body": "Neztrácejte kontakt díky snadnému přístupu k přátelům a kolegům bez ohledu na to, kde právě jste.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-4.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Facebook a Twitter..."
+                                                        },
+                                                        {
+                                                            "title": "Kontakty",
+                                                            "body": "Udržujte pevné spojení se svými oblíbenými sociálními sítěmi. Do svého telefonu můžete snadno naimportovat své kontakty Facebooku a udržovat svou komunitu jen na jednom místě.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-5.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Kontakty..."
+                                                        },
+                                                        {
+                                                            "title": "Fotoaparát a galerie",
+                                                            "body": "Díky zabudovaným filtrům stylů určeným pro zábavu i tvorbu kreativních záběrů a díky mnoha způsobům sdílení fotografií bude váš fotoaparát vybavený všemi funkcemi i vaše fotogalerie nabízet jenom usměvavé fotky.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-6.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Fotoaparát a galerie..."
+                                                        },
+                                                        {
+                                                            "title": "FM Rádio",
+                                                            "body": "Všechny zvuky, které kolem sebe potřebujete a všechny na jednom zařízení. Stačí jen připojit sluchátka, a můžete začít poslouchat.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-7.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "FM Rádio..."
+                                                        },
+                                                        {
+                                                            "title": "Mapy",
+                                                            "body": "Získejte náhledy ze satelitů, informace o veřejné dopravě a místním provozu, vyhledávejte body zájmu a ukládejte si mapy místně pro rychlejší vzdálený přístup. V mapách ve Firefox OS je možné ukotvit vaše umístění a generovat pokyny, jak se dostat do místa určení (autem, pěšky nebo veřejnou dopravou).",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-8.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Mapy..."
+                                                        },
+                                                        {
+                                                            "title": "Hudba a video",
+                                                            "body": "Přehrávejte si, co chcete, rovnou z telefonu, nebo z internetu přes Youtube. Prohlížejte a přehrávejte si hudbu podle alba nebo interpreta, hodnoťte písničky a vytvářejte seznamy svých oblíbených skladeb.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-9.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "Hudba a video..."
+                                                        },
+                                                        {
+                                                            "title": "SMS a e-mail",
+                                                            "body": "Zůstaňte v kontaktu se svými přáteli a kolegy bez ohledu na to, kde právě jste. Díky podpoře nejběžnějších poskytovatelů e-mailových služeb Exchange, SMTP nebo IMAP je snadné nastavit si více e-mailových účtů.",
+                                                            "graphic": {
+                                                                "src": "course/assets/m05/t05/p20/czech/m05-t05-p20-a05-b10-c05-10.jpg",
+                                                                "alt": "",
+                                                                "title": ""
+                                                            },
+                                                            "strapline": "SMS a e-mail..."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p20-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p15'><span><</span> Průvodce zákazníka</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p20-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'>Nejčastější dotazy <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p25",
+                            "class": "",
+                            "title": "Nejčastější dotazy",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p25-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p25-a05-b03",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b03-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Máte otázky? My máme odpovědi!",
+                                                    "body": "V této chvíli se pravděpodobně chcete zeptat na pár věcí, a podobně se budou ptát i vaši zákazníci!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": " ",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Co je adaptivní vyhledávání aplikací?",
+                                                            "title": "Co je adaptivní vyhledávání aplikací?",
+                                                            "body": "Adaptivní vyhledávání aplikací je nový způsob, jak vyhledávat obsah na webu a vynechat problémy se stahováním aplikací, když chcete najít to, co potřebujete. Pokaždé, když něco vyhledáváte, váš telefon se přizpůsobí výsledkům vyhledávání a usnadní vám přidání těchto výsledků na domovskou obrazovku pro snadný přístup někdy později."
+                                                        },
+                                                        {
+                                                            "alt": "Kolik aplikací a jakého typu bude k dispozici?",
+                                                            "title": "Kolik aplikací a jakého typu bude k dispozici?",
+                                                            "body": "Vývojáři aplikací po celém světě usilovali o to, aby Firefox OS měl od začátku k dispozici desítky tisíc bezplatných a placených aplikací. Seznam aplikací, který se dále rozšiřuje, obsahuje produkty významných vývojářů, jako například Accuweather, Airbnb, Box, Cut the Rope, EA Games, Facebook, Nokia HERE, MTV Brasil, Pulse News, SoundCloud, SporTV, Time Out a Twitter."
+                                                        },
+                                                        {
+                                                            "alt": "Proč je Firefox OS bezpečnější než jiné telefony?",
+                                                            "title": "Proč je Firefox OS bezpečnější než jiné telefony?",
+                                                            "body": "Firefox OS používá robustní zabezpečený model, který si vybojoval dobrou pověst během více než deseti let podpory otevřeného webu. Je vytvořený tak, aby chránil uživatele i systém před škodlivými aplikacemi a škodlivým obsahem."
+                                                        },
+                                                        {
+                                                            "alt": "Fungují na tomto telefonu aplikace vytvořené pro Android?",
+                                                            "title": "Fungují na tomto telefonu aplikace vytvořené pro Android?",
+                                                            "body": "Ne přímo. Mnohé z nejoblíbenějších aplikací vytvořených pro Android a iOS jsou ale ve skutečnosti webové aplikace, které mají nativní „obálku“, a je tedy možné je provozovat na patentově chráněných platformách. Proto také mnohé z těchto aplikací budou k dispozici prostřednictvím adaptivního vyhledávání aplikací."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "right",
+                                                    "component": "accordion",
+                                                    "title": "",
+                                                    "body": "",
+                                                    "items": [
+                                                        {
+                                                            "alt": "Budou moje aplikace fungovat offline?",
+                                                            "title": "Budou moje aplikace fungovat offline?",
+                                                            "body": "Firefox OS je založen na webových technologiích, ale nabízí možnosti offline používání všech klíčových funkcí telefonu. Znamená to, že aplikace k tomu, aby mohly fungovat, nevyžadují aktivní internetové připojení až do doby, než musí odeslat nebo přijmout data z jiného systému přes internet, aby pak mohly fungovat dále."
+                                                        },
+                                                        {
+                                                            "alt": "Jaká podpora aplikací se zákazníkům poskytuje?",
+                                                            "title": "Jaká podpora aplikací se zákazníkům poskytuje?",
+                                                            "body": "Zákazníci, kteří potřebují podporu pro aplikaci vytvořenou pro Firefox OS, budou přesměrováni na vývojáře této aplikace. V případě, že možnosti práce uživatele telefonu Firefox OS budou podporou aplikace negativně ovlivněny, Mozilla doporučí nápravné kroky, včetně odinstalace této aplikace až do doby, než vývojář poskytne potřebnou podporu."
+                                                        },
+                                                        {
+                                                            "alt": "Jak můžu stáhnout a instalovat aplikace do telefonu Firefox OS?",
+                                                            "title": "Jak můžu stáhnout a instalovat aplikace do telefonu Firefox OS?",
+                                                            "body": "Jsou dva způsoby, jak získat aplikace pro Firefox OS:<ul><li>Firefox  Marketplace – Náš zdroj získání perfektních aplikací, jako je například Twitter, a také vynikajícího místního obsahu od nejlepších vývojářů ve vaší oblasti.</li><li>Adaptivní vyhledávání aplikací – stačí napsat jediné slovo, například „sushi“, a objevíte související mobilní aplikace ve svém regionu, které pro vás budou perfektním zážitkem, protože jsou vyladěné tak, aby vám přinesly přesně to, co chcete.</li><ul>"
+                                                        },
+                                                        {
+                                                            "alt": "Kteří poskytovatelé e-mailových služeb jsou podporováni?",
+                                                            "title": "Kteří poskytovatelé e-mailových služeb jsou podporováni?",
+                                                            "body": "Aktuálně jsou podporováni poskytovatelé Hotmail a Yahoo. V budoucich vydánich budou přidáni další."
+                                                        },
+                                                        {
+                                                            "alt": "Kam se mám obrátit s dalšími otázkami?",
+                                                            "title": "Kam se mám obrátit s dalšími otázkami?",
+                                                            "body": "Navštivte stránky <a href='https://support.mozilla.org/cs/kb/uzivatelska-prirucka-systemu-firefox-os'>https://support.mozilla.org/cs/kb/uzivatelska-prirucka-systemu-firefox-os</a>, kde získáte další informace."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p25-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p20'><span><</span> Základní funkce</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p25-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'>Naše poslání <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p30",
+                            "class": "",
+                            "title": "Naše poslání",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p30-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p30-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "Naším posláním je propagovat na webu otevřenost, inovace a příležitosti.",
+                                                    "body": "Za každým chytrým telefonem Firefox OS stojí Mozilla: Globální komunita tisíců lidí, kteří se věnují tomu, aby internet zůstal přístupný všem. Protože si myslíme, že každý z nás má právo na web, který není kontrolován jen několika velkými subjekty.<br><br>Ano, jsme trochu jiní, než ostatní. Společně můžeme webu vybudovat lepší budoucnost."
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b05-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "media",
+                                                    "title": "",
+                                                    "media": {
+                                                        "mp4": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.mp4",
+                                                        "ogv": "course/assets/m05/t05/p30/m05-t05-p30-a05-b10.ogv"
+                                                    },
+                                                    "body": "",
+                                                    "transcript": ""
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p30-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p25'><span><</span> Nejčastější dotazy</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p35'>Výzva pro vás <span>></span></a>",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "m05-t05-p35",
+                            "class": "",
+                            "title": "Výzva pro vás",
+                            "description": "",
+                            "graphic": {
+                                "src": "",
+                                "alt": "alt text",
+                                "title": "title text"
+                            },
+                            "articles": [
+                                {
+                                    "id": "m05-t05-p35-a05",
+                                    "class": "",
+                                    "title": "",
+                                    "assessment": false,
+                                    "blocks": [
+                                        {
+                                            "id": "m05-t05-p35-a05-b05",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b05-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Jste připraveni ukázat to, co umíte?",
+                                                    "body": "Myslíte si, že jste téměř připraveni začít prodávat Firefox OS svým zákazníkům? Uplatněte své znalosti v praxi a zodpovězte tyto otázky, abyste dokázali, že víte to, co je potřeba vědět."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b10",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 1",
+                                                    "body": "Jak získáte přístup k funkci adaptivního vyhledávání aplikací ve Firefox OS?",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně!  Přístup k funkci adaptivního vyhledávání aplikací získáte tím, že prostě potáhnete prstem směrem doleva.",
+                                                        "incorrect": "To není ono.  Přístup k funkci adaptivního vyhledávání aplikací získáte tím, že prostě potáhnete prstem směrem doleva.",
+                                                        "partly": "To není ono.  Přístup k funkci adaptivního vyhledávání aplikací získáte tím, že prostě potáhnete prstem směrem doleva."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Potažení prstem směrem doleva.",
+                                                            "title": "Potažení prstem směrem doleva.",
+                                                            "text": "Potažení prstem směrem doleva.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Klikněte na tlačítko domovské stránky.",
+                                                            "title": "Klikněte na tlačítko domovské stránky.",
+                                                            "text": "Klikněte na tlačítko domovské stránky.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Otevřete Firefox Marketplace.",
+                                                            "title": "Otevřete Firefox Marketplace.",
+                                                            "text": "Otevřete Firefox Marketplace.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Otevřete prohlížeč Firefox.",
+                                                            "title": "Otevřete prohlížeč Firefox.",
+                                                            "text": "Otevřete prohlížeč Firefox.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "id": "m05-t05-p35-a05-b10-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 8,
+                                                    "title": "Otázka 2",
+                                                    "body": "Která z následujících aplikací je předem nainstalovaná na každém telefonu Firefox OS? Vyberte všechny možnosti, které přicházejí v úvahu.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! All of these apps come pre-loaded on every Firefox OS phone.",
+                                                        "incorrect": "Všechny tyto aplikace jsou nainstalované na každém telefonu Firefox OS.",
+                                                        "partly": "Je jich více. Všechny tyto aplikace jsou nainstalované na každém telefonu Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox Marketplace",
+                                                            "title": "Firefox Marketplace",
+                                                            "text": "Firefox Marketplace",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Prohlížeč Firefox",
+                                                            "title": "Prohlížeč Firefox",
+                                                            "text": "Prohlížeč Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Fotoaparát a galerie",
+                                                            "title": "Fotoaparát a galerie",
+                                                            "text": "Fotoaparát a galerie",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Facebook",
+                                                            "title": "Facebook",
+                                                            "text": "Facebook",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "E-mail a SMS",
+                                                            "title": "E-mail a SMS",
+                                                            "text": "E-mail a SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "FM Rádio",
+                                                            "title": "FM Rádio",
+                                                            "text": "FM Rádio",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Přehrávač hudby",
+                                                            "title": "Přehrávač hudby",
+                                                            "text": "Přehrávač hudby",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Mapy HERE",
+                                                            "title": "Mapy HERE",
+                                                            "text": "Mapy HERE",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },                                     
+					                    {
+                                            "id": "m05-t05-p35-a05-b15",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b15-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 3",
+                                                    "body": "Když napíšete slovo nebo předmět, který vás zajímá, do pole adaptivního vyhledávání aplikací, co se stane? Vyberte všechny možnosti, které přicházejí v úvahu.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "That’s right. All of these are true of Adaptive App Search!",
+                                                        "incorrect": "Actually, all of these are true of Adaptive App Search!",
+                                                        "partly": "Actually, all of these are true of Adaptive App Search!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Výsledky z celého webu se zobrazí jako aplikace na vašem telefonu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Váš obrázek na pozadí se okamžitě změní a odhalí oblíbené fotografie z webu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Výsledky zahrnují relevantní mapy, obrázky, hudbu, zprávy, videa, tweety a další.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Okamžitě budou prohledány desítky tisíc webových aplikací z celého světa.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },  
+						                        {
+                                                    "id": "m05-t05-p35-a05-b15-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 4",
+                                                    "body": "Které z těchto odpovědí zákazníka naznačují, že to bude ideální kandidát pro nákup telefonu Firefox OS? Vyberte všechny možnosti, které přicházejí v úvahu.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Všichni tito zákazníci jsou ideálními kandidáty pro nákup telefonu Firefox OS!",
+                                                        "incorrect": "Všichni tito zákazníci jsou ideálními kandidáty pro nákup telefonu Firefox OS!",
+                                                        "partly": "Všichni tito zákazníci jsou ideálními kandidáty pro nákup telefonu Firefox OS!"
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Dosud jsem chytrý telefon nepoužíval.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Hledám nejlepší poměr hodnoty k ceně.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Chci chytrý telefon, který se snadno naučím používat.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Mám rád Firefox.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+					                    {
+                                            "id": "m05-t05-p35-a05-b20",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b20-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 5",
+                                                    "body": "Kterou funkci telefonu Firefox OS zastupuje tato ikona?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Tato ikona zastupuje Kontakty.",
+                                                        "incorrect": "Tato ikona ve skutečnosti zastupuje Kontakty.",
+                                                        "partly": "Tato ikona ve skutečnosti zastupuje Kontakty."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Kontakty",
+                                                            "title": "Kontakty",
+                                                            "text": "Kontakty",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Prohlížeč Firefox",
+                                                            "title": "Prohlížeč Firefox",
+                                                            "text": "Prohlížeč Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Adaptivní vyhledávání aplikací",
+                                                            "title": "Adaptivní vyhledávání aplikací",
+                                                            "text": "Adaptivní vyhledávání aplikací",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b20-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 6",
+                                                    "body": "Kterou funkci telefonu Firefox OS zastupuje tato ikona?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Tato ikona zastupuje prohlížeč Firefox.",
+                                                        "incorrect": "Tato ikona zastupuje prohlížeč Firefox.",
+                                                        "partly": "Tato ikona zastupuje prohlížeč Firefox."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS",
+                                                            "title": "SMS",
+                                                            "text": "SMS",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kontakty",
+                                                            "title": "Kontakty",
+                                                            "text": "Kontakty",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Prohlížeč Firefox",
+                                                            "title": "Prohlížeč Firefox",
+                                                            "text": "Prohlížeč Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Adaptivní vyhledávání aplikací",
+                                                            "title": "Adaptivní vyhledávání aplikací",
+                                                            "text": "Adaptivní vyhledávání aplikací",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b25",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b25-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 7",
+                                                    "body": "Kterou funkci telefonu Firefox OS zastupuje tato ikona?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b20-c10.png'/>",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Tato ikona zastupuje adaptivní aplikaci vyhledávání.",
+                                                        "incorrect": "Tato ikona zastupuje adaptivní aplikaci vyhledávání.",
+                                                        "partly": "Tato ikona zastupuje adaptivní aplikaci vyhledávání."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kontakty",
+                                                            "title": "Kontakty",
+                                                            "text": "Kontakty",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Prohlížeč Firefox",
+                                                            "title": "Prohlížeč Firefox",
+                                                            "text": "Prohlížeč Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Adaptivní vyhledávání aplikací",
+                                                            "title": "Adaptivní vyhledávání aplikací",
+                                                            "text": "Adaptivní vyhledávání aplikací",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b25-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 8",
+                                                    "body": "Váš zákazník chce vědět, jaké jsou největší výhody telefonu Firefox OS v porovnání s konkurencí. Vyberte všechny možnosti, které jsou správné.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Všechna tato tvrzení o telefonu Firefox OS jsou pravdivá.",
+                                                        "incorrect": "Všechna tato tvrzení jsou pravdivá, s výjimkou tvrzení o „nejširší možnosti výběru zařízení“. Může to být pravda v budoucnosti, ale v současné době ne.",
+                                                        "partly": "Všechna tato tvrzení jsou pravdivá, s výjimkou tvrzení o „nejširší možnosti výběru zařízení“. Může to být pravda v budoucnosti, ale v současné době ne."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Díky adaptivnímu vyhledávání aplikací se telefon Firefox OS přizpůsobí vašim potřebám lépe než jiné telefony.",
+                                                            "title": "Díky adaptivnímu vyhledávání aplikací se telefon Firefox OS přizpůsobí vašim potřebám lépe než jiné telefony.",
+                                                            "text": "Díky adaptivnímu vyhledávání aplikací se telefon Firefox OS přizpůsobí vašim potřebám lépe než jiné telefony.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Díky aplikaci Firefox Marketplace a desítkám nainstalovaných aplikací, jako je e-mail, mapy, Facebook, fotoaparát, hudba apod., nabízí telefon Firefox OS plno funkcí, které očekáváte od chytrého telefonu.",
+                                                            "title": "Díky aplikaci Firefox Marketplace a desítkám nainstalovaných aplikací, jako je e-mail, mapy, Facebook, fotoaparát, hudba apod., nabízí telefon Firefox OS plno funkcí, které očekáváte od chytrého telefonu.",
+                                                            "text": "Díky aplikaci Firefox Marketplace a desítkám nainstalovaných aplikací, jako je e-mail, mapy, Facebook, fotoaparát, hudba apod., nabízí telefon Firefox OS plno funkcí, které očekáváte od chytrého telefonu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Telefon Firefox OS vyvinula společnost Firefox, takže si můžete být jisti tím, že je podporován globální komunitou, která bude pracovat pro vás a bude mít vždy na mysli vaše zájmy.",
+                                                            "title": "Telefon Firefox OS vyvinula společnost Firefox, takže si můžete být jisti tím, že je podporován globální komunitou, která bude pracovat pro vás a bude mít vždy na mysli vaše zájmy.",
+                                                            "text": "Telefon Firefox OS vyvinula společnost Firefox, takže si můžete být jisti tím, že je podporován globální komunitou, která bude pracovat pro vás a bude mít vždy na mysli vaše zájmy.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS dává nejširší možnosti výběru zařízení na dnešním trhu.",
+                                                            "title": "Firefox OS dává nejširší možnosti výběru zařízení na dnešním trhu.",
+                                                            "text": "Firefox OS dává nejširší možnosti výběru zařízení na dnešním trhu.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b30",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b30-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 9",
+                                                    "body": "Zákazník vám řekne, že chytré telefony se mu zdají složité. O které vlastnosti telefonu byste měli začít mluvit?",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Pro zákazníka, který hledá chytrý telefon, jehož používání bude snadné, je Firefox OS skvělou volbou.",
+                                                        "incorrect": "V případě takového zákazníka je nejlepší volbou mluvit o tom, jak snadné je používat telefon Firefox OS.",
+                                                        "partly": "V případě takového zákazníka je nejlepší volbou mluvit o tom, jak snadné je používat telefon Firefox OS."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Firefox OS nabízí nejlepší poměr hodnoty a ceny a všechno, co od chytrého telefonu očekáváte – fotoaparát, e-mail, aplikace, hudbu, mapy, atd. – za vysoce konkurenční ceny.",
+                                                            "title": "Firefox OS nabízí nejlepší poměr hodnoty a ceny a všechno, co od chytrého telefonu očekáváte – fotoaparát, e-mail, aplikace, hudbu, mapy, atd. – za vysoce konkurenční ceny.",
+                                                            "text": "Firefox OS nabízí nejlepší poměr hodnoty a ceny a všechno, co od chytrého telefonu očekáváte – fotoaparát, e-mail, aplikace, hudbu, mapy, atd. – za vysoce konkurenční ceny.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Firefox OS je pro začátek ten nejvhodnější. Vaše oblíbené aplikace jsou už nainstalované, takže si můžete například snadno naimportovat své přátele z Facebooku.",
+                                                            "title": "Firefox OS je pro začátek ten nejvhodnější. Vaše oblíbené aplikace jsou už nainstalované, takže si můžete například snadno naimportovat své přátele z Facebooku.",
+                                                            "text": "Firefox OS je pro začátek ten nejvhodnější. Vaše oblíbené aplikace jsou už nainstalované, takže si můžete například snadno naimportovat své přátele z Facebooku.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kdo má rád prohlížeče Firefox, bude mít rád i telefony Firefox OS.",
+                                                            "title": "Kdo má rád prohlížeče Firefox, bude mít rád i telefony Firefox OS.",
+                                                            "text": "Kdo má rád prohlížeče Firefox, bude mít rád i telefony Firefox OS.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b30-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 10",
+                                                    "body": "Zákaznice vám řekne, že chce přejít z klasického telefonu na chytrý. O které vlastnosti telefonu byste měli začít mluvit?",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! S lidmi, kteří dostanou chytrý telefon do ruky poprvé, je potřeba mluvit o tom, jak je jednoduchý, a o takových funkcích, jako je adaptivní vyhledávání aplikací.",
+                                                        "incorrect": "S lidmi, kteří dostanou chytrý telefon do ruky poprvé, je potřeba ve skutečnosti mluvit o tom, jak je jednoduchý, a o takových funkcích, jako je adaptivní vyhledávání aplikací.",
+                                                        "partly": "S lidmi, kteří dostanou chytrý telefon do ruky poprvé, je potřeba ve skutečnosti mluvit o tom, jak je jednoduchý, a o takových funkcích, jako je adaptivní vyhledávání aplikací."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS je pro začátek ten nejvhodnější. Vaše oblíbené aplikace jsou už nainstalované, takže si můžete například snadno naimportovat své přátele z Facebooku.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS nabízí nejlepší poměr hodnoty a ceny a všechno, co od chytrého telefonu očekáváte – fotoaparát, e-mail, aplikace, hudbu, mapy, atd. – za vysoce konkurenční ceny. A navíc, pomocí funkce adaptivního vyhledávání aplikací snadno najdete aplikace, které skutečně potřebujete, a když je potřebujete.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Kdo má rád prohlížeče Firefox, bude mít rád i telefony Firefox OS. Když si vyberete Firefox OS, berete do svých rukou sílu internetu.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b35",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b35-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 11",
+                                                    "body": "Zákazník vám řekne, že ve svém počítači používá prohlížeč Firefox. O které vlastnosti telefonu byste měli začít mluvit?",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Když narazíte na fanouška Firefoxu, mluvte o tom, jak výběr telefonu Firefox OS ukazuje odhodlání vzít internet do svých rukou.",
+                                                        "incorrect": "Když narazíte na fanouška Firefoxu, mluvte o tom, jak výběr telefonu Firefox OS ukazuje odhodlání vzít internet do svých rukou.",
+                                                        "partly": "Když narazíte na fanouška Firefoxu, mluvte o tom, jak výběr telefonu Firefox OS ukazuje odhodlání vzít internet do svých rukou."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Firefox OS nabízí nejlepší poměr hodnoty a ceny a všechno, co od chytrého telefonu očekáváte – fotoaparát, e-mail, aplikace, hudbu, mapy, atd. – za vysoce konkurenční ceny.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS je pro začátek ten nejvhodnější. Vaše oblíbené aplikace jsou už nainstalované, takže si můžete například snadno naimportovat své přátele z Facebooku.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Kdo má rád prohlížeče Firefox, bude mít rád i telefony Firefox OS. Když si vyberete Firefox OS, berete do svých rukou sílu internetu.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b35-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Otázka 12",
+                                                    "body": "Zákazník vám řekne: „Hledám jednoduchý způsob, jak zůstat v kontaktu se svými přáteli, ale nechci utratit moc peněz“. Které z následujících tvrzení znamená vhodnou odpověď? Vyberte všechny možnosti, které přicházejí v úvahu.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Takovému zákazníkovi je potřeba zdůraznit, jak velkou hodnotu má telefon Firefox OS díky kompletní sadě funkcí, k nimž patří i multimediální aplikace, které jsou v telefonu nainstalované předem, a to za velmi příznivou cenu.",
+                                                        "incorrect": "To není ono. Takovému zákazníkovi je potřeba zdůraznit, jak velkou hodnotu má telefon Firefox OS díky kompletní sadě funkcí, k nimž patří i multimediální aplikace, které jsou v telefonu nainstalované předem, a to za velmi příznivou cenu.",
+                                                        "partly": "To není ono. Takovému zákazníkovi je potřeba zdůraznit, jak velkou hodnotu má telefon Firefox OS díky kompletní sadě funkcí, k nimž patří i multimediální aplikace, které jsou v telefonu nainstalované předem, a to za velmi příznivou cenu."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Chytrý telefon Firefox OS má nainstalované všechny funkce, které očekáváte, například SMS, Facebook, e-mail, mapy apod., a to všechno za lepší cenu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Na každém zařízení Firefox OS je nainstalovaný Facebook, takže si můžete snadno naimportovat své kontakty na Facebooku!",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox Marketplace nabízí tisíce aplikací zdarma nebo za velmi nízké ceny",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b40",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b40-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 3,
+                                                    "title": "Otázka 13",
+                                                    "body": "Zákazník řekne: „Používám Firefox na počítači a vyhovuje mi to, ale nevěděl jsem, že existuje chytrý telefon OS. Proč?“ Které z následujících tvrzení by bylo nejlepší odpovědí tomuto zákazníkovi?",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Tento zákazník by mohl být fanouškem Firefoxu. Mluvte o tom, jak telefony Firefox OS, které jsou produktem Mozilly, ukazují odhodlání udržet internet v rukou lidí. A i když jsou všechna ostatní tvrzení pravdivá, toto je ta nejlepší odpověď tomuto konkrétnímu zákazníkovi.",
+                                                        "incorrect": "Všechna tato tvrzení jsou pravdivá, toto je však ta nejlepší odpověď tomuto konkrétnímu zákazníkovi, který je pravděpodobně fanouškem Firefoxu. Mluvte o tom, jak jsou telefony Firefox OS, které jsou produktem Mozilly, součástí snahy udržet internet v rukou lidí.",
+                                                        "partly": "Všechna tato tvrzení jsou pravdivá, toto je však ta nejlepší odpověď tomuto konkrétnímu zákazníkovi, který je pravděpodobně fanouškem Firefoxu. Mluvte o tom, jak jsou telefony Firefox OS, které jsou produktem Mozilly, součástí snahy udržet internet v rukou lidí."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Každý telefon Firefox má prohlížeč Firefox, což je rychlý, chytrý a bezpečný způsob, jak se dostat na internet.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS má stejné funkce, které najdete u konkurenčních chytrých telefonů, ale za cenu, kterou zaplatíte, získáte vyšší hodnotu.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Společnost Mozilla, výrobce Firefoxu, vytvořila chytrý telefon OS, aby udržela internet přístupný pro všechny.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b40-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 14",
+                                                    "body": "Která z následujících tvrzení o adaptivním vyhledávání aplikací jsou pravdivá? Vyberte všechny možnosti, které přicházejí v úvahu.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Adaptivní vyhledávání aplikací odhadne vaše potřeby lépe než jiné telefony.",
+                                                        "incorrect": "To není ono. Tři z nich jsou správná. Adaptivní vyhledávání aplikací sice odhadne vaše potřeby lépe než jiné telefony, ale NEFUNGUJE to úplně stejně jako vyhledávání pomocí prohlížečů Firefox.",
+                                                        "partly": "Není to úplně ono. Tři z nich jsou správná. Adaptivní vyhledávání aplikací sice odhadne vaše potřeby lépe než jiné telefony, ale NEFUNGUJE to úplně stejně jako vyhledávání pomocí prohlížečů Firefox."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Jedinečná funkce, která je zabudovaná v každém chytrém telefonu Firefox OS.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Funguje úplně stejně jako vyhledávání na webu pomocí prohlížečů Firefox.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Výsledky zahrnují fotografie, videa, hudbu, novinky, mapy a další.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Výsledky jsou použitelné okamžitě – nepotřebujete k tomu stahovat žádné aplikace.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b45",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b45-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 15",
+                                                    "body": "Všechna tato tvrzení jsou sice pravdivá, ale které dvě odpovědi je nejužitečnější dát zákazníkovi, který si kupuje chytrý telefon poprvé?",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Člověka, který dostává chytrý telefon do ruky poprvé, bude nejvíce zajímat, jestli se ho snadno naučí používat.",
+                                                        "incorrect": "Ne tak docela. Člověka, který dostává chytrý telefon do ruky poprvé, bude nejvíce zajímat, jestli se ho snadno naučí používat.",
+                                                        "partly": "Ne tak docela. Člověka, který dostává chytrý telefon do ruky poprvé, bude nejvíce zajímat, jestli se ho snadno naučí používat."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": " ",
+                                                            "title": " ",
+                                                            "text": "Do svého telefonu Firefox OS si můžete si snadno naimportovat kontakty z Facebooku.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS vám dá přístup k oblíbeným a dobře známým aplikacím a také k místnímu obsahu, který bude pro vás velmi cenný.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS není zaneřáděný ničím navíc, co nepotřebujete. Dá vám to, co od chytrého telefonu očekáváte, s uživatelským rozhraním, které se snadno používá, a je tedy pro začátečníky ideální.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Firefox OS je vyvinut zcela na bázi HTML5 a standardů otevřeného internetu.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b45-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 16",
+                                                    "body": "Kterou funkci telefonu Firefox OS zastupuje tato ikona?<br><br><img src='course/assets/m05/t05/p35/m05-t05-p35-a05-b15-c05.png'/>",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně! Tato ikona zastupuje funkci SMS – tedy zasílání krátkých textových zpráv.",
+                                                        "incorrect": "Tato ikona ve skutečnosti zastupuje funkci – tedy zasílání krátkých textových zpráv.",
+                                                        "partly": "Tato ikona ve skutečnosti zastupuje funkci – tedy zasílání krátkých textových zpráv."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "SMS ",
+                                                            "title": "SMS ",
+                                                            "text": "SMS ",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Kontakty",
+                                                            "title": "Kontakty",
+                                                            "text": "Kontakty",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Prohlížeč Firefox",
+                                                            "title": "Prohlížeč Firefox",
+                                                            "text": "Prohlížeč Firefox",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Adaptivní vyhledávání aplikací",
+                                                            "title": "Adaptivní vyhledávání aplikací",
+                                                            "text": "Adaptivní vyhledávání aplikací",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+                                        {
+                                            "id": "m05-t05-p35-a05-b50",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b50-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 17",
+                                                    "body": "Díky adaptivnímu vyhledávání aplikací můžete aplikaci použít okamžitě, rychle a snadno, bez toho, že byste ji museli instalovat. Pokud ji budete chtít znovu použít později, je snadné ji přidat na výchozí obrazovku.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně!",
+                                                        "incorrect": "Ve skutečnosti je správně toto.",
+                                                        "partly": "Ve skutečnosti je správně toto."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "Ano",
+                                                            "title": "Ano",
+                                                            "text": "Ano",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "Ne",
+                                                            "title": "Ne",
+                                                            "text": "Ne",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b50-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 18",
+                                                    "body": "Jaká je nejlepší odpověď na tuto námitku zákazníka? „Slyšel jsem, že nemá moc aplikací“.",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně!",
+                                                        "incorrect": "Nejlepší odpověď na tuto námitku je pohovořit o všech aplikacích, které jsou k dispozici.",
+                                                        "partly": "Nejlepší odpověď na tuto námitku je pohovořit o všech aplikacích, které jsou k dispozici."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Je nový a má za sebou podporu globální komunity, která pomáhá udržet web přístupný pro všechny.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Každý telefon má od začátku přístup k více než 20 000 bezplatným a placeným aplikacím, včetně některých v současné době nejoblíbenějších globálních aplikací.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Robustní zabezpečený model, který si vybojoval dobrou pověst během více než deseti let podpory otevřeného internetu.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },
+					                    {
+                                            "id": "m05-t05-p35-a05-b55",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b55-c05",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 1,
+                                                    "title": "Otázka 19",
+                                                    "body": "Jaká je nejlepší odpověď na tuto námitku zákazníka?<br>„Nikdy jsem neslyšel o telefonech Firefox OS.“",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně!",
+                                                        "incorrect": "Nejlepší odpověď na tuto námitku je mluvit o zkušenosti komunity Mozilla, která za telefonem Firefox OS stojí.",
+                                                        "partly": "Nejlepší odpověď na tuto námitku je mluvit o zkušenosti komunity Mozilla, která za telefonem Firefox OS stojí."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Je plný funkcí, které ve vás vyvolají potřebu mít chytrý telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Přístup k více než 20  000 bezplatným a placeným aplikacím, včetně některých v současné době nejoblíbenějších globálních aplikací.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Je nový a má za sebou podporu globální komunity, která pomáhá udržet web přístupný pro všechny.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                },
+						                        {
+                                                    "id": "m05-t05-p35-a05-b55-c10",
+                                                    "class": "",
+                                                    "layout": "left",
+                                                    "component": "mcq",
+                                                    "attempts": 1,
+                                                    "selectable": 4,
+                                                    "title": "Otázka 20",
+                                                    "body": "Jaká je nejlepší odpověď na tuto námitku zákazníka?<br>„Jak můžu zjistit, jestli je tento nový telefon bezpečný?“",
+                                                    "button": {
+                                                        "submit": "Odeslat",
+                                                        "reset": "Resetovat",
+                                                        "model": "Příklad odpovědi",
+                                                        "mine": "Moje odpověď"
+                                                    },
+                                                    "feedback": {
+                                                        "correct": "To je správně!",
+                                                        "incorrect": "Nejlepší odpověď na tuto námitku je mluvit o robustním zabezpečeném modelu.",
+                                                        "partly": "Nejlepší odpověď na tuto námitku je mluvit o robustním zabezpečeném modelu."
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Je plný funkcí, které ve vás vyvolají potřebu mít chytrý telefon.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": false,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Je nový a má za sebou podporu globální komunity, která pomáhá udržet web přístupný pro všechny.",
+                                                            "feedback": ""
+                                                        },
+                                                        {
+                                                            "correct": true,
+                                                            "alt": "",
+                                                            "title": "",
+                                                            "text": "Robustní zabezpečený model, který si vybojoval dobrou pověst během více než deseti let podpory otevřeného internetu.Je vyvinutý tak, aby chránil uživatele i systém před škodlivými aplikacemi a obsahem, a chránil také aplikace před sebou navzájem.",
+                                                            "feedback": ""
+                                                        }
+                                                    ]
+                                                }
+					                        ]
+					                    },                                             
+                                        {
+                                            "id": "m05-t05-p35-a05-b60",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p35-a05-b60-c05",
+                                                    "class": "",
+                                                    "layout": "full",
+                                                    "component": "text",
+                                                    "title": "Připravte se k prodeji!",
+                                                    "body": "Pokud jste se propracovali těmito otázkami a obsahem, pak máte základní vědomosti potřebné k tomu, abyste mohli představit telefon Firefox OS zákazníkům.<br><br>Chytrý telefon Firefox OS je snadné používat, takže je perfektní pro nové uživatele chytrých telefonů. Je také plný funkcí, které zákazníci chtějí a potřebují.<br><br>A má za sebou Mozillu, což z telefonu Firefox OS dělá tu nejlepší volbu pro každého, komu záleží na tom, aby web zůstal v jeho rukou!"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "m05-t05-p35-a05-b99",
+                                            "class": "",
+                                            "title": "",
+                                            "components": [
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c05",
+                                                    "class": "nav-back",
+                                                    "layout": "left",
+                                                    "component": "text",
+                                                    "title": "<a href='#m05/t05/p30'><span><</span> Nejčastější dotazy</a>",
+                                                    "body": ""
+                                                },
+                                                {
+                                                    "id": "m05-t05-p30-a05-b99-c10",
+                                                    "class": "nav-next",
+                                                    "layout": "right",
+                                                    "component": "text",
+                                                    "title": "",
+                                                    "body": ""
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

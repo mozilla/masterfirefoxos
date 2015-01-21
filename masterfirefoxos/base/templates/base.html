@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="{{ static('img/favicon.ico') }}">
 
-    <title>{% if feincms_page.title %}{{ feincms_page.title }} | {% endif %}{{ _('Master Firefox OS') }}</title>
+    <title>{% if feincms_page.title %}{{ _(feincms_page.title) }} | {% endif %}{{ _('Master Firefox OS') }}</title>
 
     {% block site_css %}
       <link rel="stylesheet" type="text/css" href="{{ static('css/base.css') }}">
@@ -61,7 +61,7 @@
           <nav class="nav-main aside">
             <ul>
             {% for child in feincms_page.get_root().get_children() %}
-              <li><a href="{{ child.get_absolute_url() }}">{{ child.title }}</a></li>
+              <li><a href="{{ child.get_absolute_url() }}">{{ _(child.title) }}</a></li>
             {% endfor %}
             </ul>
           </nav>
