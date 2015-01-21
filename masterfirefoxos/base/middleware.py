@@ -39,6 +39,9 @@ class NonExistentLocaleRedirectionMiddleware(object):
             if data.get('slug') == version_slug:
                 if locale not in data.get('locales'):
                     url_breakdown[1] = 'en'
-                    new_url = '/'.join(url_breakdown)
-                    return HttpResponseRedirect(new_url)
+                    new_path = '/'.join(url_breakdown)
+                    params = request.GET.copy()
+                    params['fromLang'] = locale
+                    return HttpResponseRedirect(
+                        '?'.join([new_path, params.urlencode()]))
                 return
