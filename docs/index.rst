@@ -13,7 +13,7 @@ Contents:
 
    internationalization
    gulp
-
+   importing_legacy_data
 
 
 
@@ -23,4 +23,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-

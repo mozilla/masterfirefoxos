@@ -34,7 +34,7 @@ MasterFirefoxOS stores strings for localization in three different places:
 
   * Python files (.py)
   * HTML files (.html)
-  * In the database 
+  * In the database
 
 Python and HTML files are automatically handled by django's
 `makemessages` command. The database strings must first get extracted
@@ -52,7 +52,7 @@ Now all strings are in Python, HTML and Text files that `makemessages`
 command can parse. To generate `.po` files for all supported languages
 run::
 
-  ./manage.py makemessages -a 
+  ./manage.py makemessages -a
 
 .. warning::
 
@@ -62,7 +62,7 @@ run::
 
 
 Now you can distributed your `.po` files to the translators.
-   
+
 
 Compile strings
 ---------------
@@ -74,7 +74,7 @@ into `.mo` files. To do this run the `compilemessages` command::
 
 
 This is required step for translations to work.
-  
+
 
 How does database localization work?
 ------------------------------------
@@ -85,7 +85,7 @@ from fields named in each Content Type model's `_l10n_fields`
 attribute, and output to a template text file:
 
   ./manage.py db_strings
-  
+
 By default, the command outputs to `db-strings.txt` but accepts an
 optional `filename` argument.
 
