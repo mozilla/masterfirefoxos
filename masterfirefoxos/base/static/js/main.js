@@ -39,7 +39,7 @@ if (fromLang) {
 
     var latestVersion = queryParam('latest-version');
     if (latestVersion) {
-        text +=  ' The latest version available in ' + language + ' is ' +
+        text += ' The latest version available in ' + language + ' is ' +
             latestVersion.replace('-', '.');
     }
     document.getElementById('redirected-from-lang').appendChild(

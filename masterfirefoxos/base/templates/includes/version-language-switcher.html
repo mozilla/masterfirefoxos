@@ -11,7 +11,7 @@
     <label for="version">{{ _('Firefox OS version') }}</label>
     <select id="version" name="version">
     {% for version, data in settings.VERSIONS_LOCALE_MAP.items() %}
-      <option value="{{ data['slug'] }}"{% if data['slug'] in request.path.split('/') %} selected="true"{% endif %}>{{ version }}</option>
+      <option value="{{ data['slug'] }}"{% if data['slug'] == request.path.split('/')[2] %} selected="true"{% endif %}>{{ version }}</option>
     {% endfor %}
     </select>
     <a href="#TODO">{{ _('Which version do I have?') }}</a>
