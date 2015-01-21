@@ -196,6 +196,11 @@ VERSIONS_LOCALE_MAP = OrderedDict({
     },
 })
 
+LOCALE_LATEST_VERSION_SLUG = {}
+for version in VERSIONS_LOCALE_MAP.values():
+    for locale in version['locales']:
+        LOCALE_LATEST_VERSION_SLUG[locale] = version['slug']
+
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 USE_X_FORWARDED_HOST = True
 
