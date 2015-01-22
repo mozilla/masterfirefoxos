@@ -2,8 +2,8 @@
   <p>
     <label for="version">{{ _('Language') }}</label>
     <select id="language" name="language">
-    {% for langage_code, language in settings.LANGUAGES %}
-      <option value="{{ language_code }}">{{ language }}</option>
+    {% for language_code, language in settings.LANGUAGES %}
+      <option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ language }}</option>
     {% endfor %}
     </select>
   </p>
@@ -11,10 +11,14 @@
     <label for="version">{{ _('Firefox OS version') }}</label>
     <select id="version" name="version">
     {% for version, data in settings.VERSIONS_LOCALE_MAP.items() %}
-      <option value="{{ data['slug'] }}">{{ version }}</option>
+      <option value="{{ data['slug'] }}"{% if data['slug'] == request.path.split('/')[2] %} selected="true"{% endif %}>{{ version }}</option>
     {% endfor %}
     </select>
     <a href="#TODO">{{ _('Which version do I have?') }}</a>
   </p>
   <button type="submit">{{ _('Change') }}</button>
 </form>
+
+<div id="redirected-from-lang" />
+ 
+<script type="text/javascript" src="{{ static('js/main.js') }}" defer="true"></script>

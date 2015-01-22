@@ -39,6 +39,12 @@ class NonExistentLocaleRedirectionMiddleware(object):
             if data.get('slug') == version_slug:
                 if locale not in data.get('locales'):
                     url_breakdown[1] = 'en'
-                    new_url = '/'.join(url_breakdown)
-                    return HttpResponseRedirect(new_url)
+                    new_path = '/'.join(url_breakdown)
+                    params = request.GET.copy()
+                    params['from-lang'] = locale
+                    latest = settings.LOCALE_LATEST_VERSION_SLUG.get(locale)
+                    if latest:
+                        params['latest-version'] = latest
+                    return HttpResponseRedirect(
+                        '?'.join([new_path, params.urlencode()]))
                 return
