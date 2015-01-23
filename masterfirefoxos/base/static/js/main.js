@@ -20,29 +20,19 @@ function queryParam(param) {
     return match && match[1]
 }
 
-function languageName(lang) {
-    for (var i = 0; i < select['language'].options.length; i++) {
-        var option = select['language'].options.item(i)
-        if (lang === option.value) {
-            return option.text
-        }
-    }
-    return 'your selected language'
-}
-
 var fromLang = queryParam('from-lang');
 if (fromLang) {
-    var language = languageName(fromLang)
-    var text = 'Documentation for Firefox OS ' + selected['version'].text +
-        ' is not yet available in ' + language +
-        ', so we redirected you to the English version.'
+    var doc_not_found_message = document.getElementById('doc-not-found-message-' + fromLang);
+    doc_not_found_message.innerHTML = doc_not_found_message.innerHTML.replace('{version}', selected['version'].text);
+    doc_not_found_message.style.display = 'block';
 
     var latestVersion = queryParam('latest-version');
     if (latestVersion) {
-        text += ' The latest version available in ' + language + ' is ' +
-            latestVersion.replace('-', '.');
+      var latest_version_message = document.getElementById('latest-version-message-' + fromLang);
+      latest_version_message.innerHTML = latest_version_message.innerHTML.replace('{version}', latestVersion);
+      latest_version_message.style.display = 'block';
     }
-    document.getElementById('redirected-from-lang').appendChild(
-        document.createTextNode(text));
 }
+
+
 })();

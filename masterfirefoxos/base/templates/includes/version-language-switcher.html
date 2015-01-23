@@ -1,6 +1,6 @@
 <form class="site-switcher" action="#">
   <p>
-    <label for="version">{{ _('Language') }}</label>
+    <label for="language">{{ _('Language') }}</label>
     <select id="language" name="language">
     {% for language_code, language in settings.LANGUAGES %}
       <option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ language }}</option>
@@ -19,6 +19,19 @@
   <button type="submit">{{ _('Change') }}</button>
 </form>
 
-<div id="redirected-from-lang" />
- 
+<div id="redirected-from-lang">
+  {% for language_code, language in settings.LANGUAGES %}
+    {{ activate(language_code) }}
+    <div style="display:none;" id="doc-not-found-message-{{ language_code }}">
+      {# Translators: Replace the first English with the localized name of your language. #}
+      {{ _('Documentation for Firefox OS {version} is not yet available in English, so we redirected you to the English version.') }}
+    </div>
+    <div style="display:none;" id="latest-version-message-{{ language_code }}">
+      {{ _('The latest version available in English is {version}.') }}
+    </div>
+
+  {% endfor %}
+  {{ activate(request.LANGUAGE_CODE) }}
+</div>
+
 <script type="text/javascript" src="{{ static('js/main.js') }}" defer="true"></script>
