@@ -183,6 +183,7 @@ LANGUAGES = (
     ('es', ugettext_lazy('Spanish')),
     ('ta', ugettext_lazy('Tamil')),
 )
+LANGUAGE_NAMES = dict(LANGUAGES)
 
 VERSIONS_LOCALE_MAP = OrderedDict()
 VERSIONS_LOCALE_MAP['1.1'] = {

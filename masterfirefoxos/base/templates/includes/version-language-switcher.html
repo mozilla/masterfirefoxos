@@ -3,15 +3,21 @@
     <label for="language">{{ _('Language') }}</label>
     <select id="language" name="language">
     {% for language_code, language in settings.LANGUAGES %}
-      <option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ language }}</option>
+      {{ activate(language_code) }}
+      <option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ _(language) }}</option>
+      {{ activate(request.LANGUAGE_CODE) }}
     {% endfor %}
     </select>
   </p>
   <p>
     <label for="version">{{ _('Firefox OS version') }}</label>
     <select id="version" name="version">
+    {% set active_version = [] %} {# jinja2 scope hack :/ #}
     {% for version, data in settings.VERSIONS_LOCALE_MAP.items() %}
-      <option value="{{ data['slug'] }}"{% if data['slug'] == request.path.split('/')[2] %} selected="true"{% endif %}>{{ version }}</option>
+      {% if data['slug'] == request.path.split('/')[2] %}
+        {{ active_version.append(version) }}
+      {% endif %}
+      <option value="{{ data['slug'] }}"{% if version in active_version %} selected="true"{% endif %}>{{ version }}</option>
     {% endfor %}
     </select>
     <a href="#TODO">{{ _('Which version do I have?') }}</a>
@@ -19,19 +25,22 @@
   <button type="submit">{{ _('Change') }}</button>
 </form>
 
-<div id="redirected-from-lang">
-  {% for language_code, language in settings.LANGUAGES %}
-    {{ activate(language_code) }}
-    <div style="display:none;" id="doc-not-found-message-{{ language_code }}">
-      {# Translators: Replace the first English with the localized name of your language. #}
-      {{ _('Documentation for Firefox OS {version} is not yet available in English, so we redirected you to the English version.') }}
-    </div>
-    <div style="display:none;" id="latest-version-message-{{ language_code }}">
-      {{ _('The latest version available in English is {version}.') }}
-    </div>
-
-  {% endfor %}
+{% if 'from-lang' in request.GET %}
+  {% set from_lang_code = request.GET['from-lang'] %}
+  {% set from_lang = settings.LANGUAGE_NAMES.get(from_lang_code, 'your selected language') %}
+  {% if from_lang != 'your selected language' %}
+    {{ activate(from_lang_code) }}
+    {% set latest_version_from_lang = request.GET.get('latest-version') %}
+  {% endif %}
+  <div id="redirected-from-lang">
+    {{ _('Documentation for Firefox OS {version} is not yet available in {language}, so we redirected you to the English version.') |
+       f(version=active_version[0], language=from_lang) }}
+    {% if latest_version_from_lang %}
+      {{ _('The latest version available in {language} is {version}.') |
+	 f(language=from_lang, version=latest_version_from_lang) }}
+    {% endif %}
+  </div>
   {{ activate(request.LANGUAGE_CODE) }}
-</div>
+{% endif %}
 
 <script type="text/javascript" src="{{ static('js/main.js') }}" defer="true"></script>
