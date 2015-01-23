@@ -183,18 +183,15 @@ LANGUAGES = (
     ('ta', ugettext_lazy('Tamil')),
 )
 
-VERSIONS_LOCALE_MAP = OrderedDict({
-    '1.1': {
-        'slug': '1-1',
-        'locales': [
-            'en', 'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt', 'sr', 'es'
-        ]
-    },
-    '1.3T': {
-        'slug': '1-3T',
-        'locales': ['en', 'hi', 'ta']
-    },
-})
+VERSIONS_LOCALE_MAP = OrderedDict()
+VERSIONS_LOCALE_MAP['1.1'] = {
+    'slug': '1-1',
+    'locales': [
+        'en', 'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt', 'sr', 'es'
+    ]}
+VERSIONS_LOCALE_MAP['1.3T'] = {
+    'slug': '1-3T',
+    'locales': ['en', 'hi', 'ta']}
 
 LOCALE_LATEST_VERSION_SLUG = {}
 for version in VERSIONS_LOCALE_MAP.values():
