@@ -42,9 +42,9 @@ class NonExistentLocaleRedirectionMiddleware(object):
                     new_path = '/'.join(url_breakdown)
                     params = request.GET.copy()
                     params['from-lang'] = locale
-                    latest = settings.LOCALE_LATEST_VERSION_SLUG.get(locale)
+                    latest = settings.LOCALE_LATEST_VERSION.get(locale)
                     if latest:
-                        params['latest-version'] = latest
+                        params['latest-version'] = latest['name']
                     return HttpResponseRedirect(
                         '?'.join([new_path, params.urlencode()]))
                 return

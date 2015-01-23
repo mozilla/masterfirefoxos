@@ -193,10 +193,13 @@ VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en', 'hi', 'ta']}
 
-LOCALE_LATEST_VERSION_SLUG = {}
-for version in VERSIONS_LOCALE_MAP.values():
+LOCALE_LATEST_VERSION = {}
+for name, version in VERSIONS_LOCALE_MAP.items():
     for locale in version['locales']:
-        LOCALE_LATEST_VERSION_SLUG[locale] = version['slug']
+        LOCALE_LATEST_VERSION[locale] = {
+            'slug': version['slug'],
+            'name': name,
+            }
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 USE_X_FORWARDED_HOST = True
