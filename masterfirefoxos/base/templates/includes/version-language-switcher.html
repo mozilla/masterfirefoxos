@@ -29,11 +29,9 @@
     {% set latest_version_from_lang = request.GET.get('latest-version') %}
   {% endif %}
   <div id="redirected-from-lang">
-    {{ _('Documentation for Firefox OS {version} is not yet available in {language}, so we redirected you to the English version.') |
-       f(version=active_version(request), language=from_lang) }}
+    {{ _('Documentation for Firefox OS {version} is not yet available in {language}, so we redirected you to the English version.') | f(version=active_version(request), language=from_lang) }}
     {% if latest_version_from_lang %}
-      {{ _('The latest version available in {language} is {version}.') |
-	 f(language=from_lang, version=latest_version_from_lang) }}
+      {{ _('The latest version available in {language} is {version}.') | f(language=from_lang, version=latest_version_from_lang) }}
     {% endif %}
   </div>
   {{ activate(request.LANGUAGE_CODE) }}
