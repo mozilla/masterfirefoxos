@@ -30,6 +30,7 @@ def activate(language):
 
 @register.function
 def active_version(request):
+    slug = request.path.split('/')[2]
     for version, data in settings.VERSIONS_LOCALE_MAP.items():
-        if data['slug'] == request.path.split('/')[2]:
+        if data['slug'] == slug:
             return version
