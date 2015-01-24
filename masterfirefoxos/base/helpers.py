@@ -1,5 +1,6 @@
 from datetime import datetime
 
+from django.conf import settings
 from django.contrib.staticfiles.templatetags.staticfiles import static as static_helper
 from django.utils.translation import activate as dj_activate
 
@@ -25,3 +26,10 @@ def current_year():
 def activate(language):
     dj_activate(language)
     return ''
+
+
+@register.function
+def active_version(request):
+    for version, data in settings.VERSIONS_LOCALE_MAP.items():
+        if data['slug'] == request.path.split('/')[2]:
+            return version

@@ -12,12 +12,8 @@
   <p>
     <label for="version">{{ _('Firefox OS version') }}</label>
     <select id="version" name="version">
-    {% set active_version = [] %} {# jinja2 scope hack :/ #}
     {% for version, data in settings.VERSIONS_LOCALE_MAP.items() %}
-      {% if data['slug'] == request.path.split('/')[2] %}
-        {{ active_version.append(version) }}
-      {% endif %}
-      <option value="{{ data['slug'] }}"{% if version in active_version %} selected="true"{% endif %}>{{ version }}</option>
+      <option value="{{ data['slug'] }}"{% if version == active_version(request) %} selected="true"{% endif %}>{{ version }}</option>
     {% endfor %}
     </select>
     <a href="#TODO">{{ _('Which version do I have?') }}</a>
@@ -34,7 +30,7 @@
   {% endif %}
   <div id="redirected-from-lang">
     {{ _('Documentation for Firefox OS {version} is not yet available in {language}, so we redirected you to the English version.') |
-       f(version=active_version[0], language=from_lang) }}
+       f(version=active_version(request), language=from_lang) }}
     {% if latest_version_from_lang %}
       {{ _('The latest version available in {language} is {version}.') |
 	 f(language=from_lang, version=latest_version_from_lang) }}
