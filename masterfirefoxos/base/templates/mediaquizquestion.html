@@ -1,0 +1,15 @@
+<div class="media media-image">
+  <img src="{{ mediafile.get_absolute_url() }}" alt="{{ alt }}">
+</div>
+
+<div class="quiz">
+  <h3 class="quiz-question">{{ _(question.question) }}</h3>
+  <ul class="quiz-answers">
+    {% for answer in question.answers.all() %}
+    <li data-correct="{{ answer.correct }}">{{ _(answer.answer) }}</li>
+    {% endfor %}
+  </ul>
+  <div class="correct-feedback">{{ _(question.correct_feedback) }}</div>
+  <div class="incorrect-feedback">{{ _(question.incorrect_feedback) }}</div>
+  <div class="partly_correct-feedback">{{ _(question.partly_correct_feedback) }}</div>
+</div>

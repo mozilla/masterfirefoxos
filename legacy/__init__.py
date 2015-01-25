@@ -7,6 +7,8 @@ from django.utils.text import slugify
 
 from feincms.module.page.models import Page
 
+from masterfirefoxos.base.models import QuizQuestion, QuizAnswer
+
 import polib
 
 
@@ -30,18 +32,34 @@ def add_richtext(page, text):
             text=pwrap(text), parent=page, region='main')
 
 
+def add_quiz_question(page, component):
+    question = QuizQuestion.objects.create(
+        question=component['body'],
+        correct_feedback=component['feedback']['correct'],
+        incorrect_feedback=component['feedback']['incorrect'],
+        partly_correct_feedback=component['feedback']['partly'])
+    for item in component['items']:
+        question.answers.create(answer=item['text'], correct=item['correct'])
+    page.quizquestionentry_set.create(
+        question=question, parent=page, region='main')
+
+
 def add_blocks(page, blocks):
     for block in blocks or []:
         add_richtext(page, block['title'])
         for component in block['components']:
             if component.get('class') in ('nav-next', 'nav-back'):
                 continue
+            elif component['component'] == 'mcq':
+                question = add_quiz_question(page, component)
+                continue
             add_richtext(page, component['title'])
             add_richtext(page, component['body'])
-            # TODO: upload media, use different content type
             if component['component'] == 'graphic':
+                # TODO: upload media, use different content type
                 add_richtext(page, component['graphic']['alt'])
             elif component['component'] in ('reveal', 'hotgraphic'):
+                # TODO: upload media, use different content type
                 add_richtext(page, component['graphic']['title'])
                 add_richtext(page, component['graphic'].get('body'))
             for item in component.get('items', []):
