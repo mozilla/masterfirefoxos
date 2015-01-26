@@ -156,3 +156,6 @@ six==1.9.0
 # sha256: rf8-36E3YtVqvHx95gnTldSwOjBBRxImBizpn8qDU3A
 # sha256: Mfw1XHE1TVYJWPhskeGAvivHbGHBiaqG6Gm0nbOrDfU
 django-extensions==1.4.9
+
+# sha256: gBjyNk71se4SXu2IoYpjXFyxztkdeyNDU9igfe8yxhM
+django-sslify==0.2.5
