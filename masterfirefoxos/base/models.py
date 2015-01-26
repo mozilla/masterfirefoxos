@@ -34,7 +34,7 @@ class YouTubeParagraphEntry(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
     youtube_id = models.CharField(max_length=100)
-    _l10n_fields = ['title', 'text']
+    _l10n_fields = ['title', 'text', 'youtube_id']
 
     class Meta:
         abstract = True
@@ -45,7 +45,7 @@ class YouTubeParagraphEntry(models.Model):
             {
                 'title': _(self.title),
                 'text': _(self.text),
-                'video': self.youtube_id
+                'video': _(self.youtube_id)
             }
         )
 

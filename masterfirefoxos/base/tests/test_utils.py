@@ -23,7 +23,7 @@ def test_entry_strings():
     youtube_entry = models.YouTubeParagraphEntry(
         title='test title', text='test text', youtube_id='test id')
     assert utils.entry_strings(youtube_entry) == [
-        'test title', 'test text']
+        'test title', 'test text', 'test id']
 
 
 def test_pages_l10n_template():
