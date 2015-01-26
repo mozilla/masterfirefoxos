@@ -24,7 +24,7 @@ git clone $LOCALE_REPOSITORY locale
 deis login $DEIS_CONTROLLER --username $DEIS_USERNAME --password $DEIS_PASSWORD
 deis run -a $DEIS_APP -- "./manage.py runscript db_strings && cat db-strings.txt" > db-strings.txt
 
-fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web ./manage.py makemessages -a
+fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web ./manage.py makemessages -a --keep-pot
 fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web chmod a+wx -R locale
 
 cd locale
