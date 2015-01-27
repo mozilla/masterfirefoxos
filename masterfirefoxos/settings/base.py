@@ -135,6 +135,8 @@ CSP_IMG_SRC = (
     "'self'",
     'http://*.mozilla.net',
     'https://*.mozilla.net',
+    'https://masterfirefoxos-dev.s3.amazonaws.com',
+    'https://masterfirefoxos-prod.s3.amazonaws.com',
 )
 CSP_SCRIPT_SRC = (
     "'self'",
