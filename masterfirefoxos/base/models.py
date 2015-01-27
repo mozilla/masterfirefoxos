@@ -4,11 +4,12 @@ from django.utils import translation
 from django.utils.translation import ugettext as _
 
 import jingo
-from feincms.module.page.models import Page
 from jinja2 import Markup
-from sorl.thumbnail import ImageField
 
-from .inlines import QuizQuestionInline
+from feincms.module.page.models import Page
+from feincms.content.richtext.models import RichTextContent
+from feincms.content.medialibrary.models import MediaFileContent
+from sorl.thumbnail import ImageField
 
 jingo.env.install_gettext_translations(translation)
 
@@ -51,19 +52,12 @@ class YouTubeParagraphEntry(models.Model):
         )
 
 
-<<<<<<< HEAD
 class MediaParagraphEntry(models.Model):
-    title = models.CharField(max_length=255)
-    text = models.TextField()
-    image = ImageField(null=True)
-    _l10n_fields = ['title', 'text']
-=======
-class MediaParagraphEntry(MediaFileContent):
     #alt = models.CharField(max_length=255)  # TODO: migration
     title = models.CharField(max_length=255)
     text = models.TextField()
+    image = ImageField(null=True)
     _l10n_fields = ['alt', 'title', 'text']
->>>>>>> Add Quiz models, templates, admin, and legacy
 
     class Meta:
         abstract = True
@@ -97,64 +91,9 @@ class FAQEntry(models.Model):
             }
         )
 
-<<<<<<< HEAD
+
 class RichTextEntry(models.Model):
     text = models.TextField()
-=======
-
-class QuizQuestion(models.Model):
-    question = models.TextField()
-    correct_feedback = models.TextField()
-    incorrect_feedback = models.TextField()
-    partly_correct_feedback = models.TextField(blank=True)
-    _l10n_fields = ['question', 'correct_feedback', 'incorrect_feedback',
-                    'partly_correct_feedback']
-
-    def __str__(self):
-        return self.question
-
-
-class QuizAnswer(models.Model):
-    question = models.ForeignKey(QuizQuestion, related_name='answers')
-    answer = models.TextField()
-    correct = models.BooleanField(default=False)
-    _l10n_fields = ['answer']
-
-
-class QuizQuestionEntry(models.Model):
-    question = models.ForeignKey(QuizQuestion)
-    feincms_item_editor_inline = QuizQuestionInline
-
-    class Meta:
-        abstract = True
-
-    def render(self, **kwargs):
-        return render_to_string(
-            'quizquestion.html', {'question': self.question})
-
-
-class MediaQuizQuestionEntry(MediaFileContent):
-    alt = models.CharField(blank=True, max_length=255)
-    question = models.ForeignKey(QuizQuestion)
-    feincms_item_editor_inline = QuizQuestionInline
-    _l10n_fields = ['alt']
-
-    class Meta:
-        abstract = True
-
-    def render(self, **kwargs):
-        return render_to_string(
-            'mediaquizquestion.html',
-            {
-                'alt': _(self.alt),
-                'mediafile': self.mediafile,
-                'question': self.question
-            }
-        ) 
-
-
-class RichTextEntry(RichTextContent):
->>>>>>> Add Quiz models, templates, admin, and legacy
     _l10n_fields = ['text']
 
     class Meta:
@@ -169,10 +108,39 @@ class RichTextEntry(RichTextContent):
         )
 
 
+class QuizQuestion(models.Model):
+    image = ImageField(blank=True, null=True)
+    question = models.TextField()
+    correct_feedback = models.TextField()
+    incorrect_feedback = models.TextField()
+    partly_correct_feedback = models.TextField(blank=True)
+    _l10n_fields = ['question', 'correct_feedback', 'incorrect_feedback',
+                    'partly_correct_feedback']
+
+    class Meta:
+        abstract = True
+
+    def render(self, **kwargs):
+        return render_to_string(
+            'quizquestion.html', {'question': self})
+
+
+class QuizAnswer(models.Model):
+    answer = models.TextField()
+    correct = models.BooleanField(default=False)
+    _l10n_fields = ['answer']
+
+    class Meta:
+        abstract = True
+
+    def render(self, **kwargs):
+        return render_to_string(
+            'quizanswer.html', {'answer': self})
+
+
 Page.create_content_type(RichTextEntry)
 Page.create_content_type(MediaParagraphEntry)
 Page.create_content_type(FAQEntry)
 Page.create_content_type(YouTubeParagraphEntry)
-Page.create_content_type(QuizQuestionEntry)
-Page.create_content_type(MediaQuizQuestionEntry,
-                         TYPE_CHOICES=(('default', 'default'),))
+Page.create_content_type(QuizQuestion)
+Page.create_content_type(QuizAnswer)
