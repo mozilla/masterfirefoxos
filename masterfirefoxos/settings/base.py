@@ -66,7 +66,6 @@ MIDDLEWARE_CLASSES = (
     'sslify.middleware.SSLifyMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
-    'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -74,6 +73,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'csp.middleware.CSPMiddleware',
+    'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
 )
 
 ROOT_URLCONF = 'masterfirefoxos.urls'
@@ -182,7 +182,9 @@ LANGUAGES = (
     ('sr', ugettext_lazy('Serbian')),
     ('es', ugettext_lazy('Spanish')),
     ('ta', ugettext_lazy('Tamil')),
+    ('xx', ugettext_lazy('Pirate')),
 )
+LANGUAGE_NAMES = dict(LANGUAGES)
 
 VERSIONS_LOCALE_MAP = OrderedDict()
 VERSIONS_LOCALE_MAP['1.1'] = {
