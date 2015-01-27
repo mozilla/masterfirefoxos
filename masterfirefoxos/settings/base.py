@@ -225,7 +225,9 @@ MIGRATION_MODULES = {
 
 
 def media_files_unique_path(instance, filename):
-    import random, string, os
+    import os
+    import random
+    import string
     filename, ext = os.path.splitext(filename)
     random_str = ''.join([random.SystemRandom().choice(
         string.ascii_lowercase + string.ascii_uppercase + string.digits

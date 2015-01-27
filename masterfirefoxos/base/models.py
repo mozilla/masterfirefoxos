@@ -8,7 +8,6 @@ from jinja2 import Markup
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.models import Page
-from sorl.thumbnail import ImageField
 
 
 jingo.env.install_gettext_translations(translation)
