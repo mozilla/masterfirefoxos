@@ -53,7 +53,7 @@ def add_quiz_question_and_answers(page, component):
 
 def add_blocks(page, blocks):
     for block in blocks or []:
-        ordering = add_richtext(page, block['title'])
+        add_richtext(page, block['title'])
         for component in block['components']:
             if component.get('class') in ('nav-next', 'nav-back'):
                 continue
