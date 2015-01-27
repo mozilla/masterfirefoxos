@@ -5,8 +5,8 @@ from django.utils.translation import ugettext as _
 
 import jingo
 from feincms.module.page.models import Page
-from feincms.content.medialibrary.models import MediaFileContent
 from jinja2 import Markup
+from sorl.thumbnail import ImageField
 
 
 jingo.env.install_gettext_translations(translation)
@@ -50,9 +50,10 @@ class YouTubeParagraphEntry(models.Model):
         )
 
 
-class MediaParagraphEntry(MediaFileContent):
+class MediaParagraphEntry(models.Model):
     title = models.CharField(max_length=255)
     text = models.TextField()
+    image = ImageField(null=True)
     _l10n_fields = ['title', 'text']
 
     class Meta:
@@ -64,7 +65,7 @@ class MediaParagraphEntry(MediaFileContent):
             {
                 'title': _(self.title),
                 'text': Markup(_(self.text)),
-                'mediafile': self.mediafile
+                'image': self.image,
             }
         )
 
@@ -103,7 +104,6 @@ class RichTextEntry(models.Model):
 
 
 Page.create_content_type(RichTextEntry)
-Page.create_content_type(MediaParagraphEntry,
-                         TYPE_CHOICES=(('default', 'default'),))
+Page.create_content_type(MediaParagraphEntry)
 Page.create_content_type(FAQEntry)
 Page.create_content_type(YouTubeParagraphEntry)

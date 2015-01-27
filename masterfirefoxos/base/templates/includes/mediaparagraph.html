@@ -1,5 +1,5 @@
 <div class="media media-image">
-  <img src="{{ mediafile.get_absolute_url() }}" alt="TODO">
+  <img src="{{ image.url.split('?')[0] }}" alt="{{ alt }}">
 
   <h2 class="media-title">{{ title }}</h2>
 

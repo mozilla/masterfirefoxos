@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'feincms.module.medialibrary',
     'django_extensions',
     'django_stackato',
+    'sorl.thumbnail',
     'storages',
 
     # Project specific apps

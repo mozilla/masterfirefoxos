@@ -1,4 +1,4 @@
-from feincms.module.medialibrary.models import MediaFile
+from sorl.thumbnail import ImageField
 
 from .. import models
 
@@ -14,10 +14,10 @@ def test_youtube_paragraph_render():
 def test_media_paragraph_render():
     test_data = {'title': 'Test Title', 'text': 'test text'}
     entry = models.MediaParagraphEntry(**test_data)
-    entry.mediafile = MediaFile()
-    entry.mediafile.get_absolute_url = lambda: 'test mediafile url'
+    entry.image = ImageField()
+    entry.image.url = 'test mediafile url'
     rendered = entry.render()
-    assert'test mediafile url' in rendered
+    assert 'test mediafile url' in rendered
     for value in test_data.values():
         assert value in rendered
 

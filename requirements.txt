@@ -159,3 +159,8 @@ django-extensions==1.4.9
 
 # sha256: gBjyNk71se4SXu2IoYpjXFyxztkdeyNDU9igfe8yxhM
 django-sslify==0.2.5
+
+# sha256: 6Cljb4OMUUa2b3QmztUhmkhGMmAWK1ZqIHMwd4pTMiY
+# sha256: R8ZNJ704IvGVNqxTaHgUNiz9y4L9YvnN9NEgdFFpDYA
+# sha256: ErI5dd22usqL64ByotYFEGAY29qgnrukuiD6z1EvRsY
+sorl-thumbnail==12.2
