@@ -164,3 +164,15 @@ django-sslify==0.2.5
 # sha256: R8ZNJ704IvGVNqxTaHgUNiz9y4L9YvnN9NEgdFFpDYA
 # sha256: ErI5dd22usqL64ByotYFEGAY29qgnrukuiD6z1EvRsY
 sorl-thumbnail==12.2
+
+# sha256: ic9r9P9kT_i5EuL6fiq7aNV6jn6Rjjk8coQNMNLrzws
+# sha256: PYypv2XFAU9GkYBUTR3Vu1ud9wmq1jBPnC5DcK4Ke3w
+mccabe==0.3
+
+# sha256: Yuh_1UU1-5MrSk2Uho21IyV6EDHIvGvTWMIBVDPmRts
+# sha256: FbQhMbJfN2Fl0ZX-ThewooMRGCqvkzDV61dbvtpaaYk
+pep8==1.5.7
+
+# sha256: rEVxaVwQzhU2vNuhopS58tPmzJ0OoXG2fVCghkzj4EI
+# sha256: P6gKELNtUWhr93RPXcmWIs1cmM6O1kAi5imGiq_Bd2k
+pyflakes==0.8.1

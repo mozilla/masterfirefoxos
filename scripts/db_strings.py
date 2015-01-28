@@ -13,7 +13,7 @@ def run(*args):
     print(filename)
     template_text = pages_l10n_template()
     if filename == '-':
-        self.stdout.write(template_text)
+        print(template_text)
     else:
         with open(filename, 'w') as f:
             f.write(template_text)

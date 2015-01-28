@@ -7,8 +7,6 @@ from django.utils.text import slugify
 
 from feincms.module.page.models import Page
 
-from masterfirefoxos.base.models import QuizQuestion, QuizAnswer
-
 import polib
 
 
@@ -81,7 +79,7 @@ def create_page(title, body='', parent=None, slug='', blocks=None):
     add_richtext(page, body)
     add_blocks(page, blocks)
     return page
-    
+
 
 def create_pages(version='1.3T'):
     topic = load_topic(version=version)

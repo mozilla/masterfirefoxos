@@ -9,6 +9,8 @@ pip install fig
 
 FIG_CMD="fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} -f ./bin/jenkins/fig.yml"
 
+$FIG_CMD run -T web flake8
+
 # Lint translations
 $FIG_CMD run -T web dennis-cmd lint --errorsonly locale/
 
