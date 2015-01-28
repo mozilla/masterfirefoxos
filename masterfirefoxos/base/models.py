@@ -4,10 +4,10 @@ from django.utils import translation
 from django.utils.translation import ugettext as _
 
 import jingo
-from feincms.module.page.models import Page
 from jinja2 import Markup
-from sorl.thumbnail import ImageField
 
+from feincms.module.page.models import Page
+from sorl.thumbnail import ImageField
 
 jingo.env.install_gettext_translations(translation)
 
@@ -51,10 +51,11 @@ class YouTubeParagraphEntry(models.Model):
 
 
 class MediaParagraphEntry(models.Model):
+    alt = models.CharField(max_length=255, blank=True, default='')
     title = models.CharField(max_length=255)
     text = models.TextField()
     image = ImageField(null=True)
-    _l10n_fields = ['title', 'text']
+    _l10n_fields = ['alt', 'title', 'text']
 
     class Meta:
         abstract = True
@@ -63,6 +64,7 @@ class MediaParagraphEntry(models.Model):
         return render_to_string(
             'includes/mediaparagraph.html',
             {
+                'alt': _(self.alt),
                 'title': _(self.title),
                 'text': Markup(_(self.text)),
                 'image': self.image,
@@ -87,6 +89,7 @@ class FAQEntry(models.Model):
             }
         )
 
+
 class RichTextEntry(models.Model):
     text = models.TextField()
     _l10n_fields = ['text']
@@ -103,7 +106,39 @@ class RichTextEntry(models.Model):
         )
 
 
+class QuizQuestion(models.Model):
+    image = ImageField(blank=True, null=True)
+    question = models.TextField()
+    correct_feedback = models.TextField()
+    incorrect_feedback = models.TextField()
+    partly_correct_feedback = models.TextField()
+    _l10n_fields = ['question', 'correct_feedback', 'incorrect_feedback',
+                    'partly_correct_feedback']
+
+    class Meta:
+        abstract = True
+
+    def render(self, **kwargs):
+        return render_to_string(
+            'quizquestion.html', {'question': self})
+
+
+class QuizAnswer(models.Model):
+    answer = models.TextField()
+    correct = models.BooleanField(default=False)
+    _l10n_fields = ['answer']
+
+    class Meta:
+        abstract = True
+
+    def render(self, **kwargs):
+        return render_to_string(
+            'quizanswer.html', {'answer': self})
+
+
 Page.create_content_type(RichTextEntry)
 Page.create_content_type(MediaParagraphEntry)
 Page.create_content_type(FAQEntry)
 Page.create_content_type(YouTubeParagraphEntry)
+Page.create_content_type(QuizQuestion)
+Page.create_content_type(QuizAnswer)

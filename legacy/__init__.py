@@ -7,6 +7,8 @@ from django.utils.text import slugify
 
 from feincms.module.page.models import Page
 
+from masterfirefoxos.base.models import QuizQuestion, QuizAnswer
+
 import polib
 
 
@@ -24,10 +26,29 @@ def pwrap(text):
         return '<p>{}</p>'.format(text)
 
 
+def inc_ordering(page):
+    page.ordering = getattr(page, 'ordering', 0) + 1
+    return page.ordering
+
+
 def add_richtext(page, text):
     if text:
         page.richtextentry_set.create(
-            text=pwrap(text), parent=page, region='main')
+            text=pwrap(text), parent=page, region='main',
+            ordering=inc_ordering(page))
+
+
+def add_quiz_question_and_answers(page, component):
+    page.quizquestion_set.create(
+        question=component['body'],
+        correct_feedback=component['feedback']['correct'],
+        incorrect_feedback=component['feedback']['incorrect'],
+        partly_correct_feedback=component['feedback']['partly'],
+        parent=page, region='main', ordering=inc_ordering(page))
+    for item in component['items']:
+        page.quizanswer_set.create(
+            answer=item['text'], correct=item['correct'],
+            parent=page, region='main', ordering=inc_ordering(page))
 
 
 def add_blocks(page, blocks):
@@ -36,12 +57,16 @@ def add_blocks(page, blocks):
         for component in block['components']:
             if component.get('class') in ('nav-next', 'nav-back'):
                 continue
+            elif component['component'] == 'mcq':
+                add_quiz_question_and_answers(page, component)
+                continue
             add_richtext(page, component['title'])
             add_richtext(page, component['body'])
-            # TODO: upload media, use different content type
             if component['component'] == 'graphic':
+                # TODO: upload media, use different content type
                 add_richtext(page, component['graphic']['alt'])
             elif component['component'] in ('reveal', 'hotgraphic'):
+                # TODO: upload media, use different content type
                 add_richtext(page, component['graphic']['title'])
                 add_richtext(page, component['graphic'].get('body'))
             for item in component.get('items', []):

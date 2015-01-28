@@ -2,7 +2,7 @@ from unittest.mock import Mock, patch
 
 from feincms.module.page.models import Page
 
-from .. import models 
+from .. import models
 from .. import utils
 
 
@@ -11,9 +11,9 @@ def test_entry_strings():
     assert utils.entry_strings(rich_text_entry) == ['test text']
 
     media_paragraph_entry = models.MediaParagraphEntry(
-        title='test title', text='test text')
+        alt='alt', title='test title', text='test text')
     assert utils.entry_strings(media_paragraph_entry) == [
-        'test title', 'test text']
+        'alt', 'test title', 'test text']
 
     faq_entry = models.FAQEntry(
         question='test question', answer='test answer')
@@ -70,12 +70,11 @@ def test_copy_page_with_parent(mock_page_objects,
         page, mock_page_objects.create.return_value)
 
 
-
 @patch('masterfirefoxos.base.utils.copy_page_with_parent')
 def test_copy_content_and_children(mock_copy_page_with_parent):
-   page = Mock()
-   page.get_children.return_value = ['child']
-   new_page = Mock()
-   assert utils.copy_content_and_children(page, new_page) == new_page
-   new_page.copy_content_from.assert_called_with(page)
-   mock_copy_page_with_parent.assert_called_with('child', new_page)
+    page = Mock()
+    page.get_children.return_value = ['child']
+    new_page = Mock()
+    assert utils.copy_content_and_children(page, new_page) == new_page
+    new_page.copy_content_from.assert_called_with(page)
+    mock_copy_page_with_parent.assert_called_with('child', new_page)
