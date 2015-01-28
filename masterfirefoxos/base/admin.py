@@ -1,8 +1,10 @@
 from django.contrib import admin, messages
 
+from feincms.module.medialibrary.admin import MediaFileAdmin as MediaFileAdminOld
+from feincms.module.medialibrary.models import MediaFile
+from feincms.module.page.admin import PageAdmin as PageAdminOld
 from feincms.module.page.models import Page
 from feincms.module.page.forms import PageAdminForm as PageAdminFormOld
-from feincms.module.page.admin import PageAdmin as PageAdminOld
 
 from .utils import copy_tree
 
@@ -31,3 +33,16 @@ class PageAdmin(PageAdminOld):
 
 admin.site.unregister(Page)
 admin.site.register(Page, PageAdmin)
+
+
+class MediaFileAdmin(MediaFileAdminOld):
+    inlines = []
+    list_display = ['admin_thumbnail', '__str__', 'formatted_created']
+
+    fieldsets = (
+        (None, {'fields': ('file', 'categories') }),
+    )
+
+
+admin.site.unregister(MediaFile)
+admin.site.register(MediaFile, MediaFileAdmin)
