@@ -221,5 +221,16 @@ if AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY and AWS_STORAGE_BUCKET_NAME:
 MIGRATION_MODULES = {
     'medialibrary': 'masterfirefoxos.base.migrate.medialibrary',
     'page': 'masterfirefoxos.base.migrate.page',
-
 }
+
+
+def media_files_unique_path(instance, filename):
+    import random, string, os
+    filename, ext = os.path.splitext(filename)
+    random_str = ''.join([random.SystemRandom().choice(
+        string.ascii_lowercase + string.ascii_uppercase + string.digits
+        ) for _ in range(3)])
+    return 'medialibrary/{}__{}{}'.format(filename, random_str, ext)
+
+
+FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
