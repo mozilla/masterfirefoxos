@@ -7,8 +7,6 @@ import jingo
 from jinja2 import Markup
 
 from feincms.module.page.models import Page
-from feincms.content.richtext.models import RichTextContent
-from feincms.content.medialibrary.models import MediaFileContent
 from sorl.thumbnail import ImageField
 
 jingo.env.install_gettext_translations(translation)
@@ -53,7 +51,7 @@ class YouTubeParagraphEntry(models.Model):
 
 
 class MediaParagraphEntry(models.Model):
-    #alt = models.CharField(max_length=255)  # TODO: migration
+    alt = models.CharField(max_length=255, blank=True, default='')
     title = models.CharField(max_length=255)
     text = models.TextField()
     image = ImageField(null=True)
@@ -66,7 +64,7 @@ class MediaParagraphEntry(models.Model):
         return render_to_string(
             'includes/mediaparagraph.html',
             {
-                #'alt': _(self.alt),
+                'alt': _(self.alt),
                 'title': _(self.title),
                 'text': Markup(_(self.text)),
                 'image': self.image,
@@ -113,7 +111,7 @@ class QuizQuestion(models.Model):
     question = models.TextField()
     correct_feedback = models.TextField()
     incorrect_feedback = models.TextField()
-    partly_correct_feedback = models.TextField(blank=True)
+    partly_correct_feedback = models.TextField()
     _l10n_fields = ['question', 'correct_feedback', 'incorrect_feedback',
                     'partly_correct_feedback']
 
