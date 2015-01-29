@@ -12,7 +12,6 @@ RUN ./bin/peep.py install -r requirements.txt
 ADD https://github.com/mozilla/masterfirefoxos-l10n/archive/master.tar.gz /tmp/locale.tar.gz
 RUN mkdir -p /app/locale && tar zxf /tmp/locale.tar.gz -C /app/locale --strip-components 1
 COPY . /app
-COPY ./.git/HEAD /app/masterfirefoxos/base/static/revision.txt
 
 EXPOSE 80
 

@@ -1,1 +1,1 @@
-# Placeholder. Will be replaced by docker build.
+# Placeholder. Will be replaced by ./bin/run-docker.sh
