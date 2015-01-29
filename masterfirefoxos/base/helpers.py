@@ -59,4 +59,6 @@ def get_image_url(img, geometry=None, locale=None):
         img = get_thumbnail(img.file, geometry, quality=90)
         url = img.url
 
-    return url
+    # AWS S3 urls contain AWS_ACCESS_KEY_ID, Expiration and other
+    # params. We don't need them.
+    return url.split('?')[0]
