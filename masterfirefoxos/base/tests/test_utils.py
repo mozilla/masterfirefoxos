@@ -27,16 +27,23 @@ def test_entry_strings():
 
 
 def test_pages_l10n_template():
-    parent = Page(title='Parent Page')
-    page = Page(title='Page Title')
+    parent = Page(title='Parent Title', slug='parent-slug')
+    page = Page(title='Page Title', slug='page-slug')
     page.parent = parent
-    entry = models.RichTextEntry(text='<p>Rich Text</p>')
+    parent_entry = models.RichTextEntry(text='<p>Parent Text</p>')
+    entry = models.RichTextEntry(text='<p>Page Text</p>')
+    parent.content.all_of_type = lambda content_type: [parent_entry]
     page.content.all_of_type = lambda content_type: [entry]
-    l10n_template = utils.pages_l10n_template([page])
-    assert 'Parent Page Title: Parent Page' in l10n_template
+    l10n_template = utils.pages_l10n_template([parent, page])
+    assert 'Page path: /parent-slug/\n' in l10n_template
+    assert 'Page path: /parent-slug/page-slug/\n' in l10n_template
+    assert ('{% blocktrans trimmed %}\nParent Title\n{% endblocktrans %}'
+            in l10n_template)
     assert ('{% blocktrans trimmed %}\nPage Title\n{% endblocktrans %}'
             in l10n_template)
-    assert ('{% blocktrans trimmed %}\n<p>Rich Text</p>\n{% endblocktrans %}'
+    assert ('{% blocktrans trimmed %}\n<p>Parent Text</p>\n{% endblocktrans %}'
+            in l10n_template)
+    assert ('{% blocktrans trimmed %}\n<p>Page Text</p>\n{% endblocktrans %}'
             in l10n_template)
 
 
