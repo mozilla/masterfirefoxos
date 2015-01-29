@@ -1,13 +1,18 @@
+import os
+
 from django.db import models
+from django.forms import ModelChoiceField
 from django.template.loader import render_to_string
 from django.utils import translation
 from django.utils.translation import ugettext as _
 
 import jingo
 from jinja2 import Markup
-
+from feincms.admin.item_editor import FeinCMSInline
+from feincms.module.medialibrary.fields import MediaFileForeignKey
+from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.models import Page
-from sorl.thumbnail import ImageField
+
 
 jingo.env.install_gettext_translations(translation)
 
@@ -50,11 +55,27 @@ class YouTubeParagraphEntry(models.Model):
         )
 
 
-class MediaParagraphEntry(models.Model):
+class CustomMediaFileTypeChoiceField(ModelChoiceField):
+    def label_from_instance(self, obj):
+        basename = os.path.basename(obj.file.name)
+        basename = basename.rsplit('.')[0]
+        return basename
+
+
+class MediaFileInline(FeinCMSInline):
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'image':
+            return CustomMediaFileTypeChoiceField(
+                MediaFile.objects.filter(type='image', categories__title='en'), **kwargs)
+        return super(MediaFileInline, self).formfield_for_foreignkey(db_field, request, **kwargs)
+
+
+class ImageParagraphEntry(models.Model):
+    feincms_item_editor_inline = MediaFileInline
+    image = MediaFileForeignKey(MediaFile)
     alt = models.CharField(max_length=255, blank=True, default='')
     title = models.CharField(max_length=255)
     text = models.TextField()
-    image = ImageField(null=True)
     _l10n_fields = ['alt', 'title', 'text']
 
     class Meta:
@@ -62,9 +83,9 @@ class MediaParagraphEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/mediaparagraph.html',
+            'includes/imageparagraph.html',
             {
-                'alt': _(self.alt),
+                'alt': _(self.alt) if self.alt else '',
                 'title': _(self.title),
                 'text': Markup(_(self.text)),
                 'image': self.image,
@@ -107,7 +128,10 @@ class RichTextEntry(models.Model):
 
 
 class QuizQuestion(models.Model):
-    image = ImageField(blank=True, null=True)
+    image = MediaFileForeignKey(
+        MediaFile,
+        limit_choices_to=models.Q(type='image', categories__title='en'),
+        blank=True, null=True)
     question = models.TextField()
     correct_feedback = models.TextField()
     incorrect_feedback = models.TextField()
@@ -137,7 +161,7 @@ class QuizAnswer(models.Model):
 
 
 Page.create_content_type(RichTextEntry)
-Page.create_content_type(MediaParagraphEntry)
+Page.create_content_type(ImageParagraphEntry)
 Page.create_content_type(FAQEntry)
 Page.create_content_type(YouTubeParagraphEntry)
 Page.create_content_type(QuizQuestion)
