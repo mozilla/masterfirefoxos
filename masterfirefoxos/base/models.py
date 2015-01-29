@@ -13,6 +13,8 @@ from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.models import Page
 
+from .utils import youtube_embed_url
+
 
 jingo.env.install_gettext_translations(translation)
 
@@ -50,7 +52,8 @@ class YouTubeParagraphEntry(models.Model):
             {
                 'title': _(self.title),
                 'text': Markup(_(self.text)),
-                'video': _(self.youtube_id)
+                'video': youtube_embed_url(
+                    kwargs.get('request'), self.youtube_id)
             }
         )
 

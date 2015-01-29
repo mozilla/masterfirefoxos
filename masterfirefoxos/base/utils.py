@@ -1,6 +1,9 @@
 from datetime import datetime
 from itertools import chain
 
+from django.conf import settings
+from django.utils.translation import ugettext as _
+
 from feincms.module.page.models import Page
 
 
@@ -61,3 +64,15 @@ def copy_tree(page):
         slug='copy-of-{slug}-on-{now}'.format(slug=page.slug, now=now),
         parent=page.parent, active=False)
     return copy_content_and_children(page, new_page)
+
+
+def youtube_embed_url(request, en_youtube_id):
+    embed = 'https://www.youtube.com/embed/'
+    youtube_id = _(en_youtube_id)
+    if youtube_id == en_youtube_id and request and (
+            not request.path.startswith('/en/')):
+        query_template = '?hl={lang}&cc_lang_pref={lang}&cc_load_policy=1'
+        lang = request.path.split('/')[1]
+        if lang in settings.LANGUAGE_NAMES:
+            return embed + youtube_id + query_template.format(lang=lang)
+    return embed + youtube_id
