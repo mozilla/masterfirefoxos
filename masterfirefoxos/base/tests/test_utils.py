@@ -10,7 +10,7 @@ def test_entry_strings():
     rich_text_entry = models.RichTextEntry(text='test text')
     assert utils.entry_strings(rich_text_entry) == ['test text']
 
-    media_paragraph_entry = models.MediaParagraphEntry(
+    media_paragraph_entry = models.ImageParagraphEntry(
         alt='alt', title='test title', text='test text')
     assert utils.entry_strings(media_paragraph_entry) == [
         'alt', 'test title', 'test text']

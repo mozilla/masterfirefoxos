@@ -40,7 +40,7 @@ class MediaFileAdmin(MediaFileAdminOld):
     list_display = ['admin_thumbnail', '__str__', 'formatted_created']
 
     fieldsets = (
-        (None, {'fields': ('file', 'categories') }),
+        (None, {'fields': ('file', 'categories')}),
     )
 
 

@@ -1,5 +1,5 @@
 <div class="media media-image">
-  <img src="{{ image.url.split('?')[0] }}" alt="{{ alt }}">
+  <img src="{{ get_image_url(image) }}" alt="{{ alt }}">
   <h2 class="media-title">{{ title }}</h2>
   {{ text }}
 </div>
