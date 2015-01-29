@@ -45,10 +45,10 @@ def get_image_url(img, geometry=None, locale=None):
         locale = get_language()
     url = img.file.url
 
-    basename = os.path.basename(img.file.name).split('__')[0]
+    basename = os.path.basename(img.file.name).rsplit('.')[0]
 
     query = MediaFile.objects.filter(
-        file__startswith='medialibrary/' + basename + '__',
+        file__startswith='medialibrary/' + basename + '.',
         categories__title=locale)
 
     if query.exists():

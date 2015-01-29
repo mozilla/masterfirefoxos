@@ -1,10 +1,14 @@
+import os
+
 from django.db import models
+from django.forms import ModelChoiceField
 from django.template.loader import render_to_string
 from django.utils import translation
 from django.utils.translation import ugettext as _
 
 import jingo
 from jinja2 import Markup
+from feincms.admin.item_editor import FeinCMSInline
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.models import Page
@@ -51,10 +55,24 @@ class YouTubeParagraphEntry(models.Model):
         )
 
 
+class CustomMediaFileTypeChoiceField(ModelChoiceField):
+    def label_from_instance(self, obj):
+        basename = os.path.basename(obj.file.name)
+        basename = basename.rsplit('.')[0]
+        return basename
+
+
+class MediaFileInline(FeinCMSInline):
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'image':
+            return CustomMediaFileTypeChoiceField(
+                MediaFile.objects.filter(type='image', categories__title='en'), **kwargs)
+        return super(MediaFileInline, self).formfield_for_foreignkey(db_field, request, **kwargs)
+
+
 class ImageParagraphEntry(models.Model):
-    image = MediaFileForeignKey(
-        MediaFile,
-        limit_choices_to=models.Q(type='image', categories__title='en'))
+    feincms_item_editor_inline = MediaFileInline
+    image = MediaFileForeignKey(MediaFile)
     alt = models.CharField(max_length=255, blank=True, default='')
     title = models.CharField(max_length=255)
     text = models.TextField()

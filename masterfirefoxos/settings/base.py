@@ -226,13 +226,9 @@ MIGRATION_MODULES = {
 
 def media_files_unique_path(instance, filename):
     import os
-    import random
-    import string
+    import uuid
     filename, ext = os.path.splitext(filename)
-    random_str = ''.join([random.SystemRandom().choice(
-        string.ascii_lowercase + string.ascii_uppercase + string.digits
-        ) for _ in range(3)])
-    return 'medialibrary/{}__{}{}'.format(filename, random_str, ext)
+    return 'medialibrary/{}.{}{}'.format(filename, uuid.uuid4(), ext)
 
 
 FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
