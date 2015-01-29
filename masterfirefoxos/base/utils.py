@@ -7,8 +7,7 @@ from feincms.module.page.models import Page
 page_template_template = '''
 {{% comment %}}
 Translators:
-    Page Title: {title}
-    Parent Page Title: {parent_title}
+    Page path: {parent_slug}/{page_slug}/
 {{% endcomment %}}
 {{% blocktrans trimmed %}}
 {string}
@@ -23,16 +22,16 @@ def entry_strings(entry):
 
 def page_template_generator(page):
     yield page_template_template.format(
-        title=page.title,
-        parent_title=page.parent and page.parent.title or 'None',
+        page_slug=page.slug,
+        parent_slug='/' + page.parent.slug if page.parent else '',
         string=page.title)
 
     for content_type in page._feincms_content_types:
         for entry in page.content.all_of_type(content_type):
             for entry_string in entry_strings(entry):
                 yield page_template_template.format(
-                    title=page.title,
-                    parent_title=page.parent and page.parent.title or 'None',
+                    page_slug=page.slug,
+                    parent_slug='/' + page.parent.slug if page.parent else '',
                     string=entry_string)
 
 
