@@ -109,16 +109,6 @@ def test_youtube_embed_url_subtitle_querystring(mock_gettext):
     mock_gettext.assert_called_with('en-youtube-id')
 
 
-@override_settings(LANGUAGE_NAMES={'en': 'English'})
-@patch('masterfirefoxos.base.utils._')
-def test_youtube_embed_url_invalid_language(mock_gettext):
-    mock_gettext.return_value = 'en-youtube-id'
-    request = RequestFactory().get('/xx/introduction/')
-    expected = 'https://www.youtube.com/embed/en-youtube-id'
-    assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
-    mock_gettext.assert_called_with('en-youtube-id')
-
-
 @patch('masterfirefoxos.base.utils._')
 def test_youtube_embed_url_en(mock_gettext):
     mock_gettext.return_value = 'en-youtube-id'
