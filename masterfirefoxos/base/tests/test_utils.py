@@ -1,5 +1,7 @@
 from unittest.mock import Mock, patch
 
+from django.test import override_settings, RequestFactory
+
 from feincms.module.page.models import Page
 
 from .. import models
@@ -85,3 +87,32 @@ def test_copy_content_and_children(mock_copy_page_with_parent):
     assert utils.copy_content_and_children(page, new_page) == new_page
     new_page.copy_content_from.assert_called_with(page)
     mock_copy_page_with_parent.assert_called_with('child', new_page)
+
+
+@patch('masterfirefoxos.base.utils._')
+def test_youtube_embed_url_translated_id(mock_gettext):
+    mock_gettext.return_value = 'xx-youtube-id'
+    request = RequestFactory().get('/xx/introduction/')
+    expected = 'https://www.youtube.com/embed/xx-youtube-id'
+    assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
+    mock_gettext.assert_called_with('en-youtube-id')
+
+
+@override_settings(LANGUAGE_NAMES={'xx': 'Pirate'})
+@patch('masterfirefoxos.base.utils._')
+def test_youtube_embed_url_subtitle_querystring(mock_gettext):
+    mock_gettext.return_value = 'en-youtube-id'
+    request = RequestFactory().get('/xx/introduction/')
+    expected = ('https://www.youtube.com/embed/en-youtube-id' +
+                '?hl=xx&cc_lang_pref=xx&cc_load_policy=1')
+    assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
+    mock_gettext.assert_called_with('en-youtube-id')
+
+
+@patch('masterfirefoxos.base.utils._')
+def test_youtube_embed_url_en(mock_gettext):
+    mock_gettext.return_value = 'en-youtube-id'
+    request = RequestFactory().get('/en/introduction/')
+    expected = 'https://www.youtube.com/embed/en-youtube-id'
+    assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
+    mock_gettext.assert_called_with('en-youtube-id')
