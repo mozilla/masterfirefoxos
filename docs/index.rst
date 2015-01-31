@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   authoring_content
    internationalization
    gulp
    importing_legacy_data
