@@ -147,7 +147,7 @@ class QuizQuestion(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'quizquestion.html', {'question': self})
+            'includes/quizquestion.html', {'question': self})
 
 
 class QuizAnswer(models.Model):
@@ -160,7 +160,7 @@ class QuizAnswer(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'quizanswer.html', {'answer': self})
+            'includes/quizanswer.html', {'answer': self})
 
 
 Page.create_content_type(RichTextEntry)
