@@ -232,3 +232,5 @@ def media_files_unique_path(instance, filename):
 
 
 FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
+
+THUMBNAIL_PRESERVE_FORMAT = True
