@@ -28,6 +28,7 @@
 
     {% block google_analytics %}
     {% endblock %}
+
   </head>
   <body id="{% block body_id %}{% endblock %}" class="no-js {% block body_class %}{% endblock %}">
     <div id="outer-wrapper">
@@ -117,5 +118,9 @@
       <script src="{{ static('js/libs/jquery-2.1.0.min.js') }}"></script>
       <!--<![endif]-->
     {% endblock %}
+    {% if include_pontoon(request) %}
+      <script src="https://pontoon.mozilla.org/pontoon.js"></script>
+    {% endif %}
+
   </body>
 </html>

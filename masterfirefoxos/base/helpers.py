@@ -62,3 +62,8 @@ def get_image_url(img, geometry=None, locale=None):
     # AWS S3 urls contain AWS_ACCESS_KEY_ID, Expiration and other
     # params. We don't need them.
     return url.split('?')[0]
+
+
+@register.function
+def include_pontoon(request):
+    return request.get_host() == getattr(settings, 'LOCALIZATION_HOST', None)
