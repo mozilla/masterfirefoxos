@@ -7,7 +7,12 @@
       paste_auto_cleanup_on_paste: false,
       relative_urls: false,
       invalid_elements: 'script',
-      toolbar: "undo redo | styleselect | bold italic underline | bullist numlist | link",
+      plugins: [
+        "code"
+      ],
+
+      toolbar: "undo redo | styleselect | bold italic underline | bullist numlist | link | code",
+
       statusbar: false,
       menubar : false,
       style_formats: [
