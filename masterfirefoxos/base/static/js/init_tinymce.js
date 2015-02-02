@@ -8,11 +8,9 @@
       relative_urls: false,
       invalid_elements: 'script',
       plugins: [
-        "code"
+        "code", "link"
       ],
-
       toolbar: "undo redo | styleselect | bold italic underline | bullist numlist | link | code",
-
       statusbar: false,
       menubar : false,
       style_formats: [
