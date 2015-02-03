@@ -37,11 +37,14 @@ admin.site.register(Page, PageAdmin)
 
 class MediaFileAdmin(MediaFileAdminOld):
     inlines = []
-    list_display = ['admin_thumbnail', '__str__', 'formatted_created']
+    list_display = ['admin_thumbnail', '__str__', 'list_categories', 'formatted_created']
 
     fieldsets = (
         (None, {'fields': ('file', 'categories')}),
     )
+
+    def list_categories(self, obj):
+        return ', '.join([category.title for category in obj.categories.all()])
 
 
 admin.site.unregister(MediaFile)
