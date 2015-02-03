@@ -67,7 +67,7 @@ class CustomMediaFileTypeChoiceField(ModelChoiceField):
 
 class MediaFileInline(FeinCMSInline):
     def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if db_field.name == 'image':
+        if isinstance(db_field, MediaFileForeignKey):
             return CustomMediaFileTypeChoiceField(
                 MediaFile.objects.filter(type='image', categories__title='en'), **kwargs)
         return super(MediaFileInline, self).formfield_for_foreignkey(db_field, request, **kwargs)
@@ -131,6 +131,7 @@ class RichTextEntry(models.Model):
 
 
 class QuizQuestion(models.Model):
+    feincms_item_editor_inline = MediaFileInline
     image = MediaFileForeignKey(
         MediaFile,
         limit_choices_to=models.Q(type='image', categories__title='en'),
