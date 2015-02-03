@@ -1,7 +1,11 @@
 from unittest.mock import patch
 
+from django.conf import settings
+from django.test import RequestFactory
+from django.test.utils import override_settings
+
 from . import MediaFileFactory, ImageFieldFactory
-from ..helpers import get_image_url
+from ..helpers import get_image_url, include_pontoon
 
 
 def test_get_image_url_base():
@@ -32,3 +36,25 @@ def test_get_image_url_localized_file_exists():
         MediaFileMock.objects.filter().first.return_value = localized_media_file
         url = get_image_url(media_file)
     assert url == 'localized_url'
+
+
+@override_settings(LOCALIZATION_HOST='foo.example.com')
+def test_include_pontoon_valid_host():
+    request = RequestFactory().get('/')
+    request.get_host = lambda: 'foo.example.com'
+    assert include_pontoon(request)
+
+
+@override_settings(LOCALIZATION_HOST='bar.example.com')
+def test_include_pontoon_invalid_host():
+    request = RequestFactory().get('/')
+    request.get_host = lambda: 'foo.example.com'
+    assert not include_pontoon(request)
+
+
+@override_settings()
+def test_include_pontoon_no_setting():
+    del settings.LOCALIZATION_HOST
+    request = RequestFactory().get('/')
+    request.get_host = lambda: 'foo.example.com'
+    assert not include_pontoon(request)

@@ -72,7 +72,6 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'csp.middleware.CSPMiddleware',
     'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
 )
@@ -124,7 +123,9 @@ TEMPLATE_LOADERS = (
 CSP_DEFAULT_SRC = (
     "'self'",
     "https://*.youtube.com",
-    "http://*.youtube.com"
+    "http://*.youtube.com",
+    'https://pontoon.mozilla.org',
+    'https://pontoon-dev.allizom.org',
 )
 CSP_FONT_SRC = (
     "'self'",
@@ -137,6 +138,8 @@ CSP_IMG_SRC = (
     'https://*.mozilla.net',
     'https://masterfirefoxos-dev.s3.amazonaws.com',
     'https://masterfirefoxos-prod.s3.amazonaws.com',
+    'https://pontoon.mozilla.org',
+    'https://pontoon-dev.allizom.org',
 )
 CSP_SCRIPT_SRC = (
     "'self'",
@@ -144,6 +147,8 @@ CSP_SCRIPT_SRC = (
     'https://www.mozilla.org',
     'http://*.mozilla.net',
     'https://*.mozilla.net',
+    'https://pontoon.mozilla.org',
+    'https://pontoon-dev.allizom.org',
 )
 CSP_STYLE_SRC = (
     "'self'",
@@ -152,6 +157,8 @@ CSP_STYLE_SRC = (
     'https://www.mozilla.org',
     'http://*.mozilla.net',
     'https://*.mozilla.net',
+    'https://pontoon.mozilla.org',
+    'https://pontoon-dev.allizom.org',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -233,4 +240,7 @@ def media_files_unique_path(instance, filename):
 
 FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
 
+
 THUMBNAIL_PRESERVE_FORMAT = True
+
+LOCALIZATION_HOST = config('LOCALIZATION_HOST', default=None)
