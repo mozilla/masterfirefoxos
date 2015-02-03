@@ -4,7 +4,7 @@
 </div>
 {% endif %}
 
-<div class="quiz-question">{{ _(question.question) }}</div>
-<div class="correct-feedback" style="display: none;">{{ _(question.correct_feedback) }}</div>
-<div class="incorrect-feedback" style="display: none;">{{ _(question.incorrect_feedback) }}</div>
-<div class="partly-correct-feedback" style="display: none;">{{ _(question.partly_correct_feedback) }}</div>
+<div class="quiz-question">{{ _(question.question) | safe }}</div>
+<div class="correct-feedback" style="display: none;">{{ _(question.correct_feedback) | safe }}</div>
+<div class="incorrect-feedback" style="display: none;">{{ _(question.incorrect_feedback) | safe }}</div>
+<div class="partly-correct-feedback" style="display: none;">{{ _(question.partly_correct_feedback) | safe }}</div>
