@@ -44,10 +44,7 @@
     <div class="home-entry">
       <h2>{{ child.title }}</h2>
 
-        {% set text=child.richtextentry_set.first() %}
-        {% if text %}
-          {{ text.render()|safe }}
-        {% endif %}
+      {{ render_region(child, "homepage", request) }}
 
       <p class="link"><a href="{{ child.get_absolute_url() }}" class="button-hollow">{{ _('Learn more') }}</a></p>
     </div>

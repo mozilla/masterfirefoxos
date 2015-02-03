@@ -25,6 +25,7 @@ Page.register_templates(
         'path': 'content.html',
         'regions': (
             ('main', 'Main content area'),
+            ('homepage', 'Homepage navigation'),
         ),
     },
     {
