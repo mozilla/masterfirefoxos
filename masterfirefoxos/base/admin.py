@@ -1,6 +1,9 @@
 from django.contrib import admin, messages
+from django.forms import ValidationError
 
 from feincms.module.medialibrary.admin import MediaFileAdmin as MediaFileAdminOld
+from feincms.module.medialibrary.forms import MediaFileAdminForm as MediaFileAdminFormOld
+
 from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.admin import PageAdmin as PageAdminOld
 from feincms.module.page.models import Page
@@ -35,7 +38,18 @@ admin.site.unregister(Page)
 admin.site.register(Page, PageAdmin)
 
 
+class MediaFileAdminForm(MediaFileAdminFormOld):
+    def clean(self, *args, **kwargs):
+        cleaned_data = super(MediaFileAdminForm, self).clean(*args, **kwargs)
+
+        if not cleaned_data.get('categories'):
+            raise ValidationError('You must select at least one category.')
+
+        return cleaned_data
+
+
 class MediaFileAdmin(MediaFileAdminOld):
+    form = MediaFileAdminForm
     inlines = []
     list_display = ['admin_thumbnail', '__str__', 'list_categories', 'formatted_created']
 
