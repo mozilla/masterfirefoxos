@@ -18,12 +18,12 @@ virtualenv $TDIR
 pip install deis==1.1.1
 pip install fig
 
-rm -rf locale db-strings.txt
+rm -rf locale db-strings.txt run-output
 git clone $LOCALE_REPOSITORY locale
 
 deis login $DEIS_CONTROLLER --username $DEIS_USERNAME --password $DEIS_PASSWORD
-deis run -a $DEIS_APP -- "./manage.py runscript db_strings && cat db-strings.txt" > db-strings.txt
-
+deis run -a $DEIS_APP -- "./manage.py runscript db_strings && echo CUTHERE && uuencode db-strings.txt -" > run-output
+awk '{if (nowprint) {print;}}/CUTHERE/ {nowprint = 1}' run-output | uudecode > db-strings.txt
 fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web ./manage.py makemessages -a --keep-pot
 fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web chmod a+wx -R locale
 

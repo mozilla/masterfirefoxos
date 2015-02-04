@@ -1,6 +1,6 @@
 FROM python:3.4-wheezy
 RUN apt-get update &&\
-    apt-get install -y --no-install-recommends libpq-dev gettext libjpeg8-dev postgresql-client &&\
+    apt-get install -y --no-install-recommends libpq-dev gettext libjpeg8-dev postgresql-client sharutils &&\
     apt-get remove mysql-common -y && apt-get autoremove -y &&\
     apt-get upgrade -y
 
