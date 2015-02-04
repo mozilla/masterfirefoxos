@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ LANG }}" dir="{{ DIR }}" class="{{ LANG }} {{ DIR }}" data-ga-code="GA_ACCOUNT_CODE">
+<html lang="{{ LANG }}" dir="{{ DIR }}" class="no-js" data-ga-code="GA_ACCOUNT_CODE">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0">
@@ -30,7 +30,7 @@
     {% endblock %}
 
   </head>
-  <body id="{% block body_id %}{% endblock %}" class="no-js {% block body_class %}{% endblock %}">
+  <body id="{% block body_id %}{% endblock %}" class="{% block body_class %}{% endblock %}">
     <div id="outer-wrapper">
     {% block site_header %}
       <header class="masthead" role="banner">
@@ -60,6 +60,7 @@
         <div class="contain">
         {% block nav_content %}
           <nav class="nav-main aside">
+            <a href="#" class="menu-icon">{{ _('Menu') }}</a>
             <ul>
             {% for child in feincms_page.get_root().get_children().filter(active=True, in_navigation=True) %}
               <li><a href="{{ child.get_absolute_url() }}">{{ _(child.title) }}</a></li>
@@ -77,14 +78,12 @@
           <div class="contain">
 
             <div class="footer-logo">
-            {{ _('Mozilla') }}
+              <a href="https://www.mozilla.org/"><img src="{{ static('img/footer-mozilla.png') }}" alt="{{ _('Mozilla') }}"></a>
             </div>
 
             <div class="footer-license">
                 <p>
-                  Portions of this content are ©1998–{{ current_year() }} by individual
-                  mozilla.org contributors. Content available under
-                  a <a href="#TODO">Creative Commons license</a>.
+                {{ _('Portions of this content are ©1998–{0} by individual contributors. Content available under a <a href="https://www.mozilla.org/foundation/licensing/website-content/">Creative Commons license</a>.') | f(current_year()) | safe }}
                 </p>
                 <p>
                   <a href="https://github.com/mozilla/masterfirefoxos">{{ _('Source code') }}</a>
@@ -114,9 +113,7 @@
     </div>{# end outer-wrapper #}
 
     {% block site_js %}
-      <!--[if !lte IE 8]><!-->
-      <script src="{{ static('js/libs/jquery-2.1.0.min.js') }}"></script>
-      <!--<![endif]-->
+      <script type="text/javascript" src="{{ static('js/main.js') }}"></script>
     {% endblock %}
     {% if include_pontoon(request) %}
       <script src="https://pontoon.mozilla.org/pontoon.js"></script>
