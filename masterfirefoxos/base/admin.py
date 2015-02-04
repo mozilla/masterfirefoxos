@@ -23,7 +23,9 @@ class PageAdminForm(PageAdminFormOld):
 class PageAdmin(PageAdminOld):
     save_on_top = True
     actions = ['copy_tree_admin_action']
-    list_display = ['short_title', 'slug', 'is_visible_admin', 'template']
+    list_editable = ['in_navigation']
+    list_display = ['short_title', 'slug', 'is_visible_admin', 'in_navigation',
+                    'template']
     form = PageAdminForm
 
     def copy_tree_admin_action(self, request, queryset):
