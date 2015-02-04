@@ -61,7 +61,7 @@
         {% block nav_content %}
           <nav class="nav-main aside">
             <ul>
-            {% for child in feincms_page.get_root().get_children() %}
+            {% for child in feincms_page.get_root().get_children().filter(active=True, in_navigation=True) %}
               <li><a href="{{ child.get_absolute_url() }}">{{ _(child.title) }}</a></li>
             {% endfor %}
             </ul>

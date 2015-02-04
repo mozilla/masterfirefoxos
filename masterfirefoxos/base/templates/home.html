@@ -40,7 +40,7 @@
 {% block content %}
   <main class="content-main" class="main">
 
-  {% for child in feincms_page.get_children() %}
+  {% for child in feincms_page.get_children().filter(active=True, in_navigation=True) %}
     <div class="home-entry">
       <h2>{{ child.title }}</h2>
 
