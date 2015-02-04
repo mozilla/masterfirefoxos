@@ -10,5 +10,9 @@ Homepage
 
 Each version of FFOS supported on the site will have a unique HP.
 
-.. note::  Flush out this documentation once skinning is farther along. Currently each content section pulls from the first content type of the page. That may not work quite right.
+The majority of the content for the HP comes from the pages that live beneath it in the tree.
+
+The homepage takes the title and the **homepage navigation** copy for each page.
+
+.. image:: images/hp-blob.png
 
