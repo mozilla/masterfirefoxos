@@ -70,7 +70,8 @@ class MediaFileInline(FeinCMSInline):
     def formfield_for_foreignkey(self, db_field, request, **kwargs):
         if isinstance(db_field, MediaFileForeignKey):
             return CustomMediaFileTypeChoiceField(
-                MediaFile.objects.filter(type='image', categories__title='en'), **kwargs)
+                MediaFile.objects.filter(type='image', categories__title='en'),
+                required=not db_field.blank, **kwargs)
         return super(MediaFileInline, self).formfield_for_foreignkey(db_field, request, **kwargs)
 
 
