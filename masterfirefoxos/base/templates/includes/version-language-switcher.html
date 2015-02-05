@@ -18,7 +18,7 @@
       <option value="{{ data['slug'] }}"{% if version == active_version(request) %} selected="true"{% endif %}>{{ version }}</option>
     {% endfor %}
     </select>
-    <a href="#TODO">{{ _('Which version do I have?') }}</a>
+    <a href="{{ feincms_page.get_root().get_absolute_url() }}which-version">{{ _('Which version do I have?') }}</a>
   </p>
   <button type="submit">{{ _('Change') }}</button>
 </form>
