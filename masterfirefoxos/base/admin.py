@@ -7,17 +7,8 @@ from feincms.module.medialibrary.forms import MediaFileAdminForm as MediaFileAdm
 from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.admin import PageAdmin as PageAdminOld
 from feincms.module.page.models import Page
-from feincms.module.page.forms import PageAdminForm as PageAdminFormOld
 
 from .utils import copy_tree
-
-
-class PageAdminForm(PageAdminFormOld):
-    class Media:
-        js = [
-            '//tinymce.cachefly.net/4.1/tinymce.min.js',
-            'js/init_tinymce.js'
-        ]
 
 
 class PageAdmin(PageAdminOld):
@@ -26,7 +17,6 @@ class PageAdmin(PageAdminOld):
     list_editable = ['in_navigation']
     list_display = ['short_title', 'slug', 'is_visible_admin', 'in_navigation',
                     'template']
-    form = PageAdminForm
 
     def copy_tree_admin_action(self, request, queryset):
         if len(queryset) != 1:
