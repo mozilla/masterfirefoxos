@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 from collections import OrderedDict
 
-from django.utils.translation import ugettext_lazy
+from django.utils.translation import ugettext_lazy as _
 
 import dj_database_url
 from decouple import Csv, config
@@ -178,21 +178,22 @@ LOCALE_PATHS = (
 )
 
 LANGUAGES = (
-    ('bn', ugettext_lazy('Bengali')),
-    ('hr', ugettext_lazy('Croatian')),
-    ('cs', ugettext_lazy('Czech')),
-    ('en', ugettext_lazy('English')),
-    ('de', ugettext_lazy('German')),
-    ('el', ugettext_lazy('Greek')),
-    ('hi', ugettext_lazy('Hindi')),
-    ('hu', ugettext_lazy('Hungarian')),
-    ('it', ugettext_lazy('Italian')),
-    ('pl', ugettext_lazy('Polish')),
-    ('pt', ugettext_lazy('Portuguese')),
-    ('sr', ugettext_lazy('Serbian')),
-    ('es', ugettext_lazy('Spanish')),
-    ('ta', ugettext_lazy('Tamil')),
-    ('xx', ugettext_lazy('Pirate')),
+    ('bn', _('Bengali')),
+    ('hr', _('Croatian')),
+    ('cs', _('Czech')),
+    ('en', _('English')),
+    ('de', _('German')),
+    ('el', _('Greek')),
+    ('hi', _('Hindi')),
+    ('hu', _('Hungarian')),
+    ('it', _('Italian')),
+    ('ja', _('Japanese')),
+    ('pl', _('Polish')),
+    ('pt', _('Portuguese')),
+    ('sr', _('Serbian')),
+    ('es', _('Spanish')),
+    ('ta', _('Tamil')),
+    ('xx', _('Pirate')),
 )
 LANGUAGE_NAMES = dict(LANGUAGES)
 
@@ -205,6 +206,9 @@ VERSIONS_LOCALE_MAP['1.1'] = {
 VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en', 'hi', 'ta']}
+VERSIONS_LOCALE_MAP['2.0'] = {
+    'slug': '2-0',
+    'locales': ['en', 'de', 'ja']}
 
 LOCALE_LATEST_VERSION = {}
 for name, version in VERSIONS_LOCALE_MAP.items():
