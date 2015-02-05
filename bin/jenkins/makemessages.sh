@@ -22,8 +22,8 @@ rm -rf locale db-strings.txt run-output
 git clone $LOCALE_REPOSITORY locale
 
 deis login $DEIS_CONTROLLER --username $DEIS_USERNAME --password $DEIS_PASSWORD
-deis run -a $DEIS_APP -- "./manage.py runscript db_strings && echo CUTHERE && uuencode db-strings.txt -" > run-output
-awk '{if (nowprint) {print;}}/CUTHERE/ {nowprint = 1}' run-output | uudecode > db-strings.txt
+deis run -a $DEIS_APP -- "./manage.py runscript db_strings && echo CUTHERE && cat db-strings.txt | gzip -9 | uuencode -" > run-output
+awk '{if (nowprint) {print;}}/CUTHERE/ {nowprint = 1}' run-output | uudecode | gunzip > db-strings.txt
 fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web ./manage.py makemessages -a --keep-pot
 fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web chmod a+wx -R locale
 
