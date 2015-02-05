@@ -1,23 +1,19 @@
-import os
-
 from django.db import models
-from django.forms import ModelChoiceField
 from django.template.loader import render_to_string
 from django.utils import translation
 from django.utils.translation import ugettext as _
 
 import jingo
 from jinja2 import Markup
-from feincms.admin.item_editor import FeinCMSInline
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.models import Page
 
+from .forms import FeinCMSInline, MediaFileInline
 from .utils import youtube_embed_url
 
 
 jingo.env.install_gettext_translations(translation)
-
 
 Page.register_templates(
     {
@@ -39,6 +35,7 @@ Page.register_templates(
 
 
 class YouTubeParagraphEntry(models.Model):
+    feincms_item_editor_inline = FeinCMSInline
     title = models.CharField(max_length=255)
     text = models.TextField()
     youtube_id = models.CharField(max_length=100)
@@ -57,22 +54,6 @@ class YouTubeParagraphEntry(models.Model):
                     kwargs.get('request'), self.youtube_id)
             }
         )
-
-
-class CustomMediaFileTypeChoiceField(ModelChoiceField):
-    def label_from_instance(self, obj):
-        basename = os.path.basename(obj.file.name)
-        basename = basename.rsplit('.')[0]
-        return basename
-
-
-class MediaFileInline(FeinCMSInline):
-    def formfield_for_foreignkey(self, db_field, request, **kwargs):
-        if isinstance(db_field, MediaFileForeignKey):
-            return CustomMediaFileTypeChoiceField(
-                MediaFile.objects.filter(type='image', categories__title='en'),
-                required=not db_field.blank, **kwargs)
-        return super(MediaFileInline, self).formfield_for_foreignkey(db_field, request, **kwargs)
 
 
 class ImageParagraphEntry(models.Model):
@@ -99,6 +80,7 @@ class ImageParagraphEntry(models.Model):
 
 
 class FAQEntry(models.Model):
+    feincms_item_editor_inline = FeinCMSInline
     question = models.CharField(max_length=255)
     answer = models.TextField()
     _l10n_fields = ['question', 'answer']
@@ -117,6 +99,7 @@ class FAQEntry(models.Model):
 
 
 class RichTextEntry(models.Model):
+    feincms_item_editor_inline = FeinCMSInline
     text = models.TextField()
     _l10n_fields = ['text']
 
@@ -154,6 +137,7 @@ class QuizQuestion(models.Model):
 
 
 class QuizAnswer(models.Model):
+    feincms_item_editor_inline = FeinCMSInline
     answer = models.TextField()
     correct = models.BooleanField(default=False)
     _l10n_fields = ['answer']

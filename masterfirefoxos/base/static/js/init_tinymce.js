@@ -48,20 +48,13 @@
         }
       ]
     });
-    contentblock_init_handlers.push(richtext_init_fn);
-  });
+    // contentblock_init_handlers.push(richtext_init_fn);
 
-  var richtext_init_fn = function(){
-    $('.order-machine textarea').each(function(){
-      add_tinymce(this);
+    django.jQuery('.activate-tinymce').on('click', function(event) {
+      event.preventDefault();
+      var textfield = django.jQuery(this).siblings()[1]
+      tinyMCE.execCommand('mceAddEditor', false, textfield.id);
+      django.jQuery(this).remove()
     });
-  }
-
-  function add_tinymce(field) {
-    var id = field ? field.id : this.id;
-    if(!tinymce_added[id]) {
-      tinyMCE.execCommand('mceAddEditor', false, id);
-      tinymce_added[id] = true;
-    }
-  }
+  });
 })();
