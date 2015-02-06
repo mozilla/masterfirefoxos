@@ -206,6 +206,9 @@ VERSIONS_LOCALE_MAP['1.1'] = {
 VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en', 'hi', 'ta']}
+VERSIONS_LOCALE_MAP['1.4'] = {
+    'slug': '1-4',
+    'locales': ['en', 'bn']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': ['en', 'de', 'ja']}
