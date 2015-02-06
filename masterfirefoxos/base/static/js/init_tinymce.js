@@ -7,6 +7,8 @@
       paste_auto_cleanup_on_paste: false,
       relative_urls: false,
       invalid_elements: 'script',
+      entity_encoding : "raw",
+      extended_valid_elements : "-p",
       plugins: [
         "code", "link"
       ],
