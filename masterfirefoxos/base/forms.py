@@ -1,12 +1,14 @@
 import os
 
 from django.db import models
-from django.forms import ModelChoiceField, Textarea
+from django.forms import CharField, ModelChoiceField, Textarea
 from django.utils.safestring import mark_safe
 
 from feincms.admin.item_editor import FeinCMSInline as FeinCMSInlineOld
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
+
+from .utils import unmangle
 
 
 class CustomMediaFileTypeChoiceField(ModelChoiceField):
@@ -30,9 +32,18 @@ class TinyMCETextArea(Textarea):
         ]
 
 
+class Rodenticide(CharField):
+    """
+    Undo the text mangling done by TinyMCE
+    """
+    def to_python(self, value):
+        return unmangle(super(Rodenticide, self).to_python(value))
+
+
 class FeinCMSInline(FeinCMSInlineOld):
     formfield_overrides = {
-        models.TextField: {'widget': TinyMCETextArea},
+        models.TextField: {
+            'form_class': Rodenticide, 'widget': TinyMCETextArea},
     }
 
 

@@ -1,6 +1,7 @@
 from datetime import datetime
 from itertools import chain
 
+from django.db.models.fields import TextField
 from django.utils.translation import ugettext as _
 
 from feincms.module.page.models import Page
@@ -74,3 +75,27 @@ def youtube_embed_url(request, en_youtube_id):
         lang = request.path.split('/')[1]  # validity ensured by middleware
         return embed + youtube_id + query_template.format(lang=lang)
     return embed + youtube_id
+
+
+def unmangle(text):
+    return text.replace(
+        '\r\n', ' ').replace(
+        '&rsquo;', '’').replace(
+        '&ldquo;', '“').replace(
+        '&rdquo;', '”').replace(
+        '&mdash;', '—').replace(
+        '<br />', '<br>').replace(
+        '<p>&nbsp;</p>', '')
+
+
+def unmangle_pages(pages=None):
+    for page in pages or Page.objects.all():
+        for content_type in page._feincms_content_types:
+            for entry in page.content.all_of_type(content_type):
+                for field in entry._meta.fields:
+                    if isinstance(field, TextField):
+                        text = getattr(entry, field.name)
+                        unmangled = unmangle(text)
+                        if text != unmangled:
+                            setattr(entry, field.name, unmangled)
+                            entry.save(update_fields=[field.name])
