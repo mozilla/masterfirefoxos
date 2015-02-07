@@ -2,4 +2,6 @@
 source = masterfirefoxos
 
 [report]
-omit = */migrations/*
+omit =
+     */migrate/*
+     */test_acceptance.py
