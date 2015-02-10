@@ -1,4 +1,7 @@
 #!/bin/bash
+#
+# Runs unit_tests
+#
 set -ex
 
 # Create a temporary virtualenv to install fig
