@@ -43,7 +43,8 @@ class Rodenticide(CharField):
 class FeinCMSInline(FeinCMSInlineOld):
     formfield_overrides = {
         models.TextField: {
-            'form_class': Rodenticide, 'widget': TinyMCETextArea},
+            'form_class': Rodenticide,
+            }
     }
 
 
