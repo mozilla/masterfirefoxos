@@ -37,6 +37,8 @@ Page.register_templates(
 class YouTubeParagraphEntry(models.Model):
     feincms_item_editor_inline = FeinCMSInline
     title = models.CharField(max_length=255)
+    subheader_2 = models.CharField(max_length=255, blank=True)
+    subheader_3 = models.CharField(max_length=255, blank=True)
     text = models.TextField()
     youtube_id = models.CharField(max_length=100)
     _l10n_fields = ['title', 'text', 'youtube_id']
@@ -49,6 +51,8 @@ class YouTubeParagraphEntry(models.Model):
             'includes/videoparagraph.html',
             {
                 'title': _(self.title),
+                'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
+                'subheader_3': _(self.subheader_3) if self.subheader_3 else '',
                 'text': Markup(_(self.text)),
                 'video': youtube_embed_url(
                     kwargs.get('request'), self.youtube_id)
@@ -61,6 +65,8 @@ class ImageParagraphEntry(models.Model):
     image = MediaFileForeignKey(MediaFile)
     alt = models.CharField(max_length=255, blank=True, default='')
     title = models.CharField(max_length=255)
+    subheader_2 = models.CharField(max_length=255, blank=True)
+    subheader_3 = models.CharField(max_length=255, blank=True)
     text = models.TextField()
     _l10n_fields = ['alt', 'title', 'text']
 
@@ -74,6 +80,8 @@ class ImageParagraphEntry(models.Model):
                 'alt': _(self.alt) if self.alt else '',
                 'title': _(self.title),
                 'text': Markup(_(self.text)),
+                'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
+                'subheader_3': _(self.subheader_3) if self.subheader_3 else '',
                 'image': self.image,
             }
         )

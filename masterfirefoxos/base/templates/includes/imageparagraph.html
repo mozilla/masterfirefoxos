@@ -1,5 +1,13 @@
 <div class="media media-image">
   <img src="{{ get_image_url(image, '220') }}" alt="{{ alt }}">
-  <h3 class="media-title">{{ title }}</h3>
-  {{ text }}
+  <h1>{{ title }}</h1>
+  {% if subheader_2 %}
+    <h2>{{ subheader_2 }}</h2>
+  {% endif %}
+  {% if subheader_3 %}
+    <h3>{{ subheader_3 }}</h3>
+  {% endif %}
+  <p>
+    {{ text }}
+  </p>
 </div>
