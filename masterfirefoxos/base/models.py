@@ -39,7 +39,7 @@ class YouTubeParagraphEntry(models.Model):
     title = models.CharField(max_length=255)
     subheader_2 = models.CharField(max_length=255, blank=True)
     subheader_3 = models.CharField(max_length=255, blank=True)
-    text = models.TextField()
+    text = models.TextField(help_text='HTML is allowed.')
     youtube_id = models.CharField(max_length=100)
     _l10n_fields = ['title', 'text', 'youtube_id']
 
@@ -67,7 +67,7 @@ class ImageParagraphEntry(models.Model):
     title = models.CharField(max_length=255)
     subheader_2 = models.CharField(max_length=255, blank=True)
     subheader_3 = models.CharField(max_length=255, blank=True)
-    text = models.TextField()
+    text = models.TextField(help_text='HTML is allowed.')
     _l10n_fields = ['alt', 'title', 'text']
 
     class Meta:
@@ -90,7 +90,7 @@ class ImageParagraphEntry(models.Model):
 class FAQEntry(models.Model):
     feincms_item_editor_inline = FeinCMSInline
     question = models.CharField(max_length=255)
-    answer = models.TextField()
+    answer = models.TextField(help_text='HTML is allowed.')
     _l10n_fields = ['question', 'answer']
 
     class Meta:
@@ -108,7 +108,10 @@ class FAQEntry(models.Model):
 
 class RichTextEntry(models.Model):
     feincms_item_editor_inline = FeinCMSInline
-    text = models.TextField()
+    title = models.CharField(max_length=255, blank=True)
+    subheader_2 = models.CharField(max_length=255, blank=True)
+    subheader_3 = models.CharField(max_length=255, blank=True)
+    text = models.TextField(help_text='HTML is allowed.')
     _l10n_fields = ['text']
 
     class Meta:
@@ -116,9 +119,12 @@ class RichTextEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/richtext.html',
+            'includes/textentry.html',
             {
-                'html': Markup(_(self.text)),
+                'title': _(self.title) if self.subheader_2 else '',
+                'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
+                'subheader_3': _(self.subheader_3) if self.subheader_3 else '',
+                'text': Markup(_(self.text)),
             }
         )
 
@@ -129,10 +135,10 @@ class QuizQuestion(models.Model):
         MediaFile,
         limit_choices_to=models.Q(type='image', categories__title='en'),
         blank=True, null=True)
-    question = models.TextField()
-    correct_feedback = models.TextField()
-    incorrect_feedback = models.TextField()
-    partly_correct_feedback = models.TextField()
+    question = models.TextField(help_text='HTML is allowed.')
+    correct_feedback = models.TextField(help_text='HTML is allowed.')
+    incorrect_feedback = models.TextField(help_text='HTML is allowed.')
+    partly_correct_feedback = models.TextField(help_text='HTML is allowed.')
     _l10n_fields = ['question', 'correct_feedback', 'incorrect_feedback',
                     'partly_correct_feedback']
 
@@ -146,7 +152,7 @@ class QuizQuestion(models.Model):
 
 class QuizAnswer(models.Model):
     feincms_item_editor_inline = FeinCMSInline
-    answer = models.TextField()
+    answer = models.TextField(help_text='HTML is allowed.')
     correct = models.BooleanField(default=False)
     _l10n_fields = ['answer']
 
