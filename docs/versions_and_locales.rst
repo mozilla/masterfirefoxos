@@ -1,11 +1,46 @@
-Internationalization
-====================
+Documentation Versions and Languages
+====================================
 
-Adding new languages
---------------------
+Adding new Versions of the Documentation
+----------------------------------------
 
-To add more languages to masterfirefoxos you need to append a tuple
-with locale code and locale name in
+To add more Versions of MasterFirefoxOS Documentation you need to create
+the corresponding CMS pages and edit settings. For example to add
+version 2.0 based on version 1.3T::
+
+1. Go to /admin/page/page
+2. Select the root page of version 1.3T
+3. Select `Copy tree` from `Action` drop-down and click `Go`.
+
+.. image:: images/copy-tree.png
+
+Step three will copy all pages of version 1.3T into a new tree
+
+.. image:: images/copy-tree-done.png
+
+4. Edit the copied root page and set `title` to `Master Firefox OS`
+   and `slug` to `2-0`.
+
+   .. note::
+
+      For slug use dashes instead of dots.
+
+5. Add in `masterfirefoxos.settings.base`::
+
+     VERSIONS_LOCALE_MAP['2.0'] = {
+       'slug': '2-0',
+       'locales': [
+     ]}
+
+And you're done. Edit the content and once you're ready activate
+locales for translation. Read `Managing the Versions of Documentation
+per locale`_.
+
+
+Adding new locales
+------------------
+
+To add more locales append a tuple with locale code and locale name in
 `masterfirefox.settings.base.LANGUAGES`. For example to add German
 change `LANGUAGES` to::
 
@@ -27,6 +62,46 @@ Then you need to generate messages for the first time for the added locale::
    locales.
 
 
+Managing the Versions of Documentation per locale
+------------------------------------------------
+
+A locale gets activated once it gets linked with a Version of the
+Documentation. For example to link locale `foo` with version `1.1` edit
+`masterfirefoxos.settings.base.VERSIONS_LOCALE_MAP`::
+
+  VERSIONS_LOCALE_MAP['1.1'] = {
+    'slug': '1-1',
+    'locales': [
+        'en', 'foo'
+    ]}
+
+.. note::
+
+   If you need to add a new version, read the `Adding new Versions of
+   the Documentation`_.
+
+.. note::
+
+   Check if the locale is also in the `pending_locales` list and
+   remove it.
+
+If locale `foo` is still work in progress (e.g. translations are not
+complete yet) instead of appending the `locales` list, add it to
+`pending_locales` list::
+
+  VERSIONS_LOCALE_MAP['1.1'] = {
+    'slug': '1-1',
+    'locales': [
+        'en'
+    ],
+    'pending_locales': [
+        'foo'
+    ]}
+
+This will ensure that localization strings get generated but it will
+not display on the site.
+
+
 Extracting strings
 ------------------
 
@@ -36,7 +111,7 @@ MasterFirefoxOS stores strings for localization in three different places:
   * HTML files (.html)
   * In the database
 
-Python and HTML files are automatically handled by django's
+Python and HTML files are automatically handled by Django's
 `makemessages` command. The database strings must first get extracted
 into a text file be parsable by `makemessages` command. To extract the
 database strings run::
@@ -62,6 +137,12 @@ run::
 
 
 Now you can distributed your `.po` files to the translators.
+
+The generated po files contain strings for all versions of the CMS
+content. The final step is to keep only the strings from the versions
+of the CMS content activated per locale::
+
+  ./manage.py runscript cleanup_po
 
 
 Compile strings

@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
 
    authoring_content
-   internationalization
+   versions_and_locales
    gulp
    importing_legacy_data
 
