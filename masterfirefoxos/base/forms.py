@@ -1,10 +1,9 @@
 import os
 
-from django.db import models
 from django.forms import CharField, ModelChoiceField, Textarea
 from django.utils.safestring import mark_safe
 
-from feincms.admin.item_editor import FeinCMSInline as FeinCMSInlineOld
+from feincms.admin.item_editor import FeinCMSInline
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
 
@@ -38,14 +37,6 @@ class Rodenticide(CharField):
     """
     def to_python(self, value):
         return unmangle(super(Rodenticide, self).to_python(value))
-
-
-class FeinCMSInline(FeinCMSInlineOld):
-    formfield_overrides = {
-        models.TextField: {
-            'form_class': Rodenticide,
-            }
-    }
 
 
 class MediaFileInline(FeinCMSInline):
