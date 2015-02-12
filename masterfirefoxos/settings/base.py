@@ -140,6 +140,8 @@ CSP_IMG_SRC = (
     'https://masterfirefoxos-prod.s3.amazonaws.com',
     'https://pontoon.mozilla.org',
     'https://pontoon-dev.allizom.org',
+    'http://www.google-analytics.com',
+    'https://www.google-analytics.com',
 )
 CSP_SCRIPT_SRC = (
     "'self'",
@@ -149,6 +151,8 @@ CSP_SCRIPT_SRC = (
     'https://*.mozilla.net',
     'https://pontoon.mozilla.org',
     'https://pontoon-dev.allizom.org',
+    'http://www.google-analytics.com',
+    'https://www.google-analytics.com',
 )
 CSP_STYLE_SRC = (
     "'self'",
