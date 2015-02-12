@@ -1,4 +1,6 @@
-<div class="quiz-answer{% if answer.correct %} correct{% endif %}">
-    <input id="quiz-answer-{{ answer.id }}" type="checkbox" />
-    <label for="quiz-answer-{{ answer.id }}">{{ _(answer.answer) | safe }}</label>
-</div>
+<p class="quiz-answer{% if answer.correct %} correct{% endif %}">
+  <input id="quiz-answer-{{ answer.id }}" type="checkbox">
+  <label for="quiz-answer-{{ answer.id }}">
+    {{ _(answer.answer) | safe }}
+  </label>
+</p>
