@@ -119,7 +119,7 @@ class RichTextEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/textentry.html',
+            'includes/richtextentry.html',
             {
                 'title': _(self.title) if self.subheader_2 else '',
                 'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
