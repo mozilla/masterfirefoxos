@@ -8,11 +8,12 @@
     // Add class to reflect javascript availability for CSS
     document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/, 'js');
 
-
-    document.querySelector('.menu-icon').onclick = function() {
-        return false;
-    };
-
+    var menu_icon = document.querySelector('.menu-icon');
+    if (menu_icon) {
+        menu_icon.onclick = function() {
+            return false;
+        };
+    }
 
     function selectChangeLocation(id) {
         var select = document.getElementById(id);
