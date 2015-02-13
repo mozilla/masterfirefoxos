@@ -1,6 +1,7 @@
-<div class="media media-image">
-  <img src="{{ get_image_url(image, '220') }}" alt="{{ alt }}">
-  <h1>{{ title }}</h1>
+<div class="text">
+  {% if title %}
+    <h1>{{ title }}</h1>
+  {% endif %}
   {% if subheader_2 %}
     <h2>{{ subheader_2 }}</h2>
   {% endif %}

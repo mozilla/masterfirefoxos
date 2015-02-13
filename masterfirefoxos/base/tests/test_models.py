@@ -6,14 +6,17 @@ from .. import models
 
 def test_youtube_paragraph_render():
     test_data = {'title': 'Test Title', 'text': 'test text',
-                 'youtube_id': 'test youtube id'}
+                 'youtube_id': 'test youtube id',
+                 'subheader_2': 'Header 2', 'subheader_3': 'Header 3'}
+
     rendered = models.YouTubeParagraphEntry(**test_data).render()
     for value in test_data.values():
         assert value in rendered
 
 
 def test_media_paragraph_render():
-    test_data = {'title': 'Test Title', 'text': 'test text'}
+    test_data = {'title': 'Test Title', 'text': 'test text',
+                 'subheader_2': 'Header 2', 'subheader_3': 'Header 3'}
     entry = models.ImageParagraphEntry(**test_data)
     entry.image = MediaFileFactory()
     with patch('masterfirefoxos.base.helpers.MediaFile') as MediaFileMock:
