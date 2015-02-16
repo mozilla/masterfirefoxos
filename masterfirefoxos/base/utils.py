@@ -85,7 +85,9 @@ def unmangle(text):
         '&rdquo;', '”').replace(
         '&mdash;', '—').replace(
         '<br />', '<br>').replace(
-        '<p>&nbsp;</p>', '')
+        '<p>&nbsp;</p>', '').replace(
+        '<p>', '').replace(
+        '</p>', '')
 
 
 def unmangle_pages(pages=None):

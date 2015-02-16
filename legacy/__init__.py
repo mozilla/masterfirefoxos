@@ -1,3 +1,4 @@
+from collections import defaultdict
 from functools import lru_cache
 import json
 import os
@@ -226,3 +227,55 @@ def create_pages_and_translations():
             call_command('makemessages', locale=[locale])
             update_po(locale, version)
     call_command('compilemessages')
+
+
+def strip_po_ptags(locale):
+    po = load_po(locale)
+    for entry in po:
+        entry.msgid = punwrap(entry.msgid)
+        entry.msgstr = punwrap(entry.msgstr)
+    po.save()
+
+
+def dedupe_po(locale):
+    msgid_entries = defaultdict(list)
+    po = load_po(locale)
+    for entry in po:
+        msgid_entries[entry.msgid].append(entry)
+    dupes_to_remove = []
+    for msgid, entries in msgid_entries.items():
+        if len(entries) > 1:
+            if entries[0].msgstr and entries[0].comment and (
+                    not entries[0].obsolete) or not any(
+                        e.msgstr for e in entries):
+                dupes_to_remove.extend(entries[1:])
+            elif entries[1].msgstr and entries[1].comment and (
+                    not entries[1].obsolete):
+                dupes_to_remove.append(entries[0])
+            else:
+                print('Unable to automatically resolve dupes in {} for:'.format(
+                      locale))
+                print(msgid)
+    for dupe in dupes_to_remove:
+        po.remove(dupe)
+    po.save()
+
+
+def strip_extraneous_newlines(locale):
+    po = load_po(locale)
+    extraneous_newlines = False
+    for entry in po:
+        if '\n' in entry.msgstr and '\n' not in entry.msgid:
+            entry.msgstr = entry.msgstr.replace('\n', '')
+            extraneous_newlines = True
+    if extraneous_newlines:
+        po.save()
+        print('Fixed extraneous newlines in ' + locale)
+
+
+def fix_all_locales():
+    for locale, language in settings.LANGUAGES:
+        if locale != 'en':
+            strip_po_ptags(locale)
+            dedupe_po(locale)
+            strip_extraneous_newlines(locale)
