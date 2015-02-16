@@ -334,10 +334,24 @@ def split_po_h3s(locale):
     po.save()
 
 
+def strip_brs(text):
+    return text.replace('<br><br>', ' ').replace('<br>', ' ')
+
+
+def strip_po_brs(locale):
+    po = load_po(locale)
+    for entry in po:
+        if '<br>' in entry.msgid or '<br>' in entry.msgstr:
+            entry.msgid = strip_brs(entry.msgid)
+            entry.msgstr = strip_brs(entry.msgstr)
+    po.save()
+
+
 def fix_all_locales():
     for locale, language in settings.LANGUAGES:
         if locale != 'en':
             strip_po_ptags(locale)
+            strip_po_brs(locale)
             split_po_h2s(locale)
             split_po_h3s(locale)
             dedupe_po(locale)
