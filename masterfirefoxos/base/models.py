@@ -121,7 +121,7 @@ class RichTextEntry(models.Model):
         return render_to_string(
             'includes/richtextentry.html',
             {
-                'title': _(self.title) if self.subheader_2 else '',
+                'title': _(self.title) if self.title else '',
                 'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
                 'subheader_3': _(self.subheader_3) if self.subheader_3 else '',
                 'text': Markup(_(self.text)),
