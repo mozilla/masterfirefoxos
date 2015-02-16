@@ -273,9 +273,128 @@ def strip_extraneous_newlines(locale):
         print('Fixed extraneous newlines in ' + locale)
 
 
+def split_h2(text):
+    h2, text = text.split('</h2>', 1)
+    return h2.replace('<h2>', ''), text
+
+
+def split_po_h2s(locale):
+    po = load_po(locale)
+    to_split = [
+        entry for entry in po
+        if entry.msgid.startswith('<h2>') and '</h2>' in entry.msgid
+        and entry.msgstr.startswith('<h2>') and '</h2>' in entry.msgstr]
+    for entry in to_split:
+        h2, text = split_h2(entry.msgid)
+        translated_h2, translated_text = split_h2(entry.msgstr)
+        if h2 and text and translated_h2 and translated_text:
+            h2_entry = polib.POEntry()
+            h2_entry.msgid = h2
+            h2_entry.msgstr = translated_h2
+            h2_entry.comment = entry.comment
+            index = po.index(entry)
+            po.insert(index, h2_entry)
+            text_entry = polib.POEntry()
+            text_entry.msgid = text
+            text_entry.msgstr = translated_text
+            text_entry.comment = entry.comment
+            po.insert(index + 1, text_entry)
+            po.remove(entry)
+    po.save()
+
+
+def split_h3(text):
+    # assumes <h3> at end of text
+    text, h3 = text.split('<h3>', 1)
+    return h3.replace('</h3>', ''), text
+
+
+def split_po_h3s(locale):
+    po = load_po(locale)
+    to_split = [
+        entry for entry in po
+        if entry.msgid.endswith('</h3>') and '<h3>' in entry.msgid
+        and entry.msgstr.endswith('</h3>') and '<h3>' in entry.msgstr]
+    for entry in to_split:
+        h3, text = split_h3(entry.msgid)
+        translated_h3, translated_text = split_h3(entry.msgstr)
+        if h3 and text and translated_h3 and translated_text:
+            h3_entry = polib.POEntry()
+            h3_entry.msgid = h3
+            h3_entry.msgstr = translated_h3
+            h3_entry.comment = entry.comment
+            index = po.index(entry)
+            po.insert(index, h3_entry)
+            text_entry = polib.POEntry()
+            text_entry.msgid = text
+            text_entry.msgstr = translated_text
+            text_entry.comment = entry.comment
+            po.insert(index + 1, text_entry)
+            po.remove(entry)
+    po.save()
+
+
 def fix_all_locales():
     for locale, language in settings.LANGUAGES:
         if locale != 'en':
             strip_po_ptags(locale)
+            split_po_h2s(locale)
+            split_po_h3s(locale)
             dedupe_po(locale)
             strip_extraneous_newlines(locale)
+
+
+def save_h2_to_next_entry(entry):
+    found = False
+    for e in entry.parent.richtextentry_set.all():
+        if e == entry:
+            found = True
+        elif found:
+            e.subheader_2 = entry.subheader_2
+            e.save(update_fields='subheader_2')
+            break
+    return found
+
+
+def save_h3_to_next_entry(entry):
+    found = False
+    for e in entry.parent.richtextentry_set.all():
+        if e == entry:
+            found = True
+        elif found:
+            e.subheader_3 = entry.subheader_3
+            e.save(update_fields=['subheader_3'])
+            break
+    return found
+
+
+def split_db_h2s():
+    page = Page.objects.all()[0]
+    to_delete = []
+    for entry in page.richtextentry_set.model.objects.filter(
+            text__startswith='<h2>'):
+        if '</h2>' not in entry.text:
+            print('Missing </h2> in RichTextEntry {} on {}'.format(
+                  entry.text, entry.parent.get_absolute_url()))
+            continue
+        entry.subheader_2, entry.text = split_h2(entry.text)
+        if entry.text:
+            entry.save(update_fields=['text', 'subheader_2'])
+        elif save_h2_to_next_entry(entry):
+            to_delete.append(entry)
+    for entry in to_delete:
+        entry.delete()
+
+
+def split_db_h3s():
+    page = Page.objects.all()[0]
+    for entry in page.richtextentry_set.model.objects.filter(
+            text__endswith='</h3>'):
+        if '<h3>' not in entry.text:
+            print('Missing <h3> in RichTextEntry {} on {}'.format(
+                  entry.text, entry.parent.get_absolute_url()))
+            continue
+        entry.subheader_3, entry.text = split_h3(entry.text)
+        if save_h3_to_next_entry(entry) and entry.text:
+            entry.subheader_3 = ''
+            entry.save(update_fields=['text'])
