@@ -347,11 +347,20 @@ def strip_po_brs(locale):
     po.save()
 
 
+def strip_whitespace(locale):
+    po = load_po(locale)
+    for entry in po:
+        entry.msgid = entry.msgid.strip()
+        entry.msgstr = entry.msgstr.strip()
+    po.save()
+
+
 def fix_all_locales():
     for locale, language in settings.LANGUAGES:
         if locale != 'en':
             strip_po_ptags(locale)
             strip_po_brs(locale)
+            strip_whitespace(locale)
             split_po_h2s(locale)
             split_po_h3s(locale)
             dedupe_po(locale)
