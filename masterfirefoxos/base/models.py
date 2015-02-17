@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models.signals import pre_save
+from django.dispatch import receiver
 from django.template.loader import render_to_string
 from django.utils import translation
 from django.utils.translation import ugettext as _
@@ -156,3 +158,14 @@ Page.create_content_type(FAQEntry)
 Page.create_content_type(YouTubeParagraphEntry)
 Page.create_content_type(QuizQuestion)
 Page.create_content_type(QuizAnswer)
+
+
+@receiver(pre_save, dispatch_uid='trim_content_signal')
+def trim_content(sender, instance, **kwargs):
+    """Trim spaces from TextFields and CharFields before saving."""
+    if sender in Page._feincms_content_types:
+        for field in instance._meta.fields:
+            if (isinstance(field, models.TextField) or
+                isinstance(field, models.CharField)):
+                value = getattr(instance, field.name, '')
+                setattr(instance, field.name, value.strip())
