@@ -10,13 +10,17 @@ TEST_VERSIONS_LOCALE_MAP = OrderedDict({
         'slug': 'version-90',
         'locales': [
             'en',
-            'xx'
+            'xx',
+            'foo',
         ]
     },
     '10.0t': {
         'slug': 'version-100t',
         'locales': [
             'en',
+        ],
+        'pending_locales': [
+            'foo',
         ]
     }
 })
