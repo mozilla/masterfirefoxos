@@ -66,6 +66,7 @@
         }
     }
 
+    // get the last answer in a set of sibling answers
     function lastContiguousAnswer(element) {
         return lastContiguousElementSiblingMatching(
             nextElementSiblingMatching(element, '.quiz-answer'), '.quiz-answer');
@@ -83,7 +84,8 @@
 
     // show the appropriate feedback for the selected answer
     function showFeedback(submitElement) {
-        var correct = 0, incorrect = 0;
+        var correct = 0;
+        var incorrect = 0;
         var question = previousElementSiblingMatching(submitElement.parentElement, '.quiz-question');
         var correctFeedback = nextElementSiblingMatching(question, '.feedback-correct');
         var incorrectFeedback = nextElementSiblingMatching(question, '.feedback-incorrect');
@@ -135,4 +137,22 @@
         }
     }
     addSubmitToEachLastAnswer();
+
+    // Show/hide FAQ answers
+    function faqToggle(event) {
+        if (event.target.parentNode.classList.contains('open')) {
+            event.target.parentNode.classList.remove('open');
+        } else {
+            event.target.parentNode.classList.add('open');
+        }
+    }
+
+    var faqQuestions = document.getElementsByClassName('faq-question');
+    if (faqQuestions) {
+        for (var i = 0; i < faqQuestions.length; i++) {
+            faqQuestions[i].addEventListener('click', faqToggle);
+        }
+    }
+
+
 })();
