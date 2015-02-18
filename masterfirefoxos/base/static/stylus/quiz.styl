@@ -1,0 +1,114 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+// Quiz pages
+
+@require 'lib';
+
+.feedback {
+    display: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    border: 3px solid #ccc;
+    clear: both;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+}
+
+.feedback-correct {
+    border-color: #3da954; // green
+}
+
+.feedback-incorrect {
+    border-color: #aa3e3e; // red
+}
+
+.feedback-partial {
+    border-color: #e8be3d; // gold
+}
+
+.quiz-question {
+    clear: both;
+    font-size: 20px;
+    padding-top: 1em;
+    border-top: 3px groove rgba(255, 255, 255, .15);
+    margin: 2em 0 .75em;
+}
+
+.quiz-answer {
+    clear: both;
+    margin: 0 0 5px;
+    position: relative;
+    overflow: hidden;
+
+    input {
+        position: absolute;
+        left: -5em;
+    }
+
+    label {
+        background: rgba(255, 255, 255, .25);
+        padding: .5em 10px .5em 45px;
+        display: block;
+        margin: 0;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(255, 255, 255, .5);
+        }
+
+        &:before {
+            background: $dark-gray;
+            border-radius: 6px;
+            content: '';
+            color: #fff;
+            display: block;
+            font-size: 25px;
+            text-align: center;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+    }
+
+    input:checked + label {
+        background: #fff;
+
+        &:before {
+            background: darken($dark-gray, 10%);
+            content: '\2714'; // heavy check
+        }
+    }
+}
+
+.quiz-image {
+    float: left;
+    clear: both;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    margin: 0 0 1em;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.quiz-submit {
+    clear: both;
+    margin: 1em 0;
+
+    button {
+        {button}
+        background: $dark-gray;
+        color: #fff;
+        font-size: 12px;
+
+        &:hover,
+        &:focus {
+            background: darken($dark-gray, 10%);
+        }
+    }
+}

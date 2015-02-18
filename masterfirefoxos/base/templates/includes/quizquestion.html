@@ -1,10 +1,13 @@
+<p class="quiz-question">
+  {{ _(question.question) | safe }}
+</p>
+
 {% if question.image %}
-<div class="media media-image">
-  <img src="{{ get_image_url(question.image, '220') }}">
-</div>
+<figure class="quiz-image">
+  <img src="{{ get_image_url(question.image) }}" alt="">
+</figure>
 {% endif %}
 
-<div class="quiz-question">{{ _(question.question) | safe }}</div>
-<div class="correct-feedback" style="display: none;">{{ _(question.correct_feedback) | safe }}</div>
-<div class="incorrect-feedback" style="display: none;">{{ _(question.incorrect_feedback) | safe }}</div>
-<div class="partly-correct-feedback" style="display: none;">{{ _(question.partly_correct_feedback) | safe }}</div>
+<p class="feedback feedback-correct">{{ _(question.correct_feedback) | safe }}</p>
+<p class="feedback feedback-incorrect">{{ _(question.incorrect_feedback) | safe }}</p>
+<p class="feedback feedback-partial">{{ _(question.partly_correct_feedback) | safe }}</p>

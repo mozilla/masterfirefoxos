@@ -32,11 +32,12 @@
 
   </head>
   <body id="{% block body_id %}{% endblock %}" class="{% block body_class %}{% endblock %}">
+    <span id="strings" data-submit="{{ _('Submit') }}"></span>
     <div id="outer-wrapper">
     {% block site_header %}
       <header class="masthead" role="banner">
         <div class="contain">
-          <a href="//www.mozilla.org/" id="tabzilla">{{ _('Mozilla') }}</a>
+          <a href="https://www.mozilla.org/" id="tabzilla">{{ _('Mozilla') }}</a>
 
         {% block site_logo %}
           <h2 class="site-logo">
