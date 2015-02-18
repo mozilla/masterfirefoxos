@@ -64,6 +64,7 @@ for app in config('EXTRA_APPS', default='', cast=Csv()):
 
 
 MIDDLEWARE_CLASSES = (
+    'django.middleware.cache.UpdateCacheMiddleware',
     'sslify.middleware.SSLifyMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
@@ -74,6 +75,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
     'csp.middleware.CSPMiddleware',
     'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
+    'django.middleware.cache.FetchFromCacheMiddleware',
 )
 
 ROOT_URLCONF = 'masterfirefoxos.urls'
@@ -255,3 +257,16 @@ FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
 THUMBNAIL_PRESERVE_FORMAT = True
 
 LOCALIZATION_HOST = config('LOCALIZATION_HOST', default=None)
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
+    }
+}
+if not DEBUG:
+    CACHES = {
+        'default': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+            'LOCATION': 'unique-snowflake'
+        }
+    }
