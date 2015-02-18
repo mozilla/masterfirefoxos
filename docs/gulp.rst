@@ -36,8 +36,8 @@ Tasks
 
 Compile all stylus files to css::
 
-    gulp compress
+    gulp
 
 Watch stylus directory, compile to css on change::
 
-    gulp watch
+    gulp watch:css
