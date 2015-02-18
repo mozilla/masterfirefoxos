@@ -1,5 +1,5 @@
 from django.contrib import admin, messages
-from django.forms import ValidationError
+from django.forms import ModelForm, ValidationError
 
 from feincms.module.medialibrary.admin import MediaFileAdmin as MediaFileAdminOld
 from feincms.module.medialibrary.forms import MediaFileAdminForm as MediaFileAdminFormOld
@@ -8,6 +8,7 @@ from feincms.module.medialibrary.models import MediaFile
 from feincms.module.page.admin import PageAdmin as PageAdminOld
 from feincms.module.page.models import Page
 
+from .models import Locale
 from .utils import copy_tree
 
 
@@ -55,3 +56,39 @@ class MediaFileAdmin(MediaFileAdminOld):
 
 admin.site.unregister(MediaFile)
 admin.site.register(MediaFile, MediaFileAdmin)
+
+
+class LocaleAdminForm(ModelForm):
+    def clean(self):
+        super(LocaleAdminForm, self).clean()
+        versions = self.cleaned_data.get('versions')
+        pending_versions = self.cleaned_data.get('pending_versions')
+        latest_version = self.cleaned_data.get('latest_version')
+
+        if versions and pending_versions:
+            if versions.filter(pk__in=pending_versions.all()).exists():
+                raise ValidationError(
+                    'Versions and Pending Versions are exclusive lists.')
+
+        if versions:
+            if not latest_version:
+                raise ValidationError('Please select latest version.')
+
+            if not versions.filter(pk=latest_version.pk).exists():
+                raise ValidationError('Please select an active version for latest version.')
+
+        if not versions and latest_version:
+            raise ValidationError('Please select an active version for latest version.')
+
+        return self.cleaned_data
+
+    class Meta:
+        model = Locale
+
+
+class LocaleAdmin(admin.ModelAdmin):
+    list_display = ('__str__', 'latest_version')
+    list_filter = ('versions', 'pending_versions', 'latest_version')
+    form = LocaleAdminForm
+
+admin.site.register(Locale, LocaleAdmin)
