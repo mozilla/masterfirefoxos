@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 from collections import OrderedDict
 
+from django.utils.functional import lazy
 from django.utils.translation import ugettext_lazy as _
 
 import dj_database_url
@@ -183,23 +184,26 @@ LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
 
+
+_capitalize = lazy(lambda s: _(s).capitalize(), str)
+
 LANGUAGES = (
-    ('bn', _('Bengali')),
-    ('hr', _('Croatian')),
-    ('cs', _('Czech')),
-    ('en', _('English')),
-    ('de', _('German')),
-    ('el', _('Greek')),
-    ('hi', _('Hindi')),
-    ('hu', _('Hungarian')),
-    ('it', _('Italian')),
-    ('ja', _('Japanese')),
-    ('pl', _('Polish')),
-    ('pt', _('Portuguese')),
-    ('sr', _('Serbian')),
-    ('es', _('Spanish')),
-    ('ta', _('Tamil')),
-    ('xx', _('Pirate')),
+    ('bn', _capitalize('Bengali')),
+    ('hr', _capitalize('Croatian')),
+    ('cs', _capitalize('Czech')),
+    ('en', _capitalize('English')),
+    ('de', _capitalize('German')),
+    ('el', _capitalize('Greek')),
+    ('hi', _capitalize('Hindi')),
+    ('hu', _capitalize('Hungarian')),
+    ('it', _capitalize('Italian')),
+    ('ja', _capitalize('Japanese')),
+    ('pl', _capitalize('Polish')),
+    ('pt', _capitalize('Portuguese')),
+    ('sr', _capitalize('Serbian')),
+    ('es', _capitalize('Spanish')),
+    ('ta', _capitalize('Tamil')),
+    ('xx', _capitalize('Pirate')),
 )
 LANGUAGE_NAMES = dict(LANGUAGES)
 
