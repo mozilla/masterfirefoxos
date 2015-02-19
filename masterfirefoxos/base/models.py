@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
@@ -183,3 +184,24 @@ def trim_content(sender, instance, **kwargs):
                 isinstance(field, models.CharField)):
                 value = getattr(instance, field.name, '')
                 setattr(instance, field.name, value.strip())
+
+
+class Locale(models.Model):
+    code = models.CharField(max_length=10, choices=settings.LANGUAGES, unique=True)
+    latest_version = models.ForeignKey(
+        Page, blank=True, null=True,
+        limit_choices_to={'parent__isnull': True})
+    versions = models.ManyToManyField(
+        Page, blank=True, null=True,
+        limit_choices_to={'parent__isnull': True},
+        related_name='locales')
+    pending_versions = models.ManyToManyField(
+        Page, blank=True, null=True,
+        limit_choices_to={'parent__isnull': True},
+        related_name='pending_locales')
+
+    def __str__(self):
+        return '{} ({})'.format(settings.LANGUAGE_NAMES[self.code], self.code)
+
+    class Meta:
+        ordering = ('code',)
