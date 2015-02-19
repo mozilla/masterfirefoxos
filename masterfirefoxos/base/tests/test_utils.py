@@ -9,13 +9,15 @@ from .. import utils
 
 
 def test_entry_strings():
-    rich_text_entry = models.RichTextEntry(text='test text')
-    assert utils.entry_strings(rich_text_entry) == ['test text']
+    rich_text_entry = models.RichTextEntry(
+        title='title', subheader_2='sub 2', subheader_3='sub 3', text='test text')
+    assert utils.entry_strings(rich_text_entry) == ['title', 'sub 2', 'sub 3', 'test text']
 
-    media_paragraph_entry = models.ImageParagraphEntry(
-        alt='alt', title='test title', text='test text')
-    assert utils.entry_strings(media_paragraph_entry) == [
-        'alt', 'test title', 'test text']
+    image_paragraph_entry = models.ImageParagraphEntry(
+        alt='alt', title='test title', text='test text',
+        subheader_2='sub 2', subheader_3='sub 3')
+    assert set(utils.entry_strings(image_paragraph_entry)) == set([
+        'alt', 'test title', 'test text', 'sub 2', 'sub 3'])
 
     faq_entry = models.FAQEntry(
         question='test question', answer='test answer')
@@ -23,9 +25,10 @@ def test_entry_strings():
         'test question', 'test answer']
 
     youtube_entry = models.YouTubeParagraphEntry(
-        title='test title', text='test text', youtube_id='test id')
-    assert utils.entry_strings(youtube_entry) == [
-        'test title', 'test text', 'test id']
+        title='test title', text='test text', youtube_id='test id',
+        subheader_2='sub 2', subheader_3='sub 3')
+    assert set(utils.entry_strings(youtube_entry)) == set([
+        'test title', 'test text', 'test id', 'sub 2', 'sub 3'])
 
 
 def test_pages_l10n_template():

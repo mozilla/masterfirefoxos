@@ -43,7 +43,7 @@ class YouTubeParagraphEntry(models.Model):
     subheader_3 = models.CharField(max_length=255, blank=True)
     text = models.TextField(help_text='HTML is allowed.')
     youtube_id = models.CharField(max_length=100)
-    _l10n_fields = ['title', 'text', 'youtube_id']
+    _l10n_fields = ['title', 'text', 'youtube_id', 'subheader_2', 'subheader_3']
 
     class Meta:
         abstract = True
@@ -70,7 +70,7 @@ class ImageParagraphEntry(models.Model):
     subheader_2 = models.CharField(max_length=255, blank=True)
     subheader_3 = models.CharField(max_length=255, blank=True)
     text = models.TextField(help_text='HTML is allowed.')
-    _l10n_fields = ['alt', 'title', 'text']
+    _l10n_fields = ['alt', 'title', 'text', 'subheader_2', 'subheader_3']
 
     class Meta:
         abstract = True
@@ -114,7 +114,7 @@ class RichTextEntry(models.Model):
     subheader_2 = models.CharField(max_length=255, blank=True)
     subheader_3 = models.CharField(max_length=255, blank=True)
     text = models.TextField(help_text='HTML is allowed.')
-    _l10n_fields = ['text']
+    _l10n_fields = ['text', 'title', 'subheader_2', 'subheader_3']
 
     class Meta:
         abstract = True
