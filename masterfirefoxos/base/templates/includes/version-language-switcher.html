@@ -5,7 +5,7 @@
     {% for language_code, language in settings.LANGUAGES %}
       {% if language_code in settings.LOCALE_LATEST_VERSION or request.user.is_authenticated() %}
 	{{ activate(language_code) }}
-	<option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ _(language) }}</option>
+	<option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ _(language)|capitalize }}</option>
       {% endif %}
     {% endfor %}
     {{ activate(request.LANGUAGE_CODE) }}
@@ -25,10 +25,12 @@
 
 {% if 'from-lang' in request.GET %}
   {% set from_lang_code = request.GET['from-lang'] %}
-  {% set from_lang = settings.LANGUAGE_NAMES.get(from_lang_code, 'your selected language') %}
-  {% if from_lang != 'your selected language' %}
+  {% if from_lang_code in settings.LANGUAGE_NAMES %}
     {{ activate(from_lang_code) }}
+    {% set from_lang = settings.LANGUAGE_NAMES.get(from_lang_code)|capitalize %}
     {% set latest_version_from_lang = request.GET.get('latest-version') %}
+  {% else %}
+    {% set from_lang = 'your selected language' %}
   {% endif %}
   <div id="redirected-from-lang">
     {{ _('Documentation for Firefox OS {version} is not yet available in {language}, so we redirected you to the English version.') | f(version=active_version(request), language=from_lang) }}
