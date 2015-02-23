@@ -13,17 +13,29 @@
     }
 }
 
-.home .masthead {
-    background-image: none;
+.home {
+    .masthead {
+        background-image: none;
 
-    .contain {
-        padding-bottom: 3em;
+        .contain {
+            padding-bottom: 3em;
+        }
 
         .nav-info {
             position: absolute;
+            top: auto;
             bottom: 20px;
         }
     }
+
+    .page-intro {
+        margin-top: 20px;
+
+        h2 {
+            font-size: 36px;
+        }
+    }
+
 }
 
 //*----------------------------------------------------------------*/
@@ -42,7 +54,7 @@
         .page-intro {
             span_narrow(6);
 
-            h1 {
+            h2 {
                 font-size: 48px;
             }
         }
@@ -76,10 +88,15 @@
 @media $media-query-desktop {
 
     .home {
+        .masthead .nav-info {
+            top: 10px;
+            bottom: auto;
+        }
+
         .page-intro {
             span(6);
 
-            h1 {
+            h2 {
                 font-size: 64px;
             }
         }
