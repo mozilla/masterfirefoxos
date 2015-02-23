@@ -3,13 +3,14 @@
     <iframe width="560" height="315" src="{{ video }}" frameborder="0" allowfullscreen></iframe>
   </div>
 
-  <h1>{{ title }}</h1>
-  {% if subheader_2 %}
-    <h2>{{ subheader_2 }}</h2>
-  {% endif %}
-  {% if subheader_3 %}
-    <h3>{{ subheader_3 }}</h3>
-  {% endif %}
+  <h2>{{ title }}</h2>
+{% if subheader_2 %}
+  <h3>{{ subheader_2 }}</h3>
+{% endif %}
+{% if subheader_3 %}
+  <h4>{{ subheader_3 }}</h4>
+{% endif %}
+
   <p>
     {{ text }}
   </p>
