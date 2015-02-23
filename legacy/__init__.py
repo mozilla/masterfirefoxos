@@ -274,11 +274,6 @@ def strip_extraneous_newlines(locale):
         print('Fixed extraneous newlines in ' + locale)
 
 
-def split_h2(text):
-    h2, text = text.split('</h2>', 1)
-    return h2.replace('<h2>', ''), text
-
-
 def split_po_h2s(locale):
     po = load_po(locale)
     to_split = [
@@ -304,18 +299,31 @@ def split_po_h2s(locale):
     po.save()
 
 
-def split_h3(text):
-    # assumes <h3> at end of text
-    text, h3 = text.split('<h3>', 1)
-    return h3.replace('</h3>', ''), text
+def split_tag(tag, text):
+    tag_open = '<{}>'.format(tag)
+    tag_close = '</{}>'.format(tag)
+    if text.startswith(tag_open):
+        tag_text, text = text.split(tag_close, 1)
+        return tag_text.replace(tag_open, ''), text.strip()
+    elif text.endswith(tag_close):
+        text, tag_text = text.split(tag_open, 1)
+        return tag_text.replace(tag_close, ''), text.strip()
+    else:
+        return '', text
+
+
+split_h2 = lambda text: split_tag('h2', text)
+split_h3 = lambda text: split_tag('h3', text)
 
 
 def split_po_h3s(locale):
     po = load_po(locale)
     to_split = [
         entry for entry in po
-        if entry.msgid.endswith('</h3>') and '<h3>' in entry.msgid
-        and entry.msgstr.endswith('</h3>') and '<h3>' in entry.msgstr]
+        if (entry.msgid.endswith('</h3>') and '<h3>' in entry.msgid
+            and entry.msgstr.endswith('</h3>') and '<h3>' in entry.msgstr) or
+        (entry.msgid.startswith('<h3>') and '</h3>' in entry.msgid
+         and entry.msgstr.startswith('<h3>') and '</h3>' in entry.msgstr)]
     for entry in to_split:
         h3, text = split_h3(entry.msgid)
         translated_h3, translated_text = split_h3(entry.msgstr)
@@ -422,6 +430,15 @@ def split_db_h3s():
         if save_h3_to_next_entry(entry) and entry.text:
             entry.subheader_3 = ''
             entry.save(update_fields=['text'])
+    for entry in page.imageparagraphentry_set.model.objects.filter(
+            text__startswith='<h3>'):
+        if '</h3>' not in entry.text:
+            print('Missing <h3> in ImageParagraphEntry {} on {}'.format(
+                  entry.text, entry.parent.get_absolute_url()))
+            continue
+        entry.subheader_3, entry.text = split_h3(entry.text)
+        if entry.text:
+            entry.save(update_fields=['text', 'subheader_3'])
 
 
 def strip_all_fields():
