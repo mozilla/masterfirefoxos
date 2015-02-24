@@ -270,3 +270,116 @@ if not DEBUG:
             'LOCATION': 'unique-snowflake'
         }
     }
+
+LOCALIZED_YOUTUBE_ID = {
+    # 1.1
+    'z8IAfoqxOPI': {
+        'hr': 'QcDS5tfALy4',
+        'de': 'zu2a0FXVh8c',
+        'cs': 'v1tLRWtCkEs',
+        'el': 'B9fwnibymws',
+        'it': '9U6qXAqx9qw',
+        'pl': 'IUfYEg2FGn4',
+        'pt': '6mUYqNted2U',
+        'sr': '-8-yc1KUBMs',
+        'es': 'whcfcevIexg'
+    },
+    'SijuLONPI9U': {
+        'hr': 'Ha3TerLNPQI',
+        'de': '9bNfgtMa-H0',
+        'cs': 'EBM2J9U6u1E',
+        'el': 'dBYWqVOxf8Q',
+        'it': 'cBUADOIP4ks',
+        'pl': 'XYfESrBUkK8',
+        'pt': 'wXlmBxaoLi8',
+        'sr': 'Wur2jVusiDI',
+        'es': 'hRPXmLOx1-w'
+    },
+    '-2V-hbYu9WQ': {
+        'hr': 'Jk26OjisREE',
+        'de': '0HWsDe_xfsM',
+        'cs': 'PNedT1D6BR0',
+        'el': 'hcSxACM2Zoc',
+        'it': '0PiFn-2byP0',
+        'pl': 'R3yT3mLzW3E',
+        'pt': 'PCekhjtIxcs',
+        'sr': 'TM9BUmlD6co',
+        'es': 'ZrXfURfNK18'
+    },
+    'Dvne9wMwV6E': {
+        'hr': 'Lc5AmjbdA-8',
+        'de': 'c7t5vc16sck',
+        'cs': '6jSEGncQTs4',
+        'el': 'nkaAYhpvJ6o',
+        'it': '-qmurnSReFE',
+        'pl': 'DFQUPO2Zbr4',
+        'pt': 'WGdJ_cL3LNc',
+        'sr': 'dv4O2ju1vpA',
+        'es': 'rMX9JtfYoBg'
+    },
+    '46dngYXUcFg': {
+        'hr': 'wPX9GTkMj8E',
+        'de': 'LXCZrsX0DRc',
+        'cs': 'OAIWl4ZU-Fs',
+        'el': 'JGCQ6lsOEO4',
+        'it': 'Xqkgb6-CHpM',
+        'pl': 'lodw2TvOOgU',
+        'pt': 'zivYtU2lip0',
+        'sr': 'Y04bxc3kVgE',
+        'es': 'RhOLzXfqeBw'
+    },
+    'nwAUQvNuyTw': {
+        'hr': '1fzu0Lf2XLo',
+        'de': 'JNVcmXmkF5M',
+        'cs': 'GoCINKDdAA0',
+        'el': 'J--N_B5_Grk',
+        'it': 'Oe9was4FQHA',
+        'pl': 'jxN8ETP1c84',
+        'pt': 'g7xGYUl_Odc',
+        'sr': 'c0XSya6I39M',
+        'es': 'kAvoXC0XkPw'
+    },
+    'ikbujo0l7dI': {
+        'hr': 'oZazouOvw8s',
+        'de': '5HnQ6o9HTns',
+        'cs': 'X2zr6dITLWo',
+        'el': 'ZmL0pLwhqqQ',
+        'it': 'CsnZIFzdoNM',
+        'pl': 'oU6bX-blsVo',
+        'pt': 'c_A92GmAN94',
+        'sr': 'XRawOINb-1k',
+        'es': 'N89xDJyG15E'
+    },
+    'kGb4OLORKPA': {
+        'hr': 'aH6y26VxnlM',
+        'de': 'pRTWg1Yv_ko',
+        'cs': 'hEluAdC02mI',
+        'el': 'g8k8MjX9ZjM',
+        'it': 'Z8ELi8wBR7o',
+        'pl': 'vE1MxioVBBM',
+        'pt': 'gqwl1xiLEkg',
+        'sr': 'XDwIdH4hrgI',
+        'es': 'mzOLVnujiJ0'
+    },
+    # 1.3T
+    'yPRIgHARJsA': {
+        'hi': 'akv0ylpKGbk',
+        'ta': 'vcSts5T-va4'
+    },
+    'eBDX7k0gkJg': {
+        'hi': 'zNGaHn3dSm4',
+        'ta': 'TrjhifzgXso'
+    },
+    't_yNwJDAgKw': {
+        'hi': 's64Wtw4e_8o',
+        'ta': 'UGJo0wcU2cM'
+    },
+    'YarD9ZluQJU': {
+        'hi': 'G5m4e0BR0JA',
+        'ta': 'ityctnM6VEQ'
+    },
+    'hGvNjO82y-4': {
+        'hi': 'rSOC6IAxyPk',
+        'ta': 'YjEAgE3IGdo'
+    },
+}
