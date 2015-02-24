@@ -28,7 +28,7 @@ def test_entry_strings():
         title='test title', text='test text', youtube_id='test id',
         subheader_2='sub 2', subheader_3='sub 3')
     assert set(utils.entry_strings(youtube_entry)) == set([
-        'test title', 'test text', 'test id', 'sub 2', 'sub 3'])
+        'test title', 'test text', 'sub 2', 'sub 3'])
 
 
 def test_pages_l10n_template():
@@ -92,30 +92,22 @@ def test_copy_content_and_children(mock_copy_page_with_parent):
     mock_copy_page_with_parent.assert_called_with('child', new_page)
 
 
-@patch('masterfirefoxos.base.utils._')
-def test_youtube_embed_url_translated_id(mock_gettext):
-    mock_gettext.return_value = 'xx-youtube-id'
+@override_settings(LOCALIZED_YOUTUBE_ID={
+                   'en-youtube-id': {'xx': 'xx-youtube-id'}})
+def test_youtube_embed_url_translated_id():
     request = RequestFactory().get('/xx/introduction/')
     expected = 'https://www.youtube.com/embed/xx-youtube-id'
     assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
-    mock_gettext.assert_called_with('en-youtube-id')
 
 
-@override_settings(LANGUAGE_NAMES={'xx': 'Pirate'})
-@patch('masterfirefoxos.base.utils._')
-def test_youtube_embed_url_subtitle_querystring(mock_gettext):
-    mock_gettext.return_value = 'en-youtube-id'
+def test_youtube_embed_url_subtitle_querystring():
     request = RequestFactory().get('/xx/introduction/')
     expected = ('https://www.youtube.com/embed/en-youtube-id' +
                 '?hl=xx&cc_lang_pref=xx&cc_load_policy=1')
     assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
-    mock_gettext.assert_called_with('en-youtube-id')
 
 
-@patch('masterfirefoxos.base.utils._')
-def test_youtube_embed_url_en(mock_gettext):
-    mock_gettext.return_value = 'en-youtube-id'
+def test_youtube_embed_url_en():
     request = RequestFactory().get('/en/introduction/')
     expected = 'https://www.youtube.com/embed/en-youtube-id'
     assert utils.youtube_embed_url(request, 'en-youtube-id') == expected
-    mock_gettext.assert_called_with('en-youtube-id')

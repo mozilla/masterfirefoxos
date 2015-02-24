@@ -2,7 +2,7 @@ from datetime import datetime
 from itertools import chain
 
 from django.db.models.fields import TextField
-from django.utils.translation import ugettext as _
+from django.conf import settings
 
 from feincms.module.page.models import Page
 
@@ -68,12 +68,15 @@ def copy_tree(page):
 
 def youtube_embed_url(request, en_youtube_id):
     embed = 'https://www.youtube.com/embed/'
-    youtube_id = _(en_youtube_id)
-    if youtube_id == en_youtube_id and request and (
-            not request.path.startswith('/en/')):
-        query_template = '?hl={lang}&cc_lang_pref={lang}&cc_load_policy=1'
+    if request and not request.path.startswith('/en/'):
         lang = request.path.split('/')[1]  # validity ensured by middleware
-        return embed + youtube_id + query_template.format(lang=lang)
+        youtube_id = settings.LOCALIZED_YOUTUBE_ID.get(en_youtube_id, {}).get(
+            lang, en_youtube_id)
+        if youtube_id == en_youtube_id:
+            query_template = '?hl={lang}&cc_lang_pref={lang}&cc_load_policy=1'
+            return embed + youtube_id + query_template.format(lang=lang)
+    else:
+        youtube_id = en_youtube_id
     return embed + youtube_id
 
 

@@ -44,7 +44,7 @@ class YouTubeParagraphEntry(models.Model):
     subheader_3 = models.CharField(max_length=255, blank=True)
     text = models.TextField(help_text='HTML is allowed.')
     youtube_id = models.CharField(max_length=100)
-    _l10n_fields = ['title', 'text', 'youtube_id', 'subheader_2', 'subheader_3']
+    _l10n_fields = ['title', 'text', 'subheader_2', 'subheader_3']
 
     class Meta:
         abstract = True
