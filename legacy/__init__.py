@@ -445,9 +445,55 @@ def strip_all_fields():
     for page in Page.objects.all():
         for content_type in page._feincms_content_types:
             for entry in page.content.all_of_type(content_type):
+                updated_fields = []
                 for field in entry._meta.fields:
                     if (isinstance(field, TextField) or
                         isinstance(field, CharField)):
                         value = getattr(entry, field.name, '')
-                        setattr(entry, field.name, value.strip())
-                entry.save()
+                        stripped = value.strip()
+                        if value != stripped:
+                            setattr(entry, field.name, stripped)
+                            updated_fields.append(field.name)
+                if updated_fields:
+                    entry.save(update_fields=updated_fields)
+
+
+def strip_ems(text):
+    return text.replace('<em>', '').replace('</em>', '')
+
+
+def strip_subheader_ems():
+    page = Page.objects.all()[0]
+    for entry in page.imageparagraphentry_set.model.objects.filter(
+            subheader_3__contains='<em>'):
+        entry.subheader_3 = strip_ems(entry.subheader_3)
+        entry.save(update_fields=['subheader_3'])
+    for locale, language in settings.LANGUAGES:
+        if locale != 'en':
+            po = load_po(locale)
+            for entry in po:
+                if entry.msgid.startswith('<em>'):
+                    entry.msgid = strip_ems(entry.msgid)
+                    entry.msgstr = strip_ems(entry.msgstr)
+            po.save()
+
+
+def singular_strong(text):
+    return text.replace('<strong><strong>', '<strong>').replace(
+        '</strong></strong>', '</strong>')
+
+
+def fix_double_strong():
+    page = Page.objects.all()[0]
+    for entry in page.imageparagraphentry_set.model.objects.filter(
+            text__contains='<strong><strong>'):
+        entry.text = singular_strong(entry.text)
+        entry.save(update_fields=['text'])
+    for locale, language in settings.LANGUAGES:
+        if locale != 'en':
+            po = load_po(locale)
+            for entry in po:
+                if '<strong><strong>' in entry.msgid:
+                    entry.msgid = singular_strong(entry.msgid)
+                    entry.msgstr = singular_strong(entry.msgstr)
+            po.save()
