@@ -114,9 +114,11 @@
 
     </div>{# end outer-wrapper #}
 
+    <!--[if !lt IE 9]><!-->
     {% block site_js %}
       <script type="text/javascript" src="{{ static('js/main.js') }}"></script>
     {% endblock %}
+    <!--<![endif]-->
     {% if include_pontoon(request) %}
       <script src="https://pontoon.mozilla.org/pontoon.js"></script>
     {% endif %}

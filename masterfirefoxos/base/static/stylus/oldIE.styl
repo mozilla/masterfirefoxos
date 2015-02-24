@@ -4,7 +4,164 @@
 
 
 // This basic style sheet is served to IE 8 and lower. It provides
-// a minimal, linearized layout with some purposeful design but leaves
-// out the more advanced styling older versions of IE don't support.
+// a minimal layout with some purposeful design but leaves out
+// the more advanced styling older versions of IE don't support.
+
+@require 'lib';
+
+
+.section,
+.contain,
+.footer,
+.main,
+.aside {
+    zoom: 1;
+}
+
+// IE before v9 doesn't support media queries so it doesn't get the
+// rules for the wide layout, but IE is also unlikely to have a small
+// viewport so we'll assume IE8 and lower are wide.
+.contain {
+    width: $width-tablet - ($grid-gutter-width * 2);
+}
+
+.main {
+    span_narrow(8);
+    offset_narrow(1);
+}
+
+.aside {
+    span_narrow(3);
+}
+
+.site-logo {
+    width: 225px;
+    float: left;
+}
+
+.site-switcher {
+    padding: 0;
+    width: 300px;
+    float: right;
+    text-align: right;
+}
+
+.nav-info {
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    right: 170px;
+    font-size: 16px;
+
+    ul {
+        margin: 0;
+    }
+}
+
+.nav-main {
+    .menu-icon {
+        display: none;
+    }
+
+    ul {
+        height: auto;
+        overflow: visible;
+        max-height: auto;
+        transition: none;
+    }
+}
+
+.video-frame iframe {
+    width: 460px;
+    height: 259px;
+}
+
+.media-image {
+    padding-left: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 3);
+
+    img {
+        float: left;
+        margin-left: -(($grid-narrow-column-width * 3) + ($grid-gutter-width * 3) + 5);
+        width: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 2);
+    }
+}
+
+[dir='rtl'] {
+    .media-image {
+        padding-left: 0;
+        padding-right: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 3);
+
+        img {
+            float: right;
+            margin-left: 0;
+            margin-right: -(($grid-narrow-column-width * 3) + ($grid-gutter-width * 3) + 5);
+        }
+    }
+}
+
+.footer-license,
+.footer-lang {
+    span_narrow(3);
+}
+
+.footer-logo,
+.footer-nav {
+    span_narrow(2);
+}
+
+.footer-license {
+    margin-right: $grid-narrow-column-width + $grid-gutter-width;
+}
+
+
+.quiz-answer {
+    input {
+        left: 10px;
+        top: 10px;
+        background: transparent none;
+        border: none;
+        padding: 0;
+    }
+
+    label {
+        background: lighten($light-gray, 20%);
+        zoom: 1;
+
+        &:hover {
+            background: lighten($light-gray, 40%);
+        }
+    }
+
+    input:checked + label:before {
+        content: '';
+    }
+}
+
+.home {
+    .masthead {
+        background-image: none;
+        min-height: 1px;
+        margin-bottom: 20px;
+
+        .contain {
+            min-height: 0;
+        }
+    }
+
+    .page-intro {
+        clear: both;
+
+        h2 {
+            font-size: 48px;
+
+        }
+    }
+
+    .main {
+        span_all();
+        margin: 0;
+    }
+}
+
 
 
