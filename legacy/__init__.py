@@ -6,6 +6,7 @@ import os
 from django.conf import settings
 from django.core.management import call_command
 from django.db import DataError
+from django.db.models.fields import CharField, TextField
 from django.utils.text import slugify
 
 from feincms.module.page.models import Page
@@ -421,3 +422,15 @@ def split_db_h3s():
         if save_h3_to_next_entry(entry) and entry.text:
             entry.subheader_3 = ''
             entry.save(update_fields=['text'])
+
+
+def strip_all_fields():
+    for page in Page.objects.all():
+        for content_type in page._feincms_content_types:
+            for entry in page.content.all_of_type(content_type):
+                for field in entry._meta.fields:
+                    if (isinstance(field, TextField) or
+                        isinstance(field, CharField)):
+                        value = getattr(entry, field.name, '')
+                        setattr(entry, field.name, value.strip())
+                entry.save()
