@@ -274,11 +274,6 @@ def strip_extraneous_newlines(locale):
         print('Fixed extraneous newlines in ' + locale)
 
 
-def split_h2(text):
-    h2, text = text.split('</h2>', 1)
-    return h2.replace('<h2>', ''), text
-
-
 def split_po_h2s(locale):
     po = load_po(locale)
     to_split = [
@@ -304,18 +299,31 @@ def split_po_h2s(locale):
     po.save()
 
 
-def split_h3(text):
-    # assumes <h3> at end of text
-    text, h3 = text.split('<h3>', 1)
-    return h3.replace('</h3>', ''), text
+def split_tag(tag, text):
+    tag_open = '<{}>'.format(tag)
+    tag_close = '</{}>'.format(tag)
+    if text.startswith(tag_open):
+        tag_text, text = text.split(tag_close, 1)
+        return tag_text.replace(tag_open, ''), text.strip()
+    elif text.endswith(tag_close):
+        text, tag_text = text.split(tag_open, 1)
+        return tag_text.replace(tag_close, ''), text.strip()
+    else:
+        return '', text
+
+
+split_h2 = lambda text: split_tag('h2', text)
+split_h3 = lambda text: split_tag('h3', text)
 
 
 def split_po_h3s(locale):
     po = load_po(locale)
     to_split = [
         entry for entry in po
-        if entry.msgid.endswith('</h3>') and '<h3>' in entry.msgid
-        and entry.msgstr.endswith('</h3>') and '<h3>' in entry.msgstr]
+        if (entry.msgid.endswith('</h3>') and '<h3>' in entry.msgid
+            and entry.msgstr.endswith('</h3>') and '<h3>' in entry.msgstr) or
+        (entry.msgid.startswith('<h3>') and '</h3>' in entry.msgid
+         and entry.msgstr.startswith('<h3>') and '</h3>' in entry.msgstr)]
     for entry in to_split:
         h3, text = split_h3(entry.msgid)
         translated_h3, translated_text = split_h3(entry.msgstr)
@@ -422,15 +430,70 @@ def split_db_h3s():
         if save_h3_to_next_entry(entry) and entry.text:
             entry.subheader_3 = ''
             entry.save(update_fields=['text'])
+    for entry in page.imageparagraphentry_set.model.objects.filter(
+            text__startswith='<h3>'):
+        if '</h3>' not in entry.text:
+            print('Missing <h3> in ImageParagraphEntry {} on {}'.format(
+                  entry.text, entry.parent.get_absolute_url()))
+            continue
+        entry.subheader_3, entry.text = split_h3(entry.text)
+        if entry.text:
+            entry.save(update_fields=['text', 'subheader_3'])
 
 
 def strip_all_fields():
     for page in Page.objects.all():
         for content_type in page._feincms_content_types:
             for entry in page.content.all_of_type(content_type):
+                updated_fields = []
                 for field in entry._meta.fields:
                     if (isinstance(field, TextField) or
                         isinstance(field, CharField)):
                         value = getattr(entry, field.name, '')
-                        setattr(entry, field.name, value.strip())
-                entry.save()
+                        stripped = value.strip()
+                        if value != stripped:
+                            setattr(entry, field.name, stripped)
+                            updated_fields.append(field.name)
+                if updated_fields:
+                    entry.save(update_fields=updated_fields)
+
+
+def strip_ems(text):
+    return text.replace('<em>', '').replace('</em>', '')
+
+
+def strip_subheader_ems():
+    page = Page.objects.all()[0]
+    for entry in page.imageparagraphentry_set.model.objects.filter(
+            subheader_3__contains='<em>'):
+        entry.subheader_3 = strip_ems(entry.subheader_3)
+        entry.save(update_fields=['subheader_3'])
+    for locale, language in settings.LANGUAGES:
+        if locale != 'en':
+            po = load_po(locale)
+            for entry in po:
+                if entry.msgid.startswith('<em>'):
+                    entry.msgid = strip_ems(entry.msgid)
+                    entry.msgstr = strip_ems(entry.msgstr)
+            po.save()
+
+
+def singular_strong(text):
+    return text.replace('<strong><strong>', '<strong>').replace(
+        '</strong></strong>', '</strong>')
+
+
+def fix_double_strong():
+    page = Page.objects.all()[0]
+    for entry in page.imageparagraphentry_set.model.objects.filter(
+            text__contains='<strong><strong>'):
+        entry.text = singular_strong(entry.text)
+        entry.save(update_fields=['text'])
+    for locale, language in settings.LANGUAGES:
+        if locale != 'en':
+            po = load_po(locale)
+            for entry in po:
+                if '<strong><strong>' in entry.msgid:
+                    entry.msgid = singular_strong(entry.msgid)
+                    entry.msgstr = singular_strong(entry.msgstr)
+            po.save()
