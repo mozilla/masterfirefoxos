@@ -1,0 +1,58 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+// FAQ pages
+
+@require 'lib';
+
+
+.faq {
+    margin-bottom: .25em;
+}
+
+.faq-question {
+    background: rgba(255, 255, 255, .25);
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+    margin: 0;
+    padding: .5em 10px .5em 45px;
+    position: relative;
+
+    &:hover {
+        background: rgba(255, 255, 255, .5);
+    }
+
+    &:before {
+        color: $dark-gray;
+        display: block;
+        font-size: 35px;
+        text-align: center;
+        content: '\25B8'; // left triangle
+        width: 25px;
+        height: 100%;
+        line-height: 1.2;
+        position: absolute;
+        top: 0;
+        left: 5px;
+    }
+}
+
+.faq-answer {
+    padding: 1em 10px 2em 45px;
+}
+
+.js .faq-answer {
+    display: none;
+}
+
+.open {
+    .faq-question:before {
+        content: '\25BE'; // down triangle
+    }
+
+    .faq-answer {
+        display: block;
+    }
+}
