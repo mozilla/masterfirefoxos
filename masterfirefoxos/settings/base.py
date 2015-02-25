@@ -273,7 +273,7 @@ if not DEBUG:
 
 LOCALIZED_YOUTUBE_ID = {
     # 1.1
-    'yPRIgHARJsA': {
+    'ODCBbEbcCGM': {
         'hr': 'QcDS5tfALy4',
         'de': 'zu2a0FXVh8c',
         'cs': 'v1tLRWtCkEs',
