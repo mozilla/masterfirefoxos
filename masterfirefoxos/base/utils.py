@@ -20,7 +20,8 @@ Translators:
 
 def entry_strings(entry):
     return [getattr(entry, field.name) for field in entry._meta.fields
-            if field.name in getattr(entry, '_l10n_fields', [])]
+            if field.name in getattr(entry, '_l10n_fields', [])
+            and getattr(entry, field.name)]
 
 
 def page_template_generator(page):
