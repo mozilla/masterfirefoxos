@@ -184,18 +184,18 @@ LOCALE_PATHS = (
 )
 
 LANGUAGES = (
-    ('bn', _('Bengali')),
+    ('bn-bd', _('Bengali')),
     ('hr', _('Croatian')),
     ('cs', _('Czech')),
     ('en', _('English')),
     ('de', _('German')),
     ('el', _('Greek')),
-    ('hi', _('Hindi')),
+    ('hi-in', _('Hindi')),
     ('hu', _('Hungarian')),
     ('it', _('Italian')),
     ('ja', _('Japanese')),
     ('pl', _('Polish')),
-    ('pt', _('Portuguese')),
+    ('pt-br', _('Portuguese')),
     ('sr', _('Serbian')),
     ('es', _('Spanish')),
     ('ta', _('Tamil')),
@@ -208,15 +208,15 @@ VERSIONS_LOCALE_MAP['1.1'] = {
     'slug': '1-1',
     'locales': ['en'],
     'pending_locales': [
-        'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt', 'sr', 'es', 'xx']}
+        'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt-br', 'sr', 'es', 'xx']}
 VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en'],
-    'pending_locales': ['hi', 'ta', 'xx']}
+    'pending_locales': ['hi-in', 'ta', 'xx']}
 VERSIONS_LOCALE_MAP['1.4'] = {
     'slug': '1-4',
     'locales': ['en'],
-    'pending_locales': ['bn', 'xx']}
+    'pending_locales': ['bn-bd', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': ['en'],
