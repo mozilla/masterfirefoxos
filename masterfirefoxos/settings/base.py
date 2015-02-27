@@ -184,12 +184,15 @@ LOCALE_PATHS = (
 )
 
 LANGUAGES = (
+    ('af', _('Afrikaans')),
+    ('ar', _('Arabic')),
     ('bn-bd', _('Bengali')),
     ('hr', _('Croatian')),
     ('cs', _('Czech')),
     ('en', _('English')),
     ('de', _('German')),
     ('el', _('Greek')),
+    ('fr', _('French')),
     ('hi-in', _('Hindi')),
     ('hu', _('Hungarian')),
     ('it', _('Italian')),
@@ -197,9 +200,13 @@ LANGUAGES = (
     ('pl', _('Polish')),
     ('pt-br', _('Portuguese')),
     ('sr', _('Serbian')),
+    ('sw', _('Kiswahili')),
     ('es', _('Spanish')),
     ('ta', _('Tamil')),
+    ('wo', _('Wolof')),
+    ('xh', _('Xhosa')),
     ('xx', _('Pirate')),
+    ('zu', _('Zulu')),
 )
 LANGUAGE_NAMES = dict(LANGUAGES)
 
@@ -220,7 +227,9 @@ VERSIONS_LOCALE_MAP['1.4'] = {
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': ['en'],
-    'pending_locales': ['de', 'ja', 'xx']}
+    'pending_locales': [
+        'af', 'ar', 'cs', 'de', 'fr', 'hu', 'ja', 'pl', 'pt-br', 'sw', 'wo',
+        'xh', 'xx', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
 for name, version in VERSIONS_LOCALE_MAP.items():
