@@ -30,8 +30,13 @@ def get_versions_for_locale(locale):
 
 def run(*args):
     for locale, lang_name in settings.LANGUAGES:
+        if locale == 'en':
+            continue
         print('Processing locale {}'.format(locale))
         versions = get_versions_for_locale(locale)
+        if '-' in locale:
+            lang, country = locale.split('-')
+            locale = '_'.join([lang, country.upper()])
         try:
             po = polib.pofile('locale/{}/LC_MESSAGES/django.po'.format(locale))
         except OSError:
