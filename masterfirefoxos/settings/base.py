@@ -228,8 +228,8 @@ VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': ['en'],
     'pending_locales': [
-        'af', 'ar', 'cs', 'de', 'fr', 'hu', 'ja', 'pl', 'pt-br', 'sw', 'wo',
-        'xh', 'xx', 'zu']}
+        'af', 'ar', 'cs', 'de', 'es', 'fr', 'hu', 'ja', 'pl', 'pt-br', 'sw',
+        'wo', 'xh', 'xx', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
 for name, version in VERSIONS_LOCALE_MAP.items():
