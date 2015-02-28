@@ -3,7 +3,7 @@
     <label for="language">{{ _('Language') }}</label>
     <select id="language" name="language">
     {% for language_code, language in settings.LANGUAGES %}
-      {% if language_code in settings.LOCALE_LATEST_VERSION or request.user.is_authenticated() %}
+      {% if settings.ENABLE_ALL_LANGUAGES or language_code in settings.LOCALE_LATEST_VERSION or request.user.is_authenticated() %}
 	{{ activate(language_code) }}
 	<option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ _(language)|capitalize }}</option>
       {% endif %}
