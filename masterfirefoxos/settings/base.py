@@ -33,6 +33,7 @@ TEMPLATE_DEBUG = config('DEBUG', default=DEBUG, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
+ENABLE_ALL_LANGUAGES = config('ENABLE_ALL_LANGUAGES', default=False, cast=bool)
 
 # Application definition
 

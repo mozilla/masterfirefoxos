@@ -17,10 +17,13 @@ class NonExistentLocaleRedirectionMiddleware(object):
     """
 
     def process_request(self, request):
-        if hasattr(request, 'user') and request.user.is_authenticated():
+        if settings.ENABLE_ALL_LANGUAGES:
             return
 
         if request.path.startswith('/en/'):
+            return
+
+        if hasattr(request, 'user') and request.user.is_authenticated():
             return
 
         url_breakdown = request.path.split('/')
