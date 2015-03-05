@@ -13,6 +13,7 @@ Contents:
 
    authoring_content
    versions_and_locales
+   translation_using_verbatim
    gulp
    importing_legacy_data
 

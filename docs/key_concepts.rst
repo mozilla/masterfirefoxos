@@ -12,7 +12,7 @@ Authentication
 
 In order to author content in the MFOS site, you will need to login:
 
-  1. Navigate to **prod.masterfirefoxos.com/admin** (post launch: **www.masterfirefoxos.com/admin**)
+  1. Navigate to: **https://masterfirefoxos.mozilla.org/admin**)
   2. Supply the **username** (email) and **password**
   3. Press **Login**
 
@@ -33,6 +33,15 @@ When adding a new FFOS version or locale changes must also be made by a develope
 file. This is a once per version or locale change.
 
 
+TinyMCE Editor
+--------------
 
+The TinyMCE editor is disabled for content entry. Unfortunately this editor
+adds HTML formatting that causes problems for L10N.
+
+.. warning::
+
+   Generally you should not manually add html tags. If you do need to add html tags pleas
+   restrict usage to <b>, <br> and basic formatting. Do not use tags like <p> or <div>.
 
 
