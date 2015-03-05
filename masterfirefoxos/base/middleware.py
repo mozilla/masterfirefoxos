@@ -10,20 +10,11 @@ class NonExistentLocaleRedirectionMiddleware(object):
     documentation versions is maintained in
     settings.VERSIONS_LOCALE_MAP.
 
-    If the user is authenticated, i.e. is staff, they don't get
-    redirected and they can view the requested page. This will be
-    useful to verify translations before releasing them.
-
+    settings.ENABLE_ALL_LANGUAGES will disable this middleware.
     """
 
     def process_request(self, request):
-        if settings.ENABLE_ALL_LANGUAGES:
-            return
-
-        if request.path.startswith('/en/'):
-            return
-
-        if hasattr(request, 'user') and request.user.is_authenticated():
+        if settings.ENABLE_ALL_LANGUAGES or request.path.startswith('/en/'):
             return
 
         url_breakdown = request.path.split('/')
