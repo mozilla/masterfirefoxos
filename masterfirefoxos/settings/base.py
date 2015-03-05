@@ -234,9 +234,15 @@ VERSIONS_LOCALE_MAP['2.0'] = {
         'wo', 'xh', 'xx', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
+LOCALE_LATEST_PENDING_VERSION = {}
 for name, version in VERSIONS_LOCALE_MAP.items():
     for locale in version['locales']:
         LOCALE_LATEST_VERSION[locale] = {
+            'slug': version['slug'],
+            'name': name,
+            }
+    for locale in version.get('pending_locales', []):
+        LOCALE_LATEST_PENDING_VERSION[locale] = {
             'slug': version['slug'],
             'name': name,
             }
