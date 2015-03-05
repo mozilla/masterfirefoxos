@@ -68,3 +68,12 @@ create these sections. More details can be found on the youtube doc page.
 Quiz Question & Answer
 ------------------------
 Used to create the quiz. More details can be found on the quiz doc page.
+
+Headings
+------------------------
+In addition to the title field there are 2 additional fields for headings:
+
+* Subheader 2
+* Subheader 3
+
+These map to the headings <h3> and <h4> (title is <h2>).

@@ -1,5 +1,5 @@
-Documentation Versions and Languages
-====================================
+Versions and Locales
+====================
 
 Adding new Versions of the Documentation
 ----------------------------------------
