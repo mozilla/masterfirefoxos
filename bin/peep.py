@@ -27,9 +27,11 @@ from os import listdir
 from os.path import join, basename, splitext, isdir
 from pickle import dumps, loads
 import re
+import sys
 from shutil import rmtree, copy
 from sys import argv, exit
 from tempfile import mkdtemp
+import traceback
 try:
     from urllib2 import build_opener, HTTPHandler, HTTPSHandler, HTTPError
 except ImportError:
@@ -71,11 +73,25 @@ except ImportError:
     except ImportError:
         from pip.util import url_to_filename as url_to_path  # 0.6.2
 from pip.index import PackageFinder, Link
-from pip.log import logger
+try:
+    from pip.log import logger
+except ImportError:
+    from pip import logger  # 6.0
 from pip.req import parse_requirements
+try:
+    from pip.utils.ui import DownloadProgressBar, DownloadProgressSpinner
+except ImportError:
+    class NullProgressBar(object):
+        def __init__(self, *args, **kwargs):
+            pass
+
+        def iter(self, ret, *args, **kwargs):
+            return ret
+
+    DownloadProgressBar = DownloadProgressSpinner = NullProgressBar
 
 
-__version__ = 2, 0, 0
+__version__ = 2, 2, 0
 
 
 ITS_FINE_ITS_FINE = 0
@@ -225,12 +241,13 @@ def peep_hash(argv):
 class EmptyOptions(object):
     """Fake optparse options for compatibility with pip<1.2
 
-    pip<1.2 had a bug in parse_requirments() in which the ``options`` kwarg
+    pip<1.2 had a bug in parse_requirements() in which the ``options`` kwarg
     was required. We work around that by passing it a mock object.
 
     """
     default_vcs = None
     skip_requirements_regex = None
+    isolated_mode = False
 
 
 def memoize(func):
@@ -375,9 +392,9 @@ class DownloadedReq(object):
             raise RuntimeError("The archive '%s' didn't start with the package name '%s', so I couldn't figure out the version number. My bad; improve me." %
                                (filename, package_name))
 
-        get_version =  (version_of_wheel
-                        if self._downloaded_filename().endswith('.whl')
-                        else version_of_archive)
+        get_version = (version_of_wheel
+                       if self._downloaded_filename().endswith('.whl')
+                       else version_of_archive)
         return get_version(self._downloaded_filename(), self._project_name())
 
     def _is_always_unsatisfied(self):
@@ -481,14 +498,31 @@ class DownloadedReq(object):
             return filename
 
         # Descended from _download_url() in pip 1.4.1
-        def pipe_to_file(response, path):
-            """Pull the data off an HTTP response, and shove it in a new file."""
-            # TODO: Indicate progress.
-            with open(path, 'wb') as file:
+        def pipe_to_file(response, path, size=0):
+            """Pull the data off an HTTP response, shove it in a new file, and
+            show progress.
+
+            :arg response: A file-like object to read from
+            :arg path: The path of the new file
+            :arg size: The expected size, in bytes, of the download. 0 for
+                unknown or to suppress progress indication (as for cached
+                downloads)
+
+            """
+            def response_chunks(chunk_size):
                 while True:
-                    chunk = response.read(4096)
+                    chunk = response.read(chunk_size)
                     if not chunk:
                         break
+                    yield chunk
+
+            print('Downloading %s%s...' % (
+                self._req.req,
+                (' (%sK)' % (size / 1000)) if size > 1000 else ''))
+            progress_indicator = (DownloadProgressBar(max=size).iter if size
+                                  else DownloadProgressSpinner().iter)
+            with open(path, 'wb') as file:
+                for chunk in progress_indicator(response_chunks(4096), 4096):
                     file.write(chunk)
 
         url = link.url.split('#', 1)[0]
@@ -497,7 +531,11 @@ class DownloadedReq(object):
         except (HTTPError, IOError) as exc:
             raise DownloadError(link, exc)
         filename = best_filename(link, response)
-        pipe_to_file(response, join(self._temp_path, filename))
+        try:
+            size = int(response.headers['content-length'])
+        except (ValueError, KeyError, TypeError):
+            size = 0
+        pipe_to_file(response, join(self._temp_path, filename), size=size)
         return filename
 
 
@@ -566,7 +604,10 @@ class DownloadedReq(object):
         """
         other_args = list(requirement_args(self._argv, want_other=True))
         archive_path = join(self._temp_path, self._downloaded_filename())
-        run_pip(['install'] + other_args + ['--no-deps', archive_path])
+        # -U so it installs whether pip deems the requirement "satisfied" or
+        # not. This is necessary for GitHub-sourced zips, which change without
+        # their version numbers changing.
+        run_pip(['install'] + other_args + ['--no-deps', '-U', archive_path])
 
     @memoize
     def _actual_hash(self):
@@ -713,6 +754,7 @@ def first_every_last(iterable, first, every, last):
     did_first = False
     for item in iterable:
         if not did_first:
+            did_first = True
             first(item)
         every(item)
     if did_first:
@@ -727,8 +769,20 @@ def downloaded_reqs_from_path(path, argv):
     :arg argv: The commandline args, starting after the subcommand
 
     """
-    return [DownloadedReq(req, argv) for req in
-            parse_requirements(path, options=EmptyOptions())]
+    def downloaded_reqs(parsed_reqs):
+        """Just avoid repeating this list comp."""
+        return [DownloadedReq(req, argv) for req in parsed_reqs]
+
+    try:
+        return downloaded_reqs(parse_requirements(path, options=EmptyOptions()))
+    except TypeError:
+        # session is a required kwarg as of pip 6.0 and will raise
+        # a TypeError if missing. It needs to be a PipSession instance,
+        # but in older versions we can't import it from pip.download
+        # (nor do we need it at all) so we only import it in this except block
+        from pip.download import PipSession
+        return downloaded_reqs(parse_requirements(
+                path, options=EmptyOptions(), session=PipSession()))
 
 
 def peep_install(argv):
@@ -739,8 +793,7 @@ def peep_install(argv):
 
     """
     output = []
-    #out = output.append
-    out = print
+    out = output.append
     reqs = []
     try:
         req_paths = list(requirement_args(argv, want_paths=True))
@@ -800,5 +853,27 @@ def main():
         return exc.error_code
 
 
+def exception_handler(exc_type, exc_value, exc_tb):
+    print('Oh no! Peep had a problem while trying to do stuff. Please write up a bug report')
+    print('with the specifics so we can fix it:')
+    print()
+    print('https://github.com/erikrose/peep/issues/new')
+    print()
+    print('Here are some particulars you can copy and paste into the bug report:')
+    print()
+    print('---')
+    print('peep:', repr(__version__))
+    print('python:', repr(sys.version))
+    print('pip:', repr(pip.__version__))
+    print('Command line: ', repr(sys.argv))
+    print(
+        ''.join(traceback.format_exception(exc_type, exc_value, exc_tb)))
+    print('---')
+
+
 if __name__ == '__main__':
-    exit(main())
+    try:
+        exit(main())
+    except Exception:
+        exception_handler(*sys.exc_info())
+        exit(SOMETHING_WENT_WRONG)
