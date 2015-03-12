@@ -234,8 +234,8 @@ VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': ['en'],
     'pending_locales': [
-        'af', 'ar', 'cs', 'de', 'es', 'fr', 'hu', 'ja', 'pl', 'pt-br', 'sw',
-        'wo', 'xh', 'xx', 'zu']}
+        'af', 'ar', 'cs', 'de', 'ee', 'es', 'fr', 'ha', 'hu', 'ig', 'ja', 'ln',
+        'pl', 'pt-br', 'sw', 'wo', 'xh', 'xx', 'yo', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
 LOCALE_LATEST_PENDING_VERSION = {}
