@@ -218,6 +218,10 @@ VERSIONS_LOCALE_MAP['1.1'] = {
     'locales': ['en'],
     'pending_locales': [
         'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt-br', 'sr', 'es', 'xx']}
+VERSIONS_LOCALE_MAP['1.3'] = {
+    'slug': '1-3',
+    'locales': ['en'],
+    'pending_locales': ['es', 'xx']}
 VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en'],
