@@ -177,9 +177,9 @@ pep8==1.5.7
 # sha256: P6gKELNtUWhr93RPXcmWIs1cmM6O1kAi5imGiq_Bd2k
 pyflakes==0.8.1
 
-# sha256: tNGpgcRD4Z7j9SezUgItaY4WopiRPZt46hEz8Inut3k
-# sha256: MG6tkdR6SLaiXUldJJXemWlGQb19LKxbzEBaiDfHphI
-requests==2.5.2
+# sha256: _bmvYNR8pXqA3wohMzYBmjT_YZLY__Nhw0nyyDmP5GA
+# sha256: HNvtHw4jbzXvVOkZmCx6M45P6jeGMQkz06eIegS3TXU
+requests==2.6.0
 
 # sha256: lRcUyqCugCN_T_wfCEUOni5fj5Ar6vGtKUAgh11vjCw
 execnet==1.2.0
