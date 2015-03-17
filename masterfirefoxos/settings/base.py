@@ -220,9 +220,9 @@ LANGUAGE_NAMES = dict(LANGUAGES)
 VERSIONS_LOCALE_MAP = OrderedDict()
 VERSIONS_LOCALE_MAP['1.1'] = {
     'slug': '1-1',
-    'locales': ['en'],
+    'locales': ['en', 'it'],
     'pending_locales': [
-        'hr', 'cs', 'de', 'el', 'hu', 'it', 'pl', 'pt-br', 'sr', 'es', 'xx']}
+        'hr', 'cs', 'de', 'el', 'hu', 'pl', 'pt-br', 'sr', 'es', 'xx']}
 VERSIONS_LOCALE_MAP['1.3'] = {
     'slug': '1-3',
     'locales': ['en'],
