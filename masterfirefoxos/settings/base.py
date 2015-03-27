@@ -221,9 +221,9 @@ LANGUAGE_NAMES = dict(LANGUAGES)
 VERSIONS_LOCALE_MAP = OrderedDict()
 VERSIONS_LOCALE_MAP['1.1'] = {
     'slug': '1-1',
-    'locales': ['el', 'en', 'it'],
+    'locales': ['el', 'en', 'it', 'pt-br'],
     'pending_locales': [
-        'hr', 'cs', 'de', 'hu', 'pl', 'pt-br', 'sr', 'es', 'xx']}
+        'hr', 'cs', 'de', 'hu', 'pl', 'sr', 'es', 'xx']}
 VERSIONS_LOCALE_MAP['1.3'] = {
     'slug': '1-3',
     'locales': ['en'],
@@ -238,10 +238,10 @@ VERSIONS_LOCALE_MAP['1.4'] = {
     'pending_locales': ['bn-bd', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
-    'locales': ['en', 'de', 'ja'],
+    'locales': ['en', 'de', 'ja', 'pt-br'],
     'pending_locales': [
         'af', 'ar', 'cs', 'ee', 'es', 'ff', 'fr', 'ha', 'hu', 'ig', 'ln',
-        'pl', 'pt-br', 'sw', 'wo', 'xh', 'xx', 'yo', 'zu']}
+        'pl', 'sw', 'wo', 'xh', 'xx', 'yo', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
 LOCALE_LATEST_PENDING_VERSION = {}
