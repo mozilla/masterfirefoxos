@@ -238,9 +238,9 @@ VERSIONS_LOCALE_MAP['1.4'] = {
     'pending_locales': ['bn-bd', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
-    'locales': ['en', 'de'],
+    'locales': ['en', 'de', 'ja'],
     'pending_locales': [
-        'af', 'ar', 'cs', 'ee', 'es', 'ff', 'fr', 'ha', 'hu', 'ig', 'ja', 'ln',
+        'af', 'ar', 'cs', 'ee', 'es', 'ff', 'fr', 'ha', 'hu', 'ig', 'ln',
         'pl', 'pt-br', 'sw', 'wo', 'xh', 'xx', 'yo', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
