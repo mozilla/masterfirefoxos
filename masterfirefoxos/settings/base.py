@@ -310,7 +310,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'B9fwnibymws',
         'it': '9U6qXAqx9qw',
         'pl': 'IUfYEg2FGn4',
-        'pt': '6mUYqNted2U',
+        'pt-br': '6mUYqNted2U',
         'sr': '-8-yc1KUBMs',
         'es': 'whcfcevIexg'
     },
@@ -321,7 +321,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'dBYWqVOxf8Q',
         'it': 'cBUADOIP4ks',
         'pl': 'XYfESrBUkK8',
-        'pt': 'wXlmBxaoLi8',
+        'pt-br': 'wXlmBxaoLi8',
         'sr': 'Wur2jVusiDI',
         'es': 'hRPXmLOx1-w'
     },
@@ -332,7 +332,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'hcSxACM2Zoc',
         'it': '0PiFn-2byP0',
         'pl': 'R3yT3mLzW3E',
-        'pt': 'PCekhjtIxcs',
+        'pt-br': 'PCekhjtIxcs',
         'sr': 'TM9BUmlD6co',
         'es': 'ZrXfURfNK18'
     },
@@ -343,7 +343,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'nkaAYhpvJ6o',
         'it': '-qmurnSReFE',
         'pl': 'DFQUPO2Zbr4',
-        'pt': 'WGdJ_cL3LNc',
+        'pt-br': 'WGdJ_cL3LNc',
         'sr': 'dv4O2ju1vpA',
         'es': 'rMX9JtfYoBg'
     },
@@ -354,7 +354,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'JGCQ6lsOEO4',
         'it': 'Xqkgb6-CHpM',
         'pl': 'lodw2TvOOgU',
-        'pt': 'zivYtU2lip0',
+        'pt-br': 'zivYtU2lip0',
         'sr': 'Y04bxc3kVgE',
         'es': 'RhOLzXfqeBw'
     },
@@ -365,7 +365,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'J--N_B5_Grk',
         'it': 'Oe9was4FQHA',
         'pl': 'jxN8ETP1c84',
-        'pt': 'g7xGYUl_Odc',
+        'pt-br': 'g7xGYUl_Odc',
         'sr': 'c0XSya6I39M',
         'es': 'kAvoXC0XkPw'
     },
@@ -376,7 +376,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'ZmL0pLwhqqQ',
         'it': 'CsnZIFzdoNM',
         'pl': 'oU6bX-blsVo',
-        'pt': 'c_A92GmAN94',
+        'pt-br': 'c_A92GmAN94',
         'sr': 'XRawOINb-1k',
         'es': 'N89xDJyG15E'
     },
@@ -387,7 +387,7 @@ LOCALIZED_YOUTUBE_ID = {
         'el': 'g8k8MjX9ZjM',
         'it': 'Z8ELi8wBR7o',
         'pl': 'vE1MxioVBBM',
-        'pt': 'gqwl1xiLEkg',
+        'pt-br': 'gqwl1xiLEkg',
         'sr': 'XDwIdH4hrgI',
         'es': 'mzOLVnujiJ0'
     },
