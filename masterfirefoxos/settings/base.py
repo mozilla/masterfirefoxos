@@ -221,13 +221,13 @@ LANGUAGE_NAMES = dict(LANGUAGES)
 VERSIONS_LOCALE_MAP = OrderedDict()
 VERSIONS_LOCALE_MAP['1.1'] = {
     'slug': '1-1',
-    'locales': ['el', 'en', 'it', 'pt-br'],
+    'locales': ['el', 'en', 'es', 'it', 'pt-br'],
     'pending_locales': [
-        'hr', 'cs', 'de', 'hu', 'pl', 'sr', 'es', 'xx']}
+        'hr', 'cs', 'de', 'hu', 'pl', 'sr', 'xx']}
 VERSIONS_LOCALE_MAP['1.3'] = {
     'slug': '1-3',
-    'locales': ['en'],
-    'pending_locales': ['es', 'xx']}
+    'locales': ['en', 'es'],
+    'pending_locales': ['xx']}
 VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en'],
@@ -238,9 +238,9 @@ VERSIONS_LOCALE_MAP['1.4'] = {
     'pending_locales': ['bn-bd', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
-    'locales': ['en', 'de', 'ja', 'pt-br'],
+    'locales': ['en', 'es', 'de', 'ja', 'pt-br'],
     'pending_locales': [
-        'af', 'ar', 'cs', 'ee', 'es', 'ff', 'fr', 'ha', 'hu', 'ig', 'ln',
+        'af', 'ar', 'cs', 'ee', 'ff', 'fr', 'ha', 'hu', 'ig', 'ln',
         'pl', 'sw', 'wo', 'xh', 'xx', 'yo', 'zu']}
 
 LOCALE_LATEST_VERSION = {}
