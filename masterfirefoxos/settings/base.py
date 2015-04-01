@@ -238,10 +238,10 @@ VERSIONS_LOCALE_MAP['1.4'] = {
     'pending_locales': ['bn-bd', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
-    'locales': ['en', 'es', 'de', 'ja', 'pt-br'],
+    'locales': ['af', 'en', 'es', 'de', 'ja', 'pt-br', 'xh', 'zu'],
     'pending_locales': [
-        'af', 'ar', 'cs', 'ee', 'ff', 'fr', 'ha', 'hu', 'ig', 'ln',
-        'pl', 'sw', 'wo', 'xh', 'xx', 'yo', 'zu']}
+        'ar', 'cs', 'ee', 'ff', 'fr', 'ha', 'hu', 'ig', 'ln',
+        'pl', 'sw', 'wo', 'xx', 'yo']}
 
 LOCALE_LATEST_VERSION = {}
 LOCALE_LATEST_PENDING_VERSION = {}
