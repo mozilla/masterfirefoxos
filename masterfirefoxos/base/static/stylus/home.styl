@@ -68,9 +68,23 @@
     .home {
 
         .masthead {
-            background: $medium-blue url('/static/img/fox-swoop.png') calc(50% + 300px) 145px no-repeat;
             min-height: 420px;
             margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+
+            &:before {
+                content: '';
+                display: block;
+                background: url('/static/img/fox-swoop.png') no-repeat;
+                position: absolute;
+                bidi-value(left, calc(50% + 40px), auto);
+                bidi-value(right, auto, calc(50% + 40px));
+                bidi-value(transform, none, scaleX(-1));
+                top: 145px;
+                width: 590px;
+                height: 670px;
+            }
         }
 
         .page-intro {
@@ -133,9 +147,10 @@
 
 @media $media-query-highres-large {
 
-    .home .masthead {
+    .home .masthead:before {
         background-image: url('/static/img/fox-swoop-hr.png');
-        background-size: 590px 670px;
+        -webkit-background-size: 590px 670px;
+                background-size: 590px 670px;
     }
 
 }

@@ -44,12 +44,13 @@
 
     input {
         position: absolute;
-        left: -5em;
+        bidi-value(left, -5em, auto);
+        bidi-value(right, auto, -5em);
     }
 
     label {
         background: rgba(255, 255, 255, .25);
-        padding: .5em 10px .5em 45px;
+        bidi-value(padding, .5em 10px .5em 45px, .5em 45px .5em 10px);
         display: block;
         margin: 0;
         cursor: pointer;
@@ -73,7 +74,8 @@
             line-height: 25px;
             position: absolute;
             top: 8px;
-            left: 8px;
+            bidi-value(left, 8px, auto);
+            bidi-value(right, auto, 8px);
         }
     }
 
@@ -88,7 +90,7 @@
 }
 
 .quiz-image {
-    float: left;
+    bidi-value(float, left, right);
     clear: both;
     background: #fff;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);

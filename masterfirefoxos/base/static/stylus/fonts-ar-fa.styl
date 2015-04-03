@@ -1,0 +1,26 @@
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this
+// file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+// Declare webfonts for Arabic and Persian (Farsi)
+
+@font-face {
+    font-family: 'Droid Naskh';
+    src: local('DroidArabicNaskh'), url('https://mozorg.cdn.mozilla.net/media/fonts/l10n/DroidNaskh-Regular.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Droid Naskh';
+    src: local('DroidArabicNaskh'), url('https://mozorg.cdn.mozilla.net/media/fonts/l10n/DroidNaskh-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Fira Sans', 'Droid Naskh', Calibri, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, legend, dl.faq dt {
+    font-family: 'Fira Sans Light', 'Droid Naskh', Calibri, sans-serif;
+}

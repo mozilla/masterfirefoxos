@@ -38,10 +38,29 @@ abstract-longhand(prop, originalArguments) {
     }
 }
 
-
 // Remify font-size declarations
 font-size() {
     abstract-longhand('font-size', arguments)
+}
+
+
+// Allows setting of a property for LTR and RTL without having to
+// deal with duplicating and maintaining selectors:
+// example: bidi-style(left, 20px, right, auto)
+
+bidi-style(ltr-prop, value, inverse-prop, inverse-value) {
+    {ltr-prop}: value;
+
+    html[dir='rtl'] & {
+        if (ltr-prop != inverse-prop) {
+            {inverse-prop}: value;
+        }
+        {ltr-prop}: inverse-value;
+    }
+}
+
+bidi-value(prop, ltr, rtl) {
+    bidi-style(prop, ltr, prop, rtl);
 }
 
 
@@ -163,7 +182,7 @@ $media-query-highres-large  = 'only screen and (-webkit-min-device-pixel-ratio: 
 
 // Column spans for standard column widths
 span(columns) {
-    float: left;
+    bidi-value(float, left, right);
     width: ($grid-column-width * columns) + ($grid-gutter-width * (columns - 1));
     margin-left: ($grid-gutter-width / 2);
     margin-right: ($grid-gutter-width / 2);
@@ -178,12 +197,17 @@ span_all() {
 
 offset(columns) {
     margin-left: (($grid-column-width + $grid-gutter-width) * columns) + ($grid-gutter-width * 0.5);
+
+    html[dir='rtl'] & {
+        margin-left: ($grid-gutter-width * 0.5);
+        margin-right: (($grid-column-width + $grid-gutter-width) * columns) + ($grid-gutter-width * 0.5);
+    }
 }
 
 
 // Column spans for narrow column widths
 span_narrow(columns) {
-    float: left;
+    bidi-value(float, left, right);
     width: ($grid-narrow-column-width * columns) + ($grid-gutter-width * (columns - 1));
     margin-left: ($grid-gutter-width / 2);
     margin-right: ($grid-gutter-width / 2);
@@ -191,6 +215,11 @@ span_narrow(columns) {
 
 offset_narrow(columns) {
     margin-left: (($grid-narrow-column-width + $grid-gutter-width) * columns) + ($grid-gutter-width * 0.5);
+
+    html[dir='rtl'] & {
+        margin-left: ($grid-gutter-width * 0.5);
+        margin-right: (($grid-narrow-column-width + $grid-gutter-width) * columns) + ($grid-gutter-width * 0.5);
+    }
 }
 
 
