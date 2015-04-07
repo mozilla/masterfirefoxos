@@ -188,7 +188,8 @@ LOCALE_PATHS = (
 LANGUAGES = (
     ('af', _('Afrikaans')),
     ('ar', _('Arabic')),
-    ('bn-bd', _('Bengali')),
+    ('bn-bd', _('Bengali (Bangladesh)')),
+    ('bn-in', _('Bengali (India)')),
     ('hr', _('Croatian')),
     ('cs', _('Czech')),
     ('ee', _('Ewe')),
@@ -235,7 +236,7 @@ VERSIONS_LOCALE_MAP['1.3T'] = {
 VERSIONS_LOCALE_MAP['1.4'] = {
     'slug': '1-4',
     'locales': ['en'],
-    'pending_locales': ['bn-bd', 'xx']}
+    'pending_locales': ['bn-bd', 'bn-in', 'hi-in', 'ta', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': ['af', 'en', 'es', 'de', 'ja', 'pt-br', 'xh', 'zu'],
