@@ -5,7 +5,7 @@
     {% for language_code, language in settings.LANGUAGES %}
       {% if settings.ENABLE_ALL_LANGUAGES or language_code in settings.LOCALE_LATEST_VERSION or request.user.is_authenticated() %}
 	{{ activate(language_code) }}
-	<option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ _(language)|capitalize }}</option>
+	<option value="{{ language_code }}"{% if request.path.startswith('/' + language_code) %} selected="true"{% endif %}>{{ _(language)|paren_title }}</option>
       {% endif %}
     {% endfor %}
     {{ activate(request.LANGUAGE_CODE) }}

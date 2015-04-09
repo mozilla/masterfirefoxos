@@ -1,4 +1,5 @@
 import os
+import re
 from datetime import datetime
 
 from django.conf import settings
@@ -9,9 +10,11 @@ from feincms.module.medialibrary.models import MediaFile
 from feincms.templatetags.feincms_tags import feincms_render_region
 from jingo import register
 from jinja2 import Markup
+from jinja2.utils import soft_unicode
 from sorl.thumbnail import get_thumbnail
 
 
+_word_beginning_split_re = re.compile(r'([-\s\(\{\[\<]+)(?u)')
 static = register.function(static_helper)
 
 
@@ -67,3 +70,15 @@ def get_image_url(img, geometry=None, locale=None):
 @register.function
 def include_pontoon(request):
     return request.get_host() == getattr(settings, 'LOCALIZATION_HOST', None)
+
+
+@register.filter
+def paren_title(s):
+    """
+    Fix jinja2 title filter to capitalize words inside parens
+    see https://github.com/mitsuhiko/jinja2/pull/439
+    """
+    return ''.join(
+        [item[0].upper() + item[1:].lower()
+         for item in _word_beginning_split_re.split(soft_unicode(s))
+         if item])
