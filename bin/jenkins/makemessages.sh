@@ -29,5 +29,6 @@ fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web ./manage.py runs
 fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} run -T web chmod a+wx -R locale
 
 cd locale
-git commit -a -m "Update strings."
+git add .
+git commit -m "Update strings."
 git push origin master
