@@ -2,6 +2,7 @@
 # installation we use peep.py shipped in ./bin
 # sha256: PU6v8vYN6py7rTKqZEHGVCiY_9o2REixOYI0al7WRXA
 peep==2.2
+
 # sha256: 7sV9MhlQHsbmhWRoJvLrjndoepP-N0p-aZRJBSDbCT4
 # sha256: SBb4kgY1acqad1hPojy0mVwbO5VO-HUQKoIZIpy9LjM
 Django==1.7.7
@@ -26,12 +27,6 @@ jingo==0.7
 
 # sha256: pOwa_1m5WhS0XrLiN2GgF56YMZ2lp-t2tW6ozce4ccM
 MarkupSafe==0.23
-
-# TarGZ
-# sha256: gnFVEftiRvrUumbYEuuTQWroNxtGT6iL84Z8nBd9qhQ
-# Wheel
-# sha256: _7QRdX3jdNBcdZySmQjSOXxm47z2813uQabvnrhRSXs
-gunicorn==19.1.1
 
 # sha256: 2slBnbPs4nu1PHQzJD_CLtQs9o3p1sQSk5Dh2a7-YxA
 # sha256: Pk2AGZlglZuCiVGqJMv6o2zr7RSdzXKMEehVeYsV-HA
@@ -185,3 +180,6 @@ execnet==1.2.0
 
 # sha256: Yx2-hD7Hza2vI5jFA0PYhweNT5N0oOMHWKNQI_hl--k
 pytest-xdist==1.11
+
+# sha256: wLOB1sItqTHoXj7-YSYp_jOgGsJbDwKKpjG4XYbVAos
+uwsgi==2.0.10
