@@ -2,12 +2,19 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-@require 'fonts';
-@require 'reset';
 @require 'lib';
+
+@require 'fonts';
+html[lang='ar'],
+html[lang='fa'] {
+    @require 'fonts-ar-fa';
+}
+
+@require 'reset';
 
 @import 'quiz';
 @import 'faq';
+
 
 // Global styling and layout
 
@@ -47,6 +54,17 @@ h1, h2, h3, h4, h5, h6, legend, dl.faq dt {
     line-height: 1.1;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, .35);
     margin: 0 0 .5em;
+}
+
+[lang='ar'],
+[lang='bn-bd'],
+[lang='fa'],
+[lang='hi-in'],
+[lang='ta'] {
+    h1, h2, h3, h4, h5, h6, legend, dl.faq dt {
+        letter-spacing: normal;
+        line-height: 1.5;
+    }
 }
 
 h1,
@@ -256,7 +274,8 @@ label {
     width: 150px;
     overflow: hidden;
     position: absolute;
-    right: 15px;
+    bidi-value(right, 15px, auto);
+    bidi-value(left, auto, 15px);
     top: 0;
     text-indent: 150%;
 }
@@ -409,6 +428,7 @@ label {
 }
 
 
+
 //*----------------------------------------------------------------*/
 // @Mobile @Landscape layout: 480px
 
@@ -423,7 +443,8 @@ label {
         position: absolute;
         top: 10px;
         bottom: auto;
-        right: 170px;
+        bidi-value(right, 170px, auto);
+        bidi-value(left, auto, 170px);
         font-size: 16px;
 
         ul {
@@ -475,7 +496,7 @@ label {
 
     .site-logo {
         width: 225px;
-        float: left;
+        bidi-value(float, left, right);
     }
 
     .site-switcher {
@@ -483,8 +504,8 @@ label {
         box-shadow: none;
         padding: 0;
         width: 300px;
-        float: right;
-        text-align: right;
+        bidi-value(float, right, left);
+        bidi-value(text-align, right, left);
     }
 
     .nav-main {
@@ -506,25 +527,14 @@ label {
     }
 
     .media-image {
-        padding-left: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 3);
+        bidi-value(padding-left, ($grid-narrow-column-width * 3) + ($grid-gutter-width * 3), 0);
+        bidi-value(padding-right, 0, ($grid-narrow-column-width * 3) + ($grid-gutter-width * 3));
 
         img {
-            float: left;
-            margin-left: -(($grid-narrow-column-width * 3) + ($grid-gutter-width * 3) + 5);
+            bidi-value(float, left, right);
+            bidi-value(margin-left, -(($grid-narrow-column-width * 3) + ($grid-gutter-width * 3) + 5), 0);
+            bidi-value(margin-right, 0, -(($grid-narrow-column-width * 3) + ($grid-gutter-width * 3) + 5));
             width: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 2);
-        }
-    }
-
-    [dir='rtl'] {
-        .media-image {
-            padding-left: 0;
-            padding-right: ($grid-narrow-column-width * 3) + ($grid-gutter-width * 3);
-
-            img {
-                float: right;
-                margin-left: 0;
-                margin-right: -(($grid-narrow-column-width * 3) + ($grid-gutter-width * 3) + 5);
-            }
         }
     }
 
@@ -579,24 +589,14 @@ label {
     }
 
     .media-image {
-        padding-left: ($grid-column-width * 3) + ($grid-gutter-width * 3);
+        bidi-value(padding-left, ($grid-column-width * 3) + ($grid-gutter-width * 3), 0);
+        bidi-value(padding-right, 0, ($grid-column-width * 3) + ($grid-gutter-width * 3));
 
         img {
-            margin-left: -(($grid-column-width * 3) + ($grid-gutter-width * 3) + 5);
+            bidi-value(float, left, right);
+            bidi-value(margin-left, -(($grid-column-width * 3) + ($grid-gutter-width * 3) + 5), 0);
+            bidi-value(margin-right, 0, -(($grid-column-width * 3) + ($grid-gutter-width * 3) + 5));
             width: ($grid-column-width * 3) + ($grid-gutter-width * 2);
-        }
-    }
-
-    [dir='rtl'] {
-        .media-image {
-            padding-left: 0;
-            padding-right: ($grid-column-width * 3) + ($grid-gutter-width * 3);
-
-            img {
-                float: right;
-                margin-left: 0;
-                margin-right: -(($grid-column-width * 3) + ($grid-gutter-width * 3) + 5);
-            }
         }
     }
 

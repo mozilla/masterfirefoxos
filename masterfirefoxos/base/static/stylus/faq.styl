@@ -17,7 +17,7 @@
     display: block;
     font-size: 20px;
     margin: 0;
-    padding: .5em 10px .5em 45px;
+    bidi-value(padding, .5em 10px .5em 45px, .5em 45px .5em 10px);
     position: relative;
 
     &:hover {
@@ -29,13 +29,15 @@
         display: block;
         font-size: 35px;
         text-align: center;
-        content: '\25B8'; // left triangle
+        content: '\25b8'; // right triangle
         width: 25px;
         height: 100%;
         line-height: 1.2;
         position: absolute;
         top: 0;
-        left: 5px;
+        bidi-value(left, 5px, auto);
+        bidi-value(right, auto, 5px);
+        bidi-value(transform, none, scaleX(-1));
     }
 }
 
