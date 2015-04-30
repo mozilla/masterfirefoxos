@@ -416,20 +416,26 @@ LOCALIZED_YOUTUBE_ID = {
     # 2.0
     '9WWo33tWwNw': {
         'de': 'gfHbcpi3Rc4',
+        'fr': 'DPCDIkF9dN0',
     },
     'jrcmZMkgHVU': {
         'de': '_8dCK2zPAbA',
+        'fr': 'RMnt-nfmytY',
     },
     'i0UY48l-nXU': {
         'de': '5VlR0J3pMKg',
+        'fr': 'gAsGJkBWtKo',
     },
     'blOcJrnirn0': {
         'de': 'Z6aBrtRgTqQ',
+        'fr': 'oVVV6qYlNEA',
     },
     '6ybgSsGZZU4': {
         'de': 'irGl0DmNgmo',
+        'fr': 'IZ9CnX38ai8',
     },
     'g5heblzMevA': {
         'de': 'awg7mT-edwM',
+        'fr': 'I3zYgwRzvVM',
     },
 }
