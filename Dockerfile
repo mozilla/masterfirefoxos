@@ -1,4 +1,5 @@
-FROM python:3.4-slim
+FROM python:3.3-slim
+
 EXPOSE 80
 CMD ["./bin/run-docker.sh"]
 
