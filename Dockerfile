@@ -8,6 +8,10 @@ RUN apt-get update &&\
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
+
+# Pin a known to work with peep pip version.
+RUN pip install pip==6.0.0
+
 COPY ./requirements.txt /app/requirements.txt
 COPY ./bin/peep.py /app/bin/peep.py
 RUN ./bin/peep.py install -r requirements.txt
