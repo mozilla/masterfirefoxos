@@ -393,6 +393,19 @@ LOCALIZED_YOUTUBE_ID = {
         'sr': 'XDwIdH4hrgI',
         'es': 'mzOLVnujiJ0'
     },
+    # 1.3
+    'quZk7KJ68g0': {
+        'es': 'c2UtgrpXRGc'
+    },
+    '7EruFl-AIRU': {
+        'es': 'YHbzjfRrCDk'
+    },
+    'elW8ZT2shJY': {
+        'es': '-CfZ5BK2Vik'
+    },
+    '1fGYn_Wfzp0': {
+        'es': 'FG3tAR1GI58'
+    },
     # 1.3T
     'yPRIgHARJsA': {
         'hi': 'akv0ylpKGbk',
