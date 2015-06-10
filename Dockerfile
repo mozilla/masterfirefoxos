@@ -1,6 +1,6 @@
 FROM python:3.3-slim
 
-EXPOSE 80
+EXPOSE 8000
 CMD ["./bin/run-docker.sh"]
 
 RUN adduser --uid 1000 --disabled-password --gecos '' --no-create-home webdev
