@@ -12,10 +12,8 @@ set -ex
 TDIR=`mktemp -d`
 virtualenv $TDIR
 . $TDIR/bin/activate
-pip install deis==1.6.1
+pip install deis==1.8.0
 
 
 deis login $DEIS_CONTROLLER  --username $DEIS_USERNAME --password $DEIS_PASSWORD
-deis scale cmd=1 -a $DEIS_APPLICATION
 deis pull $DOCKER_REPOSITORY:`git rev-parse HEAD` -a $DEIS_APPLICATION
-deis scale cmd=${NUMBER_OF_INSTANCES:-3} -a $DEIS_APPLICATION
