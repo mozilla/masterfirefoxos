@@ -207,6 +207,7 @@ LANGUAGES = (
     ('ln', _('Lingala')),
     ('pl', _('Polish')),
     ('pt-br', _('Portuguese')),
+    ('ro', _('Romanian')),
     ('ru', _('Russian')),
     ('sr', _('Serbian')),
     ('sw', _('Kiswahili')),
@@ -243,7 +244,7 @@ VERSIONS_LOCALE_MAP['2.0'] = {
     'locales': ['af', 'ar', 'en', 'es', 'de', 'ff', 'fr', 'ja', 'pt-br', 'sw', 'wo', 'xh', 'zu'],
     'pending_locales': [
         'cs', 'ee', 'ha', 'hu', 'ig', 'ln',
-        'pl', 'ru', 'xx', 'yo']}
+        'pl', 'ro', 'ru', 'xx', 'yo']}
 
 LOCALE_LATEST_VERSION = {}
 LOCALE_LATEST_PENDING_VERSION = {}
