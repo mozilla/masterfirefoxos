@@ -245,6 +245,10 @@ VERSIONS_LOCALE_MAP['2.0'] = {
     'pending_locales': [
         'cs', 'ee', 'ha', 'hu', 'ig', 'ln',
         'pl', 'ro', 'ru', 'xx', 'yo']}
+VERSIONS_LOCALE_MAP['2.1'] = {
+    'slug': '2-1',
+    'locales': [],
+    'pending_locales': ['en', 'es', 'xx']}
 
 LOCALE_LATEST_VERSION = {}
 LOCALE_LATEST_PENDING_VERSION = {}
