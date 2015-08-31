@@ -237,8 +237,8 @@ VERSIONS_LOCALE_MAP['1.3T'] = {
     'pending_locales': ['hi-in', 'xx']}
 VERSIONS_LOCALE_MAP['1.4'] = {
     'slug': '1-4',
-    'locales': ['en', 'bn-in', 'ta'],
-    'pending_locales': ['bn-bd', 'hi-in', 'xx']}
+    'locales': ['en', 'bn-in', 'ta', 'bn-bd'],
+    'pending_locales': ['hi-in', 'xx']}
 VERSIONS_LOCALE_MAP['2.0'] = {
     'slug': '2-0',
     'locales': [
