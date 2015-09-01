@@ -249,8 +249,8 @@ VERSIONS_LOCALE_MAP['2.0'] = {
         'pl', 'ru', 'xx', 'yo']}
 VERSIONS_LOCALE_MAP['2.1'] = {
     'slug': '2-1',
-    'locales': [],
-    'pending_locales': ['en', 'es', 'xx']}
+    'locales': ['en', 'es'],
+    'pending_locales': ['xx']}
 
 LOCALE_LATEST_VERSION = {}
 LOCALE_LATEST_PENDING_VERSION = {}
@@ -476,5 +476,24 @@ LOCALIZED_YOUTUBE_ID = {
         'es': 'zZ7Xvxc1Ta8',
         'fr': 'I3zYgwRzvVM',
         'pt-br': 'lR8Ql_bxoZ4',
+    },
+    # 2.1
+    '9WWo33tWwNw': {
+        'es': 'dBOY2I8jbNw',
+    },
+    'jrcmZMkgHVU': {
+        'es': 'izI5jEUoyzE',
+    },
+    '6ybgSsGZZU4': {
+        'es': 'X-HPLiHHzUw',
+    },
+    'WHn5K8sfJcI': {
+        'es': 'TFaeqt27ZFc',
+    },
+    '763ieP4fFLg': {
+        'es': 'YUk0M4FXVNQ',
+    },
+    'VyCVB9c5KdI': {
+        'es': 'BCihTr2ZMxA',
     },
 }
