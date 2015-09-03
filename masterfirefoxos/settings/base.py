@@ -441,6 +441,7 @@ LOCALIZED_YOUTUBE_ID = {
         'es': 'dBOY2I8jbNw',
         'fr': 'DPCDIkF9dN0',
         'pt-br': 'sJaHzQxiBY4',
+        'ro': 'rhodrH2_xFg',
     },
     'jrcmZMkgHVU': {
         'ar': 'JJEZ0wWeFBs',
@@ -448,6 +449,7 @@ LOCALIZED_YOUTUBE_ID = {
         'es': 'izI5jEUoyzE',
         'fr': 'RMnt-nfmytY',
         'pt-br': 'gAUfzgevRrw',
+        'ro': 'pywAnwaK6nQ',
     },
     'i0UY48l-nXU': {
         'ar': 'K9lGP-l6RM8',
@@ -455,6 +457,7 @@ LOCALIZED_YOUTUBE_ID = {
         'es': 'JeLDCekefps',
         'fr': 'gAsGJkBWtKo',
         'pt-br': 'nR0IcH4PKWs',
+        'ro': 'bNmqAcl1-FY',
     },
     'blOcJrnirn0': {
         'ar': '7l5uZoLmkBo',
@@ -462,6 +465,7 @@ LOCALIZED_YOUTUBE_ID = {
         'es': '-5rUB-HPT-g',
         'fr': 'oVVV6qYlNEA',
         'pt-br': 'beML24YmXVo',
+        'ro': '7a7cyt3L3WI',
     },
     '6ybgSsGZZU4': {
         'ar': 'HSlE-hv9PEw',
@@ -469,6 +473,7 @@ LOCALIZED_YOUTUBE_ID = {
         'es': 'X-HPLiHHzUw',
         'fr': 'IZ9CnX38ai8',
         'pt-br': 'kfO2Vi9Jq_o',
+        'ro': 'Q_56nl-n_6U',
     },
     'g5heblzMevA': {
         'ar': '4JAIXzfB0_o',
@@ -476,6 +481,7 @@ LOCALIZED_YOUTUBE_ID = {
         'es': 'zZ7Xvxc1Ta8',
         'fr': 'I3zYgwRzvVM',
         'pt-br': 'lR8Ql_bxoZ4',
+        'ro': 'AkN2VtX7E-k',
     },
     # 2.1
     'WHn5K8sfJcI': {
