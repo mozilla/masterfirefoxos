@@ -15,7 +15,6 @@ set -ex
 TDIR=`mktemp -d`
 virtualenv $TDIR
 . $TDIR/bin/activate
-pip install deis==1.8.0
 pip install fig
 
 rm -rf locale db-strings.txt run-output
