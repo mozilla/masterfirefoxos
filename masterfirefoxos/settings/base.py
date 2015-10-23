@@ -224,13 +224,13 @@ LANGUAGE_NAMES = dict(LANGUAGES)
 VERSIONS_LOCALE_MAP = OrderedDict()
 VERSIONS_LOCALE_MAP['1.1'] = {
     'slug': '1-1',
-    'locales': ['el', 'en', 'es', 'it', 'pt-br'],
+    'locales': ['cs', 'el', 'en', 'es', 'it', 'pt-br'],
     'pending_locales': [
-        'hr', 'cs', 'de', 'hu', 'pl', 'sr', 'xx']}
+        'hr', 'de', 'hu', 'pl', 'sr', 'xx']}
 VERSIONS_LOCALE_MAP['1.3'] = {
     'slug': '1-3',
     'locales': ['en', 'es'],
-    'pending_locales': ['xx']}
+    'pending_locales': ['cs', 'xx']}
 VERSIONS_LOCALE_MAP['1.3T'] = {
     'slug': '1-3T',
     'locales': ['en', 'ta'],
