@@ -493,4 +493,7 @@ LOCALIZED_YOUTUBE_ID = {
     'VyCVB9c5KdI': {
         'es': 'BCihTr2ZMxA',
     },
+    'mPR3oi8jjRI': {
+        'es': 'fK3VqHG4RiU',
+    },
 }
