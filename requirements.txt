@@ -2,9 +2,10 @@
 # installation we use peep.py shipped in ./bin
 # sha256: PU6v8vYN6py7rTKqZEHGVCiY_9o2REixOYI0al7WRXA
 peep==2.2
-# sha256: HbXa_k_oMC80RJKDhkuqdNDWQBNhOqIAkYGHv3aQLV8
-# sha256: uTV9LOvmGZcFXUF9YH-cZQ6BfNGjg7mhuIvx7a15fHU
-Django==1.7.10
+
+# sha256: EAFkVWiXwSGfM3BuY6ZWuISNM9CbAWHi3u_MUJeM9i0
+# sha256: IDkUT86PG2A9A_paVkNXjfGtAHxO1BphfwKjlD9wWaE
+Django==1.7.11
 
 # TarGZ
 # sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
