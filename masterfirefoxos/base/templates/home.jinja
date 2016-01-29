@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base.jinja" %}
 
 {% block body_class %}home{% endblock %}
 
@@ -20,11 +20,11 @@
     {% endblock %}
 
     {% block site_switcher %}
-      {% include 'includes/version-language-switcher.html' %}
+      {% include 'includes/version-language-switcher.jinja' %}
     {% endblock %}
 
     {% block nav_info %}
-      {% include 'includes/nav-information.html' %}
+      {% include 'includes/nav-information.jinja' %}
     {% endblock %}
 
       <div class="page-intro">
