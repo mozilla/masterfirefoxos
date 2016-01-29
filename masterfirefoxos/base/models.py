@@ -3,10 +3,8 @@ from django.db import models
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
 from django.template.loader import render_to_string
-from django.utils import translation
 from django.utils.translation import ugettext as _
 
-import jingo
 from jinja2 import Markup
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
@@ -16,12 +14,10 @@ from .forms import FeinCMSInline, MediaFileInline
 from .utils import youtube_embed_url
 
 
-jingo.env.install_gettext_translations(translation)
-
 Page.register_templates(
     {
         'title': 'Content template',
-        'path': 'content.html',
+        'path': 'content.jinja',
         'regions': (
             ('main', 'Main content area'),
             ('homepage', 'Homepage navigation'),
@@ -29,7 +25,7 @@ Page.register_templates(
     },
     {
         'title': 'Home template',
-        'path': 'home.html',
+        'path': 'home.jinja',
         'regions': (
             ('main', 'Main content area'),
         ),
@@ -51,7 +47,7 @@ class YouTubeParagraphEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/videoparagraph.html',
+            'includes/videoparagraph.jinja',
             {
                 'title': _(self.title),
                 'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
@@ -78,7 +74,7 @@ class ImageParagraphEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/imageparagraph.html',
+            'includes/imageparagraph.jinja',
             {
                 'alt': _(self.alt) if self.alt else '',
                 'title': _(self.title),
@@ -101,7 +97,7 @@ class FAQEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/faqentry.html',
+            'includes/faqentry.jinja',
             {
                 'question': _(self.question),
                 'answer': Markup(_(self.answer)),
@@ -122,7 +118,7 @@ class RichTextEntry(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/richtextentry.html',
+            'includes/richtextentry.jinja',
             {
                 'title': _(self.title) if self.title else '',
                 'subheader_2': _(self.subheader_2) if self.subheader_2 else '',
@@ -150,7 +146,7 @@ class QuizQuestion(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/quizquestion.html', {'question': self})
+            'includes/quizquestion.jinja', {'question': self})
 
 
 class QuizAnswer(models.Model):
@@ -164,7 +160,7 @@ class QuizAnswer(models.Model):
 
     def render(self, **kwargs):
         return render_to_string(
-            'includes/quizanswer.html', {'answer': self})
+            'includes/quizanswer.jinja', {'answer': self})
 
 
 Page.create_content_type(RichTextEntry)

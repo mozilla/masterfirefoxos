@@ -5,11 +5,11 @@ from django.test import RequestFactory
 from django.test.utils import override_settings
 
 from . import MediaFileFactory, ImageFieldFactory
-from ..helpers import get_image_url, include_pontoon
+from masterfirefoxos.base.templatetags.helpers import get_image_url, include_pontoon
 
 
 def test_get_image_url_base():
-    with patch('masterfirefoxos.base.helpers.MediaFile') as MediaFileMock:
+    with patch('masterfirefoxos.base.templatetags.helpers.MediaFile') as MediaFileMock:
         MediaFileMock.objects.filter().exists.return_value = False
         media_file = MediaFileFactory()
         url = get_image_url(media_file)
@@ -17,8 +17,8 @@ def test_get_image_url_base():
 
 
 def test_get_image_url_geometry():
-    with patch('masterfirefoxos.base.helpers.MediaFile') as MediaFileMock:
-        with patch('masterfirefoxos.base.helpers.get_thumbnail') as get_thumbnail_mock:
+    with patch('masterfirefoxos.base.templatetags.helpers.MediaFile') as MediaFileMock:
+        with patch('masterfirefoxos.base.templatetags.helpers.get_thumbnail') as get_thumbnail_mock:
             MediaFileMock.objects.filter().exists.return_value = False
             media_file = MediaFileFactory()
             new_media_file = ImageFieldFactory(url='new_media_url')
@@ -29,7 +29,7 @@ def test_get_image_url_geometry():
 
 
 def test_get_image_url_localized_file_exists():
-    with patch('masterfirefoxos.base.helpers.MediaFile') as MediaFileMock:
+    with patch('masterfirefoxos.base.templatetags.helpers.MediaFile') as MediaFileMock:
         media_file = MediaFileFactory()
         localized_media_file = MediaFileFactory(url='localized_url')
         MediaFileMock.objects.filter().exists.return_value = True

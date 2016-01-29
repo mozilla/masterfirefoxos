@@ -3,13 +3,7 @@
 # sha256: PU6v8vYN6py7rTKqZEHGVCiY_9o2REixOYI0al7WRXA
 peep==2.2
 
-# sha256: EAFkVWiXwSGfM3BuY6ZWuISNM9CbAWHi3u_MUJeM9i0
-# sha256: IDkUT86PG2A9A_paVkNXjfGtAHxO1BphfwKjlD9wWaE
-Django==1.7.11
-
-# TarGZ
 # sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
-# Wheel
 # sha256: ygF2j97N4TQwHzFwdDIm9g7f9cOTXxJDc3jr2RFQY1M
 dj-database-url==0.3.0
 
@@ -22,15 +16,10 @@ python-decouple==2.3
 # sha256: LiSsXQBNtXFJdqBKwOgMbfbkfpjDVMssDYL4h51Pj9s
 Jinja2==2.7.3
 
-# sha256: o71QUd0X6dUOip8tNiUI6C1wYwEP3AbV4HzjYI54D-Y
-jingo==0.7
-
 # sha256: pOwa_1m5WhS0XrLiN2GgF56YMZ2lp-t2tW6ozce4ccM
 MarkupSafe==0.23
 
-# TarGZ
 # sha256: gnFVEftiRvrUumbYEuuTQWroNxtGT6iL84Z8nBd9qhQ
-# Wheel
 # sha256: _7QRdX3jdNBcdZySmQjSOXxm47z2813uQabvnrhRSXs
 gunicorn==19.1.1
 
@@ -65,11 +54,8 @@ ipython==2.3.1
 # sha256: DUoz845megyA7BpaDkaP5Y5c3GHLj0B3sQJLhf57cRc
 ipdb==0.8
 
-# Wheel Python 2
 # sha256: 0UXkOs2Dxbos77J2EH6Wb-YzXbAmWnoLSxCirbhM0m0
-# Wheel Python 3
 # sha256: uwkN7xH7pRFnpYjYyklp9Jo8Q3rYrPlg39OcSwzxYAk
-# TarGZ
 # sha256: lJM7ZOL-CAfaBhLFdKAhwNrCjHvTxKI3I65aOeqPPQQ
 Sphinx==1.2.3
 
@@ -93,12 +79,13 @@ Pygments==2.0.1
 # sha256: JukyDnP1ghgmtrJAijv_Cowp5FFZUwBpoRfv0572Gfg
 Pillow==2.7
 
-# sha256: weQRlSPki_97MixuMzcJWAiaksmIttSOTWlCUpEmmf4
-# sha256: BkP70xV34f4HDXXIq5wi6XkVvUsRsu2u5yx2u1jZ9iQ
-FeinCMS==1.10.1
+# sha256: blfJW_PUsrmPUwcHVnT5OXuWYAbYzaP39KOv_-y5n7o
+# sha256: zhJNc4i0KX-HX-BPO-rcV4MkZxj18PtKwjVZpvw11lM
+FeinCMS==1.11.4
 
-# sha256: iapPQaEBqXtqgxBczc5_6XJVpqNx0R7EgVCwc_QhWnI
-django-mptt==0.6.1
+
+# sha256: x03qrFi6pgMGknO5JKnf3Dbk_brFNmJsweG-4u2z3HQ
+https://github.com/django-mptt/django-mptt/archive/abd4f250e0690f6dc7c2938d8a864c41421b9f70.tar.gz#egg=django-mptt
 
 # sha256: f2UH1ADQft_R6oIF2jaAgAmwxTn1uKbgq1Qze5VebcM
 # sha256: rVQ2OeidQ2heLx07bkhxFWLuw743nmlYqSD76vTGO84
@@ -114,8 +101,9 @@ py==1.4.26
 # sha256: VQiDuYGEzvbLuYDU2QBRMwrq5BB1CS-Y7wIVcZr47zM
 pytest==2.6.4
 
-# sha256: 5vBgp2ziAlqrrrblVCVpuSBnlPrDKKBm6vAsU17wXQI
-pytest-django==2.7.0
+# sha256: BYFpY8u63RMbzuj7UGnYaVeW4l0IHsJO_2K8H8jtiRo
+# sha256: glUkL6DZ4L8zElmmvbgTZJM6y-iGMpFmFVj_2y_J7XA
+django==1.8.8
 
 # sha256: MeUZjAbykOHoE9MN3QY6BAHZ46aYEpykQmd4FnOnEoU
 pytest-cov==1.8.1
@@ -149,6 +137,7 @@ django-storages-redux==1.2.1
 # sha256: 23aDBqF69XCWE7zCO3Cpu7dZSCOx5kHR7ZhdagPIKxA
 # sha256: YmBPD99oormmxr1REcguECgbSYaVFS0h9WyeSgaR1F0
 boto==2.35.1
+
 # sha256: -s_gx8zq_Uno9-RyERKUVmYF_f3cIwEdoGzDpGAcn30
 # sha256: BHu7ukG6w3xETHXd_fBXPdbi8fvYJOYke7Jvp9j6ODA
 six==1.8.0
@@ -186,3 +175,13 @@ execnet==1.2.0
 
 # sha256: Yx2-hD7Hza2vI5jFA0PYhweNT5N0oOMHWKNQI_hl--k
 pytest-xdist==1.11
+
+# sha256: Ljgtj2X4xfA3ic9v8RL1zl31umAus0yRDarxFImTv4k
+django-jinja==2.1.1
+
+# sha256: RORjnsBXprap3duGnU46SBj8knjsSQzOOa7whEBZKpM
+django-session-csrf==0.5
+
+# sha256: i-FbY3c4yMvRQipkYUZcCuq3g5z3atK10ZC28fU_rNY
+# sha256: dD0AVuEn70JIUOp22T1FySwxPaDlZ2WAaln8doDCWrc
+pytest-django==2.9.1

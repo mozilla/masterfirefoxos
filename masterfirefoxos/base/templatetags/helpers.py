@@ -3,38 +3,49 @@ import re
 from datetime import datetime
 
 from django.conf import settings
-from django.contrib.staticfiles.templatetags.staticfiles import static as static_helper
 from django.utils.translation import activate as dj_activate, get_language
 
+import six
 from feincms.module.medialibrary.models import MediaFile
 from feincms.templatetags.feincms_tags import feincms_render_region
-from jingo import register
+from django_jinja import library
 from jinja2 import Markup
 from jinja2.utils import soft_unicode
 from sorl.thumbnail import get_thumbnail
 
 
 _word_beginning_split_re = re.compile(r'([-\s\(\{\[\<]+)(?u)')
-static = register.function(static_helper)
 
 
-@register.function
+@library.filter
+def f(s, *args, **kwargs):
+    """
+    Uses ``str.format`` for string interpolation.
+    **Note**: Always converts to s to text type before interpolation.
+    >>> {{ "{0} arguments and {x} arguments"|f('positional', x='keyword') }}
+    "positional arguments and keyword arguments"
+    """
+    s = six.text_type(s)
+    return s.format(*args, **kwargs)
+
+
+@library.global_function
 def render_region(feincms_page, region, request):
     return Markup(feincms_render_region(None, feincms_page, region, request))
 
 
-@register.function
+@library.global_function
 def current_year():
     return datetime.now().strftime('%Y')
 
 
-@register.function
+@library.global_function
 def activate(language):
     dj_activate(language)
     return ''
 
 
-@register.function
+@library.global_function
 def active_version(request):
     slug = request.path.split('/')[2]
     for version, data in settings.VERSIONS_LOCALE_MAP.items():
@@ -42,7 +53,7 @@ def active_version(request):
             return version
 
 
-@register.function
+@library.global_function
 def get_image_url(img, geometry=None, locale=None):
     if not locale:
         locale = get_language()
@@ -67,12 +78,12 @@ def get_image_url(img, geometry=None, locale=None):
     return url.split('?')[0]
 
 
-@register.function
+@library.global_function
 def include_pontoon(request):
     return request.get_host() == getattr(settings, 'LOCALIZATION_HOST', None)
 
 
-@register.filter
+@library.filter
 def paren_title(s):
     """
     Fix jinja2 title filter to capitalize words inside parens

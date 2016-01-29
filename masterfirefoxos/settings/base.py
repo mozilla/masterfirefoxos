@@ -29,7 +29,6 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-TEMPLATE_DEBUG = config('DEBUG', default=DEBUG, cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
@@ -70,9 +69,9 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    'session_csrf.CsrfMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'csp.middleware.CSPMiddleware',
     'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
@@ -115,12 +114,6 @@ MEDIA_ROOT = config('MEDIA_ROOT', default=os.path.join(BASE_DIR, 'media'))
 MEDIA_URL = config('MEDIA_URL', '/media/')
 
 SESSION_COOKIE_SECURE = config('SESSION_COOKIE_SECURE', default=not DEBUG, cast=bool)
-
-TEMPLATE_LOADERS = (
-    'jingo.Loader',
-    'django.template.loaders.filesystem.Loader',
-    'django.template.loaders.app_directories.Loader',
-)
 
 # Django-CSP
 CSP_DEFAULT_SRC = (
@@ -168,18 +161,38 @@ CSP_STYLE_SRC = (
     'https://pontoon-dev.allizom.org',
 )
 
-TEMPLATE_CONTEXT_PROCESSORS = (
-    'django.contrib.auth.context_processors.auth',
-    'django.core.context_processors.debug',
-    'django.core.context_processors.i18n',
-    'django.core.context_processors.media',
-    'django.core.context_processors.static',
-    'django.core.context_processors.tz',
-    'django.contrib.messages.context_processors.messages',
-    'django.core.context_processors.request',
-    'masterfirefoxos.base.context_processors.l18n',
-    'masterfirefoxos.base.context_processors.settings',
-)
+TEMPLATES = [
+    {
+        'BACKEND': 'django_jinja.backend.Jinja2',
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'match_extension': '.jinja',
+            'newstyle_gettext': True,
+            'context_processors': [
+                'session_csrf.context_processor',
+                'masterfirefoxos.base.context_processors.l18n',
+                'masterfirefoxos.base.context_processors.settings',
+            ],
+        }
+    },
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.contrib.auth.context_processors.auth',
+                'django.template.context_processors.debug',
+                'django.template.context_processors.i18n',
+                'django.template.context_processors.media',
+                'django.template.context_processors.static',
+                'django.template.context_processors.tz',
+                'django.contrib.messages.context_processors.messages',
+                'session_csrf.context_processor',
+            ],
+        }
+    },
+]
+
 
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
@@ -296,6 +309,9 @@ FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
 THUMBNAIL_PRESERVE_FORMAT = True
 
 LOCALIZATION_HOST = config('LOCALIZATION_HOST', default=None)
+
+# This is needed to get a CRSF token in /admin
+ANON_ALWAYS = True
 
 CACHES = {
     'default': {

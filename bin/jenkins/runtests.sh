@@ -22,7 +22,7 @@ $FIG_CMD run -T web flake8
 $FIG_CMD run -T web dennis-cmd lint --errorsonly locale/
 
 # Run Tests
-$FIG_CMD run -T web py.test --cov masterfirefoxos --cov-report=term-missing
+$FIG_CMD run -T web py.test --assert plain --cov masterfirefoxos --cov-report=term-missing
 
 # Delete virtualenv
 rm -rf $TDIR
