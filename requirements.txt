@@ -177,3 +177,6 @@ pytest-xdist==1.11
 
 # sha256: Ljgtj2X4xfA3ic9v8RL1zl31umAus0yRDarxFImTv4k
 django-jinja==2.1.1
+
+# sha256: RORjnsBXprap3duGnU46SBj8knjsSQzOOa7whEBZKpM
+django-session-csrf==0.5

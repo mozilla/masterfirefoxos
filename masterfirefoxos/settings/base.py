@@ -69,9 +69,9 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
+    'session_csrf.CsrfMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'csp.middleware.CSPMiddleware',
     'masterfirefoxos.base.middleware.NonExistentLocaleRedirectionMiddleware',
@@ -309,6 +309,9 @@ FEINCMS_MEDIALIBRARY_UPLOAD_TO = media_files_unique_path
 THUMBNAIL_PRESERVE_FORMAT = True
 
 LOCALIZATION_HOST = config('LOCALIZATION_HOST', default=None)
+
+# This is needed to get a CRSF token in /admin
+ANON_ALWAYS = True
 
 CACHES = {
     'default': {
