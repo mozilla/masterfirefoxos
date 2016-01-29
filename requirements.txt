@@ -3,13 +3,7 @@
 # sha256: PU6v8vYN6py7rTKqZEHGVCiY_9o2REixOYI0al7WRXA
 peep==2.2
 
-# sha256: EAFkVWiXwSGfM3BuY6ZWuISNM9CbAWHi3u_MUJeM9i0
-# sha256: IDkUT86PG2A9A_paVkNXjfGtAHxO1BphfwKjlD9wWaE
-Django==1.7.11
-
-# TarGZ
 # sha256: 8uJz7TSsu1YJYtXPEpF5NtjfAil98JvTCJuFRtRYQTg
-# Wheel
 # sha256: ygF2j97N4TQwHzFwdDIm9g7f9cOTXxJDc3jr2RFQY1M
 dj-database-url==0.3.0
 
@@ -22,15 +16,10 @@ python-decouple==2.3
 # sha256: LiSsXQBNtXFJdqBKwOgMbfbkfpjDVMssDYL4h51Pj9s
 Jinja2==2.7.3
 
-# sha256: o71QUd0X6dUOip8tNiUI6C1wYwEP3AbV4HzjYI54D-Y
-jingo==0.7
-
 # sha256: pOwa_1m5WhS0XrLiN2GgF56YMZ2lp-t2tW6ozce4ccM
 MarkupSafe==0.23
 
-# TarGZ
 # sha256: gnFVEftiRvrUumbYEuuTQWroNxtGT6iL84Z8nBd9qhQ
-# Wheel
 # sha256: _7QRdX3jdNBcdZySmQjSOXxm47z2813uQabvnrhRSXs
 gunicorn==19.1.1
 
@@ -65,11 +54,8 @@ ipython==2.3.1
 # sha256: DUoz845megyA7BpaDkaP5Y5c3GHLj0B3sQJLhf57cRc
 ipdb==0.8
 
-# Wheel Python 2
 # sha256: 0UXkOs2Dxbos77J2EH6Wb-YzXbAmWnoLSxCirbhM0m0
-# Wheel Python 3
 # sha256: uwkN7xH7pRFnpYjYyklp9Jo8Q3rYrPlg39OcSwzxYAk
-# TarGZ
 # sha256: lJM7ZOL-CAfaBhLFdKAhwNrCjHvTxKI3I65aOeqPPQQ
 Sphinx==1.2.3
 
@@ -114,8 +100,9 @@ py==1.4.26
 # sha256: VQiDuYGEzvbLuYDU2QBRMwrq5BB1CS-Y7wIVcZr47zM
 pytest==2.6.4
 
-# sha256: 5vBgp2ziAlqrrrblVCVpuSBnlPrDKKBm6vAsU17wXQI
-pytest-django==2.7.0
+# sha256: BYFpY8u63RMbzuj7UGnYaVeW4l0IHsJO_2K8H8jtiRo
+# sha256: glUkL6DZ4L8zElmmvbgTZJM6y-iGMpFmFVj_2y_J7XA
+django==1.8.8
 
 # sha256: MeUZjAbykOHoE9MN3QY6BAHZ46aYEpykQmd4FnOnEoU
 pytest-cov==1.8.1
@@ -186,3 +173,6 @@ execnet==1.2.0
 
 # sha256: Yx2-hD7Hza2vI5jFA0PYhweNT5N0oOMHWKNQI_hl--k
 pytest-xdist==1.11
+
+# sha256: Ljgtj2X4xfA3ic9v8RL1zl31umAus0yRDarxFImTv4k
+django-jinja==2.1.1

@@ -6,7 +6,6 @@ from django.template.loader import render_to_string
 from django.utils import translation
 from django.utils.translation import ugettext as _
 
-import jingo
 from jinja2 import Markup
 from feincms.module.medialibrary.fields import MediaFileForeignKey
 from feincms.module.medialibrary.models import MediaFile
@@ -16,7 +15,6 @@ from .forms import FeinCMSInline, MediaFileInline
 from .utils import youtube_embed_url
 
 
-jingo.env.install_gettext_translations(translation)
 
 Page.register_templates(
     {
