@@ -79,9 +79,9 @@ Pygments==2.0.1
 # sha256: JukyDnP1ghgmtrJAijv_Cowp5FFZUwBpoRfv0572Gfg
 Pillow==2.7
 
-# sha256: weQRlSPki_97MixuMzcJWAiaksmIttSOTWlCUpEmmf4
-# sha256: BkP70xV34f4HDXXIq5wi6XkVvUsRsu2u5yx2u1jZ9iQ
-FeinCMS==1.10.1
+# sha256: blfJW_PUsrmPUwcHVnT5OXuWYAbYzaP39KOv_-y5n7o
+# sha256: zhJNc4i0KX-HX-BPO-rcV4MkZxj18PtKwjVZpvw11lM
+FeinCMS==1.11.4
 
 
 # sha256: x03qrFi6pgMGknO5JKnf3Dbk_brFNmJsweG-4u2z3HQ
