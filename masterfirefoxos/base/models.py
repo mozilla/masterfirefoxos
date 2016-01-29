@@ -3,7 +3,6 @@ from django.db import models
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
 from django.template.loader import render_to_string
-from django.utils import translation
 from django.utils.translation import ugettext as _
 
 from jinja2 import Markup
@@ -13,7 +12,6 @@ from feincms.module.page.models import Page
 
 from .forms import FeinCMSInline, MediaFileInline
 from .utils import youtube_embed_url
-
 
 
 Page.register_templates(
