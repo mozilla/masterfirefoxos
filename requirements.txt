@@ -181,3 +181,7 @@ django-jinja==2.1.1
 
 # sha256: RORjnsBXprap3duGnU46SBj8knjsSQzOOa7whEBZKpM
 django-session-csrf==0.5
+
+# sha256: i-FbY3c4yMvRQipkYUZcCuq3g5z3atK10ZC28fU_rNY
+# sha256: dD0AVuEn70JIUOp22T1FySwxPaDlZ2WAaln8doDCWrc
+pytest-django==2.9.1

@@ -19,8 +19,8 @@ def test_media_paragraph_render():
                  'subheader_2': 'Header 2', 'subheader_3': 'Header 3'}
     entry = models.ImageParagraphEntry(**test_data)
     entry.image = MediaFileFactory()
-    with patch('masterfirefoxos.base.helpers.MediaFile') as MediaFileMock:
-        with patch('masterfirefoxos.base.helpers.get_thumbnail') as get_thumbnail_mock:
+    with patch('masterfirefoxos.base.templatetags.helpers.MediaFile') as MediaFileMock:
+        with patch('masterfirefoxos.base.templatetags.helpers.get_thumbnail') as get_thumbnail_mock:
             get_thumbnail_mock.return_value = ImageFieldFactory(url='new_media_url')
             MediaFileMock.objects.filter().exists.return_value = False
             rendered = entry.render()
