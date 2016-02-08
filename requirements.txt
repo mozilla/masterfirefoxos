@@ -76,8 +76,49 @@ docutils==0.12
 # sha256: fydQ9H4cA_ffSGbTdhm4B0_8HTIYI7taNRMC_k3SC2c
 Pygments==2.0.1
 
-# sha256: JukyDnP1ghgmtrJAijv_Cowp5FFZUwBpoRfv0572Gfg
-Pillow==2.7
+# sha256: MYOxnN1vtcaEmDNGAeuncLx6vUSXe0EZ5PpJ1F4ShFs
+# sha256: w00Q3aNtZM7PeLxGiXWOyh55seiPbh2MfPIH5rnnyYQ
+# sha256: mZLY9LStU0Z-p25reWwY4i7JSNzuBkvgf7Q8FVRy4dc
+# sha256: RniFem3Qg0p3rWtet1pteXU6oaE_VPHEf9sem8pj84k
+# sha256: oLfu7gNGymfN2bI6YT3j_nGkxGQZw3vf72m4LdMqmgo
+# sha256: pH-LElQf_CGaDyYDDa7ipX0SUc_XapEBy-p0Z0kJ1aM
+# sha256: EmPji5HKATLHfVrlpNOWvOfnsdE0J7XSmCrI9b--9is
+# sha256: d-rI7itAC-hGGKtYdrDln-mOMvxNmaqjS_QT4SU2GgU
+# sha256: 8zYBlQnfGgQrfWvtaaDLbFIQi2MnzpNsKHAUXcGPE5Q
+# sha256: 3e8qUiuhM0js7DVNbE0uJL1o-6JgXXwyaCvAFA2cTpw
+# sha256: 188o4UtV4viEj7XjdlX_4ToNWEbMzGukbgMdDPIYeaM
+# sha256: lb2IEa1Ozp33uMuaHu9hhLgLa4uMGZdRqwpftIroL2Q
+# sha256: JgLHFS4m9b7OKU7bl69ANFQJrlX4rSptXaQ4D0F43v4
+# sha256: agbxZdzsV4n9mKXU_lQmGf_TuGub9hbRpU2CTpQoxtM
+# sha256: 8EC0cJy6iSL2DeRBaEs9Bh_tthxspQ0jHfik1V5FlDw
+# sha256: QS9JmXlKgMkVPNIVbwQLjlcLFF0u31gwhUV4_7CyfKw
+# sha256: 4E3zgI1iAt1VLIN8gkeWiZwJ_w_5wzVgeQTjH504cRA
+# sha256: gjUSVDUNkhK8z3HTh--uitj29LkE0JVUaneFKmsW4Fs
+# sha256: LuMEY8vI5gy6knIqOmSIGg099TSgR-KZqbz2LqNP0GE
+# sha256: oQvv63uZddfD0so-rwy1BduY_lCHQTDhgsKm96YGWR8
+# sha256: aewvDv_os5XlWSm7TZo8qP8MQPhdYdAOHlseUE0oteI
+# sha256: lSNvZJBBVyViVLbMjin-7NnuaYVzLcs2yfWNfavggdA
+# sha256: IFLwNyEjyYSX7jKU9OIDR9h7n3DZxlzi_FILkzmqhGU
+# sha256: JrSivN8OZ0UF_NLxqILympkzmsO1qOeZe5Dt4plUNOI
+# sha256: acPMeXpmJB7S-mH_b1LHPnvT5zjYDWSrs1AOb73sMKM
+# sha256: AtKuHXwxHm-gOKvaCENoOuZSySktcjJwyF3usEoQAag
+# sha256: HOc-2utJr56-rPuMWEKK45WSg506ehbvOSZ3PxyP-O4
+# sha256: GTfJ4X9oX-bDYN2W3bj5PxWaxyGTnMv8kaYtgSSimUU
+# sha256: SG9Mzd7glCnLHGPqVsAolK7PnWms3K8AbFODXfJUn_8
+# sha256: W86g35f-C5EaZimqsJl7mOiBFWHCcWcmZ1in7eFzEj4
+# sha256: KC4Gn5LkMEezS72ZWogAZprxHQONtXF1hwjrzZZGKWQ
+# sha256: Yct-H_ISKT10FVOX-tAIsFK8ljPv35yqQnHDFs0luZ8
+# sha256: UCJ156g4cuYuDNC-TaV1pToflwM0GrqBRSfazdo2YKg
+# sha256: z0s8Y0sxfuJHw63UN1sKa9xF6wwSpdf7-b_UfsELAg8
+# sha256: v4OQHBWK2S536ZD1FTFDTlqWxq74BahLbjv-gl9NTQw
+# sha256: 6uNxGnkW617IAN-2lj2gnbCtpjwEgWOd0N3AtQWIOgI
+# sha256: tV9iiC2NtGb88iKEIr8xR2F3RIiL8M9t_7MlSlLrMWs
+# sha256: R1a3doLHM1dRos_A6ebZaUXYj_0xVCDZAQI1Ah3fxkw
+# sha256: nidFg6DqsLbSJxORRuKPdEiM-8DSYsS6LlwJmLnEmNI
+# sha256: aORe2RUx07BaF6NW_Uy5KGA6ACWZFuBXcwoCSwKda1E
+# sha256: wy-ZoMfFMTst94OZ75CFY7MZ3iO-wMyJ8dBMN74Z6y0
+# sha256: 54SxqfxUroinFxrvYKOMLsDcRj8GZpF2XRF0jgFM4qA
+Pillow==3.1.1
 
 # sha256: blfJW_PUsrmPUwcHVnT5OXuWYAbYzaP39KOv_-y5n7o
 # sha256: zhJNc4i0KX-HX-BPO-rcV4MkZxj18PtKwjVZpvw11lM
