@@ -14,7 +14,7 @@ FIG_CMD="fig --project-name jenkins${JOB_NAME}${BUILD_NUMBER} -f ./bin/jenkins/f
 
 $FIG_CMD build
 
-docker save `echo jenkins${JOB_NAME}${BUILD_NUMBER}| sed s/_//g`_web | sudo docker-squash -t `echo jenkins${JOB_NAME}${BUILD_NUMBER}| sed s/_//g`_web | docker load
+docker-squash -t `echo jenkins${JOB_NAME}${BUILD_NUMBER}| sed s/_//g`_web `echo jenkins${JOB_NAME}${BUILD_NUMBER}| sed s/_//g`_web
 
 $FIG_CMD run -T web flake8
 
