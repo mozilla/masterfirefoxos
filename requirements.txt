@@ -141,9 +141,9 @@ py==1.4.26
 # sha256: VQiDuYGEzvbLuYDU2QBRMwrq5BB1CS-Y7wIVcZr47zM
 pytest==2.6.4
 
-# sha256: 4uQa60-3V1dQIWIdwo_Oua0TeHmuC4VAZ_FybZp3KAc
-# sha256: hj5UOsmF1c-84JIT-jC8fIAsvfYNbbi1-dq0HhNB6s0
-Django==1.8.15
+# sha256: zDqVGHeIYn39yUtB3pCKrfxCQfq7POrvGfS9O4nA_fc
+# sha256: IkqvF6KGCXB9lC3q_m0KWzgrryKm8z5OYcVsYvCQgd0
+Django==1.8.16
 
 # sha256: MeUZjAbykOHoE9MN3QY6BAHZ46aYEpykQmd4FnOnEoU
 pytest-cov==1.8.1
