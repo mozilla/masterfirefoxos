@@ -1,3 +1,6 @@
+-= This project has been archived =-
+------------------------------------
+
 masterfirefoxos
 ===============
 
